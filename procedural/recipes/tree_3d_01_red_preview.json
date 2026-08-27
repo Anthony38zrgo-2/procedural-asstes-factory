@@ -1,0 +1,7 @@
+{
+  "schema_version": 2,
+  "palette": "game/resources/environment/palettes/south_america_west_low_red.json",
+  "assets": [
+    {"id":"tree_3d_01_red","kind":"tree","family":"compact_round","seed":1101,"height_m":9.0,"width_m":7.5,"depth_m":6.8,"cluster_count":48,"cards_per_cluster":10,"leaf_style":"lanceolate","card_width_m":0.34,"card_height_m":0.48,"leaf_cluster_spread_m":0.58,"primary_count":6,"branch_start_ratio":0.43,"trunk_radius_ratio":0.038,"canopy_center_ratio":0.70,"canopy_height_ratio":0.27,"canopy_width_ratio":0.46,"canopy_depth_ratio":0.46,"lean":-0.03,"asymmetry":0.08}
+  ]
+}

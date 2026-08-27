@@ -1,0 +1,22 @@
+{
+  "name": "terrainobjects.windturbine.animclip.ru_entity_windturbine|rotate",
+  "magic_offset": 160,
+  "field_a": 70,
+  "field_b": 112,
+  "duration_s": 4.958333492279053,
+  "fps": 24.0,
+  "node_count": 3,
+  "bone_count": 0,
+  "frame_count": 119,
+  "field_trackish": 2,
+  "header_u16": [
+    3,
+    0,
+    119,
+    2,
+    0,
+    0,
+    0,
+    0
+  ]
+}

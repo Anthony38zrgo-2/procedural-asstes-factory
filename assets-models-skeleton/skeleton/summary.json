@@ -1,0 +1,240 @@
+{
+  "skeletons": 4,
+  "animation_clips": 10,
+  "skeleton_node_counts": {
+    "terrainobjects.people.skeleton.ru_entity_malecoat": 22,
+    "terrainobjects.windturbine.skeleton.ru_entity_farm_windmill": 3,
+    "terrainobjects.windturbine.skeleton.ru_entity_windturbine": 3,
+    "terrainobjects.windturbine.skeleton.ru_entity_windturbine_double": 3
+  },
+  "animation_metadata": [
+    {
+      "name": "terrainobjects.people.animclip.ru_entity_malecoat|clipboard",
+      "magic_offset": 160,
+      "field_a": 271,
+      "field_b": 304,
+      "duration_s": 0.0833333432674408,
+      "fps": 24.0,
+      "node_count": 22,
+      "bone_count": 18,
+      "frame_count": 2,
+      "field_trackish": 2,
+      "header_u16": [
+        22,
+        18,
+        2,
+        2,
+        8,
+        0,
+        0,
+        18
+      ]
+    },
+    {
+      "name": "terrainobjects.people.animclip.ru_entity_malecoat|standarmscrossed",
+      "magic_offset": 160,
+      "field_a": 327,
+      "field_b": 368,
+      "duration_s": 0.0833333432674408,
+      "fps": 24.0,
+      "node_count": 22,
+      "bone_count": 18,
+      "frame_count": 2,
+      "field_trackish": 2,
+      "header_u16": [
+        22,
+        18,
+        2,
+        2,
+        12,
+        1,
+        0,
+        18
+      ]
+    },
+    {
+      "name": "terrainobjects.people.animclip.ru_entity_malecoat|video",
+      "magic_offset": 144,
+      "field_a": 327,
+      "field_b": 368,
+      "duration_s": 0.08333331346511841,
+      "fps": 24.0,
+      "node_count": 22,
+      "bone_count": 18,
+      "frame_count": 2,
+      "field_trackish": 2,
+      "header_u16": [
+        22,
+        18,
+        2,
+        2,
+        12,
+        1,
+        0,
+        18
+      ]
+    },
+    {
+      "name": "terrainobjects.people.animclip.ru_entity_malecoat|photo",
+      "magic_offset": 144,
+      "field_a": 327,
+      "field_b": 368,
+      "duration_s": 0.08333331346511841,
+      "fps": 24.0,
+      "node_count": 22,
+      "bone_count": 18,
+      "frame_count": 2,
+      "field_trackish": 2,
+      "header_u16": [
+        22,
+        18,
+        2,
+        2,
+        12,
+        1,
+        0,
+        18
+      ]
+    },
+    {
+      "name": "terrainobjects.people.animclip.ru_entity_malecoat|crouchphoto",
+      "magic_offset": 160,
+      "field_a": 327,
+      "field_b": 368,
+      "duration_s": 0.08333325386047363,
+      "fps": 24.0,
+      "node_count": 22,
+      "bone_count": 18,
+      "frame_count": 2,
+      "field_trackish": 2,
+      "header_u16": [
+        22,
+        18,
+        2,
+        2,
+        12,
+        1,
+        0,
+        18
+      ]
+    },
+    {
+      "name": "terrainobjects.people.animclip.ru_entity_malecoat|crouchvideo",
+      "magic_offset": 160,
+      "field_a": 327,
+      "field_b": 368,
+      "duration_s": 0.08333337306976318,
+      "fps": 24.0,
+      "node_count": 22,
+      "bone_count": 18,
+      "frame_count": 2,
+      "field_trackish": 2,
+      "header_u16": [
+        22,
+        18,
+        2,
+        2,
+        12,
+        1,
+        0,
+        18
+      ]
+    },
+    {
+      "name": "terrainobjects.people.animclip.ru_entity_malecoat|all",
+      "magic_offset": 144,
+      "field_a": 265,
+      "field_b": 304,
+      "duration_s": 1.4583333730697632,
+      "fps": 24.0,
+      "node_count": 22,
+      "bone_count": 18,
+      "frame_count": 35,
+      "field_trackish": 2,
+      "header_u16": [
+        22,
+        18,
+        35,
+        2,
+        0,
+        0,
+        0,
+        18
+      ]
+    },
+    {
+      "name": "terrainobjects.windturbine.animclip.ru_entity_farm_windmill|rotate",
+      "magic_offset": 160,
+      "field_a": 70,
+      "field_b": 112,
+      "duration_s": 4.958333492279053,
+      "fps": 24.0,
+      "node_count": 3,
+      "bone_count": 0,
+      "frame_count": 119,
+      "field_trackish": 2,
+      "header_u16": [
+        3,
+        0,
+        119,
+        2,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "terrainobjects.windturbine.animclip.ru_entity_windturbine|rotate",
+      "magic_offset": 160,
+      "field_a": 70,
+      "field_b": 112,
+      "duration_s": 4.958333492279053,
+      "fps": 24.0,
+      "node_count": 3,
+      "bone_count": 0,
+      "frame_count": 119,
+      "field_trackish": 2,
+      "header_u16": [
+        3,
+        0,
+        119,
+        2,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "terrainobjects.windturbine.animclip.ru_entity_windturbine_double|rotate",
+      "magic_offset": 160,
+      "field_a": 70,
+      "field_b": 112,
+      "duration_s": 4.958333492279053,
+      "fps": 24.0,
+      "node_count": 3,
+      "bone_count": 0,
+      "frame_count": 119,
+      "field_trackish": 2,
+      "header_u16": [
+        3,
+        0,
+        119,
+        2,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "status": {
+    "skeleton_hierarchy": "decoded",
+    "bind_matrices": "decoded",
+    "animation_container_header": "decoded",
+    "animation_timing": "decoded",
+    "compressed_keyframe_codec": "not_fully_decoded",
+    "wind_rotation_glb": "reconstructed_using_exact_timing"
+  }
+}

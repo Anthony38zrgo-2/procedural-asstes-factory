@@ -1,0 +1,22 @@
+{
+  "name": "terrainobjects.people.animclip.ru_entity_malecoat|clipboard",
+  "magic_offset": 160,
+  "field_a": 271,
+  "field_b": 304,
+  "duration_s": 0.0833333432674408,
+  "fps": 24.0,
+  "node_count": 22,
+  "bone_count": 18,
+  "frame_count": 2,
+  "field_trackish": 2,
+  "header_u16": [
+    22,
+    18,
+    2,
+    2,
+    8,
+    0,
+    0,
+    18
+  ]
+}

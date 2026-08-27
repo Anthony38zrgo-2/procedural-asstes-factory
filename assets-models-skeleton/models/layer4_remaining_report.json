@@ -1,0 +1,611 @@
+[
+  {
+    "name": "005_people.model.ru_entity_clipboard",
+    "status": "decoded_correct_index_descriptor",
+    "vertices": 24,
+    "stride": 28,
+    "indices": 36,
+    "triangles": 12,
+    "max_index": 23,
+    "unique_indices": 24,
+    "index_offset": 672,
+    "vertex_end": 672,
+    "padding": 0,
+    "bounds_min": [
+      -0.19735069572925568,
+      0.014644496142864227,
+      -0.24989038705825806
+    ],
+    "bounds_max": [
+      0.0663052350282669,
+      0.08624415099620819,
+      0.10963454097509384
+    ],
+    "extents": [
+      0.2636559307575226,
+      0.07159965485334396,
+      0.3595249280333519
+    ],
+    "score": 1950.0
+  },
+  {
+    "name": "035_bridges.model.ru_model_pcube18ru_entity_cattlegrid.ru_body_upright1",
+    "status": "decoded_correct_index_descriptor",
+    "vertices": 96,
+    "stride": 28,
+    "indices": 144,
+    "triangles": 48,
+    "max_index": 95,
+    "unique_indices": 96,
+    "index_offset": 2688,
+    "vertex_end": 2688,
+    "padding": 0,
+    "bounds_min": [
+      -0.2960052490234375,
+      -0.5194545388221741,
+      -0.08998441696166992
+    ],
+    "bounds_max": [
+      0.35878491401672363,
+      0.6710172891616821,
+      0.08998441696166992
+    ],
+    "extents": [
+      0.6547901630401611,
+      1.1904718279838562,
+      0.17996883392333984
+    ],
+    "score": 1950.0
+  },
+  {
+    "name": "036_bridges.model.ru_model_pcube18ru_entity_cattlegrid.ru_body_upright2",
+    "status": "decoded_correct_index_descriptor",
+    "vertices": 96,
+    "stride": 28,
+    "indices": 144,
+    "triangles": 48,
+    "max_index": 95,
+    "unique_indices": 96,
+    "index_offset": 2688,
+    "vertex_end": 2688,
+    "padding": 0,
+    "bounds_min": [
+      -0.2960052490234375,
+      -0.5194545388221741,
+      -0.08998453617095947
+    ],
+    "bounds_max": [
+      0.35878491401672363,
+      0.6710172891616821,
+      0.08998429775238037
+    ],
+    "extents": [
+      0.6547901630401611,
+      1.1904718279838562,
+      0.17996883392333984
+    ],
+    "score": 1950.0
+  },
+  {
+    "name": "037_bridges.model.ru_model_pcube14ru_entity_cattlegrid.ru_body_plank2",
+    "status": "decoded_correct_index_descriptor",
+    "vertices": 96,
+    "stride": 28,
+    "indices": 144,
+    "triangles": 48,
+    "max_index": 95,
+    "unique_indices": 96,
+    "index_offset": 2688,
+    "vertex_end": 2688,
+    "padding": 0,
+    "bounds_min": [
+      -0.08767914772033691,
+      -0.15149623155593872,
+      -2.6719794273376465
+    ],
+    "bounds_max": [
+      0.08767867088317871,
+      0.1514962911605835,
+      2.6719794273376465
+    ],
+    "extents": [
+      0.17535781860351562,
+      0.3029925227165222,
+      5.343958854675293
+    ],
+    "score": 1950.0
+  },
+  {
+    "name": "038_bridges.model.ru_model_pcube14ru_entity_cattlegrid.ru_body_plank1",
+    "status": "decoded_correct_index_descriptor",
+    "vertices": 96,
+    "stride": 28,
+    "indices": 144,
+    "triangles": 48,
+    "max_index": 95,
+    "unique_indices": 96,
+    "index_offset": 2688,
+    "vertex_end": 2688,
+    "padding": 0,
+    "bounds_min": [
+      -0.08767890930175781,
+      -0.15149623155593872,
+      -2.6719794273376465
+    ],
+    "bounds_max": [
+      0.08767867088317871,
+      0.1514962911605835,
+      2.6719794273376465
+    ],
+    "extents": [
+      0.17535758018493652,
+      0.3029925227165222,
+      5.343958854675293
+    ],
+    "score": 1950.0
+  },
+  {
+    "name": "039_bridges.model.ru_model_pcube18ru_entity_cattlegrid.ru_body_upright1_11",
+    "status": "decoded_correct_index_descriptor",
+    "vertices": 96,
+    "stride": 28,
+    "indices": 144,
+    "triangles": 48,
+    "max_index": 95,
+    "unique_indices": 96,
+    "index_offset": 2688,
+    "vertex_end": 2688,
+    "padding": 0,
+    "bounds_min": [
+      -0.35878467559814453,
+      -0.5194545388221741,
+      -0.08998426795005798
+    ],
+    "bounds_max": [
+      0.2960052490234375,
+      0.6710172891616821,
+      0.08998459577560425
+    ],
+    "extents": [
+      0.654789924621582,
+      1.1904718279838562,
+      0.17996886372566223
+    ],
+    "score": 1950.0
+  },
+  {
+    "name": "040_bridges.model.ru_model_pcube18ru_entity_cattlegrid.ru_body_upright2_12",
+    "status": "decoded_correct_index_descriptor",
+    "vertices": 96,
+    "stride": 28,
+    "indices": 144,
+    "triangles": 48,
+    "max_index": 95,
+    "unique_indices": 96,
+    "index_offset": 2688,
+    "vertex_end": 2688,
+    "padding": 0,
+    "bounds_min": [
+      -0.35878467559814453,
+      -0.5194545984268188,
+      -0.08998441696166992
+    ],
+    "bounds_max": [
+      0.2960054874420166,
+      0.6710172891616821,
+      0.08998441696166992
+    ],
+    "extents": [
+      0.6547901630401611,
+      1.190471887588501,
+      0.17996883392333984
+    ],
+    "score": 1950.0
+  },
+  {
+    "name": "041_bridges.model.ru_model_pcube14ru_entity_cattlegrid.ru_body_plank2_13",
+    "status": "decoded_correct_index_descriptor",
+    "vertices": 96,
+    "stride": 28,
+    "indices": 144,
+    "triangles": 48,
+    "max_index": 95,
+    "unique_indices": 96,
+    "index_offset": 2688,
+    "vertex_end": 2688,
+    "padding": 0,
+    "bounds_min": [
+      -0.08767867088317871,
+      -0.15149623155593872,
+      -2.6719794273376465
+    ],
+    "bounds_max": [
+      0.08767867088317871,
+      0.1514962911605835,
+      2.6719794273376465
+    ],
+    "extents": [
+      0.17535734176635742,
+      0.3029925227165222,
+      5.343958854675293
+    ],
+    "score": 1950.0
+  },
+  {
+    "name": "042_bridges.model.ru_model_pcube14ru_entity_cattlegrid.ru_body_plank1_14",
+    "status": "decoded_correct_index_descriptor",
+    "vertices": 96,
+    "stride": 28,
+    "indices": 144,
+    "triangles": 48,
+    "max_index": 95,
+    "unique_indices": 96,
+    "index_offset": 2688,
+    "vertex_end": 2688,
+    "padding": 0,
+    "bounds_min": [
+      -0.08767843246459961,
+      -0.15149623155593872,
+      -2.6719794273376465
+    ],
+    "bounds_max": [
+      0.08767890930175781,
+      0.1514962911605835,
+      2.6719794273376465
+    ],
+    "extents": [
+      0.17535734176635742,
+      0.3029925227165222,
+      5.343958854675293
+    ],
+    "score": 1950.0
+  },
+  {
+    "name": "046_bridges.model.ru_model_pcube18ru_entity_cattlegrid_uk_wide.ru_body_upright1",
+    "status": "decoded_correct_index_descriptor",
+    "vertices": 96,
+    "stride": 28,
+    "indices": 144,
+    "triangles": 48,
+    "max_index": 95,
+    "unique_indices": 96,
+    "index_offset": 2688,
+    "vertex_end": 2688,
+    "padding": 0,
+    "bounds_min": [
+      -0.2960052490234375,
+      -0.5194545388221741,
+      -0.08998441696166992
+    ],
+    "bounds_max": [
+      0.35878491401672363,
+      0.6710172891616821,
+      0.08998441696166992
+    ],
+    "extents": [
+      0.6547901630401611,
+      1.1904718279838562,
+      0.17996883392333984
+    ],
+    "score": 1950.0
+  },
+  {
+    "name": "047_bridges.model.ru_model_pcube18ru_entity_cattlegrid_uk_wide.ru_body_upright2",
+    "status": "decoded_correct_index_descriptor",
+    "vertices": 96,
+    "stride": 28,
+    "indices": 144,
+    "triangles": 48,
+    "max_index": 95,
+    "unique_indices": 96,
+    "index_offset": 2688,
+    "vertex_end": 2688,
+    "padding": 0,
+    "bounds_min": [
+      -0.2960052490234375,
+      -0.5194545388221741,
+      -0.08998453617095947
+    ],
+    "bounds_max": [
+      0.35878491401672363,
+      0.6710172891616821,
+      0.08998429775238037
+    ],
+    "extents": [
+      0.6547901630401611,
+      1.1904718279838562,
+      0.17996883392333984
+    ],
+    "score": 1950.0
+  },
+  {
+    "name": "048_bridges.model.ru_model_pcube14ru_entity_cattlegrid_uk_wide.ru_body_plank2",
+    "status": "decoded_correct_index_descriptor",
+    "vertices": 96,
+    "stride": 28,
+    "indices": 144,
+    "triangles": 48,
+    "max_index": 95,
+    "unique_indices": 96,
+    "index_offset": 2688,
+    "vertex_end": 2688,
+    "padding": 0,
+    "bounds_min": [
+      -0.08767914772033691,
+      -0.15149623155593872,
+      -2.6719794273376465
+    ],
+    "bounds_max": [
+      0.08767867088317871,
+      0.1514962911605835,
+      2.6719794273376465
+    ],
+    "extents": [
+      0.17535781860351562,
+      0.3029925227165222,
+      5.343958854675293
+    ],
+    "score": 1950.0
+  },
+  {
+    "name": "049_bridges.model.ru_model_pcube14ru_entity_cattlegrid_uk_wide.ru_body_plank1",
+    "status": "decoded_correct_index_descriptor",
+    "vertices": 96,
+    "stride": 28,
+    "indices": 144,
+    "triangles": 48,
+    "max_index": 95,
+    "unique_indices": 96,
+    "index_offset": 2688,
+    "vertex_end": 2688,
+    "padding": 0,
+    "bounds_min": [
+      -0.08767890930175781,
+      -0.15149623155593872,
+      -2.6719794273376465
+    ],
+    "bounds_max": [
+      0.08767867088317871,
+      0.1514962911605835,
+      2.6719794273376465
+    ],
+    "extents": [
+      0.17535758018493652,
+      0.3029925227165222,
+      5.343958854675293
+    ],
+    "score": 1950.0
+  },
+  {
+    "name": "050_bridges.model.ru_model_pcube18ru_entity_cattlegrid_uk_wide.ru_body_upright1_7",
+    "status": "decoded_correct_index_descriptor",
+    "vertices": 96,
+    "stride": 28,
+    "indices": 144,
+    "triangles": 48,
+    "max_index": 95,
+    "unique_indices": 96,
+    "index_offset": 2688,
+    "vertex_end": 2688,
+    "padding": 0,
+    "bounds_min": [
+      -0.35878467559814453,
+      -0.5194545388221741,
+      -0.08998426795005798
+    ],
+    "bounds_max": [
+      0.2960052490234375,
+      0.6710172891616821,
+      0.08998459577560425
+    ],
+    "extents": [
+      0.654789924621582,
+      1.1904718279838562,
+      0.17996886372566223
+    ],
+    "score": 1950.0
+  },
+  {
+    "name": "051_bridges.model.ru_model_pcube18ru_entity_cattlegrid_uk_wide.ru_body_upright2_8",
+    "status": "decoded_correct_index_descriptor",
+    "vertices": 96,
+    "stride": 28,
+    "indices": 144,
+    "triangles": 48,
+    "max_index": 95,
+    "unique_indices": 96,
+    "index_offset": 2688,
+    "vertex_end": 2688,
+    "padding": 0,
+    "bounds_min": [
+      -0.35878467559814453,
+      -0.5194545984268188,
+      -0.08998441696166992
+    ],
+    "bounds_max": [
+      0.2960054874420166,
+      0.6710172891616821,
+      0.08998441696166992
+    ],
+    "extents": [
+      0.6547901630401611,
+      1.190471887588501,
+      0.17996883392333984
+    ],
+    "score": 1950.0
+  },
+  {
+    "name": "052_bridges.model.ru_model_pcube14ru_entity_cattlegrid_uk_wide.ru_body_plank2_9",
+    "status": "decoded_correct_index_descriptor",
+    "vertices": 96,
+    "stride": 28,
+    "indices": 144,
+    "triangles": 48,
+    "max_index": 95,
+    "unique_indices": 96,
+    "index_offset": 2688,
+    "vertex_end": 2688,
+    "padding": 0,
+    "bounds_min": [
+      -0.08767867088317871,
+      -0.15149623155593872,
+      -2.6719794273376465
+    ],
+    "bounds_max": [
+      0.08767867088317871,
+      0.1514962911605835,
+      2.6719794273376465
+    ],
+    "extents": [
+      0.17535734176635742,
+      0.3029925227165222,
+      5.343958854675293
+    ],
+    "score": 1950.0
+  },
+  {
+    "name": "053_bridges.model.ru_model_pcube14ru_entity_cattlegrid_uk_wide.ru_body_plank1_10",
+    "status": "decoded_correct_index_descriptor",
+    "vertices": 96,
+    "stride": 28,
+    "indices": 144,
+    "triangles": 48,
+    "max_index": 95,
+    "unique_indices": 96,
+    "index_offset": 2688,
+    "vertex_end": 2688,
+    "padding": 0,
+    "bounds_min": [
+      -0.08767843246459961,
+      -0.15149623155593872,
+      -2.6719794273376465
+    ],
+    "bounds_max": [
+      0.08767890930175781,
+      0.1514962911605835,
+      2.6719794273376465
+    ],
+    "extents": [
+      0.17535734176635742,
+      0.3029925227165222,
+      5.343958854675293
+    ],
+    "score": 1950.0
+  },
+  {
+    "name": "055_bridges.model.ru_entity_lowfence_bridgeside",
+    "status": "decoded_correct_index_descriptor",
+    "vertices": 261,
+    "stride": 28,
+    "indices": 285,
+    "triangles": 95,
+    "max_index": 249,
+    "unique_indices": 250,
+    "index_offset": 7312,
+    "vertex_end": 7308,
+    "padding": 4,
+    "bounds_min": [
+      -4.933685302734375,
+      -0.36135053634643555,
+      0.0
+    ],
+    "bounds_max": [
+      4.941515922546387,
+      0.8470385074615479,
+      2.0
+    ],
+    "extents": [
+      9.875201225280762,
+      1.2083890438079834,
+      2.0
+    ],
+    "score": 1643.6781609195402
+  },
+  {
+    "name": "056_bridges.model.ru_entity_lowfence_bridgestart",
+    "status": "decoded_correct_index_descriptor",
+    "vertices": 268,
+    "stride": 28,
+    "indices": 288,
+    "triangles": 96,
+    "max_index": 253,
+    "unique_indices": 254,
+    "index_offset": 7504,
+    "vertex_end": 7504,
+    "padding": 0,
+    "bounds_min": [
+      -5.3066792488098145,
+      -0.36309385299682617,
+      -0.01242208480834961
+    ],
+    "bounds_max": [
+      5.2708282470703125,
+      0.8470385074615479,
+      2.000044107437134
+    ],
+    "extents": [
+      10.577507495880127,
+      1.210132360458374,
+      2.0124661922454834
+    ],
+    "score": 1642.1641791044776
+  },
+  {
+    "name": "093_largesign.model.ru_entity_largesign",
+    "status": "decoded_correct_index_descriptor",
+    "vertices": 120,
+    "stride": 28,
+    "indices": 180,
+    "triangles": 60,
+    "max_index": 119,
+    "unique_indices": 120,
+    "index_offset": 3360,
+    "vertex_end": 3360,
+    "padding": 0,
+    "bounds_min": [
+      -4.919577598571777,
+      -0.12141019105911255,
+      -0.17765220999717712
+    ],
+    "bounds_max": [
+      4.9249444007873535,
+      6.824769020080566,
+      0.043752267956733704
+    ],
+    "extents": [
+      9.84452199935913,
+      6.946179211139679,
+      0.22140447795391083
+    ],
+    "score": 1950.0
+  },
+  {
+    "name": "125_mailbox.model.ru_model_group1ru_entity_mailbox.ru_body_bottom",
+    "status": "decoded_correct_index_descriptor",
+    "vertices": 128,
+    "stride": 28,
+    "indices": 144,
+    "triangles": 48,
+    "max_index": 127,
+    "unique_indices": 128,
+    "index_offset": 3584,
+    "vertex_end": 3584,
+    "padding": 0,
+    "bounds_min": [
+      -0.02588941901922226,
+      -0.5284504890441895,
+      -0.031203782185912132
+    ],
+    "bounds_max": [
+      0.02588941901922226,
+      0.5284504890441895,
+      0.03120371885597706
+    ],
+    "extents": [
+      0.05177883803844452,
+      1.056900978088379,
+      0.06240750104188919
+    ],
+    "score": 1950.0
+  }
+]

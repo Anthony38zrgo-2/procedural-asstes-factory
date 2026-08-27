@@ -1,0 +1,479 @@
+terraintextures.binary.terraintextures.xml
+<IncludeFiles>
+	<!-- /-->
+	
+	<File type="0" name="Road/ar_dirt_1.psd" 				specmul="0.25" specpow="5" max_width="512" max_height="512" headlightMul="5.0f" headlightMax="2.0f" 	/>
+	<File type="0" name="Road/ar_dirt_2.psd" 				specmul="0.25" specpow="5" max_width="512" max_height="512" headlightMul="5.0f" headlightMax="2.0f"		/>
+	<File type="0" name="Road/ar_gravel_1.psd" 				specmul="0.25" specpow="5" max_width="512" max_height="512"						headlightMax="1.1f"		/>	
+	<File type="0" name="Road/ar_gravel_2.psd" 				specmul="0.25" specpow="5" max_width="512" max_height="512" 					headlightMax="1.4f"		/>	
+	<File type="0" name="Road/au_mud_rd_1.psd" 				specmul="0.25" specpow="5" max_width="512" max_height="512" 					headlightMax="1.2f"		/>
+	<File type="0" name="Road/au_mud_rd_2.psd" 				specmul="0.25" specpow="5" max_width="512" max_height="512" 					headlightMax="1.2f"		/>
+	<File type="0" name="Road/au_mud_rd_3.psd" 				specmul="0.25" specpow="5" max_width="512" max_height="512" headlightMul="5.0f" headlightMax="1.4f"		/>
+	<File type="0" name="Road/au_tarmac_1.psd" 				specmul="0.25" specpow="5" max_width="512" max_height="512" headlightMul="5.0f" headlightMax="1.5f" 	/>
+	<File type="0" name="Road/ca_tarmac_1.png" 				specmul="0.5"  specpow="10" 								headlightMul="6.0f" headlightMax="2.0f" 	/>
+	<File type="0" name="Road/ca_tarmac_2.png" 				specmul="0.5"  specpow="10" 								headlightMul="5.0f" headlightMax="2.0f" 	/>
+	<File type="0" name="Road/ca_tarmac_2_snow.png" 		specmul="0.5"  specpow="10" 								headlightMul="6.0f" headlightMax="1.2f" 	/>
+	<File type="0" name="Road/ca_tarmac_snow.png" 			specmul="0.5"  specpow="10" 								headlightMul="6.0f" headlightMax="0.8f"		/>
+	<File type="0" name="Road/circuit_tarmac_1.tga" 		specmul="0.5"  specpow="10" 								headlightMul="5.5f" headlightMax="1.5f"		/>
+	<File type="0" name="Road/circuit_tarmac_white.tga" 	specmul="0.5"  specpow="10" 								headlightMul="5.5f" headlightMax="2.0f"		/>
+	<File type="0" name="Road/circuit_tarmac_snow.png" 		specmul="0.35" specpow="10" 								headlightMul="5.5f" headlightMax="1.0f"		/>
+	<File type="0" name="Road/fi_tarmac.tga" 																			headlightMul="5.0f" headlightMax="1.5f" 	/>
+	<File type="0" name="Road/fi_gravel.tga" 																								headlightMax="1.0f" 	/>
+	<File type="0" name="Road/fi_gravel_2.tga" 																			headlightMul="5.0f" headlightMax="1.5f" 	/>
+	<File type="0" name="Road/fi_gravel_3.tga" 																			headlightMax="1.2f"	headlightMax="0.75f"	/>
+	<File type="0" name="Road/ge_tarmac_1.png"				specmul="0.3" specpow="10" 									headlightMul="5.0f" headlightMax="1.2f"		/>
+	<File type="0" name="Road/ge_tarmac_2.png" 				specmul="0.3" specpow="10" 									headlightMul="6.0f" headlightMax="2.0f"		/>
+	<File type="0" name="Road/ge_gravel_1.png" 																								headlightMax="0.75f"	/>	
+	<File type="0" name="Road/ge_gravel_2.png" 																								headlightMax="0.8f"		/>
+	<File type="0" name="Road/gr_gravel_1.psd"				max_width="512" max_height="512"												headlightMax="1.1f"		/>
+	<File type="0" name="Road/gr_gravel_2.psd" 				max_width="512" max_height="512"												headlightMax="1.05f"	/>
+	<File type="0" name="Road/gr_rock_1.psd"				max_width="512" max_height="512"												headlightMax="1.05f"	/>
+	<File type="0" name="Road/gr_rock_2.psd" 				max_width="512" max_height="512"												headlightMax="1.05f"	/>
+	<File type="0" name="Road/me_dirt_1.png" 																			headlightMul="5.0f"	headlightMax="1.05f"	/>
+	<File type="0" name="Road/me_dirt_2.png" 																			headlightMul="5.0f"	headlightMax="0.9f"		/>
+	<File type="0" name="Road/me_dirt_3.png" 																			headlightMul="5.5f" headlightMax="2.0f" 	/>
+	<File type="0" name="Road/me_dirt_4.png" 																			headlightMul="5.0f"	headlightMax="1.1f" 	/>
+	<File type="0" name="Road/pikes_tarmac_1.png" 			specmul="0.5"  specpow="10" 								headlightMul="6.0f" headlightMax="2.0f"		/>
+	<File type="0" name="Road/pikes_tarmac_2.png" 			specmul="0.5"  specpow="10" 								headlightMul="6.0f" headlightMax="2.0f"		/>
+	<File type="0" name="Road/sw_snow_track_full.png" 		specmul="0.1"  specpow="10" 								headlightMul="4.5f" headlightMax="1.0f"		/>
+	<File type="0" name="Road/sw_snow_track.png" 																		headlightMul="4.0f" headlightMax="0.8f"		/>
+	<File type="0" name="Road/sw_snow_full.png" 																		headlightMul="3.5f" headlightMax="0.85f"	/>
+	<File type="0" name="Road/sw_snow_ice.png" 																			headlightMul="3.5f" headlightMax="0.85f"		/>	
+	<File type="0" name="Road/uk_tarmac_1.png" 				specmul="0.35"  specpow="10" 								headlightMul="5.5f" headlightMax="2.0f"		/>
+	<File type="0" name="Road/uk_tarmac_2.png" 				specmul="0.35"  specpow="10" 								headlightMul="5.5f" headlightMax="2.0f"		/>
+	<File type="0" name="Road/uk_tarmac_3.png" 				specmul="0.35"  specpow="10" 								headlightMul="5.5f" headlightMax="2.0f"		/>	
+	<File type="0" name="Road/uk_dirt_1.png" 																			headlightMul="5.5f" headlightMax="2.0f"		/>
+	<File type="0" name="Road/uk_dirt_2.png" 																			headlightMul="5.5f" headlightMax="2.0f"		/>
+	<!-- Kenya /-->					
+	<File type="0" name="Road/ken_dirt_1.psd" 				max_width="512" max_height="512"									headlightMul="5.5f" headlightMax="1.2f"		/>
+	<File type="0" name="Road/ken_dirt_2.psd" 				max_width="512" max_height="512"									headlightMul="5.5f" headlightMax="1.2f"		/>
+	<File type="0" name="Road/ken_mud_1.psd" 				max_width="512" max_height="512"									headlightMul="5.5f" headlightMax="1.05f"	/>
+	<File type="0" name="Road/ken_mud_2.psd" 				max_width="512" max_height="512"									headlightMul="5.5f" headlightMax="1.05f"	/>
+	<!-- Japan /-->					
+	<File type="0" name="Road/jp_tarmac_1.psd" 				max_width="512" max_height="512"									headlightMul="5.5f" headlightMax="1.2f"		/>
+	<File type="0" name="Road/jp_tarmac_2.png" 				max_width="512" max_height="512" 	specmul="0.17" specpow="5"		headlightMul="5.5f" headlightMax="1.2f"		/>
+	<File type="0" name="Road/jp_gravel_1.psd" 				max_width="512" max_height="512" 									headlightMul="5.5f" headlightMax="1.2f"		/>
+	<File type="0" name="Road/jp_gravel_2.psd" 				max_width="512" max_height="512" 									headlightMul="5.5f" headlightMax="1.2f"		/>
+			
+	
+	
+	
+	<!-- /-->
+	<File type="1" name="Surface/ar_sand_grass.png" 			tileUvScale="0.263"		tileMul="2.2"	tileDesaturate="0.22"	/>
+	<File type="1" name="Surface/ar_sand_grass_2.psd" 			tileUvScale="0.263"		tileMul="2.2"	tileDesaturate="0.22"	max_width="512" max_height="512" />
+	<File type="1" name="Surface/ar_sand.png" 					tileUvScale="0.241"		tileMul="1.8"	tileDesaturate="0.25"	/>
+	<File type="1" name="Surface/ar_rocky.png" 					tileUvScale="0.312"		tileMul="1.9"	tileDesaturate="0.25"	/>
+	<File type="1" name="Surface/ar_terrain_dirt.psd" 			tileUvScale="0.331"		tileMul="1.4"	tileDesaturate="0.3"	max_width="512" max_height="512"/>
+	<File type="1" name="Surface/au_grass.png" 					tileUvScale="0.312"		tileMul="3.2"	tileDesaturate="0.3"	/>
+	<File type="1" name="Surface/au_mud.png"				 	tileUvScale="0.21"		tileMul="2.0"	tileDesaturate="0.25"	/>
+	<File type="1" name="Surface/au_mud_2.tga"				 	tileUvScale="0.5"		tileMul="2.5"	tileDesaturate="0.1"	/>
+	<File type="1" name="Surface/au_mud_3.psd"				 	tileUvScale="0.5"		tileMul="2.5"	tileDesaturate="0.1"	/>
+	<File type="1" name="Surface/dry_grass.png" 				tileUvScale="0.29"		tileMul="2.75"	tileDesaturate="0.27"	/>
+	<File type="1" name="Surface/fi_grass_tundra.tga" 			tileUvScale="0.263"		tileMul="3.0"	tileDesaturate="0.1"	/>
+	<File type="1" name="Surface/fi_grey_rock.tga" 				tileUvScale="0.182"		tileMul="3.0"	tileDesaturate="0.75"	/>
+	<File type="1" name="Surface/fi_grass.tga" 					tileUvScale="0.291"		tileMul="2.5"	tileDesaturate="0.2"	/>
+	<File type="1" name="Surface/gr_sand_grass.psd" 			tileUvScale="0.321"		tileMul="1.85"	tileDesaturate="0.45"	max_width="512" max_height="512"/>
+	<File type="1" name="Surface/gr_grass.psd" 					tileUvScale="0.331"		tileMul="1.9"	tileDesaturate="0.35"	max_width="512" max_height="512"/>
+	<File type="1" name="Surface/ge_grass_1.png"				tileUvScale="0.295"		tileMul="2.9"	tileDesaturate="0.3"	/>
+	<File type="1" name="Surface/ge_grass_2.png" 				tileUvScale="0.314"		tileMul="2.2"	tileDesaturate="0.35"	/>
+	<File type="1" name="Surface/sp_grass.png" 					tileUvScale="0.392"		tileMul="3.5"	tileDesaturate="0.5"	/>
+	<File type="1" name="Surface/sw_snow.png" 					tileUvScale="0.263"		tileMul="1.35"	tileDesaturate="1.0"	/>
+	<File type="1" name="Surface/sw_snow_2.png" 				tileUvScale="0.263"		tileMul="1.4"	tileDesaturate="1.0"	/>
+	<File type="1" name="Surface/sw_snow_dirty.png" 			tileUvScale="0.342"		tileMul="1.2"	tileDesaturate="1.0"	/>
+	<File type="1" name="Surface/sw_grey_rock_snow.tga" 		tileUvScale="0.321"		tileMul="2.2"	tileDesaturate="0.75"	/>
+	<File type="1" name="Surface/circuit_gravel_1.tga"			tileUvScale="0.411"		tileMul="1.9"	tileDesaturate="1.0"	/>
+	<File type="1" name="Surface/jp_grass.psd" 					tileUvScale="0.231"		tileMul="2.0"	tileDesaturate="0.6"	max_width="512" max_height="512"/>
+	<File type="1" name="Surface/jp_gravel.psd" 				tileUvScale="0.231"		tileMul="2.2"	tileDesaturate="0.0"	max_width="512" max_height="512"/>
+		
+	
+	<!-- /-->
+	
+	<File type="2" name="Blends/blendtexture1.tga" />
+	<File type="2" name="Blends/blendtexture2.tga" />
+	<File type="2" name="Blends/blendtexture3.tga" />
+	<File type="2" name="Blends/blendtexture4.tga" />
+	<File type="2" name="Blends/blendtexture5.tga" />
+	
+	<!-- /-->
+	
+	<File type="3" name="Rocks/au_outcrop_1.psd"		specmul="0.5"  specpow="7"  	tileMul="2.2"	tileDesaturate="0.5"	tileUvBaseScale="0.8"	tileUvScale="0.1411"	max_width="512" max_height="512" />
+	<File type="3" name="Rocks/ar_outcrop_1.psd"		specmul="1.0"  specpow="2.5"  	tileMul="1.9"	tileDesaturate="1.0"	tileUvBaseScale="0.29"	tileUvScale="0.2521"	max_width="512" max_height="512" />
+	<File type="3" name="Rocks/ar_outcrop_2.psd"		specmul="1.0"  specpow="2.5"  	tileMul="2.4"	tileDesaturate="0.25"	tileUvBaseScale="0.289"	tileUvScale="0.2521"	max_width="512" max_height="512" />
+	<File type="3" name="Rocks/dark_slate_rock.psd"		specmul="0.5"  specpow="5"  	tileMul="1.9"	tileDesaturate="0.25"	tileUvBaseScale="0.29"	tileUvScale="0.2521"	max_width="512" max_height="512" />
+	<File type="3" name="Rocks/fi_outcrop_1.png"		specmul="0.5"  specpow="15"  	tileMul="3.0"	tileDesaturate="1.0"	tileUvBaseScale="1.0"	tileUvScale="0.131"		/>
+	<File type="3" name="Rocks/fi_outcrop_2.png"		specmul="0.5"  specpow="15"  	tileMul="3.0"	tileDesaturate="0.5"	tileUvBaseScale="1.0"	tileUvScale="0.132"		/>
+	<File type="3" name="Rocks/ge_outcrop_1.png"		specmul="0.5"  specpow="15"  	tileMul="3.0"	tileDesaturate="0.2"	tileUvBaseScale="1.0"	tileUvScale="0.191"		/>
+	<File type="3" name="Rocks/gr_outcrop_1.psd"		specmul="0.5"  specpow="15"  	tileMul="2.5"	tileDesaturate="0.3"	tileUvBaseScale="0.75"	tileUvScale="0.1411"	max_width="512" max_height="512" />
+	<File type="3" name="Rocks/gr_outcrop_2.psd"		specmul="0.5"  specpow="15"  	tileMul="3.0"	tileDesaturate="0.4"	tileUvBaseScale="0.8"	tileUvScale="0.1411"	max_width="512" max_height="512" />
+	<File type="3" name="Rocks/jp_outcrop.psd"			specmul="0.5"  specpow="15"  	tileMul="2.75"	tileDesaturate="0.65"	tileUvBaseScale="0.551" tileUvScale="0.1751"	max_width="512" max_height="512"/>	
+	<File type="3" name="Rocks/me_outcrop_1.png"		specmul="0.5"  specpow="15"  	tileMul="2.0"	tileDesaturate="0.05"	tileUvBaseScale="0.5" 	tileUvScale="0.25"		/>
+	<File type="3" name="Rocks/me_outcrop_2.png"		specmul="0.3"  specpow="15"  	tileMul="2.5"	tileDesaturate="0.0"	tileUvBaseScale="0.5" 	tileUvScale="0.25"		/>
+	<File type="3" name="Rocks/pikes_outcrop.png" 		specmul="0.25"  specpow="10"  	tileMul="3.5"	tileDesaturate="0.25"	tileUvBaseScale="0.5"	tileUvScale="0.25"		/>
+	<File type="3" name="Rocks/rock_green_moss.png"		specmul="0.4"  specpow="7"  	tileMul="2.75"	tileDesaturate="0.7"	tileUvBaseScale="1.0"	tileUvScale="0.111"		/>
+	<File type="3" name="Rocks/rock_green_moss_2.png"	specmul="0.5"  specpow="15"  	tileMul="2.75"	tileDesaturate="0.0"	tileUvBaseScale="0.125"	tileUvScale="2.0f"		/>
+	<File type="3" name="Rocks/rock_brown_moss.png"		specmul="0.4"  specpow="7"  	tileMul="2.0"	tileDesaturate="0.0"	tileUvBaseScale="1.0"	tileUvScale="0.25"		/>
+	<File type="3" name="Surface/sw_snow_2.png"			specmul="0.5"  specpow="15" 	tileMul="1.3"	tileDesaturate="1.0"	tileUvBaseScale="1.0"	tileUvScale="0.493"		/>
+	<File type="3" name="Surface/sw_snow_dirty.png"		specmul="0.5"  specpow="15" 	tileMul="1.3"	tileDesaturate="1.0"	tileUvBaseScale="1.0"	tileUvScale="0.493"		/>
+	<File type="3" name="Detail/_size_template_.tga" 	specmul="0.5"  specpow="15" 	tileMul="4.0"	tileDesaturate="0.2"	tileUvBaseScale="1.0"	tileUvScale="0.261"		/>	
+	
+	
+	<!-- /-->
+	
+	<File type="4" name="Skidmarks/skid_dirt.tga" />
+	<File type="4" name="Skidmarks/skid_dark_dirt.tga" />
+	<File type="4" name="Skidmarks/skid_grass.tga" />
+	<File type="4" name="Skidmarks/skid_gravel.tga" />
+	<File type="4" name="Skidmarks/skid_dark_sand.tga" />
+	<File type="4" name="Skidmarks/skid_dark_grass.tga" />
+	<File type="4" name="Skidmarks/skid_sand.tga" />
+	<File type="4" name="Skidmarks/skid_sand_track.tga" />
+	<File type="4" name="Skidmarks/skid_mud.tga" />	
+	<File type="4" name="Skidmarks/skid_slush.tga" />
+	<File type="4" name="Skidmarks/skid_snow.tga" />
+	<File type="4" name="Skidmarks/skid_snow_grass.tga" />
+	<File type="4" name="Skidmarks/skid_tarmac.tga" />
+	
+	<!-- /-->
+	<File type="5" name="FenceBorders/armco.tga" />
+	<File type="5" name="FenceBorders/sponsor.tga" />	
+	<File type="5" name="FenceBorders/plain_wall.tga" />
+	<File type="5" name="FenceBorders/chainfence.tga" />
+		
+	
+	<!-- Detail textures contain scale and multipliers too for the tiling /-->
+	<File type="6" name="Detail/tarmac_detail_1.tga" 	scale="3.0" 	mul="2.0"	/>
+	<File type="6" name="Detail/dirt_detail_1.tga" 		scale="3.0" 	mul="2.2"	/>
+	<File type="6" name="Detail/dirt_detail_2.tga" 		scale="2.8" 	mul="1.9"	/>
+	<File type="6" name="Detail/rock_detail_1.psd" 		scale="2.8" 	mul="1.9"	max_width="512" max_height="512" />
+	<File type="6" name="Detail/gravel_detail_1.tga" 	scale="4.5" 	mul="2.0"	/>
+	<File type="6" name="Detail/gravel_detail_2.tga" 	scale="5.0" 	mul="1.8"	/>
+	<File type="6" name="Detail/gravel_detail_3.psd" 	scale="3.0" 	mul="1.8"	max_width="512" max_height="512" />
+	<File type="6" name="Detail/mud_detail_1.tga" 		scale="2.5" 	mul="2.0"	/>
+	<File type="6" name="Detail/mud_detail_2.tga" 		scale="2.5" 	mul="1.9"	/>
+	<File type="6" name="Detail/snow_detail_1.tga" 		scale="2.75" 	mul="1.6"	/>
+	<File type="6" name="Detail/_size_template_.tga" 	scale="1.0" 	mul="2.0"	/>
+
+
+
+</IncludeFiles>
+
+
+
+
+<RROFiles>
+	<Unused>
+	
+		<!-- surface /-->	
+		<File type="1" name="Surface/dry_grass_2.png" 				tileUvScale="0.251"		tileMul="3.0"	tileDesaturate="0.5"	/>
+		<File type="1" name="Surface/gravel.png" 					tileUvScale="0.481"		tileMul="3.0"	tileDesaturate="0.5"	/>
+		<File type="1" name="Surface/sand.png" 						tileUvScale="0.341"		tileMul="2.0"	tileDesaturate="0.5"	/>
+		<File type="1" name="Surface/sand_dirt.png" 				tileUvScale="0.481"		tileMul="1.8"	tileDesaturate="0.4"	/>
+		<File type="1" name="Surface/sp_terrain_gravel.png" 		tileUvScale="0.392"		tileMul="2.0"	tileDesaturate="0.5"	/>
+		<File type="1" name="Surface/sp_terrain_sand.tga" 			tileUvScale="0.263"		tileMul="1.75"	tileDesaturate="0.4"	/>
+	
+		<!-- New zealand /-->					
+		<File type="0" name="Road/nz_gravel_1.psd" 				max_width="512" max_height="512"									headlightMul="5.5f" headlightMax="1.2f"		/>
+		<File type="0" name="Road/nz_tarmac_1.psd" 				max_width="512" max_height="512" 	specmul="0.17" specpow="5"		headlightMul="5.5f" headlightMax="1.2f"		/>
+		<File type="0" name="Road/nz_dirt_1.psd" 				max_width="512" max_height="512" 	specmul="0.25" specpow="5" 		headlightMul="5.0f" headlightMax="2.0f" 	/>
+		<File type="0" name="Road/nz_dirt_2.psd" 				max_width="512" max_height="512" 	specmul="0.25" specpow="5" 		headlightMul="5.0f" headlightMax="2.0f"		/>
+		
+		<!-- rocks /-->	
+		<File type="3" name="Surface/sw_snow.png"			specmul="0.5"  specpow="15" 	tileMul="1.3"	tileDesaturate="1.0"	tileUvBaseScale="1.0"	tileUvScale="0.493"		/>
+		<File type="3" name="Rocks/sp_outcrop_1.png"		specmul="0.5"  specpow="15"  	tileMul="3.0"	tileDesaturate="0.25"	tileUvBaseScale="1.0"	tileUvScale="0.191"		/>
+	
+	</Unused>
+</RROFiles>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rushrally3/styles/terraintextures/terraintextures.xml
+terraintextures.texture.ar_dirt_1
+ar_dirt_1
+terraintextures.texture.ar_dirt_2
+ar_dirt_2
+terraintextures.texture.ar_gravel_1
+ar_gravel_1
+terraintextures.texture.ar_gravel_2
+ar_gravel_2
+terraintextures.texture.au_mud_rd_1
+au_mud_rd_1
+terraintextures.texture.au_mud_rd_2
+au_mud_rd_2
+terraintextures.texture.au_mud_rd_3
+au_mud_rd_3
+terraintextures.texture.au_tarmac_1
+au_tarmac_1
+terraintextures.texture.ca_tarmac_1
+ca_tarmac_1
+terraintextures.texture.ca_tarmac_2
+ca_tarmac_2
+terraintextures.texture.ca_tarmac_2_snow
+ca_tarmac_2_snow
+Z#n#
+terraintextures.texture.ca_tarmac_snow
+ca_tarmac_snow
+terraintextures.texture.circuit_tarmac_1
+circuit_tarmac_1
+terraintextures.texture.circuit_tarmac_white
+circuit_tarmac_white
+terraintextures.texture.circuit_tarmac_snow
+circuit_tarmac_snow
+terraintextures.texture.fi_tarmac
+fi_tarmac
+terraintextures.texture.fi_gravel
+fi_gravel
+terraintextures.texture.fi_gravel_2
+fi_gravel_2
+terraintextures.texture.fi_gravel_3
+fi_gravel_3
+terraintextures.texture.ge_tarmac_1
+ge_tarmac_1
+terraintextures.texture.ge_tarmac_2
+ge_tarmac_2
+terraintextures.texture.ge_gravel_1
+ge_gravel_1
+terraintextures.texture.ge_gravel_2
+ge_gravel_2
+terraintextures.texture.gr_gravel_1
+gr_gravel_1
+terraintextures.texture.gr_gravel_2
+gr_gravel_2
+terraintextures.texture.gr_rock_1
+gr_rock_1
+terraintextures.texture.gr_rock_2
+gr_rock_2
+terraintextures.texture.me_dirt_1
+me_dirt_1
+terraintextures.texture.me_dirt_2
+me_dirt_2
+terraintextures.texture.me_dirt_3
+me_dirt_3
+terraintextures.texture.me_dirt_4
+me_dirt_4
+terraintextures.texture.pikes_tarmac_1
+pikes_tarmac_1
+terraintextures.texture.pikes_tarmac_2
+pikes_tarmac_2
+terraintextures.texture.sw_snow_track_full
+sw_snow_track_full
+terraintextures.texture.sw_snow_track
+sw_snow_track
+terraintextures.texture.sw_snow_full
+sw_snow_full
+terraintextures.texture.sw_snow_ice
+sw_snow_ice
+terraintextures.texture.uk_tarmac_1
+uk_tarmac_1
+terraintextures.texture.uk_tarmac_2
+uk_tarmac_2
+terraintextures.texture.uk_tarmac_3
+uk_tarmac_3
+terraintextures.texture.uk_dirt_1
+uk_dirt_1
+terraintextures.texture.uk_dirt_2
+uk_dirt_2
+terraintextures.texture.ken_dirt_1
+ken_dirt_1
+terraintextures.texture.ken_dirt_2
+ken_dirt_2
+terraintextures.texture.ken_mud_1
+ken_mud_1
+terraintextures.texture.ken_mud_2
+ken_mud_2
+terraintextures.texture.jp_tarmac_1
+jp_tarmac_1
+terraintextures.texture.jp_tarmac_2
+jp_tarmac_2
+terraintextures.texture.jp_gravel_1
+jp_gravel_1
+terraintextures.texture.jp_gravel_2
+jp_gravel_2
+terraintextures.texture.ar_sand_grass
+ar_sand_grass
+terraintextures.texture.ar_sand_grass_2
+ar_sand_grass_2
+terraintextures.texture.ar_sand
+ar_sand
+terraintextures.texture.ar_rocky
+ar_rocky
+terraintextures.texture.ar_terrain_dirt
+ar_terrain_dirt
+terraintextures.texture.au_grass
+au_grass
+terraintextures.texture.au_mud
+au_mud
+terraintextures.texture.au_mud_2
+au_mud_2
+terraintextures.texture.au_mud_3
+au_mud_3
+terraintextures.texture.dry_grass
+dry_grass
+PLW''
+terraintextures.texture.fi_grass_tundra
+fi_grass_tundra
+terraintextures.texture.fi_grey_rock
+fi_grey_rock
+terraintextures.texture.fi_grass
+fi_grass
+terraintextures.texture.gr_sand_grass
+gr_sand_grass
+terraintextures.texture.gr_grass
+gr_grass
+terraintextures.texture.ge_grass_1
+ge_grass_1
+terraintextures.texture.ge_grass_2
+ge_grass_2
+terraintextures.texture.sp_grass
+sp_grass
+terraintextures.texture.sw_snow
+sw_snow
+terraintextures.texture.sw_snow_2
+sw_snow_2
+terraintextures.texture.sw_snow_dirty
+sw_snow_dirty
+terraintextures.texture.sw_grey_rock_snow
+sw_grey_rock_snow
+terraintextures.texture.circuit_gravel_1
+circuit_gravel_1
+terraintextures.texture.jp_grass
+jp_grass
+h(`!
+terraintextures.texture.jp_gravel
+jp_gravel
+terraintextures.texture.blendtexture1
+blendtexture1
+terraintextures.texture.blendtexture2
+blendtexture2
+terraintextures.texture.blendtexture3
+blendtexture3
+terraintextures.texture.blendtexture4
+blendtexture4
+terraintextures.texture.blendtexture5
+blendtexture5
+terraintextures.texture.au_outcrop_1
+au_outcrop_1
+terraintextures.texture.ar_outcrop_1
+ar_outcrop_1
+terraintextures.texture.ar_outcrop_2
+ar_outcrop_2
+terraintextures.texture.dark_slate_rock
+dark_slate_rock
+terraintextures.texture.fi_outcrop_1
+fi_outcrop_1
+terraintextures.texture.fi_outcrop_2
+fi_outcrop_2
+]:6$
+terraintextures.texture.ge_outcrop_1
+ge_outcrop_1
+terraintextures.texture.gr_outcrop_1
+gr_outcrop_1
+terraintextures.texture.gr_outcrop_2
+gr_outcrop_2
+terraintextures.texture.jp_outcrop
+jp_outcrop
+terraintextures.texture.me_outcrop_1
+me_outcrop_1
+terraintextures.texture.me_outcrop_2
+me_outcrop_2
+terraintextures.texture.pikes_outcrop
+pikes_outcrop
+terraintextures.texture.rock_green_moss
+rock_green_moss
+terraintextures.texture.rock_green_moss_2
+rock_green_moss_2
+terraintextures.texture.rock_brown_moss
+rock_brown_moss
+terraintextures.texture._size_template_
+_size_template_
+terraintextures.texture.skid_dirt
+skid_dirt
+terraintextures.texture.skid_dark_dirt
+skid_dark_dirt
+9S%"
+terraintextures.texture.skid_grass
+skid_grass
+terraintextures.texture.skid_gravel
+skid_gravel
+terraintextures.texture.skid_dark_sand
+skid_dark_sand
+terraintextures.texture.skid_dark_grass
+skid_dark_grass
+terraintextures.texture.skid_sand
+skid_sand
+terraintextures.texture.skid_sand_track
+skid_sand_track
+terraintextures.texture.skid_mud
+skid_mud
+terraintextures.texture.skid_slush
+skid_slush
+terraintextures.texture.skid_snow
+skid_snow
+terraintextures.texture.skid_snow_grass
+skid_snow_grass
+terraintextures.texture.skid_tarmac
+skid_tarmac
+terraintextures.texture.armco
+armco
+terraintextures.texture.sponsor
+sponsor
+terraintextures.texture.plain_wall
+plain_wall
+g8iv"
+terraintextures.texture.chainfence
+chainfence
+terraintextures.texture.tarmac_detail_1
+tarmac_detail_1
+terraintextures.texture.dirt_detail_1
+dirt_detail_1
+terraintextures.texture.dirt_detail_2
+dirt_detail_2
+terraintextures.texture.rock_detail_1
+rock_detail_1
+h8%'
+Zwp
+terraintextures.texture.gravel_detail_1
+gravel_detail_1
+h8%'
+Ywp
+terraintextures.texture.gravel_detail_2
+gravel_detail_2
+h8%'
+Xwp
+terraintextures.texture.gravel_detail_3
+gravel_detail_3
+terraintextures.texture.mud_detail_1
+mud_detail_1
+terraintextures.texture.mud_detail_2
+mud_detail_2
+terraintextures.texture.snow_detail_1
+snow_detail_1
+terraintextures.file

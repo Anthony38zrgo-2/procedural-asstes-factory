@@ -1,0 +1,11 @@
+name,duration_s,fps,frames,nodes,bones
+terrainobjects.people.animclip.ru_entity_malecoat|clipboard,0.0833333432674408,24.0,2,22,18
+terrainobjects.people.animclip.ru_entity_malecoat|standarmscrossed,0.0833333432674408,24.0,2,22,18
+terrainobjects.people.animclip.ru_entity_malecoat|video,0.08333331346511841,24.0,2,22,18
+terrainobjects.people.animclip.ru_entity_malecoat|photo,0.08333331346511841,24.0,2,22,18
+terrainobjects.people.animclip.ru_entity_malecoat|crouchphoto,0.08333325386047363,24.0,2,22,18
+terrainobjects.people.animclip.ru_entity_malecoat|crouchvideo,0.08333337306976318,24.0,2,22,18
+terrainobjects.people.animclip.ru_entity_malecoat|all,1.4583333730697632,24.0,35,22,18
+terrainobjects.windturbine.animclip.ru_entity_farm_windmill|rotate,4.958333492279053,24.0,119,3,0
+terrainobjects.windturbine.animclip.ru_entity_windturbine|rotate,4.958333492279053,24.0,119,3,0
+terrainobjects.windturbine.animclip.ru_entity_windturbine_double|rotate,4.958333492279053,24.0,119,3,0

@@ -1,0 +1,1793 @@
+terrainstyles.binary.terrainstyles.xml
+	
+
+<!-- ---------------------------------------------------- /-->
+<!-- ---------------------------------------------------- /-->
+<!-- ---------------------------------------------------- /-->
+<!-- ---------------------------------------------------- /-->
+
+<FenceDefs>
+		<!-- Raw defs, visuals changed in global texture set now /-->
+		<Def 	name="armco" 									
+				texture="armco" 	
+				height="1.0f" 
+				width="0.1f" 	
+				minlength="100.0f"
+				lengthrandom="100.0f"
+				texture_length="2.0f" 
+				texture_v_break="0.06f"
+				/>			
+				
+		<Def 	name="plain_wall" 					
+				texture="plain_wall" 
+				height="1.0f" 
+				width="0.85f" 
+				minlength="150.0f" 
+				lengthrandom="100.0f" 
+				texture_length="2.5" 
+				texture_v_break="0.16f"
+				/>
+
+							
+		<Def 	name="sponsor_board" 					
+				texture="sponsor" 
+				height="1.25f" 
+				width="0.1f" 
+				minlength="20.0f"
+				lengthrandom="20.0f"
+				texture_length="6.0f" 
+				texture_v_break="0.001f"
+				startfinishdef="1"
+				/>
+								
+		<Def 	name="chainfence" 					
+				texture="chainfence" 
+				height="2.5f" 
+				lean="0.5"
+				width="0.0f" 
+				texture_length="4.0" 
+				alpharef="120"
+				texture_v_break="0.13f"
+				/>
+				
+		<!-- Combined defs /-->
+	
+		<Def 	name="armco_with_chainfence" 
+				def="armco"
+				def="chainfence"	
+				/>	
+				
+		<Def 	name="sponsor_board_with_chainfence" 
+				def="sponsor_board"
+				def="chainfence"	
+				/>	
+				
+		<Def 	name="plain_wall_with_chainfence"
+				def="plain_wall"
+				def="chainfence"
+				/>
+</FenceDefs>
+
+<FenceBorder>
+		<Def 	name="circuit1" 
+				def="sponsor_board_with_chainfence" 
+				def="sponsor_board_with_chainfence" 
+				def="sponsor_board" 
+				def="sponsor_board" 
+				def="armco" 
+				def="armco" 
+				def="armco_with_chainfence"
+				def="plain_wall" 
+				def="plain_wall" 
+				def="plain_wall_with_chainfence" 
+				/>	
+</FenceBorder>
+
+
+
+
+<!-- ---------------------------------------------------- /-->
+<!-- ---------------------------------------------------- /-->
+<!-- ---------------------------------------------------- /-->
+<!-- ---------------------------------------------------- /-->
+<RumbleStrips>
+
+		<Def name="bridge_rumble" chance="0.0f" >
+				<Surface 	idlesound="generic.binary.roadnoise_rumble.wav"
+							vibration="bridge_rumble" />
+		</Def>	
+		
+		<Def name="default_rumble_strip" width="0.8" texscale="0.4" taperlength="3.0" tapermin="0.2" chance="0.5f" texture="genericfx.genericfx.texture.red_white" >
+				<Surface 	idlesound="generic.binary.roadnoise_rumble.wav"
+							vibration="rumble_strip" />
+		</Def>	
+		
+</RumbleStrips>
+
+
+
+
+<!-- ---------------------------------------------------- /-->
+<!-- ---------------------------------------------------- /-->
+<!-- ---------------------------------------------------- /-->
+<!-- ---------------------------------------------------- /-->
+<CornerRunoffs>
+		<Def name="gravel" texture="circuit_gravel_1">
+			<Surface 		skid_def="gravel"
+							skid_colour="118 84 14 95"
+							skid_colour_lerp="1.0"
+							
+							surface_def="dirt"
+							friction="1.0f" 
+							vibration="deep_gravel"
+							vehicle_dirt_mul="0.7"
+							/>	
+		</Def>	
+				
+		<Def name="snow" texture="sw_snow">
+			<Surface 		skid_def="snow"
+							skid_colour="240 242 247 170"
+							skid_colour_lerp="1.0"
+
+							surface_def="snow"
+							friction="1.0f" 
+							vibration="deep_snow"
+							vehicle_dirt_mul="0.7"
+							/>							
+		</Def>			
+</CornerRunoffs>
+
+
+
+
+<!-- ---------------------------------------------------- /-->
+<!-- ---------------------------------------------------- /-->
+<!-- ---------------------------------------------------- /-->
+<!-- ---------------------------------------------------- /-->
+<Roads>
+
+
+	<!-- ---------------------------------------------------- /-->
+	<!-- Finland ones										  /-->
+	<!-- ---------------------------------------------------- /-->
+	
+	
+	<RoadDef>
+		<Texture 		name="fi_gravel" detail="gravel_detail_2"/>
+		<BorderWidth 	value="1.0f"/>
+		<StretchUV 		value="1"/>
+		<DecalSet 		value="none"/>
+		<Bump			cross_section_mul="1.0"
+						length_bump="0.2f" 
+						jaggy_edge_main="0.0"
+						jaggy_edge_side="0.15"
+						track_bump_scale="1.0"
+						/>					
+		<Surface 		skid_def="dirt"
+						skid_colour="90 70 55 120"
+						skid_colour_lerp="1.0"
+						
+						surface_def="gravel"
+						friction="0.94f"
+						/>						
+		
+	</RoadDef>
+	
+	<RoadDef>
+		<Texture 		name="fi_gravel_2" detail="gravel_detail_2"/>
+		<BorderWidth 	value="1.0f"/>
+		<StretchUV 		value="1"/>
+		<DecalSet 		value="none"/>
+		<Bump			cross_section_mul="1.0"
+						length_bump="0.2f" 
+						jaggy_edge_main="0.0"
+						jaggy_edge_side="0.15"
+						track_bump_scale="0.7"
+						/>					
+		<Surface 		skid_def="dark_dirt"
+						skid_colour="40 38 30 140"
+						skid_colour_lerp="0.9"
+						 
+						surface_def="gravel_dark"
+						friction="0.96f"
+						/>						
+		
+	</RoadDef>	
+	
+	<RoadDef>
+		<Texture 		name="fi_gravel_3" detail="tarmac_detail_1"/>
+		<BorderWidth 	value="1.0f"/>
+		<StretchUV 		value="1"/>
+		<DecalSet 		value="none"/>
+		<Bump			cross_section_mul="1.0"
+						length_bump="0.2f" 
+						jaggy_edge_main="0.0"
+						jaggy_edge_side="0.15"
+						track_bump_scale="0.9"
+						/>					
+		<Surface 		skid_def="sand"
+						skid_colour="56 48 33 125"
+						skid_colour_lerp="0.8"
+						
+						surface_def="gravel"
+						friction="0.96f"
+						/>						
+		
+	</RoadDef>
+	
+	<RoadDef>
+		<Texture 		name="fi_tarmac" detail="tarmac_detail_1" />
+		<BorderWidth 	value="1.0f"/>
+		<StretchUV 		value="1"/>
+		<DecalSet 		value="none"/>
+		<Bump			cross_section_mul="0.25"
+						length_bump="0.1f" 
+						jaggy_edge_main="0.0"
+						jaggy_edge_side="0.1"
+						track_bump_scale="0.25"/>
+		<Surface		skid_def="tarmac"
+						skid_colour="20 25 30 215"
+						skid_colour_lerp="1.0"
+		
+						surface_def="tarmac"
+						friction="1.0f"
+						/>
+		
+	</RoadDef>
+	
+	
+	
+	<!-- ---------------------------------------------------- /-->
+	<!-- Sweden												  /-->
+	<!-- ---------------------------------------------------- /-->
+
+	<RoadDef>
+		<Texture 		name="sw_snow_track_full" detail="dirt_detail_1" />
+		<BorderWidth 	value="1.0f"/>
+		<StretchUV 		value="0"/>
+		<DecalSet 		value="none"/>
+		<Bump			cross_section_mul="1.0f"
+						length_bump="0.0f" 
+						jaggy_edge_main="0.0"
+						jaggy_edge_side="0.1"
+						track_bump_scale="0.5"/>
+		<Surface 		skid_def="gravel"
+						skid_colour="80 72 70 150"
+						skid_colour_lerp="1.0"
+						
+						surface_def="gravel_dark"
+						friction="0.95f"
+						
+						vehicle_dirt_mul="0.2"
+						vehicle_dirt_col="1.0 1.0 1.0 0.6"
+						visual_bumpiness="0.75" 
+						/>
+		
+	</RoadDef>
+	
+	<RoadDef>
+		<Texture 		name="sw_snow_full" detail="snow_detail_1" />
+		<BorderWidth 	value="1.5f"/>
+		<DecalSet 		value="none"/>
+		<Bump			cross_section_mul="1.0"
+						cross_section_index="1"
+						length_bump="0.0f" 
+						jaggy_edge_main="0.0"
+						jaggy_edge_side="0.0"
+						track_bump_scale="0.75"/>
+		<Surface 		skid_def="snow"
+						skid_colour="227 231 240 175"
+						skid_colour_lerp="1.0"
+		
+						surface_def="snow"
+						friction="0.8f"
+						/>
+		
+	</RoadDef>
+		
+	<RoadDef>
+		<Texture 		name="sw_snow_track" detail="snow_detail_1" />
+		<BorderWidth 	value="1.0f"/>
+		<DecalSet 		value="none"/>
+		<StretchUV 		value="0"/>
+		<Bump			cross_section_mul="0.25"
+						cross_section_index="1"
+						length_bump="0.0f" 
+						jaggy_edge_main="0.0"
+						jaggy_edge_side="0.0"
+						track_bump_scale="0.4"/>
+		<Surface 		skid_def="snow"
+						skid_colour="236 238 242 155"
+						skid_colour_lerp="1.0"
+		
+						surface_def="snow"
+						friction="0.85f"
+						vehicle_dirt_mul="0.25" 
+						/>
+		
+	</RoadDef>
+			
+	
+	<RoadDef>
+		<Texture 		name="sw_snow_ice" detail="snow_detail_1" />
+		<BorderWidth 	value="1.0f"/>
+		<DecalSet 		value="none"/>
+		<StretchUV 		value="0"/>
+		<Bump			cross_section_mul="0.0"
+						cross_section_index="0"
+						length_bump="0.0f" 
+						jaggy_edge_main="0.0"
+						jaggy_edge_side="0.0"
+						track_bump_scale="0.5"/>
+		<Surface 		skid_def="snow"
+						skid_colour="231 235 237 170"
+						skid_colour_lerp="1.0"
+		
+						surface_def="snow"
+						friction="0.75f"
+						vehicle_dirt_mul="0.1"					
+						visual_bumpiness="0.65"
+						vibration="road_ice"
+						/>
+		
+	</RoadDef>
+	
+	
+	<!-- ---------------------------------------------------- /-->
+	<!-- Mexico												  /-->
+	<!-- ---------------------------------------------------- /-->
+			
+	
+	<RoadDef>
+		<Texture 		name="me_dirt_1" detail="gravel_detail_1" />
+		<BorderWidth 	value="1.5f"/>
+		<StretchUV 		value="1"/>
+		<DecalSet 		value="none"/>
+		<Bump			cross_section_mul="0.8"
+						length_bump="0.05f" 
+						jaggy_edge_main="0.05"
+						jaggy_edge_side="0.25"
+						track_bump_scale="0.75"/>					
+		<Surface 		skid_def="dirt"
+						skid_colour="90 75 60 155"
+						skid_colour_lerp="1.0"
+												
+						surface_def="gravel_dark"
+						friction="0.92f"
+						visual_bumpiness="0.9"
+						/>					
+		
+	</RoadDef>	
+
+		
+	<RoadDef>
+		<Texture 		name="me_dirt_2" detail="dirt_detail_2"/>
+		<BorderWidth 	value="1.0f"/>
+		<StretchUV 		value="1"/>
+		<DecalSet 		value="none"/>
+		<Bump			cross_section_mul="1.0"
+						length_bump="0.05f" 
+						jaggy_edge_main="0.1"
+						jaggy_edge_side="0.25"
+						track_bump_scale="1.0"/>					
+		<Surface 		skid_def="sand"
+						skid_colour="56 48 33 125"
+						skid_colour_lerp="0.8"
+						 	
+						surface_def="gravel"
+						friction="0.93f"
+						visual_bumpiness="1.0"
+						vehicle_dirt_col="0.6 0.5 0.3 1.0"
+						/>						
+		
+	</RoadDef>	
+	
+	
+	<RoadDef>
+		<Texture 		name="me_dirt_3" detail="gravel_detail_1"/>
+		<BorderWidth 	value="1.0f"/>
+		<StretchUV 		value="1"/>
+		<DecalSet 		value="none"/>
+		<Bump			cross_section_mul="1.0"
+						length_bump="0.05f" 
+						jaggy_edge_main="0.0"
+						jaggy_edge_side="0.1"
+						track_bump_scale="1.0"/>					
+		<Surface 		skid_def="sand"
+						skid_colour="50 44 29 125"
+						skid_colour_lerp="1.0"
+						
+						surface_def="dirt_dark"
+						friction="0.95f"
+						vehicle_dirt_col="0.4 0.3 0.15 1.0"
+						/>							
+		
+	</RoadDef>	
+
+		
+	<RoadDef>
+		<Texture 		name="me_dirt_4" detail="dirt_detail_1"/>
+		<BorderWidth 	value="1.0f"/>
+		<StretchUV 		value="1"/>
+		<DecalSet 		value="none"/>
+		<Bump			cross_section_mul="1.0"
+						length_bump="0.05f" 
+						jaggy_edge_main="0.0"
+						jaggy_edge_side="0.1"
+						track_bump_scale="0.75"/>					
+		<Surface 		skid_def="dirt"
+						skid_colour="85 75 56 145"
+						skid_colour_lerp="1.0"
+						
+						surface_def="dirt_dark"
+						friction="0.95f"
+						vehicle_dirt_col="0.55 0.45 0.35 1.0"
+						/>							
+		
+	</RoadDef>		
+	
+	
+	
+
+	<!-- ---------------------------------------------------- /-->
+	<!-- ---------------------------------------------------- /-->
+	<!-- ---------------------------------------------------- /-->
+	<!-- ---------------------------------------------------- /-->
+
+		
+	<RoadDef>
+		<Texture 		name="ge_tarmac_1" detail="tarmac_detail_1"/>
+		<BorderWidth 	value="1.0f"/>
+		<StretchUV 		value="1"/>
+		<DecalSet 		value="none"/>
+		<Bump			cross_section_mul="0.2"
+						length_bump="0.0f" 
+						jaggy_edge_main="0.0"
+						jaggy_edge_side="0.1"
+						track_bump_scale="0.2"/>
+		<Surface		skid_def="tarmac"
+						skid_colour="30 26 20 157"
+						skid_colour_lerp="1.0"
+		
+						surface_def="tarmac"
+						friction="0.98f"
+						/>
+		
+	</RoadDef>	
+		
+	<RoadDef>
+		<Texture 		name="ge_tarmac_2" detail="tarmac_detail_1"/>
+		<BorderWidth 	value="1.0f"/>
+		<StretchUV 		value="1"/>
+		<DecalSet 		value="none"/>
+		<Bump			cross_section_mul="0.3"
+						length_bump="0.0f" 
+						jaggy_edge_main="0.0"
+						jaggy_edge_side="0.1"
+						track_bump_scale="0.25"/>
+		<Surface		skid_def="tarmac"
+						skid_colour="20 25 30 228"
+						skid_colour_lerp="1.0"
+		 
+						surface_def="tarmac"
+						friction="1.0f"
+						/>
+		
+	</RoadDef>	
+	
+	
+	<RoadDef>
+		<Texture 		name="ge_gravel_1" detail="gravel_detail_1" />
+		<BorderWidth 	value="1.0f"/>
+		<StretchUV 		value="0"/>
+		<DecalSet 		value="none"/>
+		<Bump			cross_section_mul="0.35"
+						length_bump="0.2f" 
+						jaggy_edge_main="0.0"
+						jaggy_edge_side="0.15"
+						track_bump_scale="1.0"/>	
+		<Surface 		skid_def="dirt"
+						skid_colour="111 85 48 109"
+						skid_colour_lerp="1.0"
+						
+						surface_def="gravel_dark"						
+						friction="0.95f"
+						visual_bumpiness="0.8"
+						/>
+		
+	</RoadDef>	
+		
+	<RoadDef>
+		<Texture 		name="ge_gravel_2" detail="dirt_detail_2"/>
+		<BorderWidth 	value="1.0f"/>
+		<StretchUV 		value="0"/>
+		<DecalSet 		value="none"/>
+		<Bump			cross_section_mul="0.4"
+						length_bump="0.2f" 
+						jaggy_edge_main="0.0"
+						jaggy_edge_side="0.15"
+						track_bump_scale="1.0"/>	
+		<Surface 		skid_def="dirt"
+						skid_colour="122 84 58 124"
+						skid_colour_lerp="1.0"
+						 
+						surface_def="gravel"	
+						friction="0.95f"
+						visual_bumpiness="0.8"
+						/>
+		
+	</RoadDef>	
+	
+
+
+	<!-- ---------------------------------------------------- /-->
+	<!-- UK ones										  /-->
+	<!-- ---------------------------------------------------- /-->
+	
+	
+	<RoadDef>
+		<Texture 		name="uk_tarmac_1" detail="tarmac_detail_1"/>
+		<BorderWidth 	value="1.0f"/>
+		<StretchUV 		value="1"/>
+		<DecalSet 		value="none"/>
+		<RumbleOffset	value="0.0"/>
+		<Bump			cross_section_mul="0.1"
+						length_bump="0.0f" 
+						jaggy_edge_main="0.0"
+						jaggy_edge_side="0.2"
+						track_bump_scale="0.2"/>
+
+		<Surface		skid_def="tarmac"
+						skid_colour="31 30 27 210"
+						skid_colour_lerp="1.0"	
+
+						surface_def="tarmac"
+						friction="1.0f"
+						/>
+		
+	</RoadDef>	
+	
+	
+	<RoadDef>
+		<Texture 		name="uk_tarmac_2" detail="tarmac_detail_1"/>
+		<BorderWidth 	value="1.0f"/>
+		<StretchUV 		value="1"/>
+		<DecalSet 		value="none"/>
+		<RumbleOffset	value="0.0"/>
+		<Bump			cross_section_mul="0.1"
+						length_bump="0.0f" 
+						jaggy_edge_main="0.0"
+						jaggy_edge_side="0.2"
+						track_bump_scale="0.5"/>
+		<Surface		skid_def="tarmac"
+						skid_colour="23 24 26 210"
+						skid_colour_lerp="1.0"
+						
+						surface_def="tarmac"
+						friction="0.95f"
+						/>
+		
+	</RoadDef>
+
+	<RoadDef>
+		<Texture 		name="uk_tarmac_3" detail="tarmac_detail_1"/>
+		<BorderWidth 	value="1.0f"/>
+		<StretchUV 		value="1"/>
+		<DecalSet 		value="none"/>
+		<RumbleOffset	value="0.0"/>
+		<Bump			cross_section_mul="0.1"
+						length_bump="0.0f" 
+						jaggy_edge_main="0.0"
+						jaggy_edge_side="0.2"
+						track_bump_scale="0.2"/>
+
+		<Surface		skid_def="tarmac"
+						skid_colour="23 24 26 210"
+						skid_colour_lerp="1.0"
+						
+						surface_def="tarmac"
+						friction="1.0f"
+						/>
+		
+	</RoadDef>	
+	
+		
+
+	<RoadDef>
+		<Texture 		name="uk_dirt_1" detail="gravel_detail_1" />
+		<BorderWidth 	value="1.5f"/>
+		<StretchUV 		value="1"/>
+		<DecalSet 		value="none"/>
+		<Bump			cross_section_mul="0.8"
+						length_bump="0.05f" 
+						jaggy_edge_main="0.05"
+						jaggy_edge_side="0.25"
+						track_bump_scale="1.0"/>					
+		<Surface 		skid_def="dirt"
+						skid_colour="89 67 45 210"
+						skid_colour_lerp="1.0"
+						
+						surface_def="gravel_dark"
+						friction="0.92f"
+						visual_bumpiness="0.9"
+						/>					
+		
+	</RoadDef>	
+		
+	<RoadDef>
+		<Texture 		name="uk_dirt_2" detail="gravel_detail_1" />
+		<BorderWidth 	value="1.5f"/>
+		<StretchUV 		value="1"/>
+		<DecalSet 		value="none"/>
+		<Bump			cross_section_mul="1.0"
+						length_bump="0.04f" 
+						jaggy_edge_main="0.075"
+						jaggy_edge_side="0.35"
+						track_bump_scale="1.0"/>					
+		<Surface 		skid_def="dirt"
+						skid_colour="126 108 80 135"
+						skid_colour_lerp="1.0"
+		 
+						surface_def="gravel_dark"
+						friction="0.92f"
+						visual_bumpiness="0.9"
+						/>					
+		
+	</RoadDef>	
+		
+
+		
+
+	<!-- ---------------------------------------------------- /-->
+	<!-- Pikes peak											  /-->
+	<!-- ---------------------------------------------------- /-->
+	
+	
+	<RoadDef>
+		<Texture 		name="pikes_tarmac_1" detail="tarmac_detail_1"/>
+		<BorderWidth 	value="1.0f"/>
+		<StretchUV 		value="1"/>
+		<DecalSet 		value="none"/>
+		<RumbleOffset	value="0.0"/>
+		<Bump			cross_section_mul="0.1"
+						length_bump="0.0f" 
+						jaggy_edge_main="0.0"
+						jaggy_edge_side="0.2"
+						track_bump_scale="0.2"/>
+		<Surface		skid_def="tarmac"
+						skid_colour="15 15 15 250"
+						skid_colour_lerp="1.0"
+						
+						surface_def="tarmac"
+						friction="1.0f"
+						/>
+		
+	</RoadDef>
+	
+	
+	
+	<RoadDef>
+		<Texture 		name="pikes_tarmac_2" detail="tarmac_detail_1"/>
+		<BorderWidth 	value="1.0f"/>
+		<StretchUV 		value="1"/>
+		<DecalSet 		value="none"/>
+		<RumbleOffset	value="0.0"/>
+		<Bump			cross_section_mul="0.1"
+						length_bump="0.0f" 
+						jaggy_edge_main="0.0"
+						jaggy_edge_side="0.2"
+						track_bump_scale="0.2"/>
+
+		<Surface		skid_def="tarmac"
+						skid_colour="15 15 15 250"
+						skid_colour_lerp="1.0"
+						
+						surface_def="tarmac"
+						friction="0.95f"
+						/>
+		
+	</RoadDef>
+	
+	
+	<!-- ---------------------------------------------------- /-->
+	<!-- Canada ones										  /-->
+	<!-- ---------------------------------------------------- /-->
+	
+	
+	<RoadDef>
+		<Texture 		name="ca_tarmac_1" detail="tarmac_detail_1"/>
+		<BorderWidth 	value="1.0f"/>
+		<StretchUV 		value="1"/>
+		<DecalSet 		value="none"/>
+		<RumbleOffset	value="0.0"/>
+		<Bump			cross_section_mul="0.1"
+						length_bump="0.0f" 
+						jaggy_edge_main="0.0"
+						jaggy_edge_side="0.2"
+						track_bump_scale="0.2"/>
+
+		<Surface		skid_def="tarmac"
+						skid_colour="0 0 0 255"
+						skid_colour_lerp="1.0"
+								
+						surface_def="tarmac"
+						friction="0.95f"
+						/>
+		
+	</RoadDef>	
+	
+	
+	<RoadDef>
+		<Texture 		name="ca_tarmac_2" detail="tarmac_detail_1"/>
+		<BorderWidth 	value="1.0f"/>
+		<StretchUV 		value="1"/>
+		<DecalSet 		value="none"/>
+		<RumbleOffset	value="0.0"/>
+		<Bump			cross_section_mul="0.1"
+						length_bump="0.0f" 
+						jaggy_edge_main="0.0"
+						jaggy_edge_side="0.2"
+						track_bump_scale="0.2"/>
+		<Surface		skid_def="tarmac"
+						skid_colour="0 0 0 255"
+						skid_colour_lerp="1.0"
+						
+						surface_def="tarmac"
+						friction="0.95f"
+						/>
+		
+	</RoadDef>	
+		
+	
+	<RoadDef>
+		<Texture 		name="ca_tarmac_2_snow" detail="tarmac_detail_1"/>
+		<BorderWidth 	value="1.0f"/>
+		<StretchUV 		value="1"/>
+		<DecalSet 		value="none"/>
+		<RumbleOffset	value="0.0"/>
+		<Bump			cross_section_mul="0.1"
+						length_bump="0.0f" 
+						jaggy_edge_main="0.0"
+						jaggy_edge_side="0.2"
+						track_bump_scale="0.2"/>
+		<Surface		skid_def="tarmac"
+						skid_colour="25 25 25 220"
+						skid_colour_lerp="1.0"
+						
+						surface_def="tarmac"
+						friction="0.92f"
+						/>
+		
+	</RoadDef>	
+	
+	<RoadDef>
+		<Texture 		name="ca_tarmac_snow" detail="tarmac_detail_1"/>
+		<BorderWidth 	value="1.0f"/>
+		<StretchUV 		value="1"/>
+		<DecalSet 		value="none"/>
+		<RumbleOffset	value="0.0"/>
+		<Bump			cross_section_mul="0.1"
+						length_bump="0.0f" 
+						jaggy_edge_main="0.0"
+						jaggy_edge_side="0.2"
+						track_bump_scale="0.2"/>
+
+		<Surface		skid_def="tarmac"
+						skid_colour="25 25 25 220"
+						skid_colour_lerp="1.0"
+						
+						surface_def="tarmac"
+						friction="0.89f"
+						/>
+		
+	</RoadDef>
+	
+	
+	<!-- ---------------------------------------------------- /-->
+	<!-- Greece												  /-->
+	<!-- ---------------------------------------------------- /-->
+			
+	
+	<RoadDef>
+		<Texture 		name="gr_gravel_1" detail="gravel_detail_3" />
+		<BorderWidth 	value="0.8f"/>
+		<StretchUV 		value="1"/>
+		<DecalSet 		value="none"/>
+		<Bump			cross_section_mul="0.5"
+						length_bump="0.05f" 
+						jaggy_edge_main="0.05"
+						jaggy_edge_side="0.1"
+						track_bump_scale="0.75"/>					
+		<Surface 		skid_def="gravel"
+						skid_colour="111 92 73 170"
+						skid_colour_lerp="1.0"
+		
+						surface_def="dirt_dark"
+						friction="0.92f"
+						vehicle_dirt_col="0.65 0.55 0.4 0.8"
+						visual_bumpiness="0.9"
+						/>					
+		
+	</RoadDef>	
+
+		
+	<RoadDef>
+		<Texture 		name="gr_gravel_2" detail="gravel_detail_3"/>
+		<BorderWidth 	value="0.8f"/>
+		<StretchUV 		value="1"/>
+		<DecalSet 		value="none"/>
+		<Bump			cross_section_mul="0.5"
+						length_bump="0.05f" 
+						jaggy_edge_main="0.05"
+						jaggy_edge_side="0.1"
+						track_bump_scale="1.0"/>					
+		<Surface 		skid_def="gravel"
+						skid_colour="111 92 73 170"
+						skid_colour_lerp="1.0"
+		
+						surface_def="dirt_dark"
+						friction="0.92f"
+						vehicle_dirt_col="0.65 0.55 0.4 0.8"
+						visual_bumpiness="0.9"
+						/>				
+		
+	</RoadDef>	
+	
+	
+	<RoadDef>
+		<Texture 		name="gr_rock_1" detail="dirt_detail_1"/>
+		<BorderWidth 	value="0.5f"/>
+		<StretchUV 		value="1"/>
+		<DecalSet 		value="none"/>
+		<Bump			cross_section_mul="0.5"
+						length_bump="0.05f" 
+						jaggy_edge_main="0.05"
+						jaggy_edge_side="0.1"
+						track_bump_scale="1.0"/>					
+		<Surface 		skid_def="gravel"
+						skid_colour="91 77 58 150"
+						skid_colour_lerp="1.0"
+		 
+						surface_def="dirt_dark"
+						friction="0.92f"
+						vehicle_dirt_col="0.37 0.31 0.27 0.8"
+						visual_bumpiness="0.9"
+						/>							
+		
+	</RoadDef>	
+
+		
+	<RoadDef>
+		<Texture 		name="gr_rock_2" detail="rock_detail_1"/>
+		<BorderWidth 	value="0.8f"/>
+		<StretchUV 		value="1"/>
+		<DecalSet 		value="none"/>
+		<Bump			cross_section_mul="0.5"
+						length_bump="0.05f" 
+						jaggy_edge_main="0.05"
+						jaggy_edge_side="0.1"
+						track_bump_scale="0.75"/>					
+		<Surface 		skid_def="gravel"
+						skid_colour="85 77 64 160"
+						skid_colour_lerp="1.0"
+				
+						surface_def="dirt_dark"
+						friction="0.95f"
+						vehicle_dirt_col="0.37 0.31 0.27 0.8"
+						visual_bumpiness="1.0"
+						/>						
+		
+	</RoadDef>		
+		
+		
+	<!-- ---------------------------------------------------- /-->
+	<!-- Australia												  /-->
+	<!-- ---------------------------------------------------- /-->
+
+		
+	<RoadDef>
+		<Texture 		name="au_mud_rd_1" detail="rock_detail_1"/>
+		<BorderWidth 	value="0.8f"/>
+		<StretchUV 		value="1"/>
+		<DecalSet 		value="none"/>
+		<Bump			cross_section_mul="0.5"
+						length_bump="0.05f" 
+						jaggy_edge_main="0.05"
+						jaggy_edge_side="0.1"
+						track_bump_scale="0.75"/>					
+		<Surface 		skid_def="dirt"
+						skid_colour="219 124 52 70"
+						skid_colour_lerp="1.0"
+						
+						surface_def="mud_brown"
+						friction="0.93f"
+						/>						
+	</RoadDef>
+	
+	<RoadDef>
+		<Texture 		name="au_mud_rd_2" detail="gravel_detail_3"/>
+		<BorderWidth 	value="0.8f"/>
+		<StretchUV 		value="1"/>
+		<DecalSet 		value="none"/>
+		<Bump			cross_section_mul="0.5"
+						length_bump="0.05f" 
+						jaggy_edge_main="0.05"
+						jaggy_edge_side="0.1"
+						track_bump_scale="0.75"/>					
+		<Surface 		skid_def="dirt"
+						skid_colour="219 124 52 80"
+						skid_colour_lerp="1.0"
+						
+						surface_def="mud_brown"
+						friction="0.94f"
+						/>						
+	</RoadDef>	
+	
+	<RoadDef>
+		<Texture 		name="au_mud_rd_3" detail="dirt_detail_1"/>
+		<BorderWidth 	value="0.8f"/>
+		<StretchUV 		value="1"/>
+		<DecalSet 		value="none"/>
+		<Bump			cross_section_mul="0.5"
+						length_bump="0.05f" 
+						jaggy_edge_main="0.05"
+						jaggy_edge_side="0.1"
+						track_bump_scale="0.75"/>					
+		<Surface 		skid_def="dirt"
+						skid_colour="219 124 52 95"
+						skid_colour_lerp="1.0"
+						
+						surface_def="mud_brown"
+						friction="0.94f" />						
+	</RoadDef>	
+	
+	<RoadDef>
+		<Texture 		name="au_tarmac_1" detail="rock_detail_1" />
+		<BorderWidth 	value="1.0f"/>
+		<StretchUV 		value="1"/>
+		<DecalSet 		value="none"/>
+		<Bump			cross_section_mul="0.25"
+						length_bump="0.1f" 
+						jaggy_edge_main="0.0"
+						jaggy_edge_side="0.1"
+						track_bump_scale="0.25"/>
+		<Surface		skid_def="tarmac"
+						skid_colour="28 28 28 160"
+						skid_colour_lerp="1.0"
+						
+						surface_def="tarmac"
+						friction="0.98f"
+						/>
+		
+	</RoadDef>		
+		
+
+	<!-- ---------------------------------------------------- /-->
+	<!-- Argentina												  /-->
+	<!-- ---------------------------------------------------- /-->
+
+		
+	<RoadDef>
+		<Texture 		name="ar_dirt_1" detail="rock_detail_1"/>
+		<BorderWidth 	value="0.8f"/>
+		<StretchUV 		value="1"/>
+		<DecalSet 		value="none"/>
+		<Bump			cross_section_mul="0.5"
+						length_bump="0.05f" 
+						jaggy_edge_main="0.05"
+						jaggy_edge_side="0.1"
+						track_bump_scale="0.75"/>					
+		<Surface 		skid_def="dirt"
+						skid_colour="140 115 95 102"
+						skid_colour_lerp="1.0"
+		
+						surface_def="dirt_dark"
+						friction="0.93f"
+						codriver="Mud"
+						/>						
+	</RoadDef>
+	
+	<RoadDef>
+		<Texture 		name="ar_dirt_2" detail="gravel_detail_3"/>
+		<BorderWidth 	value="0.8f"/>
+		<StretchUV 		value="1"/>
+		<DecalSet 		value="none"/>
+		<Bump			cross_section_mul="0.6"
+						length_bump="0.05f" 
+						jaggy_edge_main="0.05"
+						jaggy_edge_side="0.1"
+						track_bump_scale="0.75"/>					
+		<Surface 		skid_def="dirt"
+						skid_colour="131 98 65 120"
+						skid_colour_lerp="1.0"
+		 
+						surface_def="dirt_dark"
+						friction="0.94f"
+						codriver="Mud"
+						/>						
+	</RoadDef>
+	
+	<RoadDef>
+		<Texture 		name="ar_gravel_1" detail="rock_detail_1" />
+		<BorderWidth 	value="0.8f"/>
+		<StretchUV 		value="1"/>
+		<DecalSet 		value="none"/>
+		<Bump			cross_section_mul="0.5"
+						length_bump="0.075f" 
+						jaggy_edge_main="0.05"
+						jaggy_edge_side="0.1"
+						track_bump_scale="0.75"/>					
+		<Surface 		skid_def="gravel"
+						skid_colour="164 140 119 115"
+						skid_colour_lerp="1.0"
+						
+						surface_def="dirt_dark"
+						friction="0.92f"
+						/>					
+		
+	</RoadDef>		
+	
+	
+	<RoadDef>
+		<Texture 		name="ar_gravel_2" detail="gravel_detail_3" />
+		<BorderWidth 	value="0.8f"/>
+		<StretchUV 		value="1"/>
+		<DecalSet 		value="none"/>
+		<Bump			cross_section_mul="0.6"
+						length_bump="0.075f" 
+						jaggy_edge_main="0.05"
+						jaggy_edge_side="0.1"
+						track_bump_scale="0.75"/>					
+		<Surface 		skid_def="gravel"
+						skid_colour="155 130 105 145"
+						skid_colour_lerp="1.0"
+						 
+						surface_def="dirt_dark"
+						friction="0.91f"
+						/>					
+		
+	</RoadDef>
+	
+
+		
+	<!-- ---------------------------------------------------- /-->
+	<!-- Kenya												  /-->
+	<!-- ---------------------------------------------------- /-->
+
+		
+	<RoadDef>
+		<Texture 		name="ken_dirt_1" detail="rock_detail_1"/>
+		<BorderWidth 	value="0.8f"/>
+		<StretchUV 		value="0"/>
+		<DecalSet 		value="none"/>
+		<Bump			cross_section_mul="0.4"
+						cross_section_index="3"
+						length_bump="0.05f" 
+						jaggy_edge_main="0.05"
+						jaggy_edge_side="0.1"
+						track_bump_scale="0.75"/>						
+		<Surface 		skid_def="dirt"
+						skid_colour="200 170 115 95"
+						skid_colour_lerp="1.0"
+		
+						surface_def="mud_brown"
+						friction="0.92f"
+						codriver="Dirt"
+						/>							
+	</RoadDef>
+	
+	<RoadDef>
+		<Texture 		name="ken_dirt_2" detail="gravel_detail_3"/>
+		<BorderWidth 	value="0.8f"/>
+		<StretchUV 		value="0"/>
+		<DecalSet 		value="none"/>
+		<Bump			cross_section_mul="0.4"
+						cross_section_index="3"
+						length_bump="0.05f" 
+						jaggy_edge_main="0.05"
+						jaggy_edge_side="0.1"
+						track_bump_scale="0.75"/>					
+		<Surface 		skid_def="dirt"
+						skid_colour="219 124 52 60"
+						skid_colour_lerp="1.0"
+		
+						surface_def="mud_red"
+						friction="0.92f"
+						codriver="Dirt"
+						/>							
+	</RoadDef>	
+	
+	<RoadDef>
+		<Texture 		name="ken_mud_1" detail="gravel_detail_3"/>
+		<BorderWidth 	value="0.8f"/>
+		<StretchUV 		value="0"/>
+		<DecalSet 		value="none"/>
+		<Bump			cross_section_mul="0.4"
+						length_bump="0.8f" 
+						jaggy_edge_main="0.05"
+						jaggy_edge_side="0.1"
+						track_bump_scale="0.75"/>					
+		<Surface 		skid_def="dirt"
+						skid_colour="203 116 52 70"
+						skid_colour_lerp="1.0"
+		  
+						surface_def="mud_red"
+						friction="0.94f"
+						/>						
+	</RoadDef>	
+	
+	<RoadDef>
+		<Texture 		name="ken_mud_2" detail="rock_detail_1" />
+		<BorderWidth 	value="1.0f"/>
+		<StretchUV 		value="0"/>
+		<DecalSet 		value="none"/>
+		<Bump			cross_section_mul="0.4"
+						length_bump="0.8f" 
+						jaggy_edge_main="0.0"
+						jaggy_edge_side="0.1"
+						track_bump_scale="0.25"/>			
+		<Surface 		skid_def="dirt"
+						skid_colour="191 115 64 80"
+						skid_colour_lerp="1.0"
+		
+						surface_def="mud_red"
+						friction="0.94f"
+						/>
+		
+	</RoadDef>		
+				
+		
+	<!-- ---------------------------------------------------- /-->
+	<!-- Japan												  /-->
+	<!-- ---------------------------------------------------- /-->
+		
+	<RoadDef>
+		<Texture 		name="jp_tarmac_1" detail="tarmac_detail_1"/>
+		<BorderWidth 	value="1.0f"/>
+		<StretchUV 		value="1"/>
+		<DecalSet 		value="none"/>
+		<RumbleOffset	value="0.0"/>
+		<Bump			cross_section_mul="0.8"
+						cross_section_index="2"
+						length_bump="0.8" 
+						jaggy_edge_main="0.0"
+						jaggy_edge_side="0.2"
+						track_bump_scale="0.5"/>
+		<Surface		skid_def="tarmac"
+						skid_colour="20 21 28 210"
+						skid_colour_lerp="1.0"
+		
+						surface_def="tarmac"
+						friction="0.95f"
+						/>
+		
+	</RoadDef>
+					
+			
+	<RoadDef>
+		<Texture 		name="jp_tarmac_2" detail="gravel_detail_2"/>
+		<BorderWidth 	value="1.0f"/>
+		<StretchUV 		value="1"/>
+		<DecalSet 		value="none"/>
+		<RumbleOffset	value="0.0"/>
+		<Bump			cross_section_mul="0.8"
+						cross_section_index="2"
+						length_bump="0.25" 
+						jaggy_edge_main="0.0"
+						jaggy_edge_side="0.2"
+						track_bump_scale="0.5"/>
+		<Surface		skid_def="tarmac"
+						skid_colour="20 21 28 210"
+						skid_colour_lerp="1.0"
+		
+						surface_def="tarmac"
+						friction="0.95f"
+						/>
+		
+	</RoadDef>
+
+				
+	<RoadDef>
+		<Texture 		name="jp_gravel_1" detail="gravel_detail_2"/>
+		<BorderWidth 	value="0.8f"/>
+		<StretchUV 		value="1"/>
+		<DecalSet 		value="none"/>
+		<Bump			cross_section_mul="0.5"
+						cross_section_index="3"
+						cross_section_random_height="0.03"
+						length_bump="0.75" 
+						jaggy_edge_main="0.05"
+						jaggy_edge_side="0.1"
+						track_bump_scale="1.0"/>						
+		<Surface 		skid_def="gravel"
+						skid_colour="48 46 39 160"
+						skid_colour_lerp="1.0"
+		
+		
+						surface_def="dirt_dark"
+						friction="0.92f"
+						vehicle_dirt_col="0.37 0.33 0.27 0.8"
+						/>							
+	</RoadDef>
+			
+	<RoadDef>
+		<Texture 		name="jp_gravel_2" detail="gravel_detail_2"/>
+		<BorderWidth 	value="0.8f"/>
+		<StretchUV 		value="1"/>
+		<DecalSet 		value="none"/>
+		<Bump			cross_section_mul="0.5"
+						cross_section_index="3"
+						cross_section_random_height="0.03"
+						length_bump="0.75" 
+						jaggy_edge_main="0.05"
+						jaggy_edge_side="0.1"
+						track_bump_scale="1.0"/>						
+		<Surface 		skid_def="gravel"
+						skid_colour="101 94 63 160"
+						skid_colour_lerp="1.0"
+		 
+						surface_def="dirt_dark"
+						friction="0.92f"
+						vehicle_dirt_col="0.37 0.33 0.27 0.8"
+						/>							
+	</RoadDef>		
+	
+	<!-- ---------------------------------------------------- /-->
+	<!-- Rallycross												  /-->
+	<!-- ---------------------------------------------------- /-->
+
+	<RoadDef>
+		<Texture 		name="circuit_tarmac_1" detail="tarmac_detail_1"/>
+		<BorderWidth 	value="0.1f"/>
+		<StretchUV 		value="1"/>
+		<DecalSet 		value="circuit"/>
+		<RumbleOffset	value="0.0"/>
+		<Bump			cross_section_mul="0.0"
+						length_bump="0.0f" 
+						jaggy_edge_main="0.0"
+						jaggy_edge_side="0.1"
+						track_bump_scale="0.0"/>
+		<Surface		skid_def="tarmac"
+						skid_colour="20 21 28 210"
+						skid_colour_lerp="1.0"
+		
+						surface_def="tarmac"
+						friction="1.0f"
+						/>
+		
+	</RoadDef>
+	
+	<RoadDef>
+		<Texture 		name="circuit_tarmac_white" detail="tarmac_detail_1"/>
+		<BorderWidth 	value="0.1f"/>
+		<StretchUV 		value="1"/>
+		<DecalSet 		value="circuit"/>
+		<RumbleOffset	value="0.0"/>
+		<Bump			cross_section_mul="0.0"
+						length_bump="0.0f" 
+						jaggy_edge_main="0.0"
+						jaggy_edge_side="0.1"
+						track_bump_scale="0.0"/>
+		<Surface		skid_def="tarmac"
+						skid_colour="20 21 28 210"
+						skid_colour_lerp="1.0"
+		
+						surface_def="tarmac"
+						friction="1.0f"
+						/>
+		
+	</RoadDef>
+	
+	
+	<RoadDef>
+		<Texture 		name="circuit_tarmac_snow" detail="tarmac_detail_1"/>
+		<BorderWidth 	value="0.2f"/>
+		<StretchUV 		value="1"/>
+		<DecalSet 		value="circuit"/>
+		<RumbleOffset	value="0.0"/>
+		<Bump			cross_section_mul="0.0"
+						length_bump="0.0f" 
+						jaggy_edge_main="0.0"
+						jaggy_edge_side="0.1"
+						track_bump_scale="0.0"/>					
+		<Surface		skid_def="tarmac"
+						skid_colour="25 25 25 220"
+						skid_colour_lerp="1.0"
+						
+						surface_def="tarmac"
+						friction="0.95f"
+						/>
+		
+	</RoadDef>	
+		
+</Roads>
+
+
+
+
+
+<!-- ---------------------------------------------------- /-->
+<!-- ---------------------------------------------------- /-->
+<!-- ---------------------------------------------------- /-->
+<!-- ---------------------------------------------------- /-->
+
+
+
+
+
+<Terrains>
+	<!-- Finland ---------------------------------------------------- /-->			
+	<TerrainDef>
+		<Name			name="finland_1"/>
+		<Texture1 		name="fi_grass_tundra"/>
+		<Texture2 		name="fi_grey_rock"/>
+		<SteepTexture 	name="fi_outcrop_1" />
+		<TextureBlend 	name="blendtexture2" blendlower="0.2" blendupper="1.0"  />
+		<Surface 		skid_def="grass"
+						skid_colour="168 135 70 115"
+						skid_colour_lerp="0.75"
+						
+						surface_def="offroad_grass"	
+						/>
+		
+	</TerrainDef>		
+	<TerrainDef>
+		<Name			name="finland_2"/>
+		<Texture1 		name="fi_grass"/>
+		<Texture2 		name="fi_grey_rock"/>
+		<SteepTexture 	name="fi_outcrop_2" />
+		<SteepTexture2 	name="fi_outcrop_1" />
+		<TextureBlend 	name="blendtexture5" blendlower="0.0" blendupper="1.0" />
+		<Surface 		skid_def="grass"
+						skid_colour="148 135 60 115"
+						skid_colour_lerp="0.75"
+						
+						surface_def="offroad_grass"	
+						/>
+		
+	</TerrainDef>
+
+	
+	<!-- UK ---------------------------------------------------- /-->	
+	<TerrainDef>
+		<Name			name="uk_1"/>
+		<Texture1 		name="au_mud"/>
+		<Texture2 		name="fi_grass"/>
+		<Texture3High	name="fi_grass"/>
+		<Texture4High	name="fi_grass"/>
+		<SteepTexture 	name="rock_brown_moss" />
+		<SteepTexture2 	name="rock_green_moss" />
+		<TextureBlend 	name="blendtexture3" blendlower="0.0" blendupper="1.0" />
+		<Surface 		skid_def="grass"
+						skid_colour="83 50 26 137"
+						skid_colour_lerp="1.0"
+						 
+						surface_def="offroad_grass"	
+						/>
+		
+	</TerrainDef>
+	
+	<TerrainDef>
+		<Name			name="uk_2"/>
+		<Texture1 		name="au_mud"/>
+		<Texture2 		name="fi_grass"/>
+		<Texture3High	name="fi_grass"/>
+		<Texture4High	name="fi_grass"/>
+		<SteepTexture 	name="rock_brown_moss" />
+		<SteepTexture2 	name="rock_green_moss" />
+		<TextureBlend 	name="blendtexture3" blendlower="0.0" blendupper="1.0" />
+		<Surface 		skid_def="grass"
+						skid_colour="83 50 26 137"
+						skid_colour_lerp="1.0"
+		 
+						surface_def="offroad_grass"	
+						/>
+		
+	</TerrainDef>
+	
+
+	<!-- Sweden ---------------------------------------------------- /-->		
+	<TerrainDef>
+		<Name			name="sweden_1"/>
+		<Texture1 		name="sw_snow"/>
+		<Texture2 		name="sw_snow_dirty"/>
+		<Texture3High	name="sw_snow"/>
+		<Texture4High	name="sw_snow"/>
+		<SteepTexture 	name="fi_outcrop_2" />
+		<SteepTexture2 	name="sw_snow_2" />
+		<TextureBlend 	name="blendtexture4" blendlower="0.0" blendupper="1.0" />
+
+		<Surface 		skid_def="snow"
+						skid_colour="240 242 247 220"
+						skid_colour_lerp="1.0"	
+						
+						surface_def="offroad_snow"
+						/>
+		
+	</TerrainDef>
+
+	<TerrainDef>
+		<Name			name="sweden_2"/>
+		<Texture1 		name="sw_snow_2"/>
+		<Texture2 		name="fi_grass_tundra"/>
+		<Texture3High	name="sw_snow"/>
+		<Texture4High	name="sw_snow"/>
+		<SteepTexture 	name="fi_outcrop_1" />
+		<SteepTexture2 	name="sw_snow_dirty" />
+		<TextureBlend 	name="blendtexture4" blendlower="0.0" blendupper="0.9" />
+		<Surface 		skid_def="snow"
+						skid_colour="240 242 247 220"
+						skid_colour_lerp="1.0"	
+						
+						surface_def="offroad_snow"
+						/>
+		
+	</TerrainDef>
+
+
+	
+	<!-- Germany ---------------------------------------------------- /-->			
+	<TerrainDef>
+		<Name			name="germany_1"/>
+		<Texture1 		name="ge_grass_1"/>
+		<Texture2 		name="ge_grass_2"/>
+		<SteepTexture 	name="ge_outcrop_1" />
+		<TextureBlend 	name="blendtexture4" blendlower="0.0" blendupper="1.0"  />
+		<Surface 		skid_def="grass"
+						skid_colour="83 50 26 137"
+						skid_colour_lerp="1.0"
+						
+						surface_def="offroad_grass"
+						/>
+		
+	</TerrainDef>		
+	<TerrainDef>
+		<Name			name="germany_2"/>
+		<Texture1 		name="ge_grass_1"/>
+		<Texture2 		name="ar_sand_grass"/>
+		<SteepTexture 	name="rock_green_moss" />
+		<SteepTexture2 	name="me_outcrop_2" />
+		<TextureBlend 	name="blendtexture5" blendlower="0.0" blendupper="1.0" />
+		<Surface 		skid_def="grass"
+						skid_colour="83 50 26 137"
+						skid_colour_lerp="1.0"
+						
+						surface_def="offroad_grass"
+						/>
+		
+	</TerrainDef>
+		
+	
+	<!-- mexico ---------------------------------------------------- /-->		
+	<TerrainDef>
+		<Name			name="mexico_1"/>
+		<Texture1 		name="fi_grass"/>
+		<Texture2 		name="ar_rocky"/>
+		<Texture3High	name="fi_grass"/>
+		<Texture4High	name="ar_rocky"/>	
+		<SteepTexture 	name="me_outcrop_1" />
+		<SteepTexture2 	name="me_outcrop_2" />	
+		<TextureBlend 	name="blendtexture5" blendlower="0.05" blendupper="1.0" blendscale="0.007" darkuvmul="1.25" />
+		<Surface 		skid_def="grass"
+						skid_colour="83 50 26 137"
+						skid_colour_lerp="1.0"
+						
+						surface_def="offroad_grass_light"	
+						/>
+		
+	</TerrainDef>	
+		
+	<TerrainDef>
+		<Name			name="mexico_2"/>
+		<Texture1 		name="fi_grass"/>
+		<Texture2 		name="ar_sand"/>
+		<Texture3High	name="fi_grass"/>
+		<Texture4High	name="ar_sand"/>	
+		<SteepTexture 	name="me_outcrop_2" />
+		<SteepTexture2 	name="me_outcrop_1" />	
+		<TextureBlend 	name="blendtexture5" blendlower="0.00" blendupper="1.0" blendscale="0.007" darkuvmul="1.25" />
+		<Surface 		skid_def="grass"
+						skid_colour="83 50 26 137"
+						skid_colour_lerp="1.0"
+						
+						surface_def="offroad_grass_light"	
+						/>
+		
+	</TerrainDef>	
+
+	
+	<!-- Pikes Peak ---------------------------------------------------- /-->			
+	<TerrainDef>
+		<Name			name="pikes_peak_1"/>
+		<Texture1 		name="au_grass"/>
+		<Texture2 		name="ar_rocky"/>
+		<Texture3High	name="au_mud_2"/>
+		<Texture4High	name="au_mud_2"/>
+		<SteepTexture 	name="pikes_outcrop" />
+		<TextureBlend 	name="blendtexture5" blendlower="0.0" blendupper="1.0" blendscale="0.01" />
+		<Surface 		skid_def="grass"
+						skid_colour="83 50 26 137"
+						skid_colour_lerp="1.0"
+						
+						surface_def="offroad_grass_light"	
+						/>
+		
+	</TerrainDef>	
+
+	
+	<!-- Canada ---------------------------------------------------- /-->			
+	
+	<TerrainDef>
+		<Name			name="canada_1"/>
+		<Texture1 		name="fi_grass_tundra"/>
+		<Texture2 		name="sw_grey_rock_snow"/>
+		<Texture3High	name="sw_snow"/>
+		<Texture4High	name="sw_snow_dirty"/>
+		<SteepTexture 	name="fi_outcrop_2" />
+		<SteepTexture2 	name="rock_green_moss_2" />
+		<TextureBlend 	name="blendtexture5" blendlower="0.0" blendupper="1.0" blendscale="0.015"   />
+		<Surface 		skid_def="grass"
+						skid_colour="114 103 75 160"
+						skid_colour_lerp="0.75"
+						
+						vibration="terrain_grass"
+						surface_def="offroad_snow"
+						/>
+		
+	</TerrainDef>
+
+
+	<TerrainDef>
+		<Name			name="canada_full_snow"/>
+		<Texture1 		name="sw_grey_rock_snow"/>
+		<Texture2 		name="sw_snow"/>
+		<Texture3High	name="sw_snow_2"/>
+		<Texture4High	name="sw_snow"/>
+		<SteepTexture 	name="rock_green_moss_2"/>
+		<SteepTexture2 	name="sw_snow_2"  />
+		<TextureBlend 	name="blendtexture3" blendlower="0.0" blendupper="1.0"   />
+		<Surface 		skid_def="snow"
+						skid_colour="240 242 247 220"
+						skid_colour_lerp="1.0"	
+						
+						surface_def="offroad_snow"
+						/>
+		
+	</TerrainDef>
+
+
+	<!-- Greece ---------------------------------------------------- /-->		
+	<TerrainDef>
+		<Name			name="greece_1"/> 
+		<Texture1 		name="gr_grass"/>
+		<Texture2 		name="gr_sand_grass"/>
+		<SteepTexture 	name="gr_outcrop_2" />	
+		<TextureBlend 	name="blendtexture5" blendlower="0.05" blendupper="0.8" blendscale="0.0219" darkuvmul="1.3" />
+		<Surface 		skid_def="gravel"
+						skid_colour="184 148 65 100"
+						skid_colour_lerp="1.0"
+						
+						surface_def="offroad_grass_light"
+						/>	
+		
+	</TerrainDef>	
+	<TerrainDef>
+		<Name			name="greece_2"/>
+		<Texture1 		name="gr_grass"/>
+		<Texture2 		name="dry_grass"/>	
+		<SteepTexture 	name="gr_outcrop_1" />
+		<TextureBlend 	name="blendtexture2" blendlower="0.25" blendupper="1.0" blendscale="0.0259" darkuvmul="1.3" />
+		<Surface 		skid_def="gravel"
+						skid_colour="167 142 69 120"
+						skid_colour_lerp="1.0"
+						
+						surface_def="offroad_grass_light"
+						/>
+		
+	</TerrainDef>
+	
+	
+	<!-- ---------------------------------------------------- /-->
+	<!-- Australia												  /-->
+	<!-- ---------------------------------------------------- /-->
+	<TerrainDef>
+		<Name			name="australia_1"/> 
+		<Texture1 		name="fi_grass_tundra"/>
+		<Texture2 		name="ar_sand_grass"/>
+		<SteepTexture 	name="pikes_outcrop" />
+		<TextureBlend 	name="blendtexture5" blendlower="0.25" blendupper="1.0" blendscale="0.0219" darkuvmul="1.3" />
+		<Surface 		skid_def="grass"
+						skid_colour="157 128 66 190"
+						skid_colour_lerp="0.8"
+						
+						surface_def="offroad_grass"
+						/>
+		
+	</TerrainDef>	
+	
+	<TerrainDef>
+		<Name			name="australia_2"/> 
+		<Texture1 		name="fi_grass"/>
+		<Texture2 		name="au_mud_3"/>
+		<SteepTexture 	name="au_outcrop_1" />
+		<TextureBlend 	name="blendtexture3" blendlower="0.0" blendupper="1.0" blendscale="0.0219" darkuvmul="1.3" />
+		<Surface 		skid_def="grass"
+						skid_colour="130 102 74 150"
+						skid_colour_lerp="1.0"
+		
+						surface_def="offroad_grass"
+						/>	
+		
+	</TerrainDef>		
+		
+	<!-- ---------------------------------------------------- 	/-->
+	<!-- Argentina												/-->
+	<!-- ---------------------------------------------------- 	/-->
+	
+	<TerrainDef>
+		<Name			name="argentina_1"/> 
+		<Texture1 		name="au_grass"/>
+		<Texture2 		name="ar_terrain_dirt"/>
+		<SteepTexture 	name="ar_outcrop_1" />
+		<TextureBlend 	name="blendtexture1" blendlower="0.0" blendupper="1.0" blendscale="0.0219" darkuvmul="1.6" />
+		<Surface 		skid_def="dirt"
+						skid_colour="155 137 102 100"
+						skid_colour_lerp="1.0"
+						
+						surface_def="offroad_grass"
+						/>
+		
+	</TerrainDef>	
+	
+	<TerrainDef>
+		<Name			name="argentina_2"/> 
+		<Texture1 		name="sp_grass"/>
+		<Texture2 		name="ar_terrain_dirt"/>
+		<SteepTexture 	name="ar_outcrop_2" />
+		<TextureBlend 	name="blendtexture1" blendlower="0.1" blendupper="0.9" blendscale="0.0219" darkuvmul="1.6" />
+		<Surface 		skid_def="dirt"
+						skid_colour="155 137 102 100"
+						skid_colour_lerp="1.0"
+		
+						surface_def="offroad_grass"
+						/>
+		
+	</TerrainDef>	
+
+
+	<!-- ---------------------------------------------------- /-->
+	<!-- Kenya												  /-->
+	<!-- ---------------------------------------------------- /-->
+	<TerrainDef>
+		<Name			name="kenya_1"/> 
+		<Texture1 		name="au_grass"/>
+		<Texture2 		name="au_mud_3"/>
+		<SteepTexture 	name="me_outcrop_2" />
+		<TextureBlend 	name="blendtexture3" blendlower="0.0" blendupper="0.85" blendscale="0.0219" darkuvmul="1.3" darkuvscale="0.364" />
+		<Surface 		skid_def="grass"
+						skid_colour="193 128 30 70"
+						skid_colour_lerp="1.0"
+		 
+						surface_def="offroad_grass_light"
+						/>
+						
+		<Water 			SpeedA="1.0"
+						SpeedB="-0.35"
+		
+						RefFresnelMul="0.25"
+						RefFresnelAdd="0.1"
+						RefPower="1.0"
+						
+						col1="0.27 0.18 0.078 1.0"
+						col2="0.53 0.38 0.18 1.0"
+						ColPower="2.0"
+						
+						AlphaPower="5.0"
+						AlphaMinDepth="0.0"
+		                AlphaMaxDepth="1.0"
+						/>
+	</TerrainDef>	
+	
+	<TerrainDef>
+		<Name			name="kenya_2"/> 
+		<Texture1 		name="au_mud_3"/>
+		<Texture2 		name="ar_sand_grass_2"/>
+		<SteepTexture 	name="me_outcrop_2" />
+		<TextureBlend 	name="blendtexture3" blendlower="0.1" blendupper="1.0" blendscale="0.0349" darkuvmul="1.3" darkuvscale="0.364" />
+		<Surface 		skid_def="grass"
+						skid_colour="230 163 81 65"
+						skid_colour_lerp="1.0"
+		
+						surface_def="offroad_grass_light"
+						/>
+		<Water 			SpeedA="1.0"
+						SpeedB="-0.35"
+		
+						RefFresnelMul="0.25"
+						RefFresnelAdd="0.1"
+						RefPower="1.0"
+						
+						col1="0.27 0.18 0.078 1.0"
+						col2="0.53 0.38 0.18 1.0"
+						ColPower="2.0"
+						
+						AlphaPower="5.0"
+						AlphaMinDepth="0.0"
+		                AlphaMaxDepth="1.0"
+						/>				
+		
+	</TerrainDef>	
+		
+		
+	
+	<!-- ---------------------------------------------------- 	/-->
+	<!-- Japan													/-->
+	<!-- ---------------------------------------------------- 	/-->
+
+
+	<TerrainDef>
+		<Name			name="japan_1"/> 
+		<Texture1 		name="jp_grass"/>
+		<Texture2 		name="jp_gravel"/>
+		<Texture3High	name="jp_grass"/>
+		<Texture4High	name="ar_terrain_dirt"/>
+		<SteepTexture 	name="dark_slate_rock" />
+		<SteepTexture2 	name="dark_slate_rock" />	
+		<TextureBlend 	name="blendtexture1" blendlower="0.0" blendupper="1.0" blendscale="0.0219" darkuvmul="1.5" darkuvscale="0.364"/>
+		<Surface 		skid_def="dirt"
+						skid_colour="150 132 66 100"
+						skid_colour_lerp="1.0"
+		
+						surface_def="offroad_grass_light"
+						/>
+						
+		<Water 			RefFresnelMul="0.8"
+						RefFresnelAdd="0.0"
+						RefPower="2.0"
+						
+						col1="0.10 0.37 0.40 1.0"
+						col2="0.11 0.32 0.34 1.0"
+						ColPower="1.0"
+						
+						AlphaPower="1.0"
+						AlphaMinDepth="0.0"
+		                AlphaMaxDepth="2.5"
+						/>
+		
+	</TerrainDef>
+		
+	<TerrainDef>
+		<Name			name="japan_2"/> 
+		<Texture1 		name="jp_grass"/>
+		<Texture2 		name="ar_terrain_dirt"/>
+		<Texture3High	name="jp_grass"/>
+		<Texture4High	name="ar_sand_grass_2"/>
+		<SteepTexture 	name="dark_slate_rock" />
+		<TextureBlend 	name="blendtexture3" blendlower="0.0" blendupper="1.0" blendscale="0.0219" darkuvmul="1.5" darkuvscale="0.364"/>
+		<Surface 		skid_def="dark_dirt"
+						skid_colour="187 165 87 100"
+						skid_colour_lerp="1.0"
+		
+						surface_def="offroad_grass_light"
+						/>
+						
+		<Water 			RefFresnelMul="0.8"
+						RefFresnelAdd="0.0"
+						RefPower="2.0"
+						
+						col1="0.10 0.37 0.40 1.0"
+						col2="0.11 0.32 0.34 1.0"
+						ColPower="1.0"
+						
+						AlphaPower="1.0"
+						AlphaMinDepth="0.0"
+		                AlphaMaxDepth="2.5"
+						/>
+		
+	</TerrainDef>		
+	
+</Terrains>
+
+
+rushrally3/styles/terraintextures/terrainstyles.xml
+terrainstyles.file

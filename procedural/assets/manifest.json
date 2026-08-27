@@ -1,0 +1,258 @@
+{
+  "schema_version": 4,
+  "generator": "procedural_lanceolate_vegetation_v4",
+  "assets": [
+    {
+      "id": "tree_3d_01",
+      "kind": "tree",
+      "family": "compact_round",
+      "category": "trees",
+      "glb": "game/resources/environment/assets/trees/tree_3d_01.glb",
+      "preview": "game/resources/environment/generated/library_audit/tree_3d_01.png",
+      "dimensions_m": {
+        "width": 9.385289,
+        "height": 10.925205,
+        "depth": 7.736307
+      },
+      "cluster_count": 48,
+      "leaf_cards": 480,
+      "wood_triangles": 920,
+      "foliage_triangles": 2880,
+      "sha256": "b58c8125d3d6ccb9a16d7f5768c836e23f9a872cbed6a6c5c4530940d7ea1040",
+      "lod": false,
+      "collision": false,
+      "foliage_double_sided_material": true
+    },
+    {
+      "id": "tree_3d_02",
+      "kind": "tree",
+      "family": "columnar",
+      "category": "trees",
+      "glb": "game/resources/environment/assets/trees/tree_3d_02.glb",
+      "preview": "game/resources/environment/generated/library_audit/tree_3d_02.png",
+      "dimensions_m": {
+        "width": 5.109835,
+        "height": 12.352224,
+        "depth": 5.287139
+      },
+      "cluster_count": 50,
+      "leaf_cards": 500,
+      "wood_triangles": 1032,
+      "foliage_triangles": 3000,
+      "sha256": "46ea85354ac13c82b97ed276318efa3a8c7a4beba840cd4595241dde8e9bac07",
+      "lod": false,
+      "collision": false,
+      "foliage_double_sided_material": true
+    },
+    {
+      "id": "tree_3d_03",
+      "kind": "tree",
+      "family": "umbrella",
+      "category": "trees",
+      "glb": "game/resources/environment/assets/trees/tree_3d_03.glb",
+      "preview": "game/resources/environment/generated/library_audit/tree_3d_03.png",
+      "dimensions_m": {
+        "width": 10.712515,
+        "height": 12.748316,
+        "depth": 7.594762
+      },
+      "cluster_count": 54,
+      "leaf_cards": 540,
+      "wood_triangles": 1032,
+      "foliage_triangles": 3240,
+      "sha256": "ec3017af8b97132c6f5e104c6decca93db6e405f2e40c0934d22f69ed596088a",
+      "lod": false,
+      "collision": false,
+      "foliage_double_sided_material": true
+    },
+    {
+      "id": "tree_3d_04",
+      "kind": "tree",
+      "family": "windswept",
+      "category": "trees",
+      "glb": "game/resources/environment/assets/trees/tree_3d_04.glb",
+      "preview": "game/resources/environment/generated/library_audit/tree_3d_04.png",
+      "dimensions_m": {
+        "width": 10.577212,
+        "height": 12.315497,
+        "depth": 8.879973
+      },
+      "cluster_count": 52,
+      "leaf_cards": 468,
+      "wood_triangles": 920,
+      "foliage_triangles": 2808,
+      "sha256": "af4c24095554b10bd3eb39dc666ab53615d8e4adb43d98efe418bac534c1e4b2",
+      "lod": false,
+      "collision": false,
+      "foliage_double_sided_material": true
+    },
+    {
+      "id": "tree_3d_05",
+      "kind": "tree",
+      "family": "mature_spreading",
+      "category": "trees",
+      "glb": "game/resources/environment/assets/trees/tree_3d_05.glb",
+      "preview": "game/resources/environment/generated/library_audit/tree_3d_05.png",
+      "dimensions_m": {
+        "width": 12.402986,
+        "height": 16.063236,
+        "depth": 12.050695
+      },
+      "cluster_count": 66,
+      "leaf_cards": 660,
+      "wood_triangles": 1144,
+      "foliage_triangles": 3960,
+      "sha256": "c4dc3719b0e019542f5760acc3294fae5e941ebe848fb3fde58ab03b2036ccc9",
+      "lod": false,
+      "collision": false,
+      "foliage_double_sided_material": true
+    },
+    {
+      "id": "tree_3d_06",
+      "kind": "tree",
+      "family": "young_irregular",
+      "category": "trees",
+      "glb": "game/resources/environment/assets/trees/tree_3d_06.glb",
+      "preview": "game/resources/environment/generated/library_audit/tree_3d_06.png",
+      "dimensions_m": {
+        "width": 5.961257,
+        "height": 8.159568,
+        "depth": 6.125511
+      },
+      "cluster_count": 42,
+      "leaf_cards": 378,
+      "wood_triangles": 808,
+      "foliage_triangles": 2268,
+      "sha256": "9a5ff3ed87f9ae2473765e1cf998e32632cd6920c9cf1effa08e94d806aa0534",
+      "lod": false,
+      "collision": false,
+      "foliage_double_sided_material": true
+    },
+    {
+      "id": "bush_3d_01",
+      "kind": "bush",
+      "family": "round",
+      "category": "bushes",
+      "glb": "game/resources/environment/assets/bushes/bush_3d_01.glb",
+      "preview": "game/resources/environment/generated/library_audit/bush_3d_01.png",
+      "dimensions_m": {
+        "width": 2.063456,
+        "height": 1.296362,
+        "depth": 1.430893
+      },
+      "cluster_count": 30,
+      "leaf_cards": 240,
+      "wood_triangles": 464,
+      "foliage_triangles": 1440,
+      "sha256": "0c700669768cb4892fd07da81ab848d086865d47dfce3304802562a404ed1be0",
+      "lod": false,
+      "collision": false,
+      "foliage_double_sided_material": true
+    },
+    {
+      "id": "bush_3d_02",
+      "kind": "bush",
+      "family": "spreading",
+      "category": "bushes",
+      "glb": "game/resources/environment/assets/bushes/bush_3d_02.glb",
+      "preview": "game/resources/environment/generated/library_audit/bush_3d_02.png",
+      "dimensions_m": {
+        "width": 2.784395,
+        "height": 1.617685,
+        "depth": 1.595627
+      },
+      "cluster_count": 36,
+      "leaf_cards": 288,
+      "wood_triangles": 544,
+      "foliage_triangles": 1728,
+      "sha256": "31b6fe154fb16c2da56dfbc0745464da8d39069d5d1196fb33a25aad555cb231",
+      "lod": false,
+      "collision": false,
+      "foliage_double_sided_material": true
+    },
+    {
+      "id": "bush_3d_03",
+      "kind": "bush",
+      "family": "triangular",
+      "category": "bushes",
+      "glb": "game/resources/environment/assets/bushes/bush_3d_03.glb",
+      "preview": "game/resources/environment/generated/library_audit/bush_3d_03.png",
+      "dimensions_m": {
+        "width": 1.988579,
+        "height": 2.021955,
+        "depth": 1.614488
+      },
+      "cluster_count": 38,
+      "leaf_cards": 304,
+      "wood_triangles": 464,
+      "foliage_triangles": 1824,
+      "sha256": "7c06f01e858ee8ed24078a7c3145cea9dbf01523c0a9c57bc17529439234f169",
+      "lod": false,
+      "collision": false,
+      "foliage_double_sided_material": true
+    },
+    {
+      "id": "bush_3d_04",
+      "kind": "bush",
+      "family": "creeping",
+      "category": "bushes",
+      "glb": "game/resources/environment/assets/bushes/bush_3d_04.glb",
+      "preview": "game/resources/environment/generated/library_audit/bush_3d_04.png",
+      "dimensions_m": {
+        "width": 2.818413,
+        "height": 0.842687,
+        "depth": 2.050517
+      },
+      "cluster_count": 34,
+      "leaf_cards": 238,
+      "wood_triangles": 624,
+      "foliage_triangles": 1428,
+      "sha256": "3b2809864e3f03cb7a18ee145efb28cbb083512e60f0ff99892a86c5551f2d6f",
+      "lod": false,
+      "collision": false,
+      "foliage_double_sided_material": true
+    },
+    {
+      "id": "bush_3d_05",
+      "kind": "bush",
+      "family": "asymmetric",
+      "category": "bushes",
+      "glb": "game/resources/environment/assets/bushes/bush_3d_05.glb",
+      "preview": "game/resources/environment/generated/library_audit/bush_3d_05.png",
+      "dimensions_m": {
+        "width": 2.5401,
+        "height": 1.641267,
+        "depth": 1.500573
+      },
+      "cluster_count": 40,
+      "leaf_cards": 320,
+      "wood_triangles": 544,
+      "foliage_triangles": 1920,
+      "sha256": "ad242e2423b3f2d9e2e192822c6165282f25d679f77b594403905ee4fac76ec1",
+      "lod": false,
+      "collision": false,
+      "foliage_double_sided_material": true
+    },
+    {
+      "id": "bush_3d_06",
+      "kind": "bush",
+      "family": "dry_open",
+      "category": "bushes",
+      "glb": "game/resources/environment/assets/bushes/bush_3d_06.glb",
+      "preview": "game/resources/environment/generated/library_audit/bush_3d_06.png",
+      "dimensions_m": {
+        "width": 2.354714,
+        "height": 1.913247,
+        "depth": 2.219705
+      },
+      "cluster_count": 28,
+      "leaf_cards": 196,
+      "wood_triangles": 624,
+      "foliage_triangles": 1176,
+      "sha256": "c6c954d1a5e9083c82907df3b58174d3156b316369e0b6b716f40d90e4177493",
+      "lod": false,
+      "collision": false,
+      "foliage_double_sided_material": true
+    }
+  ]
+}

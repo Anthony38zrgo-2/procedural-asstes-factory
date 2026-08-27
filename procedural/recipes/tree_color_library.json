@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "kind": "tree",
+  "base_recipe": "game/resources/environment/recipes/vegetation_library.json",
+  "review": "game/resources/environment/generated/tree_color_library_review.png",
+  "report": "game/resources/environment/generated/tree_color_library_report.json",
+  "variants": [
+    {"id": "original", "suffix": "", "palette": "game/resources/environment/palettes/south_america_west_low.json", "seed_base": 1100},
+    {"id": "copper", "suffix": "copper", "palette": "game/resources/environment/palettes/south_america_west_low_copper.json", "seed_base": 3100},
+    {"id": "red", "suffix": "red", "palette": "game/resources/environment/palettes/south_america_west_low_red.json", "seed_base": 4100},
+    {"id": "golden_beige", "suffix": "golden_beige", "palette": "game/resources/environment/palettes/south_america_west_low_golden_beige.json", "seed_base": 5100},
+    {"id": "yellow", "suffix": "yellow", "palette": "game/resources/environment/palettes/south_america_west_low_yellow.json", "seed_base": 6100}
+  ]
+}

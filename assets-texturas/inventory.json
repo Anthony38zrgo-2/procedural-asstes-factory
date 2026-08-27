@@ -1,0 +1,15 @@
+{
+  "archive_files": 46,
+  "terrain_texture_refs": 139,
+  "terrain_dds_found": 124,
+  "terrain_png_decoded": 124,
+  "object_core_texture_refs": 74,
+  "object_core_dds_found": 140,
+  "object_core_png_decoded": 140,
+  "object_style_texture_refs": 127,
+  "object_style_dds_found": 139,
+  "object_style_png_decoded": 139,
+  "sky_presets_recovered": 18,
+  "geometry_status": "compiled proprietary CPU/GPU mesh buffers preserved; not converted to standard mesh format in this pass",
+  "name_mapping_note": "candidate_source_name is order-based and should be treated as heuristic where source reference count differs from DDS count."
+}

@@ -1,0 +1,26 @@
+skies.binary.skies.xml
+<Skies>
+	<dusk1 			sun_angle="6" />
+	<dusk2 			sun_angle="6" />
+	<dusk3 			sun_angle="6" />
+	<cloudy1 		sun_angle="21" />
+	<cloudy2 		sun_angle="32" />
+	<cloudy3 		sun_angle="10" />
+	<cloudy4 		sun_angle="35" />
+	<overcast1  	sun_angle="32" />
+	<overcast2  	sun_angle="53" />
+	<sunset1	 	sun_angle="30" />
+	<sunset2	 	sun_angle="12" />
+	<sunset3	 	sun_angle="47" />
+	<sunset4	 	sun_angle="4" />
+	<clear1 		sun_angle="30" />
+	<clear2 		sun_angle="20" />
+	<clear3 		sun_angle="45" />
+	<clear4 		sun_angle="16" />
+	<clear5 		sun_angle="20" />
+</Skies>
+
+rushrally3/styles/sky/skies.xml
+L^"
+
+skies.file
