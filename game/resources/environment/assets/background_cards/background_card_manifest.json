@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "generator": "background_billboard_v1",
+  "assets": [
+    {
+      "id": "forest_eucalyptus_01",
+      "layer": "transition",
+      "glb": "../game/resources/environment/assets/background_cards/glb/forest_eucalyptus_01.glb",
+      "texture": "../game/resources/environment/assets/background_cards/textures/forest_eucalyptus_01.png",
+      "aspect": 2.896746873855591,
+      "collision": false,
+      "double_sided": true,
+      "unlit": true
+    },
+    {
+      "id": "mountain_far_01",
+      "layer": "far",
+      "glb": "../game/resources/environment/assets/background_cards/glb/mountain_far_01.glb",
+      "texture": "../game/resources/environment/assets/background_cards/textures/mountain_far_01.png",
+      "aspect": 2.9985358715057373,
+      "collision": false,
+      "double_sided": true,
+      "unlit": true
+    },
+    {
+      "id": "mountain_far_02",
+      "layer": "far",
+      "glb": "../game/resources/environment/assets/background_cards/glb/mountain_far_02.glb",
+      "texture": "../game/resources/environment/assets/background_cards/textures/mountain_far_02.png",
+      "aspect": 2.9985358715057373,
+      "collision": false,
+      "double_sided": true,
+      "unlit": true
+    },
+    {
+      "id": "mountain_far_ribbon_01",
+      "layer": "far",
+      "glb": "../game/resources/environment/assets/background_cards/glb/mountain_far_ribbon_01.glb",
+      "texture": "../game/resources/environment/assets/background_cards/textures/mountain_far_ribbon_01.png",
+      "aspect": 2.9985358715057373,
+      "collision": false,
+      "double_sided": true,
+      "unlit": true
+    },
+    {
+      "id": "mountain_far_ribbon_02",
+      "layer": "far",
+      "glb": "../game/resources/environment/assets/background_cards/glb/mountain_far_ribbon_02.glb",
+      "texture": "../game/resources/environment/assets/background_cards/textures/mountain_far_ribbon_02.png",
+      "aspect": 2.9985358715057373,
+      "collision": false,
+      "double_sided": true,
+      "unlit": true
+    },
+    {
+      "id": "mountain_near_01",
+      "layer": "near",
+      "glb": "../game/resources/environment/assets/background_cards/glb/mountain_near_01.glb",
+      "texture": "../game/resources/environment/assets/background_cards/textures/mountain_near_01.png",
+      "aspect": 2.9985358715057373,
+      "collision": false,
+      "double_sided": true,
+      "unlit": true
+    },
+    {
+      "id": "mountain_near_02",
+      "layer": "near",
+      "glb": "../game/resources/environment/assets/background_cards/glb/mountain_near_02.glb",
+      "texture": "../game/resources/environment/assets/background_cards/textures/mountain_near_02.png",
+      "aspect": 2.9985358715057373,
+      "collision": false,
+      "double_sided": true,
+      "unlit": true
+    },
+    {
+      "id": "mountain_near_ribbon_01",
+      "layer": "near",
+      "glb": "../game/resources/environment/assets/background_cards/glb/mountain_near_ribbon_01.glb",
+      "texture": "../game/resources/environment/assets/background_cards/textures/mountain_near_ribbon_01.png",
+      "aspect": 2.9985358715057373,
+      "collision": false,
+      "double_sided": true,
+      "unlit": true
+    },
+    {
+      "id": "mountain_near_ribbon_02",
+      "layer": "near",
+      "glb": "../game/resources/environment/assets/background_cards/glb/mountain_near_ribbon_02.glb",
+      "texture": "../game/resources/environment/assets/background_cards/textures/mountain_near_ribbon_02.png",
+      "aspect": 2.9985358715057373,
+      "collision": false,
+      "double_sided": true,
+      "unlit": true
+    },
+    {
+      "id": "settlement_peru_01",
+      "layer": "transition",
+      "glb": "../game/resources/environment/assets/background_cards/glb/settlement_peru_01.glb",
+      "texture": "../game/resources/environment/assets/background_cards/textures/settlement_peru_01.png",
+      "aspect": 2.9985358715057373,
+      "collision": false,
+      "double_sided": true,
+      "unlit": true
+    }
+  ]
+}

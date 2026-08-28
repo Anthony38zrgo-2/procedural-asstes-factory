@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "generator": "formula90_building_manifest_v1",
+  "sources_sha256": "eb7224f690ecb328577f98579512ff224eec61cbf0f2965d702ec758dd4cf860",
+  "construction_manifest": "game/resources/environment/manifests/building_construction_manifest.json",
+  "construction_manifest_sha256": "86cca12d05a1bf3fe2deb7208961acca75b7b9c2638c1988b106f78a07634aa4",
+  "human_gate_catalog": "game/resources/environment/assets/buildings/review/building_library_catalog.png",
+  "human_gate_catalog_sha256": "dc8b632b8a38b0af54dedd9bb4ac4ad19e778564f06c771c47c63e90936a3140",
+  "assets": [
+    {
+      "id": "house_peru_01",
+      "glb": "game/resources/environment/assets/buildings/house-peru-01.glb",
+      "triangle_budget": 4000,
+      "region": "south_america",
+      "style": "peru_adobe",
+      "collision": false,
+      "glb_sha256": "b34762873866fe1a76d9fd2104a9982a4afd3e2b929bf66066fc3c78d59fd394",
+      "preview": "game/resources/environment/assets/buildings/review/house_peru_01.png",
+      "preview_sha256": "c5dbfd3e57b96f0af91d4c175850c0b6e598499bd9145985e901936f8282ca94",
+      "geometry": {
+        "vertices": 2064,
+        "triangles": 3100,
+        "bounds_min": [
+          -3.85,
+          0.0,
+          -2.9
+        ],
+        "bounds_max": [
+          3.85,
+          7.245933,
+          2.9
+        ],
+        "extents": [
+          7.7,
+          7.245933,
+          5.8
+        ],
+        "winding_consistent": true,
+        "watertight": true
+      }
+    },
+    {
+      "id": "house_peru_02",
+      "glb": "game/resources/environment/assets/buildings/house-peru-02.glb",
+      "triangle_budget": 4500,
+      "region": "south_america",
+      "style": "peru_white_plaster",
+      "collision": false,
+      "glb_sha256": "59c982991a32be3d0fb4301dcbd28f4e173dd3528bb520062fea57182f646eb9",
+      "preview": "game/resources/environment/assets/buildings/review/house_peru_02.png",
+      "preview_sha256": "eb340beaf15a720afc14bd5c1d8d44cb67df449cb54a365e6f44c8d3a9a43a8c",
+      "geometry": {
+        "vertices": 2200,
+        "triangles": 3304,
+        "bounds_min": [
+          -3.85,
+          0.0,
+          -2.9225
+        ],
+        "bounds_max": [
+          3.85,
+          10.065932,
+          2.9225
+        ],
+        "extents": [
+          7.7,
+          10.065932,
+          5.845
+        ],
+        "winding_consistent": true,
+        "watertight": true
+      }
+    }
+  ]
+}

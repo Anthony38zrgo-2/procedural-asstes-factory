@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "id": "peru_scenic_buildings_v1",
+  "coordinate_system": {"units":"metres","up_axis":"+Y","pivot":"ground_center"},
+  "geometry": {"ground_tolerance_m":0.01,"collision":false},
+  "placement": {"minimum_track_distance_m":65.0,"maximum_track_distance_m":240.0,"scale_minimum":0.90,"scale_maximum":1.10},
+  "materials": {"mode":"embedded_pbr_textures","texture_resolution":512,"image_format":"PNG"},
+  "required_surfaces": ["walls", "roof", "wood", "stone", "windows"]
+}

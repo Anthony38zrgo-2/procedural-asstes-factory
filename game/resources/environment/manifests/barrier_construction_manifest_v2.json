@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "id": "la_chutana_textured_barriers_v2",
+  "coordinate_system": {"units":"metres","up_axis":"+Y","module_axis":"+X","track_facing_axis":"+Z","pivot":"ground_center","base_module_length_m":2.0},
+  "families": ["concrete", "guardrail", "tire_wall"],
+  "reusable_lengths_m": [2.0, 10.0, 25.0, 50.0, 100.0],
+  "visual": {"geometry":"single_textured_plane","double_sided":true,"thickness_m":0.0,"uv_wrap_u":"repeat","uv_wrap_v":"clamp"},
+  "collision": {"geometry":"continuous_box","separate_glb":true,"visible":false,"dimensions_from_recipe":true},
+  "shading": {"mode":"textured_pbr_v1","tire_alpha_mode":"MASK","tire_alpha_cutoff":0.5}
+}

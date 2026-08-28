@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "alpha_bleed": true,
+  "textures": [
+    {
+      "id": "mountain_far_ribbon_01",
+      "path": "game/resources/environment/assets/background_cards/textures/mountain_far_ribbon_01.png",
+      "size": [
+        2048,
+        683
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "sha256": "53c8f046a0564887fb3eac9d739cba48a4ecede530ef5405b0a461a71b073f88"
+    },
+    {
+      "id": "mountain_far_ribbon_02",
+      "path": "game/resources/environment/assets/background_cards/textures/mountain_far_ribbon_02.png",
+      "size": [
+        2048,
+        683
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "sha256": "2035c8a60a4936ab643c04780e316b7308956d388ab2f1aabb1939c479a08019"
+    },
+    {
+      "id": "mountain_near_ribbon_01",
+      "path": "game/resources/environment/assets/background_cards/textures/mountain_near_ribbon_01.png",
+      "size": [
+        2048,
+        683
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "sha256": "439f784341b521d1b676ddfc843d097f15baa00853334cec3ea139e20d1bde03"
+    },
+    {
+      "id": "mountain_near_ribbon_02",
+      "path": "game/resources/environment/assets/background_cards/textures/mountain_near_ribbon_02.png",
+      "size": [
+        2048,
+        683
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "sha256": "f30740b554b54d09480a91055b634d7f0c5ced732a1ef540ab50a61ac1ca41b3"
+    },
+    {
+      "id": "forest_eucalyptus_01",
+      "path": "game/resources/environment/assets/background_cards/textures/forest_eucalyptus_01.png",
+      "size": [
+        2048,
+        707
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "sha256": "5273bc48d9b09a290012be1703e22d5c19bde223efe81411f42490d019c4904f"
+    },
+    {
+      "id": "settlement_peru_01",
+      "path": "game/resources/environment/assets/background_cards/textures/settlement_peru_01.png",
+      "size": [
+        2048,
+        683
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "sha256": "d616d33ff7b67bfbb1ff7f90af0cb2d51737482c249f679efbb414bf9b5b265e"
+    }
+  ]
+}

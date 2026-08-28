@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "asset": "la_chutana_mountains_3d",
+  "coordinate_convention": {
+    "forward": "-Z",
+    "up": "+Y",
+    "right": "+X",
+    "unit": "meter"
+  },
+  "geometry_assets": {
+    "far_mountains": "far_mountains_ring.glb",
+    "near_mountains": "near_mountains_ring.glb",
+    "sky_dome": "sky_dome.glb"
+  },
+  "textures": {
+    "mountain_texture": "mountain_texture.png"
+  },
+  "generation": {
+    "method": "svg_topographic_extrusion",
+    "source_svg": "la_chutana_topo.svg",
+    "height_transform": "world_height = data-elevation * height_scale (data-elevation sole source)",
+    "height_scale_base": 1.8,
+    "height_scale_far": 1.5,
+    "height_scale_near": 1.0,
+    "depth_scale": 0.7,
+    "distance": 4000.0,
+    "source_layer": "far",
+    "source_contours": 42,
+    "accepted_contours": 42,
+    "rejected_contours": 0,
+    "rejection_reason": "area < 50.0 or invalid polygon",
+    "simplify_tolerance": 2.0,
+    "min_contour_area": 50.0,
+    "near": {
+      "layer": "near",
+      "radius": 1150.0,
+      "depth": 154.0,
+      "height_scale": 1.0,
+      "height_min": 3.59013341427716,
+      "height_max": 99.98151723787228,
+      "target_height_range": [
+        50,
+        110
+      ],
+      "terrain_rows": 9,
+      "apron_inner_radius": 660.0
+    },
+    "far": {
+      "layer": "far",
+      "radius": 1600.0,
+      "depth": 224.0,
+      "height_scale": 1.5,
+      "height_min": 5.385201703314845,
+      "height_max": 219.58287360542863,
+      "target_height_range": [
+        90,
+        240
+      ],
+      "terrain_rows": 7
+    },
+    "sky": {
+      "radius": 1800.0,
+      "rings": 16,
+      "segments": 64
+    },
+    "segments": 640
+  },
+  "waterfalls": [
+    {
+      "segment": 79,
+      "angle_rad": 0.7756,
+      "position": [
+        821.12,
+        16.14,
+        805.15
+      ],
+      "scale_y": 1.4
+    },
+    {
+      "segment": 178,
+      "angle_rad": 1.7475,
+      "position": [
+        -202.17,
+        15.1,
+        1132.09
+      ],
+      "scale_y": 1.4
+    },
+    {
+      "segment": 351,
+      "angle_rad": 3.4459,
+      "position": [
+        -1097.15,
+        15.77,
+        -344.62
+      ],
+      "scale_y": 1.4
+    }
+  ],
+  "validation": {
+    "source_sha256": {
+      "far_mountains_ring.glb": "ccd5ad646139aaa45e0dd2e5836799b30357ac0739a9b7d5ab2052d21d9a57d3",
+      "near_mountains_ring.glb": "ebf784dc01270ee3ac453a4d6bcec2641a162a8143ae5e937a98023b851926c4",
+      "sky_dome.glb": "894c6a6ef859e8c79998df4d27f70e4505949f85b67fee1c1c9ae4d7f2815fa4",
+      "mountain_texture.png": "0970165ee0bf9a03c9ddbc5700fb1496f9d2767925ae50dbd51e6005a10212c2"
+    }
+  }
+}

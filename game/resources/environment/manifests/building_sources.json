@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "construction_manifest": "game/resources/environment/manifests/building_construction_manifest.json",
+  "assets": [
+    {"id":"house_peru_01","glb":"game/resources/environment/assets/buildings/house-peru-01.glb","triangle_budget":4000,"region":"south_america","style":"peru_adobe","collision":false},
+    {"id":"house_peru_02","glb":"game/resources/environment/assets/buildings/house-peru-02.glb","triangle_budget":4500,"region":"south_america","style":"peru_white_plaster","collision":false}
+  ]
+}

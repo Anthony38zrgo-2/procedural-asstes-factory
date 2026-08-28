@@ -1,0 +1,1101 @@
+{
+  "schema_version": 3,
+  "generator": "gen_barriers_v2",
+  "shading_contract": "textured_pbr_v1_double_sided",
+  "recipe_document_sha256": "0217bca4008e6e578dcab39e040b5ebe48e7119f56bce3015b3ae64fd1db6c32",
+  "palette_sha256": "40d9cd75266bdaa7010196cb72946cf4b2dace2eaacbde774bd5a67f7784a06d",
+  "construction_manifest": "game/resources/environment/manifests/barrier_construction_manifest_v2.json",
+  "construction_manifest_sha256": "da7f8bbb59b5fea57367e1bf3c7c72ba3b0e8b0e6e3bd5b90b1b915f3f0f11d6",
+  "human_gate_catalog": "game/resources/environment/assets/barriers/review/barrier_library_catalog.png",
+  "human_gate_catalog_sha256": "5f8b2e814775424d8dbb04f07198cfb6f9e068918263bef11758a8734f786467",
+  "assets": [
+    {
+      "id": "barrier_armco_01",
+      "kind": "barrier",
+      "family": "guardrail",
+      "visual_glb": "game/resources/environment/assets/barriers/barrier_armco_01.glb",
+      "collision_glb": "game/resources/environment/assets/barriers/barrier_armco_01_collision.glb",
+      "strip_glb": "game/resources/environment/assets/barriers/barrier_armco_01_strip5.glb",
+      "preview": "game/resources/environment/assets/barriers/review/barrier_armco_01.png",
+      "strip_preview": "game/resources/environment/assets/barriers/review/barrier_armco_01_strip5.png",
+      "visual_sha256": "3a3b984cbef4fe2c8ebb82bbe5c5279a016f6a80b775c455942b096757261a70",
+      "collision_sha256": "7ca23d07f63a5b2ec123b7a1907b309916a3b8b16f7d2873cead42ba47192ace",
+      "strip_sha256": "f5db7bbfdfefbb67fe8d55cd6040e52bc82afcf1602d1289d0c1b63751ead278",
+      "recipe_sha256": "8f363668901a51723aa0fed26dfb73ca1267f80f8b6785466e44531e6888f11a",
+      "coordinate_contract": {
+        "units": "metres",
+        "up_axis": "+Y",
+        "module_axis": "+X",
+        "track_facing_axis": "+Z",
+        "pivot": "ground_center"
+      },
+      "shading": {
+        "mode": "textured_pbr_v1",
+        "double_sided": true,
+        "alpha_mode": "OPAQUE",
+        "texture": "assets-texturas/textures/objects_styles/png/093.png",
+        "cast_shadows_baked": false
+      },
+      "depth_layers": 1,
+      "visual": {
+        "vertices": 4,
+        "triangles": 2,
+        "components": 1,
+        "watertight": false,
+        "winding_consistent": true,
+        "bounds_min": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "bounds_max": [
+          1.0,
+          0.82,
+          0.0
+        ]
+      },
+      "collision": {
+        "vertices": 8,
+        "triangles": 12,
+        "components": 1,
+        "watertight": true,
+        "winding_consistent": true,
+        "bounds_min": [
+          -1.0,
+          0.0,
+          -0.1
+        ],
+        "bounds_max": [
+          1.0,
+          0.82,
+          0.1
+        ]
+      },
+      "lod": false
+    },
+    {
+      "id": "run_armco_10m",
+      "kind": "barrier",
+      "family": "guardrail",
+      "visual_glb": "game/resources/environment/assets/barriers/run_armco_10m.glb",
+      "collision_glb": "game/resources/environment/assets/barriers/run_armco_10m_collision.glb",
+      "strip_glb": "game/resources/environment/assets/barriers/run_armco_10m_strip5.glb",
+      "preview": "game/resources/environment/assets/barriers/review/run_armco_10m.png",
+      "strip_preview": "game/resources/environment/assets/barriers/review/run_armco_10m_strip5.png",
+      "visual_sha256": "b98403ead9f4930e784432a1bb4971269a4ee97bbfb8bd44e78ffae9b9567d3c",
+      "collision_sha256": "6c554fe55baf114f3b461590de971a262320f793251d8626cc147ba012df9e1a",
+      "strip_sha256": "5c6c3dae9e4b8622f7a209311b5a87b518e58e421c59fdacf5d8d2472ed3b083",
+      "recipe_sha256": "44d39614880464fbd811efa8995d15ea550f84a9f00d8927b5e74f5af962d2dd",
+      "coordinate_contract": {
+        "units": "metres",
+        "up_axis": "+Y",
+        "module_axis": "+X",
+        "track_facing_axis": "+Z",
+        "pivot": "ground_center"
+      },
+      "shading": {
+        "mode": "textured_pbr_v1",
+        "double_sided": true,
+        "alpha_mode": "OPAQUE",
+        "texture": "assets-texturas/textures/objects_styles/png/093.png",
+        "cast_shadows_baked": false
+      },
+      "depth_layers": 1,
+      "visual": {
+        "vertices": 4,
+        "triangles": 2,
+        "components": 1,
+        "watertight": false,
+        "winding_consistent": true,
+        "bounds_min": [
+          -5.0,
+          0.0,
+          0.0
+        ],
+        "bounds_max": [
+          5.0,
+          0.82,
+          0.0
+        ]
+      },
+      "collision": {
+        "vertices": 8,
+        "triangles": 12,
+        "components": 1,
+        "watertight": true,
+        "winding_consistent": true,
+        "bounds_min": [
+          -5.0,
+          0.0,
+          -0.1
+        ],
+        "bounds_max": [
+          5.0,
+          0.82,
+          0.1
+        ]
+      },
+      "lod": false
+    },
+    {
+      "id": "run_armco_25m",
+      "kind": "barrier",
+      "family": "guardrail",
+      "visual_glb": "game/resources/environment/assets/barriers/run_armco_25m.glb",
+      "collision_glb": "game/resources/environment/assets/barriers/run_armco_25m_collision.glb",
+      "strip_glb": "game/resources/environment/assets/barriers/run_armco_25m_strip5.glb",
+      "preview": "game/resources/environment/assets/barriers/review/run_armco_25m.png",
+      "strip_preview": "game/resources/environment/assets/barriers/review/run_armco_25m_strip5.png",
+      "visual_sha256": "a2a097b0e116a07b73e5a4ca3aa6d683a7915dc9f808d39b9dc0b6c220736df9",
+      "collision_sha256": "14cbbc2846fc8d71c63d1e5eb32fe0642080cfd12d7a9b76f5902be3919e787a",
+      "strip_sha256": "c6da8309e72d0b8f24b43df6a64b2b38877606e0943219cfd20dbc12be9be47f",
+      "recipe_sha256": "8b3ddfd19b322da2e4b58d3a5eef9b542cbc7dfc8b82f90a23f2a5020dcebd66",
+      "coordinate_contract": {
+        "units": "metres",
+        "up_axis": "+Y",
+        "module_axis": "+X",
+        "track_facing_axis": "+Z",
+        "pivot": "ground_center"
+      },
+      "shading": {
+        "mode": "textured_pbr_v1",
+        "double_sided": true,
+        "alpha_mode": "OPAQUE",
+        "texture": "assets-texturas/textures/objects_styles/png/094.png",
+        "cast_shadows_baked": false
+      },
+      "depth_layers": 1,
+      "visual": {
+        "vertices": 4,
+        "triangles": 2,
+        "components": 1,
+        "watertight": false,
+        "winding_consistent": true,
+        "bounds_min": [
+          -12.5,
+          0.0,
+          0.0
+        ],
+        "bounds_max": [
+          12.5,
+          0.82,
+          0.0
+        ]
+      },
+      "collision": {
+        "vertices": 8,
+        "triangles": 12,
+        "components": 1,
+        "watertight": true,
+        "winding_consistent": true,
+        "bounds_min": [
+          -12.5,
+          0.0,
+          -0.1
+        ],
+        "bounds_max": [
+          12.5,
+          0.82,
+          0.1
+        ]
+      },
+      "lod": false
+    },
+    {
+      "id": "barrier_concrete_jersey_01",
+      "kind": "barrier",
+      "family": "concrete",
+      "visual_glb": "game/resources/environment/assets/barriers/barrier_concrete_jersey_01.glb",
+      "collision_glb": "game/resources/environment/assets/barriers/barrier_concrete_jersey_01_collision.glb",
+      "strip_glb": "game/resources/environment/assets/barriers/barrier_concrete_jersey_01_strip5.glb",
+      "preview": "game/resources/environment/assets/barriers/review/barrier_concrete_jersey_01.png",
+      "strip_preview": "game/resources/environment/assets/barriers/review/barrier_concrete_jersey_01_strip5.png",
+      "visual_sha256": "089e23310c2ede3c4f88207c3212e423fada44da70c40ecd6476fb3fbe2cd232",
+      "collision_sha256": "49ac9463e9027fba4763fff7f69a57a3600a445e4b624d27dc8c67e0c3d9c6d8",
+      "strip_sha256": "5f16fbf7d3e9c01201f63a823e827fc43d3e7e0744b66c4833fc5811a6c79be9",
+      "recipe_sha256": "98a3c2319ec3d952813fb0fa8317f14f9a40d0b9a9e8d193ff916c90f5c472be",
+      "coordinate_contract": {
+        "units": "metres",
+        "up_axis": "+Y",
+        "module_axis": "+X",
+        "track_facing_axis": "+Z",
+        "pivot": "ground_center"
+      },
+      "shading": {
+        "mode": "textured_pbr_v1",
+        "double_sided": true,
+        "alpha_mode": "OPAQUE",
+        "texture": "assets-texturas/textures/objects_styles/png/100.png",
+        "cast_shadows_baked": false
+      },
+      "depth_layers": 1,
+      "visual": {
+        "vertices": 4,
+        "triangles": 2,
+        "components": 1,
+        "watertight": false,
+        "winding_consistent": true,
+        "bounds_min": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "bounds_max": [
+          1.0,
+          1.0,
+          0.0
+        ]
+      },
+      "collision": {
+        "vertices": 8,
+        "triangles": 12,
+        "components": 1,
+        "watertight": true,
+        "winding_consistent": true,
+        "bounds_min": [
+          -1.0,
+          0.0,
+          -0.2
+        ],
+        "bounds_max": [
+          1.0,
+          1.0,
+          0.2
+        ]
+      },
+      "lod": false
+    },
+    {
+      "id": "barrier_plastic_navy_white_01",
+      "kind": "barrier",
+      "family": "concrete",
+      "visual_glb": "game/resources/environment/assets/barriers/barrier_plastic_navy_white_01.glb",
+      "collision_glb": "game/resources/environment/assets/barriers/barrier_plastic_navy_white_01_collision.glb",
+      "strip_glb": "game/resources/environment/assets/barriers/barrier_plastic_navy_white_01_strip5.glb",
+      "preview": "game/resources/environment/assets/barriers/review/barrier_plastic_navy_white_01.png",
+      "strip_preview": "game/resources/environment/assets/barriers/review/barrier_plastic_navy_white_01_strip5.png",
+      "visual_sha256": "99c328fa26d3041e4c80478b3f5f72ec70653cb766df9dcc89dea52c0c0bda26",
+      "collision_sha256": "ea96659199306e474fb8fd9b7f38b7571570f5485a443a6271de817ea2d14bda",
+      "strip_sha256": "c152ee2bc99cf7dfe639e97b4a8ed271b55114cf50755406e4331b04d8426af4",
+      "recipe_sha256": "93ff36e07a0fe587d3d142da0571bc28786f28aaeb6b11ed6239a31dd0676ad5",
+      "coordinate_contract": {
+        "units": "metres",
+        "up_axis": "+Y",
+        "module_axis": "+X",
+        "track_facing_axis": "+Z",
+        "pivot": "ground_center"
+      },
+      "shading": {
+        "mode": "textured_pbr_v1",
+        "double_sided": true,
+        "alpha_mode": "OPAQUE",
+        "texture": "assets-texturas/textures/objects_styles/png/104.png",
+        "cast_shadows_baked": false
+      },
+      "depth_layers": 1,
+      "visual": {
+        "vertices": 4,
+        "triangles": 2,
+        "components": 1,
+        "watertight": false,
+        "winding_consistent": true,
+        "bounds_min": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "bounds_max": [
+          1.0,
+          1.0,
+          0.0
+        ]
+      },
+      "collision": {
+        "vertices": 8,
+        "triangles": 12,
+        "components": 1,
+        "watertight": true,
+        "winding_consistent": true,
+        "bounds_min": [
+          -1.0,
+          0.0,
+          -0.2
+        ],
+        "bounds_max": [
+          1.0,
+          1.0,
+          0.2
+        ]
+      },
+      "lod": false
+    },
+    {
+      "id": "run_jersey_10m",
+      "kind": "barrier",
+      "family": "concrete",
+      "visual_glb": "game/resources/environment/assets/barriers/run_jersey_10m.glb",
+      "collision_glb": "game/resources/environment/assets/barriers/run_jersey_10m_collision.glb",
+      "strip_glb": "game/resources/environment/assets/barriers/run_jersey_10m_strip5.glb",
+      "preview": "game/resources/environment/assets/barriers/review/run_jersey_10m.png",
+      "strip_preview": "game/resources/environment/assets/barriers/review/run_jersey_10m_strip5.png",
+      "visual_sha256": "2c849eae38f0904b19cec3c5b298382015519116905f0a44f0c2a9651c47ed38",
+      "collision_sha256": "ce49890876dcbfbf6afa39869e77d750e884d736cdd1c2a94161ab27b4342666",
+      "strip_sha256": "1b46d798b1ca352eedddb3ba28271980c86bc81670896c07a4c36aa1e19afb24",
+      "recipe_sha256": "99c61be9a8228c15ab63a3d042b8536cd524115ababb7923f3737617ed64670d",
+      "coordinate_contract": {
+        "units": "metres",
+        "up_axis": "+Y",
+        "module_axis": "+X",
+        "track_facing_axis": "+Z",
+        "pivot": "ground_center"
+      },
+      "shading": {
+        "mode": "textured_pbr_v1",
+        "double_sided": true,
+        "alpha_mode": "OPAQUE",
+        "texture": "assets-texturas/textures/objects_styles/png/100.png",
+        "cast_shadows_baked": false
+      },
+      "depth_layers": 1,
+      "visual": {
+        "vertices": 4,
+        "triangles": 2,
+        "components": 1,
+        "watertight": false,
+        "winding_consistent": true,
+        "bounds_min": [
+          -5.0,
+          0.0,
+          0.0
+        ],
+        "bounds_max": [
+          5.0,
+          1.0,
+          0.0
+        ]
+      },
+      "collision": {
+        "vertices": 8,
+        "triangles": 12,
+        "components": 1,
+        "watertight": true,
+        "winding_consistent": true,
+        "bounds_min": [
+          -5.0,
+          0.0,
+          -0.2
+        ],
+        "bounds_max": [
+          5.0,
+          1.0,
+          0.2
+        ]
+      },
+      "lod": false
+    },
+    {
+      "id": "run_jersey_50m",
+      "kind": "barrier",
+      "family": "concrete",
+      "visual_glb": "game/resources/environment/assets/barriers/run_jersey_50m.glb",
+      "collision_glb": "game/resources/environment/assets/barriers/run_jersey_50m_collision.glb",
+      "strip_glb": "game/resources/environment/assets/barriers/run_jersey_50m_strip5.glb",
+      "preview": "game/resources/environment/assets/barriers/review/run_jersey_50m.png",
+      "strip_preview": "game/resources/environment/assets/barriers/review/run_jersey_50m_strip5.png",
+      "visual_sha256": "de62fa8f27cff22b953fe220a3ada32cbb248e41f43be3a1ed2f7d23745204c2",
+      "collision_sha256": "7bd7295a3320c1af4548c70225f0b61b31a07296343619196911138e2f626e22",
+      "strip_sha256": "466334a7bc0abf9ec023229f1c0587fdab6bf1d47810894729681e515bb21c6b",
+      "recipe_sha256": "229a986ebd87b5380af769b5c38924fe147b387e6238dc8039dc7953233b5b1d",
+      "coordinate_contract": {
+        "units": "metres",
+        "up_axis": "+Y",
+        "module_axis": "+X",
+        "track_facing_axis": "+Z",
+        "pivot": "ground_center"
+      },
+      "shading": {
+        "mode": "textured_pbr_v1",
+        "double_sided": true,
+        "alpha_mode": "OPAQUE",
+        "texture": "assets-texturas/textures/objects_styles/png/100.png",
+        "cast_shadows_baked": false
+      },
+      "depth_layers": 1,
+      "visual": {
+        "vertices": 4,
+        "triangles": 2,
+        "components": 1,
+        "watertight": false,
+        "winding_consistent": true,
+        "bounds_min": [
+          -25.0,
+          0.0,
+          0.0
+        ],
+        "bounds_max": [
+          25.0,
+          1.0,
+          0.0
+        ]
+      },
+      "collision": {
+        "vertices": 8,
+        "triangles": 12,
+        "components": 1,
+        "watertight": true,
+        "winding_consistent": true,
+        "bounds_min": [
+          -25.0,
+          0.0,
+          -0.2
+        ],
+        "bounds_max": [
+          25.0,
+          1.0,
+          0.2
+        ]
+      },
+      "lod": false
+    },
+    {
+      "id": "run_jersey_100m",
+      "kind": "barrier",
+      "family": "concrete",
+      "visual_glb": "game/resources/environment/assets/barriers/run_jersey_100m.glb",
+      "collision_glb": "game/resources/environment/assets/barriers/run_jersey_100m_collision.glb",
+      "strip_glb": "game/resources/environment/assets/barriers/run_jersey_100m_strip5.glb",
+      "preview": "game/resources/environment/assets/barriers/review/run_jersey_100m.png",
+      "strip_preview": "game/resources/environment/assets/barriers/review/run_jersey_100m_strip5.png",
+      "visual_sha256": "4ac4e43e8a949f64ad74396a211115b60c708513fcfaa418c21f347f0703c540",
+      "collision_sha256": "7f67e33b445df3167069659e33c01da0916b2a6dc66653936de5c1febd33c081",
+      "strip_sha256": "46620841b2ddaf90ff28c2a873166ffb25a82ffb9a9ecb20a723b5deb26ebb7f",
+      "recipe_sha256": "bf977b2bf6658fd6e9182d5c138179b2648d4b7c32ff1720d0e59479b9c78051",
+      "coordinate_contract": {
+        "units": "metres",
+        "up_axis": "+Y",
+        "module_axis": "+X",
+        "track_facing_axis": "+Z",
+        "pivot": "ground_center"
+      },
+      "shading": {
+        "mode": "textured_pbr_v1",
+        "double_sided": true,
+        "alpha_mode": "OPAQUE",
+        "texture": "assets-texturas/textures/objects_styles/png/104.png",
+        "cast_shadows_baked": false
+      },
+      "depth_layers": 1,
+      "visual": {
+        "vertices": 4,
+        "triangles": 2,
+        "components": 1,
+        "watertight": false,
+        "winding_consistent": true,
+        "bounds_min": [
+          -50.0,
+          0.0,
+          0.0
+        ],
+        "bounds_max": [
+          50.0,
+          1.0,
+          0.0
+        ]
+      },
+      "collision": {
+        "vertices": 8,
+        "triangles": 12,
+        "components": 1,
+        "watertight": true,
+        "winding_consistent": true,
+        "bounds_min": [
+          -50.0,
+          0.0,
+          -0.2
+        ],
+        "bounds_max": [
+          50.0,
+          1.0,
+          0.2
+        ]
+      },
+      "lod": false
+    },
+    {
+      "id": "barrier_tire_black_01",
+      "kind": "barrier",
+      "family": "tire_wall",
+      "visual_glb": "game/resources/environment/assets/barriers/barrier_tire_black_01.glb",
+      "collision_glb": "game/resources/environment/assets/barriers/barrier_tire_black_01_collision.glb",
+      "strip_glb": "game/resources/environment/assets/barriers/barrier_tire_black_01_strip5.glb",
+      "preview": "game/resources/environment/assets/barriers/review/barrier_tire_black_01.png",
+      "strip_preview": "game/resources/environment/assets/barriers/review/barrier_tire_black_01_strip5.png",
+      "visual_sha256": "8283eab2173aa0362ea20defcfec3128cda29a9bcb7b6d410d349b9976c3e8e8",
+      "collision_sha256": "41586462aeffcb61ef3e23e66219573facd71703bc37a3ae3a44ad37ce6a98de",
+      "strip_sha256": "f992bb980684bd7013e66542d167df5b7d91c711555e73e5ca953c4cb45fa6fe",
+      "recipe_sha256": "1474e0235297406cc75c79efb01361808e6cf5e496ed98355c51656191057105",
+      "coordinate_contract": {
+        "units": "metres",
+        "up_axis": "+Y",
+        "module_axis": "+X",
+        "track_facing_axis": "+Z",
+        "pivot": "ground_center"
+      },
+      "shading": {
+        "mode": "textured_pbr_v1",
+        "double_sided": true,
+        "alpha_mode": "MASK",
+        "texture": "assets-texturas/textures/objects_styles/png/generated/tire_barrier_smoke_blue_5x2_seamless_512x256.png",
+        "cast_shadows_baked": false
+      },
+      "depth_layers": 1,
+      "visual": {
+        "vertices": 4,
+        "triangles": 2,
+        "components": 1,
+        "watertight": false,
+        "winding_consistent": true,
+        "bounds_min": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "bounds_max": [
+          1.0,
+          1.15,
+          0.0
+        ]
+      },
+      "collision": {
+        "vertices": 8,
+        "triangles": 12,
+        "components": 1,
+        "watertight": true,
+        "winding_consistent": true,
+        "bounds_min": [
+          -1.0,
+          0.0,
+          -0.275
+        ],
+        "bounds_max": [
+          1.0,
+          1.15,
+          0.275
+        ]
+      },
+      "lod": false
+    },
+    {
+      "id": "barrier_tire_black_02_double",
+      "kind": "barrier",
+      "family": "tire_wall",
+      "visual_glb": "game/resources/environment/assets/barriers/barrier_tire_black_02_double.glb",
+      "collision_glb": "game/resources/environment/assets/barriers/barrier_tire_black_02_double_collision.glb",
+      "strip_glb": "game/resources/environment/assets/barriers/barrier_tire_black_02_double_strip5.glb",
+      "preview": "game/resources/environment/assets/barriers/review/barrier_tire_black_02_double.png",
+      "strip_preview": "game/resources/environment/assets/barriers/review/barrier_tire_black_02_double_strip5.png",
+      "visual_sha256": "e5e3d30d5a777ef028662f9a3234f8f547f02b409e4c427724fbc12c60c068c7",
+      "collision_sha256": "5fdc02e8ebe198468ae52d174cfbd13731b256844da10bee52a4bb102c520662",
+      "strip_sha256": "680493db1b2ee8636afbb77d6746972250575c4aea16887c3f81f76a184740be",
+      "recipe_sha256": "84ad2c5a270d165621f88ae43e587f11194a98395f4fb4d6ef72fed7de03ecdd",
+      "coordinate_contract": {
+        "units": "metres",
+        "up_axis": "+Y",
+        "module_axis": "+X",
+        "track_facing_axis": "+Z",
+        "pivot": "ground_center"
+      },
+      "shading": {
+        "mode": "textured_pbr_v1",
+        "double_sided": true,
+        "alpha_mode": "MASK",
+        "texture": "assets-texturas/textures/objects_styles/png/generated/tire_barrier_smoke_blue_5x2_seamless_512x256.png",
+        "cast_shadows_baked": false
+      },
+      "depth_layers": 1,
+      "visual": {
+        "vertices": 4,
+        "triangles": 2,
+        "components": 1,
+        "watertight": false,
+        "winding_consistent": true,
+        "bounds_min": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "bounds_max": [
+          1.0,
+          1.15,
+          0.0
+        ]
+      },
+      "collision": {
+        "vertices": 8,
+        "triangles": 12,
+        "components": 1,
+        "watertight": true,
+        "winding_consistent": true,
+        "bounds_min": [
+          -1.0,
+          0.0,
+          -0.375
+        ],
+        "bounds_max": [
+          1.0,
+          1.15,
+          0.375
+        ]
+      },
+      "lod": false
+    },
+    {
+      "id": "barrier_tire_black_03_triple",
+      "kind": "barrier",
+      "family": "tire_wall",
+      "visual_glb": "game/resources/environment/assets/barriers/barrier_tire_black_03_triple.glb",
+      "collision_glb": "game/resources/environment/assets/barriers/barrier_tire_black_03_triple_collision.glb",
+      "strip_glb": "game/resources/environment/assets/barriers/barrier_tire_black_03_triple_strip5.glb",
+      "preview": "game/resources/environment/assets/barriers/review/barrier_tire_black_03_triple.png",
+      "strip_preview": "game/resources/environment/assets/barriers/review/barrier_tire_black_03_triple_strip5.png",
+      "visual_sha256": "3c7845d6f36a7e25f4b2118d12f9777289a8ba5354eef0801d0f6763f90335c5",
+      "collision_sha256": "5e0289581d2a9ec175fcc730caf8a6cc3d23f5dfe6cad1e3ec04317b42780a5e",
+      "strip_sha256": "ac5b44e55333b80cb7a123cd45aa969eec5c2baa39af4ef722724fe865d257dd",
+      "recipe_sha256": "87fde509cb4d8e2b7edd37949b945a72e1bf0c08ee9482710b83e9591ce7f1f2",
+      "coordinate_contract": {
+        "units": "metres",
+        "up_axis": "+Y",
+        "module_axis": "+X",
+        "track_facing_axis": "+Z",
+        "pivot": "ground_center"
+      },
+      "shading": {
+        "mode": "textured_pbr_v1",
+        "double_sided": true,
+        "alpha_mode": "MASK",
+        "texture": "assets-texturas/textures/objects_styles/png/generated/tire_barrier_smoke_blue_5x2_seamless_512x256.png",
+        "cast_shadows_baked": false
+      },
+      "depth_layers": 1,
+      "visual": {
+        "vertices": 4,
+        "triangles": 2,
+        "components": 1,
+        "watertight": false,
+        "winding_consistent": true,
+        "bounds_min": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "bounds_max": [
+          1.0,
+          1.15,
+          0.0
+        ]
+      },
+      "collision": {
+        "vertices": 8,
+        "triangles": 12,
+        "components": 1,
+        "watertight": true,
+        "winding_consistent": true,
+        "bounds_min": [
+          -1.0,
+          0.0,
+          -0.5
+        ],
+        "bounds_max": [
+          1.0,
+          1.15,
+          0.5
+        ]
+      },
+      "lod": false
+    },
+    {
+      "id": "barrier_tire_navy_white_01",
+      "kind": "barrier",
+      "family": "tire_wall",
+      "visual_glb": "game/resources/environment/assets/barriers/barrier_tire_navy_white_01.glb",
+      "collision_glb": "game/resources/environment/assets/barriers/barrier_tire_navy_white_01_collision.glb",
+      "strip_glb": "game/resources/environment/assets/barriers/barrier_tire_navy_white_01_strip5.glb",
+      "preview": "game/resources/environment/assets/barriers/review/barrier_tire_navy_white_01.png",
+      "strip_preview": "game/resources/environment/assets/barriers/review/barrier_tire_navy_white_01_strip5.png",
+      "visual_sha256": "53a64d9b8398bd4c160c182256805c4255d5c96aeede73b6aaa1ff5bb0db163c",
+      "collision_sha256": "a40fe8905ff4364528df378e7c4519839a2d8ac29ec1b093ac96376f70c78d5f",
+      "strip_sha256": "3e30fb601a6899689b4a05cf32e458e98abaf7a436cb18791b87d751c284ae2c",
+      "recipe_sha256": "cbba2e50149d66c80efaeefb0ad5593298b8834f33d4548a82faec4659124461",
+      "coordinate_contract": {
+        "units": "metres",
+        "up_axis": "+Y",
+        "module_axis": "+X",
+        "track_facing_axis": "+Z",
+        "pivot": "ground_center"
+      },
+      "shading": {
+        "mode": "textured_pbr_v1",
+        "double_sided": true,
+        "alpha_mode": "MASK",
+        "texture": "assets-texturas/textures/objects_styles/png/generated/tire_barrier_smoke_blue_5x2_seamless_512x256.png",
+        "cast_shadows_baked": false
+      },
+      "depth_layers": 1,
+      "visual": {
+        "vertices": 4,
+        "triangles": 2,
+        "components": 1,
+        "watertight": false,
+        "winding_consistent": true,
+        "bounds_min": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "bounds_max": [
+          1.0,
+          1.15,
+          0.0
+        ]
+      },
+      "collision": {
+        "vertices": 8,
+        "triangles": 12,
+        "components": 1,
+        "watertight": true,
+        "winding_consistent": true,
+        "bounds_min": [
+          -1.0,
+          0.0,
+          -0.275
+        ],
+        "bounds_max": [
+          1.0,
+          1.15,
+          0.275
+        ]
+      },
+      "lod": false
+    },
+    {
+      "id": "barrier_tire_navy_white_02_double",
+      "kind": "barrier",
+      "family": "tire_wall",
+      "visual_glb": "game/resources/environment/assets/barriers/barrier_tire_navy_white_02_double.glb",
+      "collision_glb": "game/resources/environment/assets/barriers/barrier_tire_navy_white_02_double_collision.glb",
+      "strip_glb": "game/resources/environment/assets/barriers/barrier_tire_navy_white_02_double_strip5.glb",
+      "preview": "game/resources/environment/assets/barriers/review/barrier_tire_navy_white_02_double.png",
+      "strip_preview": "game/resources/environment/assets/barriers/review/barrier_tire_navy_white_02_double_strip5.png",
+      "visual_sha256": "5a123422d1484efbf66d9aa106382e2af32c4fb7206104a4af72dc932cfef08d",
+      "collision_sha256": "80e9ccbe357b9de96959cdc1e330368dad5b62f5c4cc95adbfb21f54afd6fac8",
+      "strip_sha256": "e15a044307b95ce777d59ed50c67ebc8e8c3ed8ba0ec145fb5ac0b02bfd53bd7",
+      "recipe_sha256": "1d2f0ac89964ad808efe89ac91d367fb297a07edb1e9f608761d71937c9481d4",
+      "coordinate_contract": {
+        "units": "metres",
+        "up_axis": "+Y",
+        "module_axis": "+X",
+        "track_facing_axis": "+Z",
+        "pivot": "ground_center"
+      },
+      "shading": {
+        "mode": "textured_pbr_v1",
+        "double_sided": true,
+        "alpha_mode": "MASK",
+        "texture": "assets-texturas/textures/objects_styles/png/generated/tire_barrier_smoke_blue_5x2_seamless_512x256.png",
+        "cast_shadows_baked": false
+      },
+      "depth_layers": 1,
+      "visual": {
+        "vertices": 4,
+        "triangles": 2,
+        "components": 1,
+        "watertight": false,
+        "winding_consistent": true,
+        "bounds_min": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "bounds_max": [
+          1.0,
+          1.15,
+          0.0
+        ]
+      },
+      "collision": {
+        "vertices": 8,
+        "triangles": 12,
+        "components": 1,
+        "watertight": true,
+        "winding_consistent": true,
+        "bounds_min": [
+          -1.0,
+          0.0,
+          -0.375
+        ],
+        "bounds_max": [
+          1.0,
+          1.15,
+          0.375
+        ]
+      },
+      "lod": false
+    },
+    {
+      "id": "run_tire_black_10m",
+      "kind": "barrier",
+      "family": "tire_wall",
+      "visual_glb": "game/resources/environment/assets/barriers/run_tire_black_10m.glb",
+      "collision_glb": "game/resources/environment/assets/barriers/run_tire_black_10m_collision.glb",
+      "strip_glb": "game/resources/environment/assets/barriers/run_tire_black_10m_strip5.glb",
+      "preview": "game/resources/environment/assets/barriers/review/run_tire_black_10m.png",
+      "strip_preview": "game/resources/environment/assets/barriers/review/run_tire_black_10m_strip5.png",
+      "visual_sha256": "629a1e54f4ddb4673f174711b98d2d973b197aec9923906e0fc7d8aad6912716",
+      "collision_sha256": "fefdb3debcc33d366a324ad6f14f2b4474a531c88a545aae832e028acab7218e",
+      "strip_sha256": "60fc2632c53dd7afb08cba1bc198ba40767e405c3c775592d200968a3ac0a3ea",
+      "recipe_sha256": "d276846dcc025590dd71cf472975b84a0aeba868888b4c2dd334c82f6819f2cb",
+      "coordinate_contract": {
+        "units": "metres",
+        "up_axis": "+Y",
+        "module_axis": "+X",
+        "track_facing_axis": "+Z",
+        "pivot": "ground_center"
+      },
+      "shading": {
+        "mode": "textured_pbr_v1",
+        "double_sided": true,
+        "alpha_mode": "MASK",
+        "texture": "assets-texturas/textures/objects_styles/png/generated/tire_barrier_smoke_blue_5x2_seamless_512x256.png",
+        "cast_shadows_baked": false
+      },
+      "depth_layers": 1,
+      "visual": {
+        "vertices": 4,
+        "triangles": 2,
+        "components": 1,
+        "watertight": false,
+        "winding_consistent": true,
+        "bounds_min": [
+          -5.0,
+          0.0,
+          0.0
+        ],
+        "bounds_max": [
+          5.0,
+          1.15,
+          0.0
+        ]
+      },
+      "collision": {
+        "vertices": 8,
+        "triangles": 12,
+        "components": 1,
+        "watertight": true,
+        "winding_consistent": true,
+        "bounds_min": [
+          -5.0,
+          0.0,
+          -0.275
+        ],
+        "bounds_max": [
+          5.0,
+          1.15,
+          0.275
+        ]
+      },
+      "lod": false
+    },
+    {
+      "id": "run_tire_black_2l_10m",
+      "kind": "barrier",
+      "family": "tire_wall",
+      "visual_glb": "game/resources/environment/assets/barriers/run_tire_black_2l_10m.glb",
+      "collision_glb": "game/resources/environment/assets/barriers/run_tire_black_2l_10m_collision.glb",
+      "strip_glb": "game/resources/environment/assets/barriers/run_tire_black_2l_10m_strip5.glb",
+      "preview": "game/resources/environment/assets/barriers/review/run_tire_black_2l_10m.png",
+      "strip_preview": "game/resources/environment/assets/barriers/review/run_tire_black_2l_10m_strip5.png",
+      "visual_sha256": "bdee658c4f49a46dfb3acfc5e191caabb8b039e1cc9cfd13dc594f870b14219b",
+      "collision_sha256": "fa4c955a9a34084d12f9d6905d1629a8ac46fc6d48830caae96725e99c369ac1",
+      "strip_sha256": "82cab68ffa6b12d3b8d8ab1fa9fa53fa2f74fbceab8ec1ed6d78cae33f081d76",
+      "recipe_sha256": "97f2940989e17c23c97b3a022744debc0556f7893b1ac87df884030e5f69bc57",
+      "coordinate_contract": {
+        "units": "metres",
+        "up_axis": "+Y",
+        "module_axis": "+X",
+        "track_facing_axis": "+Z",
+        "pivot": "ground_center"
+      },
+      "shading": {
+        "mode": "textured_pbr_v1",
+        "double_sided": true,
+        "alpha_mode": "MASK",
+        "texture": "assets-texturas/textures/objects_styles/png/generated/tire_barrier_smoke_blue_5x2_seamless_512x256.png",
+        "cast_shadows_baked": false
+      },
+      "depth_layers": 1,
+      "visual": {
+        "vertices": 4,
+        "triangles": 2,
+        "components": 1,
+        "watertight": false,
+        "winding_consistent": true,
+        "bounds_min": [
+          -5.0,
+          0.0,
+          0.0
+        ],
+        "bounds_max": [
+          5.0,
+          1.15,
+          0.0
+        ]
+      },
+      "collision": {
+        "vertices": 8,
+        "triangles": 12,
+        "components": 1,
+        "watertight": true,
+        "winding_consistent": true,
+        "bounds_min": [
+          -5.0,
+          0.0,
+          -0.375
+        ],
+        "bounds_max": [
+          5.0,
+          1.15,
+          0.375
+        ]
+      },
+      "lod": false
+    },
+    {
+      "id": "run_tire_black_3l_10m",
+      "kind": "barrier",
+      "family": "tire_wall",
+      "visual_glb": "game/resources/environment/assets/barriers/run_tire_black_3l_10m.glb",
+      "collision_glb": "game/resources/environment/assets/barriers/run_tire_black_3l_10m_collision.glb",
+      "strip_glb": "game/resources/environment/assets/barriers/run_tire_black_3l_10m_strip5.glb",
+      "preview": "game/resources/environment/assets/barriers/review/run_tire_black_3l_10m.png",
+      "strip_preview": "game/resources/environment/assets/barriers/review/run_tire_black_3l_10m_strip5.png",
+      "visual_sha256": "93bfc80a6764ab8e2455e42018660bd0cfba6c272bb42933a16e9efb7fe31a96",
+      "collision_sha256": "520248270705cbcfddf26f9c6574d4ca5e35e0a81acf266eb44abb4c1fc5948f",
+      "strip_sha256": "3c573267e8fc28d77feec0b2dcc6f0f171180e9be1800bb1c334d7725b69eb3e",
+      "recipe_sha256": "a1a588daf843d19e8f85ed5ea410f9ccac23a36d426a762ec4df0c927d206cf2",
+      "coordinate_contract": {
+        "units": "metres",
+        "up_axis": "+Y",
+        "module_axis": "+X",
+        "track_facing_axis": "+Z",
+        "pivot": "ground_center"
+      },
+      "shading": {
+        "mode": "textured_pbr_v1",
+        "double_sided": true,
+        "alpha_mode": "MASK",
+        "texture": "assets-texturas/textures/objects_styles/png/generated/tire_barrier_smoke_blue_5x2_seamless_512x256.png",
+        "cast_shadows_baked": false
+      },
+      "depth_layers": 1,
+      "visual": {
+        "vertices": 4,
+        "triangles": 2,
+        "components": 1,
+        "watertight": false,
+        "winding_consistent": true,
+        "bounds_min": [
+          -5.0,
+          0.0,
+          0.0
+        ],
+        "bounds_max": [
+          5.0,
+          1.15,
+          0.0
+        ]
+      },
+      "collision": {
+        "vertices": 8,
+        "triangles": 12,
+        "components": 1,
+        "watertight": true,
+        "winding_consistent": true,
+        "bounds_min": [
+          -5.0,
+          0.0,
+          -0.5
+        ],
+        "bounds_max": [
+          5.0,
+          1.15,
+          0.5
+        ]
+      },
+      "lod": false
+    },
+    {
+      "id": "run_tire_navy_2l_10m",
+      "kind": "barrier",
+      "family": "tire_wall",
+      "visual_glb": "game/resources/environment/assets/barriers/run_tire_navy_2l_10m.glb",
+      "collision_glb": "game/resources/environment/assets/barriers/run_tire_navy_2l_10m_collision.glb",
+      "strip_glb": "game/resources/environment/assets/barriers/run_tire_navy_2l_10m_strip5.glb",
+      "preview": "game/resources/environment/assets/barriers/review/run_tire_navy_2l_10m.png",
+      "strip_preview": "game/resources/environment/assets/barriers/review/run_tire_navy_2l_10m_strip5.png",
+      "visual_sha256": "4fee243ddcbcbe8309fd0a7dd8d02afc810031a52e82d100db85803a18223e07",
+      "collision_sha256": "3b36d0d95f409166587beafcc89e64702b658e3d7576e97d5249e02fd2b73bee",
+      "strip_sha256": "cd0f4ce3b8245948b708cae3a15e30d92393e74c3783ef1bcd5fd5d0f8257349",
+      "recipe_sha256": "ac7cd2ad41f94e32347511dbb13a22c90e611375cba3a509c5ecf0c284cb1cc1",
+      "coordinate_contract": {
+        "units": "metres",
+        "up_axis": "+Y",
+        "module_axis": "+X",
+        "track_facing_axis": "+Z",
+        "pivot": "ground_center"
+      },
+      "shading": {
+        "mode": "textured_pbr_v1",
+        "double_sided": true,
+        "alpha_mode": "MASK",
+        "texture": "assets-texturas/textures/objects_styles/png/generated/tire_barrier_smoke_blue_5x2_seamless_512x256.png",
+        "cast_shadows_baked": false
+      },
+      "depth_layers": 1,
+      "visual": {
+        "vertices": 4,
+        "triangles": 2,
+        "components": 1,
+        "watertight": false,
+        "winding_consistent": true,
+        "bounds_min": [
+          -5.0,
+          0.0,
+          0.0
+        ],
+        "bounds_max": [
+          5.0,
+          1.15,
+          0.0
+        ]
+      },
+      "collision": {
+        "vertices": 8,
+        "triangles": 12,
+        "components": 1,
+        "watertight": true,
+        "winding_consistent": true,
+        "bounds_min": [
+          -5.0,
+          0.0,
+          -0.375
+        ],
+        "bounds_max": [
+          5.0,
+          1.15,
+          0.375
+        ]
+      },
+      "lod": false
+    }
+  ]
+}
