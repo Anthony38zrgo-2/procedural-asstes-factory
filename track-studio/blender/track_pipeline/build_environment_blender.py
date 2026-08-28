@@ -1047,7 +1047,7 @@ def build_trackside_props(config, points, props, materials, glb_prototypes=None)
                      pos[1] + normal[1] * side * distance))
         lateral = ((card_pos[0] - pos[0]) * normal[0] +
                    (card_pos[1] - pos[1]) * normal[1])
-        if outer_face is not None:
+        if outer_face is not None and not item.get("inside_barrier", False):
             required = outer_face(float(item["track_fraction"]), side)
             if required is not None:
                 min_abs = required + TRACKSIDE_CARD_CLEARANCE_M
@@ -1058,8 +1058,10 @@ def build_trackside_props(config, points, props, materials, glb_prototypes=None)
                     distance = abs(target)
         ground = terrain_height(config, float(item["track_fraction"]), side, distance)
         if glb_prototypes and asset_id in glb_prototypes:
-            yaw = math.atan2(float(tangent[1]), float(tangent[0]))
-            instance_scale = sign_scale if prop_type == "sign" else 1.0
+            yaw = (math.atan2(float(tangent[1]), float(tangent[0])) +
+                   float(item.get("yaw_offset_rad", 0.0)))
+            default_scale = sign_scale if prop_type == "sign" else 1.0
+            instance_scale = float(item.get("scale_multiplier", default_scale))
             root = instantiate_prototype(
                 glb_prototypes[asset_id],
                 f"Trackside_{prop_type}_{item['prop_id']}_{asset_id}",

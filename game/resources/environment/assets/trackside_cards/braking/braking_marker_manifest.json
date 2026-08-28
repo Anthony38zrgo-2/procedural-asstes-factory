@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "generator": "la_chutana_braking_marker_cards_v1",
+  "coordinate_contract": "X width, Y thickness/normal, Z height; origin bottom-center",
+  "assets": [
+    {
+      "id": "braking_200",
+      "kind": "braking_marker_card",
+      "distance_m": 200,
+      "glb": "game/resources/environment/assets/trackside_cards/braking/braking_200.glb",
+      "glb_sha256": "272bc5540b1cb25a7e4a9449776b97e68e7e3f85e0ccf009924b538c219d9f43",
+      "source_png": "assets-texturas/textures/objects_styles/png/braking_cards/braking_200.png",
+      "source_png_sha256": "ee545216260af911640887a3aa349b4bae7c26434962f7508869cde985311f6b",
+      "width_m": 2.4,
+      "height_m": 0.8,
+      "double_sided": true,
+      "collision": false,
+      "origin": "bottom_center"
+    },
+    {
+      "id": "braking_150",
+      "kind": "braking_marker_card",
+      "distance_m": 150,
+      "glb": "game/resources/environment/assets/trackside_cards/braking/braking_150.glb",
+      "glb_sha256": "8e4f4da6ddb312e55f9460dce10ed17de725ba80b45ae0884ef0606bcac266a7",
+      "source_png": "assets-texturas/textures/objects_styles/png/braking_cards/braking_150.png",
+      "source_png_sha256": "d7c955fc0b0d5ce2d6bb13e82729046949d76e67c0c723270196eaf32da19d7a",
+      "width_m": 2.4,
+      "height_m": 0.8,
+      "double_sided": true,
+      "collision": false,
+      "origin": "bottom_center"
+    },
+    {
+      "id": "braking_100",
+      "kind": "braking_marker_card",
+      "distance_m": 100,
+      "glb": "game/resources/environment/assets/trackside_cards/braking/braking_100.glb",
+      "glb_sha256": "a923cfbf1b878ad77fd00e2440fca6abf8aa52e0c2391fd2a301718e29608cb2",
+      "source_png": "assets-texturas/textures/objects_styles/png/braking_cards/braking_100.png",
+      "source_png_sha256": "44190f29609171d495c3d4871b51cfd36a2aea60b5e8c0fda78abfd867032750",
+      "width_m": 2.4,
+      "height_m": 0.8,
+      "double_sided": true,
+      "collision": false,
+      "origin": "bottom_center"
+    },
+    {
+      "id": "braking_050",
+      "kind": "braking_marker_card",
+      "distance_m": 50,
+      "glb": "game/resources/environment/assets/trackside_cards/braking/braking_050.glb",
+      "glb_sha256": "7d436a99dea72374faef7d4673875acbd5dbd3f49c66a9844917a002a3a58ef2",
+      "source_png": "assets-texturas/textures/objects_styles/png/braking_cards/braking_050.png",
+      "source_png_sha256": "e02b7b7767ade955172f5fc054b7e08f0cf003b938dcdda05c1c9ff95b3b058c",
+      "width_m": 2.4,
+      "height_m": 0.8,
+      "double_sided": true,
+      "collision": false,
+      "origin": "bottom_center"
+    }
+  ]
+}

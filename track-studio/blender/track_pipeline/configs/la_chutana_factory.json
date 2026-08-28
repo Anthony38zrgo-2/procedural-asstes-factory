@@ -220,6 +220,15 @@
       "scale_multiplier": 2.5,
       "height_m": 2.2
     },
+    "braking_markers": {
+      "enabled": true,
+      "distances_m": [200, 150, 100, 50],
+      "offset_from_asphalt_edge_m": 1.4,
+      "asset_ids": {"200": "braking_200", "150": "braking_150", "100": "braking_100", "50": "braking_050"},
+      "zones": [
+        {"id": "T1HardBraking", "braking_fraction": 0.08, "side": -1}
+      ]
+    },
     "spacing_m": {
       "spectator": 58.0,
       "marshal": 150.0,

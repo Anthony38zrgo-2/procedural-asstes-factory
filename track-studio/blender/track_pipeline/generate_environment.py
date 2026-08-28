@@ -110,7 +110,8 @@ def load_semantic_environment(repo, config, points, distribution, color_catalogs
     )
     glb_signs = sorted(
         (spec for spec in object_catalog.values()
-         if spec.get("kind") == "glb_card" and spec.get("category") == "sign"),
+         if spec.get("kind") == "glb_card" and spec.get("category") == "sign"
+         and spec.get("placement_mode") != "between_asphalt_and_barrier"),
         key=lambda spec: spec["asset_id"],
     )
     lap_length = closed_polyline_length(points)
@@ -224,6 +225,7 @@ def load_semantic_environment(repo, config, points, distribution, color_catalogs
             "required_outside_offset_m": round(outside_offset, 4),
             "collision": False,
         })
+    append_braking_markers(config, points, props, safety_barriers)
     grass_cards_placed = 0
     if config.get("procedural_environment", {}).get("grass_cards", {}).get("enabled", True) and grass_points:
         target_count = min(len(grass_points), int(config.get("semantic_environment", {}).get("grass_cards_count", 2000)))
@@ -557,6 +559,53 @@ def generate_trackside_props(config: dict, points: np.ndarray,
                 "collision": False,
             })
     return output
+
+
+def append_braking_markers(config: dict, points: np.ndarray, props: list[dict],
+                           safety_barriers: dict) -> None:
+    """Place 200/150/100/50 boards before configured hard-braking corners."""
+    settings = config.get("trackside_props", {}).get("braking_markers", {})
+    if not settings.get("enabled", False):
+        return
+    lap_length = closed_polyline_length(points)
+    road_half = float(config["road"]["width_m"]) * 0.5
+    lateral_gap = float(settings.get("offset_from_asphalt_edge_m", 1.4))
+    distances = [int(value) for value in settings.get("distances_m", [200, 150, 100, 50])]
+    asset_ids = settings.get("asset_ids", {})
+    for zone in settings.get("zones", []):
+        braking_fraction = float(zone["braking_fraction"]) % 1.0
+        side = int(zone["side"])
+        for distance_m in distances:
+            fraction = (braking_fraction - distance_m / lap_length) % 1.0
+            envelope = barrier_envelope_at(safety_barriers, fraction, side, lap_length)
+            target_dist = road_half + lateral_gap
+            barrier_inner_face = (float(envelope["center_distance_m"]) -
+                                  float(envelope["collision_thickness_m"]) * 0.5)
+            if target_dist >= barrier_inner_face:
+                raise RuntimeError(
+                    f"Braking marker {zone['id']} {distance_m}m does not fit between asphalt and barrier"
+                )
+            pos, _, normal = interpolate_at_fraction(points, fraction)
+            card_x = float(pos[0]) + float(normal[0]) * side * target_dist
+            card_z = float(pos[1]) + float(normal[1]) * side * target_dist
+            props.append({
+                "prop_type": "sign",
+                "prop_id": f"braking_{zone['id']}_{distance_m:03d}",
+                "source_asset_id": str(asset_ids[str(distance_m)]),
+                "position_xz": [round(card_x, 4), round(card_z, 4)],
+                "track_fraction": round(fraction, 7),
+                "side": side,
+                "distance_from_center_m": round(target_dist, 4),
+                "braking_zone_id": zone["id"],
+                "distance_to_braking_m": distance_m,
+                "inside_barrier": True,
+                "scale_multiplier": 1.0,
+                "yaw_offset_rad": round(math.pi * 0.5, 7),
+                "safety_segment_id": envelope["segment_id"],
+                "barrier_prototype_id": envelope["prototype_id"],
+                "barrier_inner_face_m": round(barrier_inner_face, 4),
+                "collision": False,
+            })
 
 
 def main() -> int:
