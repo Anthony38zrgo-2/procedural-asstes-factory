@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "generator": "grass_cards_v5_blender",
+  "atlas_generator": "procedural/tools/build_grass_texture_atlases.py",
+  "source_textures": {
+    "green": "assets-texturas/textures/terrain/png/062.png",
+    "copper": "assets-texturas/textures/terrain/png/073.png",
+    "golden_beige": "assets-texturas/textures/terrain/png/066.png",
+    "red": "assets-texturas/textures/terrain/png/073.png",
+    "yellow": "assets-texturas/textures/terrain/png/065.png"
+  },
+  "variants": {
+    "green": {"suffix": "", "tint": [0.78, 1.02, 0.72]},
+    "copper": {"suffix": "_copper", "tint": [1.18, 0.67, 0.36]},
+    "golden_beige": {"suffix": "_golden_beige", "tint": [1.22, 0.96, 0.60]},
+    "red": {"suffix": "_red", "tint": [1.18, 0.46, 0.32]},
+    "yellow": {"suffix": "_yellow", "tint": [1.28, 1.08, 0.42]}
+  },
+  "assets": [
+    {"id": "grass_3d_01", "seed": 74101, "width_m": 1.35, "depth_m": 1.10, "height_m": 0.42, "cards": 18, "profile": "short_dense"},
+    {"id": "grass_3d_02", "seed": 74102, "width_m": 1.05, "depth_m": 0.90, "height_m": 0.66, "cards": 16, "profile": "tall_sparse"},
+    {"id": "grass_3d_03", "seed": 74103, "width_m": 1.60, "depth_m": 1.25, "height_m": 0.54, "cards": 24, "profile": "broad_meadow"},
+    {"id": "grass_3d_04", "seed": 74104, "width_m": 0.82, "depth_m": 0.72, "height_m": 0.78, "cards": 15, "profile": "upright_tuft"},
+    {"id": "grass_3d_05", "seed": 74105, "width_m": 1.42, "depth_m": 1.18, "height_m": 0.58, "cards": 21, "profile": "irregular_field"}
+  ],
+  "alpha_cutoff": 0.46,
+  "triangle_budget": 96
+}

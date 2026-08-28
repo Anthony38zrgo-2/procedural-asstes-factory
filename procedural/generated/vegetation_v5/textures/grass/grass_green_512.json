@@ -1,0 +1,132 @@
+{
+  "alpha_cutoff": 0.46,
+  "atlas": "procedural/generated/vegetation_v5/textures/grass/grass_green_512.png",
+  "atlas_sha256": "c6cddc026bdd1a0ecebbe9450c10c2626beb1bd60a33df8cd627ab11f441585f",
+  "id": "grass_green_512",
+  "regions": [
+    {
+      "id": "clump_00",
+      "pixels": [
+        0,
+        0,
+        128,
+        256
+      ],
+      "uv_bottom_left": [
+        0.0,
+        0.5,
+        0.25,
+        1.0
+      ]
+    },
+    {
+      "id": "clump_01",
+      "pixels": [
+        128,
+        0,
+        256,
+        256
+      ],
+      "uv_bottom_left": [
+        0.25,
+        0.5,
+        0.5,
+        1.0
+      ]
+    },
+    {
+      "id": "clump_02",
+      "pixels": [
+        256,
+        0,
+        384,
+        256
+      ],
+      "uv_bottom_left": [
+        0.5,
+        0.5,
+        0.75,
+        1.0
+      ]
+    },
+    {
+      "id": "clump_03",
+      "pixels": [
+        384,
+        0,
+        512,
+        256
+      ],
+      "uv_bottom_left": [
+        0.75,
+        0.5,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "clump_04",
+      "pixels": [
+        0,
+        256,
+        128,
+        512
+      ],
+      "uv_bottom_left": [
+        0.0,
+        0.0,
+        0.25,
+        0.5
+      ]
+    },
+    {
+      "id": "clump_05",
+      "pixels": [
+        128,
+        256,
+        256,
+        512
+      ],
+      "uv_bottom_left": [
+        0.25,
+        0.0,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "clump_06",
+      "pixels": [
+        256,
+        256,
+        384,
+        512
+      ],
+      "uv_bottom_left": [
+        0.5,
+        0.0,
+        0.75,
+        0.5
+      ]
+    },
+    {
+      "id": "clump_07",
+      "pixels": [
+        384,
+        256,
+        512,
+        512
+      ],
+      "uv_bottom_left": [
+        0.75,
+        0.0,
+        1.0,
+        0.5
+      ]
+    }
+  ],
+  "schema_version": 1,
+  "source": "assets-texturas/textures/terrain/png/062.png",
+  "source_sha256": "a4dc9b232539a2761b20748c575aea1f37a12b5f51103521b1ce6ce19155d91f",
+  "variant": "green"
+}

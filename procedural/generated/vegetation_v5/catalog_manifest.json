@@ -1,0 +1,21 @@
+{
+  "colors": [
+    "green",
+    "copper",
+    "golden_beige",
+    "red",
+    "yellow"
+  ],
+  "families": {
+    "grass": {
+      "glb_assets": 25,
+      "manifest": "procedural/generated/vegetation_v5/grass_manifest.json"
+    },
+    "trees_and_bushes": {
+      "glb_assets": 110,
+      "manifest": "procedural/generated/vegetation_v5/manifest.json"
+    }
+  },
+  "schema_version": 1,
+  "total_glb_assets": 135
+}

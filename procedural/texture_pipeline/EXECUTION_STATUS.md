@@ -28,6 +28,18 @@ kept intact.
 - Independent rebuild result: 110/110 GLBs byte-identical.
 - The complete repository suite passes 20 automated tests.
 
+## Grass V5 extension
+
+- Recovered photographic grass detail from terrain sources `055`, `060`, `062`,
+  `064`–`067` and `073`; selected traceable sources per seasonal palette.
+- Generated five deterministic 512 px alpha atlases with eight irregular clumps
+  per color: green, copper, golden beige, red and yellow.
+- Generated five distinct grounded card layouts per color: 25 production GLBs.
+- Grass assets use one alpha-tested, double-sided draw mesh and 60–96 triangles.
+- Combined vegetation inventory: 110 tree/bush GLBs plus 25 grass GLBs = 135.
+- Grass color/layout audit: `review/grass_v5_color_comparison.png`.
+- The complete repository suite passes 24 automated tests.
+
 ## Conifer audit iteration 2
 
 - Reduced conifer branch reach from 2.55 m to 1.275 m before per-layer taper.

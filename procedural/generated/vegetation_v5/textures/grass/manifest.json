@@ -1,0 +1,32 @@
+{
+  "atlases": [
+    {
+      "id": "grass_green_512",
+      "manifest": "procedural/generated/vegetation_v5/textures/grass/grass_green_512.json",
+      "sha256": "c6cddc026bdd1a0ecebbe9450c10c2626beb1bd60a33df8cd627ab11f441585f"
+    },
+    {
+      "id": "grass_copper_512",
+      "manifest": "procedural/generated/vegetation_v5/textures/grass/grass_copper_512.json",
+      "sha256": "ce8a81822f4ebd671ea85a3ff4bcc734b2a22333635e2d8bf20b03ea42fbb8bc"
+    },
+    {
+      "id": "grass_golden_beige_512",
+      "manifest": "procedural/generated/vegetation_v5/textures/grass/grass_golden_beige_512.json",
+      "sha256": "56f8e4fe828411c2a8c9bdd51eccb756ed5b9779ffd009cc53867c5f2a23b421"
+    },
+    {
+      "id": "grass_red_512",
+      "manifest": "procedural/generated/vegetation_v5/textures/grass/grass_red_512.json",
+      "sha256": "924fe78cf85a616a946132e30acacb2e431d1d7f2d85de258c0ac7f687fca093"
+    },
+    {
+      "id": "grass_yellow_512",
+      "manifest": "procedural/generated/vegetation_v5/textures/grass/grass_yellow_512.json",
+      "sha256": "cbdf021fe116da9975b719e2739ae54fa756becedf7a7899cf62f5385bb54ce4"
+    }
+  ],
+  "recipe": "procedural/recipes/grass_v5_library.json",
+  "recipe_sha256": "e420fdbd2236dc38cd68dc24c1ef2460404d563a79899e1653e6a94a80bff2db",
+  "schema_version": 1
+}

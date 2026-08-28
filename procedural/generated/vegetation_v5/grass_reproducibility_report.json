@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "generator": "grass_cards_v5_blender",
+  "runs_compared": 2,
+  "glb_assets_compared": 25,
+  "glb_byte_exact": 25,
+  "geometry_statistics_exact": 25,
+  "result": "pass"
+}

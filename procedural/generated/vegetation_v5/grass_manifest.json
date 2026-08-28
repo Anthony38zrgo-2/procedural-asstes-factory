@@ -1,0 +1,786 @@
+{
+  "base_assets": 5,
+  "generator": "grass_cards_v5_blender",
+  "glb_assets": 25,
+  "recipe": "procedural/recipes/grass_v5_library.json",
+  "recipe_sha256": "e420fdbd2236dc38cd68dc24c1ef2460404d563a79899e1653e6a94a80bff2db",
+  "records": [
+    {
+      "atlas": "grass_green_512",
+      "atlas_sha256": "c6cddc026bdd1a0ecebbe9450c10c2626beb1bd60a33df8cd627ab11f441585f",
+      "audit": "procedural/generated/vegetation_v5/review/grass/grass_3d_01.png",
+      "audit_sha256": "deac96cc8258fa2fbfc08a3322fcbbaa7bf604dfe77cb5eac0992bf9598fc342",
+      "bounds_max": [
+        0.53683,
+        0.44765,
+        0.43209
+      ],
+      "bounds_min": [
+        -0.56557,
+        -0.48891,
+        0.0
+      ],
+      "dimensions": [
+        1.10239,
+        0.93656,
+        0.43209
+      ],
+      "family": "short_dense",
+      "glb": "procedural/generated/vegetation_v5/assets/grass/grass_3d_01.glb",
+      "glb_sha256": "95fdce06d8cd2eaf95a3be73a2ca423585598b836f9007daa97c47eb56d652a9",
+      "id": "grass_3d_01",
+      "kind": "grass",
+      "seed": 74101,
+      "triangle_budget": 96,
+      "triangles": 72,
+      "variant": "green",
+      "vertices": 108
+    },
+    {
+      "atlas": "grass_green_512",
+      "atlas_sha256": "c6cddc026bdd1a0ecebbe9450c10c2626beb1bd60a33df8cd627ab11f441585f",
+      "audit": "procedural/generated/vegetation_v5/review/grass/grass_3d_02.png",
+      "audit_sha256": "b697636d5a24d97483bd6da777b61620ec69e21ba5389191ff3be5997f0a7b69",
+      "bounds_max": [
+        0.31026,
+        0.35285,
+        0.68511
+      ],
+      "bounds_min": [
+        -0.30076,
+        -0.47526,
+        0.0
+      ],
+      "dimensions": [
+        0.61102,
+        0.8281,
+        0.68511
+      ],
+      "family": "tall_sparse",
+      "glb": "procedural/generated/vegetation_v5/assets/grass/grass_3d_02.glb",
+      "glb_sha256": "c18e597d29b88488428a0cba129283e70369da8105055fc53025f55f10dfaab0",
+      "id": "grass_3d_02",
+      "kind": "grass",
+      "seed": 74102,
+      "triangle_budget": 96,
+      "triangles": 64,
+      "variant": "green",
+      "vertices": 96
+    },
+    {
+      "atlas": "grass_green_512",
+      "atlas_sha256": "c6cddc026bdd1a0ecebbe9450c10c2626beb1bd60a33df8cd627ab11f441585f",
+      "audit": "procedural/generated/vegetation_v5/review/grass/grass_3d_03.png",
+      "audit_sha256": "482342982c7cf817b1b25a19f631d68baf554a497a7fcb26103aa3bf41aec144",
+      "bounds_max": [
+        0.56634,
+        0.44794,
+        0.56311
+      ],
+      "bounds_min": [
+        -0.53934,
+        -0.54129,
+        0.0
+      ],
+      "dimensions": [
+        1.10568,
+        0.98922,
+        0.56311
+      ],
+      "family": "broad_meadow",
+      "glb": "procedural/generated/vegetation_v5/assets/grass/grass_3d_03.glb",
+      "glb_sha256": "92bf3f5b88978647ed961bde674234a387aa9093d782dce0e4ac683bfde551ea",
+      "id": "grass_3d_03",
+      "kind": "grass",
+      "seed": 74103,
+      "triangle_budget": 96,
+      "triangles": 96,
+      "variant": "green",
+      "vertices": 144
+    },
+    {
+      "atlas": "grass_green_512",
+      "atlas_sha256": "c6cddc026bdd1a0ecebbe9450c10c2626beb1bd60a33df8cd627ab11f441585f",
+      "audit": "procedural/generated/vegetation_v5/review/grass/grass_3d_04.png",
+      "audit_sha256": "bec87006e411fca2f28911f24da8513f88b353904c1f1bb8b08c21f34aaeba26",
+      "bounds_max": [
+        0.36538,
+        0.3521,
+        0.79662
+      ],
+      "bounds_min": [
+        -0.27741,
+        -0.19389,
+        0.0
+      ],
+      "dimensions": [
+        0.64279,
+        0.54599,
+        0.79662
+      ],
+      "family": "upright_tuft",
+      "glb": "procedural/generated/vegetation_v5/assets/grass/grass_3d_04.glb",
+      "glb_sha256": "317b386ba9333f107e785794eb3518ac354c6f7f16760040fcdaef0b518e15dd",
+      "id": "grass_3d_04",
+      "kind": "grass",
+      "seed": 74104,
+      "triangle_budget": 96,
+      "triangles": 60,
+      "variant": "green",
+      "vertices": 90
+    },
+    {
+      "atlas": "grass_green_512",
+      "atlas_sha256": "c6cddc026bdd1a0ecebbe9450c10c2626beb1bd60a33df8cd627ab11f441585f",
+      "audit": "procedural/generated/vegetation_v5/review/grass/grass_3d_05.png",
+      "audit_sha256": "f921e46446bb8ece3479d784281e0cd81820f35522aa6f3a379ccc0349abefe0",
+      "bounds_max": [
+        0.57509,
+        0.48616,
+        0.60796
+      ],
+      "bounds_min": [
+        -0.58318,
+        -0.46088,
+        0.0
+      ],
+      "dimensions": [
+        1.15827,
+        0.94704,
+        0.60796
+      ],
+      "family": "irregular_field",
+      "glb": "procedural/generated/vegetation_v5/assets/grass/grass_3d_05.glb",
+      "glb_sha256": "b3f448bf382e6ed34522e2fbf90b7416414603b1be8971a17eef4615a0c457ca",
+      "id": "grass_3d_05",
+      "kind": "grass",
+      "seed": 74105,
+      "triangle_budget": 96,
+      "triangles": 84,
+      "variant": "green",
+      "vertices": 126
+    },
+    {
+      "atlas": "grass_copper_512",
+      "atlas_sha256": "ce8a81822f4ebd671ea85a3ff4bcc734b2a22333635e2d8bf20b03ea42fbb8bc",
+      "audit": "procedural/generated/vegetation_v5/review/grass/grass_3d_01_copper.png",
+      "audit_sha256": "8c41e8bfea1f21939963711fbc8f0ebae01997634747d8e92433d4729dcf4fec",
+      "bounds_max": [
+        0.53683,
+        0.44765,
+        0.43209
+      ],
+      "bounds_min": [
+        -0.56557,
+        -0.48891,
+        0.0
+      ],
+      "dimensions": [
+        1.10239,
+        0.93656,
+        0.43209
+      ],
+      "family": "short_dense",
+      "glb": "procedural/generated/vegetation_v5/assets/grass/grass_3d_01_copper.glb",
+      "glb_sha256": "62654ffa7a63dbe0d1f5e468b4679add946d99553d757bce39d9ee5efc14db9b",
+      "id": "grass_3d_01",
+      "kind": "grass",
+      "seed": 74101,
+      "triangle_budget": 96,
+      "triangles": 72,
+      "variant": "copper",
+      "vertices": 108
+    },
+    {
+      "atlas": "grass_copper_512",
+      "atlas_sha256": "ce8a81822f4ebd671ea85a3ff4bcc734b2a22333635e2d8bf20b03ea42fbb8bc",
+      "audit": "procedural/generated/vegetation_v5/review/grass/grass_3d_02_copper.png",
+      "audit_sha256": "6d5c8050127ba4d27fc71825097171d42c33ddbbc548558d07a7c64097e022ff",
+      "bounds_max": [
+        0.31026,
+        0.35285,
+        0.68511
+      ],
+      "bounds_min": [
+        -0.30076,
+        -0.47526,
+        0.0
+      ],
+      "dimensions": [
+        0.61102,
+        0.8281,
+        0.68511
+      ],
+      "family": "tall_sparse",
+      "glb": "procedural/generated/vegetation_v5/assets/grass/grass_3d_02_copper.glb",
+      "glb_sha256": "900c7ef9a0783c02b006cef970bc8125f36fd0e83aa415318201c9fc5e8c3337",
+      "id": "grass_3d_02",
+      "kind": "grass",
+      "seed": 74102,
+      "triangle_budget": 96,
+      "triangles": 64,
+      "variant": "copper",
+      "vertices": 96
+    },
+    {
+      "atlas": "grass_copper_512",
+      "atlas_sha256": "ce8a81822f4ebd671ea85a3ff4bcc734b2a22333635e2d8bf20b03ea42fbb8bc",
+      "audit": "procedural/generated/vegetation_v5/review/grass/grass_3d_03_copper.png",
+      "audit_sha256": "95dbde8882d94205ef2a3e9e69b61ead3cf952c2275adc7105bc53d3302c340f",
+      "bounds_max": [
+        0.56634,
+        0.44794,
+        0.56311
+      ],
+      "bounds_min": [
+        -0.53934,
+        -0.54129,
+        0.0
+      ],
+      "dimensions": [
+        1.10568,
+        0.98922,
+        0.56311
+      ],
+      "family": "broad_meadow",
+      "glb": "procedural/generated/vegetation_v5/assets/grass/grass_3d_03_copper.glb",
+      "glb_sha256": "3a716e8f5e200efb844fae34914814e2f0f8877ee9471feec4815a906ecf1a88",
+      "id": "grass_3d_03",
+      "kind": "grass",
+      "seed": 74103,
+      "triangle_budget": 96,
+      "triangles": 96,
+      "variant": "copper",
+      "vertices": 144
+    },
+    {
+      "atlas": "grass_copper_512",
+      "atlas_sha256": "ce8a81822f4ebd671ea85a3ff4bcc734b2a22333635e2d8bf20b03ea42fbb8bc",
+      "audit": "procedural/generated/vegetation_v5/review/grass/grass_3d_04_copper.png",
+      "audit_sha256": "c680a159d96d164d0a8fca6f610c219a5072b257b9462e71fddb777712862ef3",
+      "bounds_max": [
+        0.36538,
+        0.3521,
+        0.79662
+      ],
+      "bounds_min": [
+        -0.27741,
+        -0.19389,
+        0.0
+      ],
+      "dimensions": [
+        0.64279,
+        0.54599,
+        0.79662
+      ],
+      "family": "upright_tuft",
+      "glb": "procedural/generated/vegetation_v5/assets/grass/grass_3d_04_copper.glb",
+      "glb_sha256": "daf22bd6e75f60e6336ad8d8d2be74b8eb99e97d8d9e4e385135b25121048bfd",
+      "id": "grass_3d_04",
+      "kind": "grass",
+      "seed": 74104,
+      "triangle_budget": 96,
+      "triangles": 60,
+      "variant": "copper",
+      "vertices": 90
+    },
+    {
+      "atlas": "grass_copper_512",
+      "atlas_sha256": "ce8a81822f4ebd671ea85a3ff4bcc734b2a22333635e2d8bf20b03ea42fbb8bc",
+      "audit": "procedural/generated/vegetation_v5/review/grass/grass_3d_05_copper.png",
+      "audit_sha256": "398706f1374b3e63bf84c1f1fc9a7cbde8b253bcb99c4bdf98d690502cbc9828",
+      "bounds_max": [
+        0.57509,
+        0.48616,
+        0.60796
+      ],
+      "bounds_min": [
+        -0.58318,
+        -0.46088,
+        0.0
+      ],
+      "dimensions": [
+        1.15827,
+        0.94704,
+        0.60796
+      ],
+      "family": "irregular_field",
+      "glb": "procedural/generated/vegetation_v5/assets/grass/grass_3d_05_copper.glb",
+      "glb_sha256": "9ece625d983cef3de7b9fc9ef7e5fc665a1ac24f72b449679e461ef1a35f5c18",
+      "id": "grass_3d_05",
+      "kind": "grass",
+      "seed": 74105,
+      "triangle_budget": 96,
+      "triangles": 84,
+      "variant": "copper",
+      "vertices": 126
+    },
+    {
+      "atlas": "grass_golden_beige_512",
+      "atlas_sha256": "56f8e4fe828411c2a8c9bdd51eccb756ed5b9779ffd009cc53867c5f2a23b421",
+      "audit": "procedural/generated/vegetation_v5/review/grass/grass_3d_01_golden_beige.png",
+      "audit_sha256": "08e4774d547611d39a583b2a03048af58a4a4adcb41a9092a1986747be703b00",
+      "bounds_max": [
+        0.53683,
+        0.44765,
+        0.43209
+      ],
+      "bounds_min": [
+        -0.56557,
+        -0.48891,
+        0.0
+      ],
+      "dimensions": [
+        1.10239,
+        0.93656,
+        0.43209
+      ],
+      "family": "short_dense",
+      "glb": "procedural/generated/vegetation_v5/assets/grass/grass_3d_01_golden_beige.glb",
+      "glb_sha256": "946f2daaa7dbcf8cbb4db65e93d17f4a5c6f8fef21fbbf3bd728871a7b221f2a",
+      "id": "grass_3d_01",
+      "kind": "grass",
+      "seed": 74101,
+      "triangle_budget": 96,
+      "triangles": 72,
+      "variant": "golden_beige",
+      "vertices": 108
+    },
+    {
+      "atlas": "grass_golden_beige_512",
+      "atlas_sha256": "56f8e4fe828411c2a8c9bdd51eccb756ed5b9779ffd009cc53867c5f2a23b421",
+      "audit": "procedural/generated/vegetation_v5/review/grass/grass_3d_02_golden_beige.png",
+      "audit_sha256": "69ecf2bbaa832c8be8d0d1a5dc8efb4d304f2d5a219bd80102272c88c853e814",
+      "bounds_max": [
+        0.31026,
+        0.35285,
+        0.68511
+      ],
+      "bounds_min": [
+        -0.30076,
+        -0.47526,
+        0.0
+      ],
+      "dimensions": [
+        0.61102,
+        0.8281,
+        0.68511
+      ],
+      "family": "tall_sparse",
+      "glb": "procedural/generated/vegetation_v5/assets/grass/grass_3d_02_golden_beige.glb",
+      "glb_sha256": "c77101698c3ec49095c01ab43bc49bf870a29f0690ff81f45ebc7d15ae0db6e1",
+      "id": "grass_3d_02",
+      "kind": "grass",
+      "seed": 74102,
+      "triangle_budget": 96,
+      "triangles": 64,
+      "variant": "golden_beige",
+      "vertices": 96
+    },
+    {
+      "atlas": "grass_golden_beige_512",
+      "atlas_sha256": "56f8e4fe828411c2a8c9bdd51eccb756ed5b9779ffd009cc53867c5f2a23b421",
+      "audit": "procedural/generated/vegetation_v5/review/grass/grass_3d_03_golden_beige.png",
+      "audit_sha256": "cb6108af4dfeaf0495f899412a135e1982abd4bdf03572e360e934847407f7da",
+      "bounds_max": [
+        0.56634,
+        0.44794,
+        0.56311
+      ],
+      "bounds_min": [
+        -0.53934,
+        -0.54129,
+        0.0
+      ],
+      "dimensions": [
+        1.10568,
+        0.98922,
+        0.56311
+      ],
+      "family": "broad_meadow",
+      "glb": "procedural/generated/vegetation_v5/assets/grass/grass_3d_03_golden_beige.glb",
+      "glb_sha256": "2fdccdfa54e9e628235dad1d7093912c9ff6d31f9a5ef97ea7aaf3c15f8cedbd",
+      "id": "grass_3d_03",
+      "kind": "grass",
+      "seed": 74103,
+      "triangle_budget": 96,
+      "triangles": 96,
+      "variant": "golden_beige",
+      "vertices": 144
+    },
+    {
+      "atlas": "grass_golden_beige_512",
+      "atlas_sha256": "56f8e4fe828411c2a8c9bdd51eccb756ed5b9779ffd009cc53867c5f2a23b421",
+      "audit": "procedural/generated/vegetation_v5/review/grass/grass_3d_04_golden_beige.png",
+      "audit_sha256": "1a4a65eca190151100029072cf21ed04edef751a473529e797f2d0f23f5a6354",
+      "bounds_max": [
+        0.36538,
+        0.3521,
+        0.79662
+      ],
+      "bounds_min": [
+        -0.27741,
+        -0.19389,
+        0.0
+      ],
+      "dimensions": [
+        0.64279,
+        0.54599,
+        0.79662
+      ],
+      "family": "upright_tuft",
+      "glb": "procedural/generated/vegetation_v5/assets/grass/grass_3d_04_golden_beige.glb",
+      "glb_sha256": "d4b72061bc821c6e03960b626aa73759016dbbd4d58453adb13636aed09ec769",
+      "id": "grass_3d_04",
+      "kind": "grass",
+      "seed": 74104,
+      "triangle_budget": 96,
+      "triangles": 60,
+      "variant": "golden_beige",
+      "vertices": 90
+    },
+    {
+      "atlas": "grass_golden_beige_512",
+      "atlas_sha256": "56f8e4fe828411c2a8c9bdd51eccb756ed5b9779ffd009cc53867c5f2a23b421",
+      "audit": "procedural/generated/vegetation_v5/review/grass/grass_3d_05_golden_beige.png",
+      "audit_sha256": "84b17f74422ef75a8a245de770733a7fdfdd4f8dae88a2e42f5e148cc36291cb",
+      "bounds_max": [
+        0.57509,
+        0.48616,
+        0.60796
+      ],
+      "bounds_min": [
+        -0.58318,
+        -0.46088,
+        0.0
+      ],
+      "dimensions": [
+        1.15827,
+        0.94704,
+        0.60796
+      ],
+      "family": "irregular_field",
+      "glb": "procedural/generated/vegetation_v5/assets/grass/grass_3d_05_golden_beige.glb",
+      "glb_sha256": "c04271e6948796c25b13565e37e159bf500af3732c82de7925646dd42f6a37ad",
+      "id": "grass_3d_05",
+      "kind": "grass",
+      "seed": 74105,
+      "triangle_budget": 96,
+      "triangles": 84,
+      "variant": "golden_beige",
+      "vertices": 126
+    },
+    {
+      "atlas": "grass_red_512",
+      "atlas_sha256": "924fe78cf85a616a946132e30acacb2e431d1d7f2d85de258c0ac7f687fca093",
+      "audit": "procedural/generated/vegetation_v5/review/grass/grass_3d_01_red.png",
+      "audit_sha256": "ff7666b2a5dff75372bcc2210172a02be2a797af723b836450c68e48b613729a",
+      "bounds_max": [
+        0.53683,
+        0.44765,
+        0.43209
+      ],
+      "bounds_min": [
+        -0.56557,
+        -0.48891,
+        0.0
+      ],
+      "dimensions": [
+        1.10239,
+        0.93656,
+        0.43209
+      ],
+      "family": "short_dense",
+      "glb": "procedural/generated/vegetation_v5/assets/grass/grass_3d_01_red.glb",
+      "glb_sha256": "9957d66a25add85dbe088bec94485fa414ac2c5f13ddf3167fd6c4ed6bd54721",
+      "id": "grass_3d_01",
+      "kind": "grass",
+      "seed": 74101,
+      "triangle_budget": 96,
+      "triangles": 72,
+      "variant": "red",
+      "vertices": 108
+    },
+    {
+      "atlas": "grass_red_512",
+      "atlas_sha256": "924fe78cf85a616a946132e30acacb2e431d1d7f2d85de258c0ac7f687fca093",
+      "audit": "procedural/generated/vegetation_v5/review/grass/grass_3d_02_red.png",
+      "audit_sha256": "3fac7884904eb80d273d4534488dba11ac1cf2cfce11c984b09931e4536e22b8",
+      "bounds_max": [
+        0.31026,
+        0.35285,
+        0.68511
+      ],
+      "bounds_min": [
+        -0.30076,
+        -0.47526,
+        0.0
+      ],
+      "dimensions": [
+        0.61102,
+        0.8281,
+        0.68511
+      ],
+      "family": "tall_sparse",
+      "glb": "procedural/generated/vegetation_v5/assets/grass/grass_3d_02_red.glb",
+      "glb_sha256": "efb58dba7f85875b40321eff13dc57ccc8fe6926af9db2277d9e9c6f1cfd21f3",
+      "id": "grass_3d_02",
+      "kind": "grass",
+      "seed": 74102,
+      "triangle_budget": 96,
+      "triangles": 64,
+      "variant": "red",
+      "vertices": 96
+    },
+    {
+      "atlas": "grass_red_512",
+      "atlas_sha256": "924fe78cf85a616a946132e30acacb2e431d1d7f2d85de258c0ac7f687fca093",
+      "audit": "procedural/generated/vegetation_v5/review/grass/grass_3d_03_red.png",
+      "audit_sha256": "50a9dbc3d8c0f10650e7d463be331ec87a9eba50c011ba1b90cf515cb93639ef",
+      "bounds_max": [
+        0.56634,
+        0.44794,
+        0.56311
+      ],
+      "bounds_min": [
+        -0.53934,
+        -0.54129,
+        0.0
+      ],
+      "dimensions": [
+        1.10568,
+        0.98922,
+        0.56311
+      ],
+      "family": "broad_meadow",
+      "glb": "procedural/generated/vegetation_v5/assets/grass/grass_3d_03_red.glb",
+      "glb_sha256": "aa7419240f74f1e6d3f309e5a8bd8189131216d029706ff774927a5e32cd15dc",
+      "id": "grass_3d_03",
+      "kind": "grass",
+      "seed": 74103,
+      "triangle_budget": 96,
+      "triangles": 96,
+      "variant": "red",
+      "vertices": 144
+    },
+    {
+      "atlas": "grass_red_512",
+      "atlas_sha256": "924fe78cf85a616a946132e30acacb2e431d1d7f2d85de258c0ac7f687fca093",
+      "audit": "procedural/generated/vegetation_v5/review/grass/grass_3d_04_red.png",
+      "audit_sha256": "45178df843aa9960528e419b9bf58118743e8ab3acb51a343286a6a0c04d7108",
+      "bounds_max": [
+        0.36538,
+        0.3521,
+        0.79662
+      ],
+      "bounds_min": [
+        -0.27741,
+        -0.19389,
+        0.0
+      ],
+      "dimensions": [
+        0.64279,
+        0.54599,
+        0.79662
+      ],
+      "family": "upright_tuft",
+      "glb": "procedural/generated/vegetation_v5/assets/grass/grass_3d_04_red.glb",
+      "glb_sha256": "3c94c6a5ae8f64ef28ab37cdc2ef29ea75bf36779e5b79be6e55960ce2f6135c",
+      "id": "grass_3d_04",
+      "kind": "grass",
+      "seed": 74104,
+      "triangle_budget": 96,
+      "triangles": 60,
+      "variant": "red",
+      "vertices": 90
+    },
+    {
+      "atlas": "grass_red_512",
+      "atlas_sha256": "924fe78cf85a616a946132e30acacb2e431d1d7f2d85de258c0ac7f687fca093",
+      "audit": "procedural/generated/vegetation_v5/review/grass/grass_3d_05_red.png",
+      "audit_sha256": "11bd3172dd72555191bc3efd8f3d9d161d10ba7cabe3871198b652be3f6d4b9a",
+      "bounds_max": [
+        0.57509,
+        0.48616,
+        0.60796
+      ],
+      "bounds_min": [
+        -0.58318,
+        -0.46088,
+        0.0
+      ],
+      "dimensions": [
+        1.15827,
+        0.94704,
+        0.60796
+      ],
+      "family": "irregular_field",
+      "glb": "procedural/generated/vegetation_v5/assets/grass/grass_3d_05_red.glb",
+      "glb_sha256": "746266909af64e4d01b0e0dd5733c4636fb9e3c1be35165687895bd965db0c4e",
+      "id": "grass_3d_05",
+      "kind": "grass",
+      "seed": 74105,
+      "triangle_budget": 96,
+      "triangles": 84,
+      "variant": "red",
+      "vertices": 126
+    },
+    {
+      "atlas": "grass_yellow_512",
+      "atlas_sha256": "cbdf021fe116da9975b719e2739ae54fa756becedf7a7899cf62f5385bb54ce4",
+      "audit": "procedural/generated/vegetation_v5/review/grass/grass_3d_01_yellow.png",
+      "audit_sha256": "dc3a73bbc0ad6dc7e60afff8b8606ece7c32650738d3ff7231233d877ef7c8cb",
+      "bounds_max": [
+        0.53683,
+        0.44765,
+        0.43209
+      ],
+      "bounds_min": [
+        -0.56557,
+        -0.48891,
+        0.0
+      ],
+      "dimensions": [
+        1.10239,
+        0.93656,
+        0.43209
+      ],
+      "family": "short_dense",
+      "glb": "procedural/generated/vegetation_v5/assets/grass/grass_3d_01_yellow.glb",
+      "glb_sha256": "310a80565d5c612ea6e1d677ad7ab8320b1368b7cc34d5038f0008395dc130de",
+      "id": "grass_3d_01",
+      "kind": "grass",
+      "seed": 74101,
+      "triangle_budget": 96,
+      "triangles": 72,
+      "variant": "yellow",
+      "vertices": 108
+    },
+    {
+      "atlas": "grass_yellow_512",
+      "atlas_sha256": "cbdf021fe116da9975b719e2739ae54fa756becedf7a7899cf62f5385bb54ce4",
+      "audit": "procedural/generated/vegetation_v5/review/grass/grass_3d_02_yellow.png",
+      "audit_sha256": "42edbec3d32ddf6241fc0d00c922b8cfd1b70222ed8a710013c35d28113c744f",
+      "bounds_max": [
+        0.31026,
+        0.35285,
+        0.68511
+      ],
+      "bounds_min": [
+        -0.30076,
+        -0.47526,
+        0.0
+      ],
+      "dimensions": [
+        0.61102,
+        0.8281,
+        0.68511
+      ],
+      "family": "tall_sparse",
+      "glb": "procedural/generated/vegetation_v5/assets/grass/grass_3d_02_yellow.glb",
+      "glb_sha256": "ec29489439be84d6785200a7c8f9662c87fe13a503896c758e19780923d9db6c",
+      "id": "grass_3d_02",
+      "kind": "grass",
+      "seed": 74102,
+      "triangle_budget": 96,
+      "triangles": 64,
+      "variant": "yellow",
+      "vertices": 96
+    },
+    {
+      "atlas": "grass_yellow_512",
+      "atlas_sha256": "cbdf021fe116da9975b719e2739ae54fa756becedf7a7899cf62f5385bb54ce4",
+      "audit": "procedural/generated/vegetation_v5/review/grass/grass_3d_03_yellow.png",
+      "audit_sha256": "bbb69a9cc0d190e64b73429a7573e746b0e34510cf06b37b9f6da27fef84f96c",
+      "bounds_max": [
+        0.56634,
+        0.44794,
+        0.56311
+      ],
+      "bounds_min": [
+        -0.53934,
+        -0.54129,
+        0.0
+      ],
+      "dimensions": [
+        1.10568,
+        0.98922,
+        0.56311
+      ],
+      "family": "broad_meadow",
+      "glb": "procedural/generated/vegetation_v5/assets/grass/grass_3d_03_yellow.glb",
+      "glb_sha256": "d555cf0bd09d1902bfe5f02462ed0126296ebc80ab6947430aa7b367bea68dd9",
+      "id": "grass_3d_03",
+      "kind": "grass",
+      "seed": 74103,
+      "triangle_budget": 96,
+      "triangles": 96,
+      "variant": "yellow",
+      "vertices": 144
+    },
+    {
+      "atlas": "grass_yellow_512",
+      "atlas_sha256": "cbdf021fe116da9975b719e2739ae54fa756becedf7a7899cf62f5385bb54ce4",
+      "audit": "procedural/generated/vegetation_v5/review/grass/grass_3d_04_yellow.png",
+      "audit_sha256": "001e36893014ee2c2b3b2fca8c45b52f4e383589fca8b741e644a345644ae7c8",
+      "bounds_max": [
+        0.36538,
+        0.3521,
+        0.79662
+      ],
+      "bounds_min": [
+        -0.27741,
+        -0.19389,
+        0.0
+      ],
+      "dimensions": [
+        0.64279,
+        0.54599,
+        0.79662
+      ],
+      "family": "upright_tuft",
+      "glb": "procedural/generated/vegetation_v5/assets/grass/grass_3d_04_yellow.glb",
+      "glb_sha256": "aaffc7b81bd1fa12f9cd78203c401a9c8a7867d55697253910afa66a160ed7ba",
+      "id": "grass_3d_04",
+      "kind": "grass",
+      "seed": 74104,
+      "triangle_budget": 96,
+      "triangles": 60,
+      "variant": "yellow",
+      "vertices": 90
+    },
+    {
+      "atlas": "grass_yellow_512",
+      "atlas_sha256": "cbdf021fe116da9975b719e2739ae54fa756becedf7a7899cf62f5385bb54ce4",
+      "audit": "procedural/generated/vegetation_v5/review/grass/grass_3d_05_yellow.png",
+      "audit_sha256": "9477c22de2c2027f60495a203c8e558e2741fa03d268864f2cf95188b848377f",
+      "bounds_max": [
+        0.57509,
+        0.48616,
+        0.60796
+      ],
+      "bounds_min": [
+        -0.58318,
+        -0.46088,
+        0.0
+      ],
+      "dimensions": [
+        1.15827,
+        0.94704,
+        0.60796
+      ],
+      "family": "irregular_field",
+      "glb": "procedural/generated/vegetation_v5/assets/grass/grass_3d_05_yellow.glb",
+      "glb_sha256": "be50d2f1ec0a0057f1acdb896867929926fb5d2a0c7f2106ea0d28c1f298ed36",
+      "id": "grass_3d_05",
+      "kind": "grass",
+      "seed": 74105,
+      "triangle_budget": 96,
+      "triangles": 84,
+      "variant": "yellow",
+      "vertices": 126
+    }
+  ],
+  "schema_version": 1,
+  "variants": 5
+}

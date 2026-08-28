@@ -54,3 +54,18 @@ wider/lower derivative of `03`. The removed `tree_3d_06` and rejected prior V5
 trees remain recoverable in
 `procedural/generated/vegetation_v5/discarded_assets` and are excluded from the
 production manifest.
+
+## Grass V5 catalog extension
+
+Build the deterministic grass atlases and the five-by-five card catalog:
+
+```powershell
+python procedural/tools/build_grass_texture_atlases.py --repo .
+blender --background --python procedural/tools/build_grass_v5_library_blender.py -- --repo .
+python procedural/tools/build_grass_v5_review.py --repo .
+```
+
+This adds 25 production GLBs under `procedural/generated/vegetation_v5/assets/grass`:
+five grounded grass profiles in green, copper, golden beige, red and yellow.
+The combined `catalog_manifest.json` exposes 135 vegetation GLBs while retaining
+the original tree and bush manifest unchanged.
