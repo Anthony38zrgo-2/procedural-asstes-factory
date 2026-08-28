@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "generator": "track_flag_glb_v1",
+  "asset_id": "track_flag",
+  "glb": "game/resources/environment/assets/trackside_cards/flags/track_flag_90s.glb",
+  "dimensions_m": [
+    1.92,
+    5.5,
+    0.08
+  ],
+  "double_sided": true,
+  "collision": false
+}

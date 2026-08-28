@@ -1,0 +1,399 @@
+{
+  "track_id": "la_chutana",
+  "reference_file": "blender/track_pipeline/data/la_chutana_reference.json",
+  "generated_dir": "blender/generated/la_chutana",
+  "runtime_dir": "output/la_chutana",
+  "sample_spacing_m": 2.0,
+  "vegetation_distribution_manifest": "blender/track_pipeline/manifests/la_chutana_vegetation_distribution.json",
+  "road": {
+    "width_m": 12.0,
+    "thickness_m": 0.16,
+    "edge_line_width_m": 0.12,
+    "surface_elevation_m": 0.025
+  },
+  "terrain": {
+    "grid_cell_m": 6.0,
+    "texture_world_size_m": 96.0,
+    "shoulder_falloff_m": 18.0,
+    "collision_underlay_drop_m": 0.12,
+    "collision_underlay_blend_m": 1.0,
+    "visual_under_road_drop_m": 0.22,
+    "visual_under_road_blend_m": 1.4,
+    "visual_edge_blend_m": 1.25,
+    "visual_sink_m": 0.003,
+    "roadside_visual_width_m": 1.8,
+    "far_ground_z_m": -0.1,
+    "far_ground_safety_m": 0.05,
+    "far_ground_margin_m": 220.0,
+    "safety_floor_z_m": -6.0,
+    "safety_floor_thickness_m": 0.6,
+    "safety_floor_margin_m": 80.0,
+    "roadside_collision_width_m": 2.0
+  },
+  "curb": {
+    "manifest": "blender/track_pipeline/manifests/curb_profiles.json",
+    "segments": [
+      {
+        "name": "T1Inside",
+        "side": "right",
+        "profile_id": "raised",
+        "zone": "high_speed",
+        "start_fraction": 0.06,
+        "end_fraction": 0.145
+      },
+      {
+        "name": "T1Exit",
+        "side": "left",
+        "profile_id": "raised",
+        "zone": "high_speed",
+        "start_fraction": 0.115,
+        "end_fraction": 0.175
+      },
+      {
+        "name": "T2Inside",
+        "side": "left",
+        "profile_id": "flat",
+        "zone": "medium_speed",
+        "start_fraction": 0.18,
+        "end_fraction": 0.255
+      },
+      {
+        "name": "T3Inside",
+        "side": "right",
+        "profile_id": "flat",
+        "zone": "medium_speed",
+        "start_fraction": 0.255,
+        "end_fraction": 0.335
+      },
+      {
+        "name": "T4Inside",
+        "side": "right",
+        "profile_id": "flat",
+        "zone": "medium_speed",
+        "start_fraction": 0.355,
+        "end_fraction": 0.455
+      },
+      {
+        "name": "T4Exit",
+        "side": "left",
+        "profile_id": "raised",
+        "zone": "high_speed",
+        "start_fraction": 0.435,
+        "end_fraction": 0.515
+      },
+      {
+        "name": "T5ChicaneEntry",
+        "side": "left",
+        "profile_id": "sausage",
+        "zone": "chicane",
+        "start_fraction": 0.55,
+        "end_fraction": 0.58
+      },
+      {
+        "name": "T5ChicaneExit",
+        "side": "right",
+        "profile_id": "sausage",
+        "zone": "chicane",
+        "start_fraction": 0.585,
+        "end_fraction": 0.615
+      },
+      {
+        "name": "T6Inside",
+        "side": "left",
+        "profile_id": "flat",
+        "zone": "medium_speed",
+        "start_fraction": 0.735,
+        "end_fraction": 0.865
+      },
+      {
+        "name": "T6Exit",
+        "side": "right",
+        "profile_id": "flat",
+        "zone": "medium_speed",
+        "start_fraction": 0.825,
+        "end_fraction": 0.915
+      }
+    ]
+  },
+  "banking": [
+    {
+      "center_fraction": 0.105,
+      "half_width_fraction": 0.03,
+      "degrees": 3.0
+    },
+    {
+      "center_fraction": 0.385,
+      "half_width_fraction": 0.03,
+      "degrees": -2.5
+    },
+    {
+      "center_fraction": 0.815,
+      "half_width_fraction": 0.03,
+      "degrees": 2.5
+    }
+  ],
+  "guardrails": {
+    "procedural": false,
+    "legacy": true,
+    "manifest": "blender/track_pipeline/manifests/la_chutana_guardrails.json",
+    "module_length_m": 4.0,
+    "visual_depth_m": 0.11,
+    "beam_height_m": 0.34,
+    "beam_center_height_m": 0.58,
+    "post_spacing_m": 2.0,
+    "post_height_m": 0.82,
+    "post_width_m": 0.1,
+    "post_depth_m": 0.12,
+    "collision_height_m": 0.75,
+    "collision_thickness_m": 0.18,
+    "segments": []
+  },
+  "safety_barriers": {
+    "procedural": true,
+    "manifest": "blender/track_pipeline/manifests/la_chutana_safety_barriers_v3.json",
+    "asset_library_manifest": "../game/resources/environment/assets/barriers/barrier_manifest_v3.json",
+    "construction_manifest": "../game/resources/environment/manifests/barrier_construction_manifest_v2.json",
+    "recipe_manifest": "../procedural/recipes/barrier_library.json",
+    "palette_manifest": "../procedural/palettes/barrier_palette.json",
+    "generator": "../procedural/tools/build_barrier_3d_library.py",
+    "legacy_guardrails_disabled": true,
+    "legacy_tire_barriers_disabled": true,
+    "scope": "full_circuit",
+    "runtime_auth": "asset_library_v3_runs"
+  },
+  "secondary_fence": {
+    "enabled": true,
+    "asset_manifest": "../game/resources/environment/assets/barriers/secondary_fence/secondary_fence_manifest.json",
+    "offset_from_primary_outer_face_m": 7.0,
+    "module_length_m": 4.0,
+    "collision": true,
+    "target_perimeter_coverage": 0.45,
+    "segments": [
+      {"id": "Pit_Left", "side": "left", "start_fraction": 0.90, "end_fraction": 0.08},
+      {"id": "Pit_Right", "side": "right", "start_fraction": 0.90, "end_fraction": 0.08},
+      {"id": "T1_Outer", "side": "right", "start_fraction": 0.08, "end_fraction": 0.18},
+      {"id": "T4_Outer", "side": "left", "start_fraction": 0.35, "end_fraction": 0.50},
+      {"id": "BackStraight_Left", "side": "left", "start_fraction": 0.50, "end_fraction": 0.645},
+      {"id": "BackStraight_Right", "side": "right", "start_fraction": 0.50, "end_fraction": 0.645}
+    ]
+  },
+  "tire_barriers": {
+    "procedural": false,
+    "continuous_visual": true,
+    "both_sides": true,
+    "separation_from_edge_m": 5.0,
+    "visual_mode": "rectangular_prism",
+    "module_length_m": 2.0,
+    "visual_height_m": 1.25,
+    "visual_depth_m": 0.45,
+    "side_repeats": 1,
+    "collision_height_m": 1.25,
+    "collision_thickness_m": 0.45
+  },
+  "vegetation_barrier_clearance_m": {
+    "trees": 1.0,
+    "bushes": 0.5
+  },
+  "trackside_props": {
+    "procedural": true,
+    "collision": false,
+    "object_catalog": "blender/track_pipeline/layouts/la_chutana/object_catalog.json",
+    "outside_barrier_offset_m": 1.8,
+    "signs": {
+      "enabled": true,
+      "placement_offset_from_primary_outer_face_m": 9.0,
+      "scale_multiplier": 2.5,
+      "width_m": 7.2,
+      "height_m": 2.4,
+      "style": "arcade_billboard"
+    },
+    "people": {
+      "enabled": true,
+      "placement_offset_from_primary_outer_face_m": 9.0,
+      "spectator_height_m": 1.75,
+      "marshal_height_m": 1.8,
+      "photographer_height_m": 1.35
+    },
+    "flags": {
+      "enabled": true,
+      "placement_offset_from_primary_outer_face_m": 9.0,
+      "scale_multiplier": 2.5,
+      "height_m": 2.2
+    },
+    "spacing_m": {
+      "spectator": 58.0,
+      "marshal": 150.0,
+      "photographer": 190.0,
+      "flag": 74.0,
+      "sign": 132.0
+    },
+    "max_visible_cards": 260
+  },
+  "procedural_environment": {
+    "background_cards": {
+      "enabled": true,
+      "mountain_ribbons_enabled": false,
+      "asset_manifest": "../game/resources/environment/assets/background_cards/background_card_manifest.json",
+      "far_radius_m": 1800.0,
+      "far_height_m": 270.0,
+      "far_count": 28,
+      "near_radius_m": 1100.0,
+      "near_height_m": 175.0,
+      "near_count": 28,
+      "transition_radius_m": 760.0,
+      "transition_height_m": 42.0,
+      "transition_count": 24,
+      "settlement_count": 8,
+      "forest_count": 16,
+      "forest_radius_m": 720.0,
+      "forest_height_m": 38.0,
+      "ribbon_segments": 192,
+      "ribbon_modules": 12,
+      "radial_wave_m": 55.0
+    },
+    "mountains": {
+      "enabled": true,
+      "manifest": "../procedural/mountains/assets/la_chutana/manifest.json",
+      "near_enabled": true,
+      "far_enabled": true,
+      "sky_dome_enabled": false,
+      "collision": false,
+      "cast_shadows": false,
+      "receive_shadows": false,
+      "transform": {
+        "axis_conversion": "Y-up_to_Z-up",
+        "rotation_euler_deg": [-90, 0, 0],
+        "translation_m": [0, 0, 0],
+        "scale": 1.0,
+        "center_reference": "circuit_origin",
+        "note": "GLB Y-up (+Y vertical). Blender Z-up (+Z). Apply Rx=-90 deg. Origin matches Chutana circuit origin so no translation offset."
+      }
+    },
+    "tree_planes": 2,
+    "trees": {
+      "enabled": true,
+      "style": "3d_desert_mesh",
+      "scale_multiplier": 1.0
+    },
+    "bushes": {
+      "enabled": true,
+      "scale_multiplier": 1.0
+    },
+    "grass_cards": {
+      "enabled": true,
+      "max_cards": 2000,
+      "replacement": "grass_v5_repro_glb",
+      "asset_manifest": "../procedural/generated/grass_v5_repro/grass_manifest.json",
+      "outside_barrier_clearance_m": 0.35,
+      "outside_barrier_depth_m": 6.5
+    },
+    "fake_buildings": {
+      "enabled": true,
+      "collision": false,
+      "asset_manifest": "../game/resources/environment/assets/buildings/building_manifest.json",
+      "source_manifest": "../game/resources/environment/manifests/building_sources.json",
+      "construction_manifest": "../game/resources/environment/manifests/building_construction_manifest.json",
+      "generator": "../procedural/tools/build_building_asset_manifest.py"
+    },
+    "region": "south_america",
+    "biome": {
+      "continent": "south_america",
+      "longitude": "west",
+      "altitude": "low"
+    },
+    "terrain_palette": "balanced",
+    "structure_mix": "mixed",
+    "zones": {
+      "grass": {
+        "min_edge_clearance_m": 1.4,
+        "max_track_distance_m": 30.0
+      },
+      "bushes": {
+        "min_edge_clearance_m": 3.0,
+        "max_track_distance_m": 44.0
+      },
+      "trees": {
+        "min_edge_clearance_m": 8.0,
+        "max_track_distance_m": 100.0
+      },
+      "fake_buildings": {
+        "min_edge_clearance_m": 65.0,
+        "max_track_distance_m": 240.0
+      }
+    },
+    "density_profiles": {
+      "none": {
+        "grass_per_km": 0,
+        "bushes_per_km": 0,
+        "trees_per_km": 0,
+        "fake_buildings_per_km": 0
+      },
+      "very_low": {
+        "grass_per_km": 220,
+        "bushes_per_km": 28,
+        "trees_per_km": 18,
+        "fake_buildings_per_km": 3
+      },
+      "low": {
+        "grass_per_km": 420,
+        "bushes_per_km": 60,
+        "trees_per_km": 36,
+        "fake_buildings_per_km": 5
+      },
+      "medium": {
+        "grass_per_km": 750,
+        "bushes_per_km": 110,
+        "trees_per_km": 60,
+        "fake_buildings_per_km": 8
+      },
+      "high": {
+        "grass_per_km": 1200,
+        "bushes_per_km": 180,
+        "trees_per_km": 95,
+        "fake_buildings_per_km": 12
+      }
+    }
+  },
+  "semantic_environment": {
+    "enabled": true,
+    "source_svg": "inputs/la_chutana/track.canonical.svg",
+    "grass_output": "hybrid_cards_and_texture",
+    "grass_cards_count": 2000,
+    "preserve_exact_positions": true
+  },
+  "semantic_layout_config": "blender/track_pipeline/layouts/la_chutana/layout_config.json",
+  "materials": {
+    "texture_size": 256,
+    "asphalt_texture_size": 1024,
+    "asphalt_source": "blender/assets/texture_sources/la_chutana/road/asphalt_source.png",
+    "asphalt_source_sha256": "506a0a3b99e1d62144cd64836afaed3bd614cc0d3abfe928159541214269d88e",
+    "terrain_texture_size": 4096,
+    "card_texture_size": 128,
+    "seed": 1995,
+    "texture_forge_style": "ps1_rally_clean"
+  },
+  "terrain_ground_cover": {
+    "mode": "semantic_texture_points",
+    "card_share": 0.0,
+    "texture_share": 1.0,
+    "texture_coverage": 0.0,
+    "texture_opacity": 0.18,
+    "base_source": "blender/assets/texture_sources/la_chutana/terrain/south_america_west_low_terrain_source.png",
+    "base_source_sha256": "e5d6009f035b3d9b003962e87c2019c7e240b72a8c36e795a91389f4a933a8ab",
+    "output": "blender/generated/la_chutana/textures/biomes/south_america/west/low/terrain.png",
+    "texture_sources": [
+      "assets-lowpoly-python/circuit_assets_final/texture_library/grassg1.png",
+      "assets-lowpoly-python/circuit_assets_final/texture_library/grassg2.png",
+      "assets-lowpoly-python/circuit_assets_final/texture_library/grassg3.png"
+    ],
+    "source_sha256": {
+      "grassg1.png": "fdd76c1d4bd1cabf1231ec4d6d02c20d01489e425f65463cd51630468b80c598",
+      "grassg2.png": "8e082e5169313aadc4487bc945d25788faa9ec3cba52dbc787009dd1bc72cc48",
+      "grassg3.png": "727d546a60f1c1eed0f2ad139cedae4b683bf63fcdf65e819de1846e9aadb064"
+    }
+  },
+  "start_finish": {
+    "line_width_m": 2.2,
+    "spawn_before_m": 18.0
+  }
+}

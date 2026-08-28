@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "generator": "secondary_fence_v1",
+  "asset_id": "barrier_fence_concrete_steel_4m",
+  "visual_glb": "game/resources/environment/assets/barriers/secondary_fence/barrier_fence_concrete_steel_4m.glb",
+  "collision_glb": "game/resources/environment/assets/barriers/secondary_fence/barrier_fence_concrete_steel_4m-colonly.glb",
+  "dimensions_m": [
+    4.0,
+    3.3,
+    0.15
+  ],
+  "concrete": {
+    "texture": "assets-texturas/textures/terrain/png/112.png",
+    "height_m": 0.75
+  },
+  "steel": {
+    "texture": "assets-texturas/textures/terrain/png/113.png",
+    "height_m": 2.55
+  },
+  "posts_spacing_m": 2.0,
+  "double_sided": true
+}

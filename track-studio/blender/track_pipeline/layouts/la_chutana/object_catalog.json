@@ -1,0 +1,81 @@
+{
+  "schema_version": 2,
+  "asset_library_manifest": "../game/resources/environment/assets/trackside_cards/trackside_card_manifest.json",
+  "marker_encoding": "RGB [224, high_byte, low_byte] plus human-readable label",
+  "objects": {
+    "001": {"asset_id": "spectator_wave", "kind": "card", "category": "spectator", "material_source": "factory_flat", "placement_mode": "barrier_relative", "guardrail_offset_m": 5.0, "max_snap_distance_m": 20.0, "target_height_m": 1.75, "collision": false},
+    "002": {"asset_id": "spectator_cap", "kind": "card", "category": "spectator", "material_source": "factory_flat", "placement_mode": "barrier_relative", "guardrail_offset_m": 5.0, "max_snap_distance_m": 20.0, "target_height_m": 1.75, "collision": false},
+    "003": {"asset_id": "marshal_flag", "kind": "card", "category": "marshal", "material_source": "factory_flat", "placement_mode": "barrier_relative", "guardrail_offset_m": 5.0, "max_snap_distance_m": 20.0, "target_height_m": 1.8, "collision": false},
+    "004": {"asset_id": "photographer", "kind": "card", "category": "photographer", "material_source": "factory_flat", "placement_mode": "barrier_relative", "guardrail_offset_m": 4.0, "max_snap_distance_m": 20.0, "target_height_m": 1.25, "collision": false},
+    "005": {"asset_id": "f90_racing", "kind": "card", "category": "sign", "material_source": "factory_flat", "placement_mode": "barrier_relative", "guardrail_offset_m": 2.0, "max_snap_distance_m": 20.0, "target_width_m": 7.2, "collision": false},
+    "006": {"asset_id": "la_chutana", "kind": "card", "category": "sign", "material_source": "factory_flat", "placement_mode": "barrier_relative", "guardrail_offset_m": 2.0, "max_snap_distance_m": 20.0, "target_width_m": 7.2, "collision": false},
+    "007": {"asset_id": "pit_service", "kind": "card", "category": "sign", "material_source": "factory_flat", "placement_mode": "barrier_relative", "guardrail_offset_m": 2.0, "max_snap_distance_m": 20.0, "target_width_m": 7.2, "collision": false},
+    "008": {"asset_id": "nitro_95", "kind": "card", "category": "sign", "material_source": "factory_flat", "placement_mode": "barrier_relative", "guardrail_offset_m": 2.0, "max_snap_distance_m": 20.0, "target_width_m": 7.2, "collision": false},
+    "009": {"asset_id": "track_flag", "kind": "glb_card", "category": "flag", "asset_glb": "../game/resources/environment/assets/trackside_cards/flags/track_flag_90s.glb", "material_source": "glb_embedded", "placement_mode": "barrier_relative", "guardrail_offset_m": 9.0, "max_snap_distance_m": 20.0, "target_height_m": 5.5, "double_sided": true, "collision": false},
+    "010": {"asset_id": "person_01", "kind": "glb_card", "category": "spectator", "asset_glb": "../game/resources/environment/assets/trackside_cards/people/person_01.glb", "material_source": "glb_embedded", "placement_mode": "barrier_relative", "guardrail_offset_m": 5.0, "max_snap_distance_m": 20.0, "target_height_m": 1.8, "double_sided": true, "collision": false},
+    "011": {"asset_id": "person_02", "kind": "glb_card", "category": "spectator", "asset_glb": "../game/resources/environment/assets/trackside_cards/people/person_02.glb", "material_source": "glb_embedded", "placement_mode": "barrier_relative", "guardrail_offset_m": 5.0, "max_snap_distance_m": 20.0, "target_height_m": 1.8, "double_sided": true, "collision": false},
+    "012": {"asset_id": "person_03", "kind": "glb_card", "category": "spectator", "asset_glb": "../game/resources/environment/assets/trackside_cards/people/person_03.glb", "material_source": "glb_embedded", "placement_mode": "barrier_relative", "guardrail_offset_m": 5.0, "max_snap_distance_m": 20.0, "target_height_m": 1.8, "double_sided": true, "collision": false},
+    "013": {"asset_id": "person_04", "kind": "glb_card", "category": "spectator", "asset_glb": "../game/resources/environment/assets/trackside_cards/people/person_04.glb", "material_source": "glb_embedded", "placement_mode": "barrier_relative", "guardrail_offset_m": 5.0, "max_snap_distance_m": 20.0, "target_height_m": 1.8, "double_sided": true, "collision": false},
+    "014": {"asset_id": "person_05", "kind": "glb_card", "category": "spectator", "asset_glb": "../game/resources/environment/assets/trackside_cards/people/person_05.glb", "material_source": "glb_embedded", "placement_mode": "barrier_relative", "guardrail_offset_m": 5.0, "max_snap_distance_m": 20.0, "target_height_m": 1.8, "double_sided": true, "collision": false},
+    "015": {"asset_id": "person_06", "kind": "glb_card", "category": "spectator", "asset_glb": "../game/resources/environment/assets/trackside_cards/people/person_06.glb", "material_source": "glb_embedded", "placement_mode": "barrier_relative", "guardrail_offset_m": 5.0, "max_snap_distance_m": 20.0, "target_height_m": 1.8, "double_sided": true, "collision": false},
+    "016": {"asset_id": "person_07", "kind": "glb_card", "category": "photographer", "asset_glb": "../game/resources/environment/assets/trackside_cards/people/person_07.glb", "material_source": "glb_embedded", "placement_mode": "barrier_relative", "guardrail_offset_m": 4.0, "max_snap_distance_m": 20.0, "target_height_m": 1.8, "double_sided": true, "collision": false},
+    "017": {"asset_id": "person_08", "kind": "glb_card", "category": "spectator", "asset_glb": "../game/resources/environment/assets/trackside_cards/people/person_08.glb", "material_source": "glb_embedded", "placement_mode": "barrier_relative", "guardrail_offset_m": 5.0, "max_snap_distance_m": 20.0, "target_height_m": 1.8, "double_sided": true, "collision": false},
+    "018": {"asset_id": "person_09", "kind": "glb_card", "category": "spectator", "asset_glb": "../game/resources/environment/assets/trackside_cards/people/person_09.glb", "material_source": "glb_embedded", "placement_mode": "barrier_relative", "guardrail_offset_m": 5.0, "max_snap_distance_m": 20.0, "target_height_m": 1.8, "double_sided": true, "collision": false},
+    "019": {"asset_id": "person_10", "kind": "glb_card", "category": "spectator", "asset_glb": "../game/resources/environment/assets/trackside_cards/people/person_10.glb", "material_source": "glb_embedded", "placement_mode": "barrier_relative", "guardrail_offset_m": 5.0, "max_snap_distance_m": 20.0, "target_height_m": 1.8, "double_sided": true, "collision": false},
+    "020": {"asset_id": "sign_01_turbo_cola", "kind": "glb_card", "category": "sign", "asset_glb": "../game/resources/environment/assets/trackside_cards/signs/sign_01_turbo_cola.glb", "material_source": "glb_embedded", "placement_mode": "barrier_relative", "guardrail_offset_m": 2.0, "max_snap_distance_m": 20.0, "target_width_m": 3.6, "target_height_m": 1.8, "double_sided": true, "collision": false},
+    "021": {"asset_id": "sign_02_neon_oil", "kind": "glb_card", "category": "sign", "asset_glb": "../game/resources/environment/assets/trackside_cards/signs/sign_02_neon_oil.glb", "material_source": "glb_embedded", "placement_mode": "barrier_relative", "guardrail_offset_m": 2.0, "max_snap_distance_m": 20.0, "target_width_m": 3.6, "target_height_m": 1.8, "double_sided": true, "collision": false},
+    "022": {"asset_id": "sign_03_radio_max_95", "kind": "glb_card", "category": "sign", "asset_glb": "../game/resources/environment/assets/trackside_cards/signs/sign_03_radio_max_95.glb", "material_source": "glb_embedded", "placement_mode": "barrier_relative", "guardrail_offset_m": 2.0, "max_snap_distance_m": 20.0, "target_width_m": 3.6, "target_height_m": 1.8, "double_sided": true, "collision": false},
+    "023": {"asset_id": "sign_04_vortex_video", "kind": "glb_card", "category": "sign", "asset_glb": "../game/resources/environment/assets/trackside_cards/signs/sign_04_vortex_video.glb", "material_source": "glb_embedded", "placement_mode": "barrier_relative", "guardrail_offset_m": 2.0, "max_snap_distance_m": 20.0, "target_width_m": 3.6, "target_height_m": 1.8, "double_sided": true, "collision": false},
+    "024": {"asset_id": "sign_05_ruta_sport", "kind": "glb_card", "category": "sign", "asset_glb": "../game/resources/environment/assets/trackside_cards/signs/sign_05_ruta_sport.glb", "material_source": "glb_embedded", "placement_mode": "barrier_relative", "guardrail_offset_m": 2.0, "max_snap_distance_m": 20.0, "target_width_m": 3.6, "target_height_m": 1.8, "double_sided": true, "collision": false}
+  },
+  "zones": {
+    "grass": {
+      "category": "grass",
+      "seed_offset": 101,
+      "spacing_m": 4.0,
+      "max_count": 4660,
+      "min_count": 4660,
+      "near_track_density": {"max_distance_from_asphalt_m": 10.0, "multiplier": 3.0, "baseline_count": 1130, "min_count": 3390, "max_count": 3390, "far_max_count": 1270},
+      "target_height_m": [0.28, 0.62],
+      "asset_pool": [
+        "../procedural/generated/vegetation_v5/assets/grass/grass_3d_01.glb",
+        "../procedural/generated/vegetation_v5/assets/grass/grass_3d_02.glb",
+        "../procedural/generated/vegetation_v5/assets/grass/grass_3d_03.glb",
+        "../procedural/generated/vegetation_v5/assets/grass/grass_3d_04.glb"
+      ]
+    },
+    "bushes": {
+      "category": "bushes",
+      "seed_offset": 211,
+      "spacing_m": 8.0,
+      "max_count": 110,
+      "min_count": 110,
+      "barrier_clearance_m": 0.5,
+      "target_height_m": [0.7, 2.2],
+      "asset_pool": [
+        "../procedural/generated/vegetation_v5/assets/bushes/bush_3d_01_lod0.glb",
+        "../procedural/generated/vegetation_v5/assets/bushes/bush_3d_02_lod0.glb",
+        "../procedural/generated/vegetation_v5/assets/bushes/bush_3d_03_lod0.glb",
+        "../procedural/generated/vegetation_v5/assets/bushes/bush_3d_04_lod0.glb",
+        "../procedural/generated/vegetation_v5/assets/bushes/bush_3d_05_lod0.glb",
+        "../procedural/generated/vegetation_v5/assets/bushes/bush_3d_06_lod0.glb"
+      ]
+    },
+    "trees": {
+      "category": "trees",
+      "seed_offset": 307,
+      "spacing_m": 12.5,
+      "max_count": 200,
+      "min_count": 200,
+      "barrier_clearance_m": 1.0,
+      "target_height_m": [8.0, 16.0],
+      "asset_pool": [
+        "../procedural/generated/vegetation_v5/assets/trees/tree_3d_01_lod0.glb",
+        "../procedural/generated/vegetation_v5/assets/trees/tree_3d_02_lod0.glb",
+        "../procedural/generated/vegetation_v5/assets/trees/tree_3d_03_lod0.glb",
+        "../procedural/generated/vegetation_v5/assets/trees/tree_3d_04_lod0.glb",
+        "../procedural/generated/vegetation_v5/assets/trees/tree_3d_05_lod0.glb"
+      ]
+    }
+  }
+}
