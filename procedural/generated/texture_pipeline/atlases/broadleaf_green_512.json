@@ -1,0 +1,226 @@
+{
+  "alpha_cutoff": 0.45,
+  "alpha_mode": "MASK",
+  "atlas": "procedural/generated/texture_pipeline/atlases/broadleaf_green_512.png",
+  "atlas_256": "procedural/generated/texture_pipeline/atlases/broadleaf_green_512_256.png",
+  "atlas_256_sha256": "0775ef4430b288b07583d8be0999305d12e5e8b2a7560efbdf5ba580842305e9",
+  "atlas_sha256": "99bdbd9d2dd7c7d6a7818b633fe6927d3285fde9c93eb7dc918ed843fcdc8fa6",
+  "color_seed": 51002,
+  "double_sided": true,
+  "family": "broadleaf",
+  "generator": "deterministic_recovered_texture_atlas_v1",
+  "generator_version": 1,
+  "id": "broadleaf_green_512",
+  "layout_seed": 51001,
+  "mips": [
+    {
+      "coverage": 0.176464,
+      "level": 0,
+      "path": "procedural/generated/texture_pipeline/mips/broadleaf_green_512/mip_0_512.png",
+      "sha256": "99bdbd9d2dd7c7d6a7818b633fe6927d3285fde9c93eb7dc918ed843fcdc8fa6",
+      "size": 512
+    },
+    {
+      "coverage": 0.176666,
+      "level": 1,
+      "path": "procedural/generated/texture_pipeline/mips/broadleaf_green_512/mip_1_256.png",
+      "sha256": "0775ef4430b288b07583d8be0999305d12e5e8b2a7560efbdf5ba580842305e9",
+      "size": 256
+    },
+    {
+      "coverage": 0.176208,
+      "level": 2,
+      "path": "procedural/generated/texture_pipeline/mips/broadleaf_green_512/mip_2_128.png",
+      "sha256": "0df210b76ba0af4c64a7f4b58be4490ecef56a187533ec811c97d70c1a0551df",
+      "size": 128
+    },
+    {
+      "coverage": 0.17749,
+      "level": 3,
+      "path": "procedural/generated/texture_pipeline/mips/broadleaf_green_512/mip_3_64.png",
+      "sha256": "f0fd5504dadcb36a1013e3885a5b4fbf87ea39453a8f12e4cfdaa4314d9a7e13",
+      "size": 64
+    }
+  ],
+  "recipe": "procedural/texture_pipeline/recipes/broadleaf_green_512.json",
+  "recipe_sha256": "0916cd726afd37fdb8e3d67fb8d38ac7319d4cd04861379c7fe97831294e0607",
+  "regions": [
+    {
+      "anchor": [
+        0.5,
+        0.08
+      ],
+      "axis": [
+        0.0,
+        1.0
+      ],
+      "pixels_top_left": [
+        50,
+        10,
+        156,
+        150
+      ],
+      "source": "objects_core_056",
+      "sprite": "bush_dense_b",
+      "uv_bottom_left": [
+        0.09765625,
+        0.6875,
+        0.40234375,
+        0.98046875
+      ],
+      "variation": {
+        "brightness": 0.940723,
+        "saturation": 1.017267
+      }
+    },
+    {
+      "anchor": [
+        0.52,
+        0.05
+      ],
+      "axis": [
+        0.0,
+        1.0
+      ],
+      "pixels_top_left": [
+        308,
+        10,
+        151,
+        150
+      ],
+      "source": "objects_core_057",
+      "sprite": "broadleaf_mature_a",
+      "uv_bottom_left": [
+        0.6015625,
+        0.6875,
+        0.89648438,
+        0.98046875
+      ],
+      "variation": {
+        "brightness": 0.975729,
+        "saturation": 0.958492
+      }
+    },
+    {
+      "anchor": [
+        0.48,
+        0.05
+      ],
+      "axis": [
+        0.0,
+        1.0
+      ],
+      "pixels_top_left": [
+        52,
+        180,
+        151,
+        150
+      ],
+      "source": "objects_core_057",
+      "sprite": "broadleaf_mature_b",
+      "uv_bottom_left": [
+        0.1015625,
+        0.35546875,
+        0.39648438,
+        0.6484375
+      ],
+      "variation": {
+        "brightness": 1.041448,
+        "saturation": 1.034649
+      }
+    },
+    {
+      "anchor": [
+        0.52,
+        0.04
+      ],
+      "axis": [
+        0.0,
+        1.0
+      ],
+      "pixels_top_left": [
+        308,
+        180,
+        152,
+        150
+      ],
+      "source": "objects_core_058",
+      "sprite": "broadleaf_mixed_a",
+      "uv_bottom_left": [
+        0.6015625,
+        0.35546875,
+        0.8984375,
+        0.6484375
+      ],
+      "variation": {
+        "brightness": 0.973507,
+        "saturation": 0.979837
+      }
+    },
+    {
+      "anchor": [
+        0.5,
+        0.08
+      ],
+      "axis": [
+        0.0,
+        1.0
+      ],
+      "pixels_top_left": [
+        51,
+        350,
+        153,
+        150
+      ],
+      "source": "objects_core_056",
+      "sprite": "bush_dense_a",
+      "uv_bottom_left": [
+        0.09960938,
+        0.0234375,
+        0.3984375,
+        0.31640625
+      ],
+      "variation": {
+        "brightness": 0.997785,
+        "saturation": 1.024318
+      }
+    },
+    {
+      "anchor": [
+        0.48,
+        0.04
+      ],
+      "axis": [
+        0.0,
+        1.0
+      ],
+      "pixels_top_left": [
+        307,
+        350,
+        154,
+        150
+      ],
+      "source": "objects_core_058",
+      "sprite": "broadleaf_mixed_b",
+      "uv_bottom_left": [
+        0.59960938,
+        0.0234375,
+        0.90039062,
+        0.31640625
+      ],
+      "variation": {
+        "brightness": 1.033359,
+        "saturation": 0.967719
+      }
+    }
+  ],
+  "schema_version": 1,
+  "source_sprite_hashes": {
+    "broadleaf_mature_a": "cf0ab031776364eabde491fe6b258a8efe6a3656fec6b1b35317acbb489ac1f2",
+    "broadleaf_mature_b": "318c531c7059d7fe9562a67317c1ce7505e20beb960a4a3c734147ba2f1d86e3",
+    "broadleaf_mixed_a": "c127794d91afd9fe7e03ff761f894854556319c4b99a84afb5e174f813d8371c",
+    "broadleaf_mixed_b": "e0de05e703c9da8107f46eabcc96230a7845e3ea952cc99d3e3e2031272ba0ae",
+    "bush_dense_a": "890185944aafc46f382c8f22f57f39a9891f0e031e1f8a37ff5753fddbdd29ce",
+    "bush_dense_b": "3e9e413c18aa0f93d708f619f21c3b4cbe4471b16cc374c87f5f03f40cfa93ae"
+  }
+}

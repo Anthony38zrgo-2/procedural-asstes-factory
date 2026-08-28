@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Recovered texture source catalog",
+  "type": "object",
+  "required": ["schema_version", "generator", "sources"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "generator": {"type": "string"},
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "path", "sha256", "width", "height", "classification", "confidence"],
+        "properties": {
+          "id": {"pattern": "^objects_core_[0-9]{3}$"},
+          "path": {"type": "string"},
+          "sha256": {"pattern": "^[0-9a-f]{64}$"},
+          "classification": {"type": "string"},
+          "confidence": {"enum": ["verified_visual", "probable", "unverified", "excluded"]}
+        }
+      }
+    }
+  }
+}

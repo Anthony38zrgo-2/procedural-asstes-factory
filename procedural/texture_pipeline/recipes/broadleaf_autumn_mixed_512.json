@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "id": "broadleaf_autumn_mixed_512",
+  "family": "broadleaf",
+  "size": 512,
+  "padding": 10,
+  "layout_seed": 51001,
+  "color_seed": 51102,
+  "alpha_cutoff": 0.45,
+  "brightness_range": [0.96, 1.04],
+  "saturation_range": [0.96, 1.03],
+  "sprites": ["acer_orange_a", "acer_orange_b", "acer_red_a", "acer_red_b", "acer_yellow_a", "acer_yellow_b"]
+}

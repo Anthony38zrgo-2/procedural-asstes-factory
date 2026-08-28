@@ -1,0 +1,168 @@
+{
+  "alpha_cutoff": 0.42,
+  "alpha_mode": "MASK",
+  "atlas": "procedural/generated/texture_pipeline/atlases/conifer_green_512.png",
+  "atlas_256": "procedural/generated/texture_pipeline/atlases/conifer_green_512_256.png",
+  "atlas_256_sha256": "3132fca4bbb8b3e5b174094da6cc175d72f349f0c1748acb2ca15dcdecf5babe",
+  "atlas_sha256": "f59736151e189aecc2c2e8dc5f1df864f0a592da4b76947eb3cb13313171bd8b",
+  "color_seed": 53002,
+  "double_sided": true,
+  "family": "conifer",
+  "generator": "deterministic_recovered_texture_atlas_v1",
+  "generator_version": 1,
+  "id": "conifer_green_512",
+  "layout_seed": 53001,
+  "mips": [
+    {
+      "coverage": 0.165592,
+      "level": 0,
+      "path": "procedural/generated/texture_pipeline/mips/conifer_green_512/mip_0_512.png",
+      "sha256": "f59736151e189aecc2c2e8dc5f1df864f0a592da4b76947eb3cb13313171bd8b",
+      "size": 512
+    },
+    {
+      "coverage": 0.165405,
+      "level": 1,
+      "path": "procedural/generated/texture_pipeline/mips/conifer_green_512/mip_1_256.png",
+      "sha256": "3132fca4bbb8b3e5b174094da6cc175d72f349f0c1748acb2ca15dcdecf5babe",
+      "size": 256
+    },
+    {
+      "coverage": 0.16626,
+      "level": 2,
+      "path": "procedural/generated/texture_pipeline/mips/conifer_green_512/mip_2_128.png",
+      "sha256": "8fd72c94a7cba4f341f86c90977a87f7767fc3f03bdbb5b5f631c98ed76426b2",
+      "size": 128
+    },
+    {
+      "coverage": 0.167725,
+      "level": 3,
+      "path": "procedural/generated/texture_pipeline/mips/conifer_green_512/mip_3_64.png",
+      "sha256": "e92630aaa824145075b98d89eb8d85eccfe0a7590f3929652f12a36e20fee175",
+      "size": 64
+    }
+  ],
+  "recipe": "procedural/texture_pipeline/recipes/conifer_green_512.json",
+  "recipe_sha256": "6f1a3ba7324071be1bd22b79a24feb799d7b802e1155196885b167b3f0c48538",
+  "regions": [
+    {
+      "anchor": [
+        0.5,
+        0.08
+      ],
+      "axis": [
+        0.0,
+        1.0
+      ],
+      "pixels_top_left": [
+        15,
+        10,
+        226,
+        150
+      ],
+      "source": "objects_core_060",
+      "sprite": "conifer_green_d",
+      "uv_bottom_left": [
+        0.02929688,
+        0.6875,
+        0.47070312,
+        0.98046875
+      ],
+      "variation": {
+        "brightness": 1.032537,
+        "saturation": 1.03358
+      }
+    },
+    {
+      "anchor": [
+        0.05,
+        0.5
+      ],
+      "axis": [
+        1.0,
+        0.0
+      ],
+      "pixels_top_left": [
+        267,
+        10,
+        234,
+        150
+      ],
+      "source": "objects_core_060",
+      "sprite": "conifer_green_c",
+      "uv_bottom_left": [
+        0.52148438,
+        0.6875,
+        0.97851562,
+        0.98046875
+      ],
+      "variation": {
+        "brightness": 0.947566,
+        "saturation": 0.999923
+      }
+    },
+    {
+      "anchor": [
+        0.5,
+        0.08
+      ],
+      "axis": [
+        0.0,
+        1.0
+      ],
+      "pixels_top_left": [
+        10,
+        183,
+        236,
+        144
+      ],
+      "source": "objects_core_060",
+      "sprite": "conifer_green_b",
+      "uv_bottom_left": [
+        0.01953125,
+        0.36132812,
+        0.48046875,
+        0.64257812
+      ],
+      "variation": {
+        "brightness": 0.950453,
+        "saturation": 0.991485
+      }
+    },
+    {
+      "anchor": [
+        0.06,
+        0.5
+      ],
+      "axis": [
+        1.0,
+        0.0
+      ],
+      "pixels_top_left": [
+        273,
+        180,
+        221,
+        150
+      ],
+      "source": "objects_core_060",
+      "sprite": "conifer_green_a",
+      "uv_bottom_left": [
+        0.53320312,
+        0.35546875,
+        0.96484375,
+        0.6484375
+      ],
+      "variation": {
+        "brightness": 1.028241,
+        "saturation": 1.016251
+      }
+    }
+  ],
+  "schema_version": 1,
+  "source_sprite_hashes": {
+    "conifer_green_a": "796020d6710b3c9e4ce598b99cb4f359eadb05de94c6258c50dcdd1bf69750f7",
+    "conifer_green_b": "7abc87e2c1983522246ed432c35ce97909e66cf28e416c8c5551011f38a52138",
+    "conifer_green_c": "4cde48c58d47a7e68a2e40aa8c1667623337d40223f32a10010225a3c850984c",
+    "conifer_green_d": "1a889d37fe063ed61aed5d0966d33b3e3da8989588e9e90ac53dad8b533aa313"
+  }
+}

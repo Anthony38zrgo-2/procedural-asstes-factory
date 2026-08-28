@@ -1,0 +1,20 @@
+{
+  "after": {
+    "x_edge_mae": 0.0,
+    "y_edge_mae": 0.0
+  },
+  "audit": "procedural/generated/texture_pipeline/review/conifer_bark_035_seamless_audit.png",
+  "before": {
+    "x_edge_mae": 32.108074,
+    "y_edge_mae": 27.011719
+  },
+  "generator": "deterministic_recovered_texture_atlas_v1",
+  "id": "conifer_bark_035_seamless",
+  "path": "procedural/generated/texture_pipeline/wood/conifer_bark_035_seamless.png",
+  "repeat": true,
+  "schema_version": 1,
+  "sha256": "ccfca1b54cc1ad41757b9ae995f6c7abe1214d21e29f3700ab9d339825892ebb",
+  "source": "objects_core_035",
+  "source_path": "assets-texturas/textures/objects_core/png/035.png",
+  "source_sha256": "8a08d352ccbd4654614387d46214bd047901d16d03f73b7f172d9769553b1bac"
+}

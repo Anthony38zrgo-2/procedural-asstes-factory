@@ -1,0 +1,209 @@
+{
+  "blender_version": "5.2.0 LTS",
+  "generator": "conifer_v5_blender",
+  "recipe": "procedural/recipes/conifer_v5_library.json",
+  "recipe_sha256": "0ade42533a41b9f0e6cc0334877b445f6633a916f0e2b6fee8e0e08dd07cac44",
+  "records": [
+    {
+      "audit": "procedural/generated/conifers_v5/review/conifer_v5_young_01_lod0.png",
+      "audit_sha256": "f02b0bb2af016cff633b8c718c012fa36ed2ac3836bfd64c4d0f144ead7ff860",
+      "bounds_max": [
+        1.95095,
+        1.73613,
+        7.44371
+      ],
+      "bounds_min": [
+        -1.8403,
+        -1.8051,
+        -0.00075
+      ],
+      "dimensions": [
+        3.79125,
+        3.54123,
+        7.44446
+      ],
+      "glb": "procedural/generated/conifers_v5/assets/conifer_v5_young_01_lod0.glb",
+      "glb_sha256": "734553f897a0af38580ac9d0f5ff88ea959ad7854893b50d852f421469a8b77f",
+      "id": "conifer_v5_young_01",
+      "lod": "lod0",
+      "materials": {
+        "alpha_cutoff": 0.42,
+        "alpha_mode": "MASK",
+        "foliage": "conifer_green_512",
+        "wood": "conifer_bark_035_seamless"
+      },
+      "seed": 52011,
+      "triangle_budget": 18000,
+      "triangles": 3036,
+      "vertices": 3625
+    },
+    {
+      "audit": "procedural/generated/conifers_v5/review/conifer_v5_young_01_lod1.png",
+      "audit_sha256": "8001966d0b4da428f71f533d7243c2ed78f3e04605690632f90ce4b7d09a6676",
+      "bounds_max": [
+        1.9544,
+        1.80985,
+        7.44379
+      ],
+      "bounds_min": [
+        -1.81351,
+        -1.86114,
+        -0.00107
+      ],
+      "dimensions": [
+        3.76791,
+        3.67099,
+        7.44486
+      ],
+      "glb": "procedural/generated/conifers_v5/assets/conifer_v5_young_01_lod1.glb",
+      "glb_sha256": "a16fd9db1a1a9bd3a7d9ddfaeb5618af1a01fedb3b7088730ab9160dcc405309",
+      "id": "conifer_v5_young_01",
+      "lod": "lod1",
+      "materials": {
+        "alpha_cutoff": 0.42,
+        "alpha_mode": "MASK",
+        "foliage": "conifer_green_512",
+        "wood": "conifer_bark_035_seamless"
+      },
+      "seed": 52011,
+      "triangle_budget": 8500,
+      "triangles": 1204,
+      "vertices": 1398
+    },
+    {
+      "audit": "procedural/generated/conifers_v5/review/conifer_v5_mature_01_lod0.png",
+      "audit_sha256": "ffc2a6c8cd3c38ce79f0bd4a54ca9e32e0d1b82cd23b58208d737801d6cf558b",
+      "bounds_max": [
+        2.5622,
+        2.61621,
+        10.84445
+      ],
+      "bounds_min": [
+        -2.79333,
+        -2.61917,
+        -0.00184
+      ],
+      "dimensions": [
+        5.35553,
+        5.23538,
+        10.84629
+      ],
+      "glb": "procedural/generated/conifers_v5/assets/conifer_v5_mature_01_lod0.glb",
+      "glb_sha256": "7518be69c161ab024914e42b32eda6c243f3d0404b522fcd944a81568fcc2eb1",
+      "id": "conifer_v5_mature_01",
+      "lod": "lod0",
+      "materials": {
+        "alpha_cutoff": 0.42,
+        "alpha_mode": "MASK",
+        "foliage": "conifer_green_512",
+        "wood": "conifer_bark_035_seamless"
+      },
+      "seed": 52021,
+      "triangle_budget": 18000,
+      "triangles": 5332,
+      "vertices": 6454
+    },
+    {
+      "audit": "procedural/generated/conifers_v5/review/conifer_v5_mature_01_lod1.png",
+      "audit_sha256": "7bc4c61b39fc8f557c9b52a9a59fa15f9c2a02bc5035496ea26a96474f3a5f04",
+      "bounds_max": [
+        2.57594,
+        2.73442,
+        10.8435
+      ],
+      "bounds_min": [
+        -2.39987,
+        -2.67862,
+        -0.00256
+      ],
+      "dimensions": [
+        4.97581,
+        5.41304,
+        10.84606
+      ],
+      "glb": "procedural/generated/conifers_v5/assets/conifer_v5_mature_01_lod1.glb",
+      "glb_sha256": "f3ac836681fbae426cad1b7ae6dd14beb0e0bfb56beabfe56e7acb25f54b2284",
+      "id": "conifer_v5_mature_01",
+      "lod": "lod1",
+      "materials": {
+        "alpha_cutoff": 0.42,
+        "alpha_mode": "MASK",
+        "foliage": "conifer_green_512",
+        "wood": "conifer_bark_035_seamless"
+      },
+      "seed": 52021,
+      "triangle_budget": 8500,
+      "triangles": 2016,
+      "vertices": 2384
+    },
+    {
+      "audit": "procedural/generated/conifers_v5/review/conifer_v5_irregular_01_lod0.png",
+      "audit_sha256": "3c999c57eb348399bd676e398adfd40bd4e744006b5824f711e8c7a38205d810",
+      "bounds_max": [
+        2.28434,
+        2.45609,
+        9.24264
+      ],
+      "bounds_min": [
+        -2.34788,
+        -2.48741,
+        -0.00262
+      ],
+      "dimensions": [
+        4.63222,
+        4.94349,
+        9.24526
+      ],
+      "glb": "procedural/generated/conifers_v5/assets/conifer_v5_irregular_01_lod0.glb",
+      "glb_sha256": "73cadb89d40fb3bd819ad156f7c66eafeccbc205f69190277df065bb8afe1f9f",
+      "id": "conifer_v5_irregular_01",
+      "lod": "lod0",
+      "materials": {
+        "alpha_cutoff": 0.42,
+        "alpha_mode": "MASK",
+        "foliage": "conifer_green_512",
+        "wood": "conifer_bark_035_seamless"
+      },
+      "seed": 52031,
+      "triangle_budget": 18000,
+      "triangles": 3896,
+      "vertices": 4684
+    },
+    {
+      "audit": "procedural/generated/conifers_v5/review/conifer_v5_irregular_01_lod1.png",
+      "audit_sha256": "6350497f1abdfcf6106dbae667abc48e37e07146955ac847074b2bd4f6b980b4",
+      "bounds_max": [
+        2.45929,
+        1.98087,
+        9.24144
+      ],
+      "bounds_min": [
+        -2.16546,
+        -2.54373,
+        -0.00361
+      ],
+      "dimensions": [
+        4.62476,
+        4.5246,
+        9.24504
+      ],
+      "glb": "procedural/generated/conifers_v5/assets/conifer_v5_irregular_01_lod1.glb",
+      "glb_sha256": "a397589727e1f479e3797a8ef32500afa1e040c2f031fee4df427f9b29b6a13e",
+      "id": "conifer_v5_irregular_01",
+      "lod": "lod1",
+      "materials": {
+        "alpha_cutoff": 0.42,
+        "alpha_mode": "MASK",
+        "foliage": "conifer_green_512",
+        "wood": "conifer_bark_035_seamless"
+      },
+      "seed": 52031,
+      "triangle_budget": 8500,
+      "triangles": 1624,
+      "vertices": 1908
+    }
+  ],
+  "schema_version": 1,
+  "texture_release": "procedural/texture_pipeline/releases/v1/manifest.json",
+  "texture_release_sha256": "71ed1de14c722a2669f747deb0070fe3f742fa474cb45a091c26f292298aa7c0"
+}

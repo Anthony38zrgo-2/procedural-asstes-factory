@@ -1,0 +1,1086 @@
+{
+  "generator": "deterministic_recovered_texture_atlas_v1",
+  "schema_version": 1,
+  "sprites": [
+    {
+      "allow_mirror": true,
+      "anchor": [
+        0.5,
+        0.06
+      ],
+      "axis": [
+        0.0,
+        1.0
+      ],
+      "height": 242,
+      "id": "acer_orange_a",
+      "metrics": {
+        "alpha_max": 255,
+        "alpha_min": 0,
+        "alpha_unique": 256,
+        "coverage_128": 0.280657,
+        "coverage_16": 0.379563,
+        "transparent_rgb_present": true,
+        "visible_bbox": [
+          4,
+          4,
+          243,
+          238
+        ],
+        "visible_luminance_mean": 148.4223,
+        "visible_luminance_std": 40.1941
+      },
+      "path": "procedural/generated/texture_pipeline/sprites/acer_orange_a.png",
+      "rect": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sha256": "63225d1ffa221638ff79d0b1876a4fe22210cb1d547f2ece97ad582b84cbddb6",
+      "source": "objects_core_048",
+      "trim_within_rect": [
+        0,
+        11,
+        247,
+        253
+      ],
+      "width": 247
+    },
+    {
+      "allow_mirror": true,
+      "anchor": [
+        0.5,
+        0.06
+      ],
+      "axis": [
+        0.0,
+        1.0
+      ],
+      "height": 236,
+      "id": "acer_orange_b",
+      "metrics": {
+        "alpha_max": 255,
+        "alpha_min": 0,
+        "alpha_unique": 256,
+        "coverage_128": 0.288291,
+        "coverage_16": 0.370091,
+        "transparent_rgb_present": true,
+        "visible_bbox": [
+          4,
+          4,
+          242,
+          232
+        ],
+        "visible_luminance_mean": 154.1329,
+        "visible_luminance_std": 39.8039
+      },
+      "path": "procedural/generated/texture_pipeline/sprites/acer_orange_b.png",
+      "rect": [
+        256,
+        0,
+        512,
+        256
+      ],
+      "sha256": "551591326100c0bd7e9606d7e427cec5ba72f018a7e88771fd8cf2f8d36e208d",
+      "source": "objects_core_048",
+      "trim_within_rect": [
+        10,
+        1,
+        256,
+        237
+      ],
+      "width": 246
+    },
+    {
+      "allow_mirror": true,
+      "anchor": [
+        0.5,
+        0.06
+      ],
+      "axis": [
+        0.0,
+        1.0
+      ],
+      "height": 242,
+      "id": "acer_red_a",
+      "metrics": {
+        "alpha_max": 255,
+        "alpha_min": 0,
+        "alpha_unique": 256,
+        "coverage_128": 0.280657,
+        "coverage_16": 0.379563,
+        "transparent_rgb_present": true,
+        "visible_bbox": [
+          4,
+          4,
+          243,
+          238
+        ],
+        "visible_luminance_mean": 107.1087,
+        "visible_luminance_std": 22.8258
+      },
+      "path": "procedural/generated/texture_pipeline/sprites/acer_red_a.png",
+      "rect": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sha256": "3b8b64eab7379c5c34fa72148dca6ce425452d5e0ba73efe3630ac0248da3a81",
+      "source": "objects_core_049",
+      "trim_within_rect": [
+        0,
+        11,
+        247,
+        253
+      ],
+      "width": 247
+    },
+    {
+      "allow_mirror": true,
+      "anchor": [
+        0.5,
+        0.06
+      ],
+      "axis": [
+        0.0,
+        1.0
+      ],
+      "height": 236,
+      "id": "acer_red_b",
+      "metrics": {
+        "alpha_max": 255,
+        "alpha_min": 0,
+        "alpha_unique": 256,
+        "coverage_128": 0.288291,
+        "coverage_16": 0.370091,
+        "transparent_rgb_present": true,
+        "visible_bbox": [
+          4,
+          4,
+          242,
+          232
+        ],
+        "visible_luminance_mean": 108.2151,
+        "visible_luminance_std": 21.3264
+      },
+      "path": "procedural/generated/texture_pipeline/sprites/acer_red_b.png",
+      "rect": [
+        256,
+        0,
+        512,
+        256
+      ],
+      "sha256": "fe8987f58fe8979973b759893a5cc95390af76b4955690251a08e079c9d0a631",
+      "source": "objects_core_049",
+      "trim_within_rect": [
+        10,
+        1,
+        256,
+        237
+      ],
+      "width": 246
+    },
+    {
+      "allow_mirror": true,
+      "anchor": [
+        0.5,
+        0.06
+      ],
+      "axis": [
+        0.0,
+        1.0
+      ],
+      "height": 242,
+      "id": "acer_yellow_a",
+      "metrics": {
+        "alpha_max": 255,
+        "alpha_min": 0,
+        "alpha_unique": 256,
+        "coverage_128": 0.280657,
+        "coverage_16": 0.379563,
+        "transparent_rgb_present": true,
+        "visible_bbox": [
+          4,
+          4,
+          243,
+          238
+        ],
+        "visible_luminance_mean": 146.6338,
+        "visible_luminance_std": 43.861
+      },
+      "path": "procedural/generated/texture_pipeline/sprites/acer_yellow_a.png",
+      "rect": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sha256": "35b94ea3ffd983917b3eec23f45913a242d5cf001e7d04ebdde1919448837a61",
+      "source": "objects_core_050",
+      "trim_within_rect": [
+        0,
+        11,
+        247,
+        253
+      ],
+      "width": 247
+    },
+    {
+      "allow_mirror": true,
+      "anchor": [
+        0.5,
+        0.06
+      ],
+      "axis": [
+        0.0,
+        1.0
+      ],
+      "height": 236,
+      "id": "acer_yellow_b",
+      "metrics": {
+        "alpha_max": 255,
+        "alpha_min": 0,
+        "alpha_unique": 256,
+        "coverage_128": 0.288291,
+        "coverage_16": 0.370091,
+        "transparent_rgb_present": true,
+        "visible_bbox": [
+          4,
+          4,
+          242,
+          232
+        ],
+        "visible_luminance_mean": 116.7805,
+        "visible_luminance_std": 42.4773
+      },
+      "path": "procedural/generated/texture_pipeline/sprites/acer_yellow_b.png",
+      "rect": [
+        256,
+        0,
+        512,
+        256
+      ],
+      "sha256": "9616d9b52c89d1fc039dec9144cafb1eca0b84991bc9a2430406295f7202f28f",
+      "source": "objects_core_050",
+      "trim_within_rect": [
+        10,
+        1,
+        256,
+        237
+      ],
+      "width": 246
+    },
+    {
+      "allow_mirror": true,
+      "anchor": [
+        0.52,
+        0.05
+      ],
+      "axis": [
+        0.0,
+        1.0
+      ],
+      "height": 253,
+      "id": "broadleaf_mature_a",
+      "metrics": {
+        "alpha_max": 255,
+        "alpha_min": 0,
+        "alpha_unique": 256,
+        "coverage_128": 0.371402,
+        "coverage_16": 0.4773,
+        "transparent_rgb_present": true,
+        "visible_bbox": [
+          4,
+          4,
+          254,
+          249
+        ],
+        "visible_luminance_mean": 49.2903,
+        "visible_luminance_std": 15.6545
+      },
+      "path": "procedural/generated/texture_pipeline/sprites/broadleaf_mature_a.png",
+      "rect": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sha256": "cf0ab031776364eabde491fe6b258a8efe6a3656fec6b1b35317acbb489ac1f2",
+      "source": "objects_core_057",
+      "trim_within_rect": [
+        1,
+        0,
+        256,
+        253
+      ],
+      "width": 255
+    },
+    {
+      "allow_mirror": true,
+      "anchor": [
+        0.48,
+        0.05
+      ],
+      "axis": [
+        0.0,
+        1.0
+      ],
+      "height": 254,
+      "id": "broadleaf_mature_b",
+      "metrics": {
+        "alpha_max": 255,
+        "alpha_min": 0,
+        "alpha_unique": 256,
+        "coverage_128": 0.280327,
+        "coverage_16": 0.373001,
+        "transparent_rgb_present": true,
+        "visible_bbox": [
+          4,
+          4,
+          252,
+          250
+        ],
+        "visible_luminance_mean": 51.7262,
+        "visible_luminance_std": 17.36
+      },
+      "path": "procedural/generated/texture_pipeline/sprites/broadleaf_mature_b.png",
+      "rect": [
+        256,
+        0,
+        512,
+        256
+      ],
+      "sha256": "318c531c7059d7fe9562a67317c1ce7505e20beb960a4a3c734147ba2f1d86e3",
+      "source": "objects_core_057",
+      "trim_within_rect": [
+        0,
+        1,
+        256,
+        255
+      ],
+      "width": 256
+    },
+    {
+      "allow_mirror": true,
+      "anchor": [
+        0.52,
+        0.04
+      ],
+      "axis": [
+        0.0,
+        1.0
+      ],
+      "height": 252,
+      "id": "broadleaf_mixed_a",
+      "metrics": {
+        "alpha_max": 255,
+        "alpha_min": 0,
+        "alpha_unique": 256,
+        "coverage_128": 0.365932,
+        "coverage_16": 0.424898,
+        "transparent_rgb_present": true,
+        "visible_bbox": [
+          0,
+          3,
+          253,
+          248
+        ],
+        "visible_luminance_mean": 56.5292,
+        "visible_luminance_std": 14.2775
+      },
+      "path": "procedural/generated/texture_pipeline/sprites/broadleaf_mixed_a.png",
+      "rect": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sha256": "c127794d91afd9fe7e03ff761f894854556319c4b99a84afb5e174f813d8371c",
+      "source": "objects_core_058",
+      "trim_within_rect": [
+        0,
+        0,
+        256,
+        252
+      ],
+      "width": 256
+    },
+    {
+      "allow_mirror": true,
+      "anchor": [
+        0.48,
+        0.04
+      ],
+      "axis": [
+        0.0,
+        1.0
+      ],
+      "height": 249,
+      "id": "broadleaf_mixed_b",
+      "metrics": {
+        "alpha_max": 255,
+        "alpha_min": 0,
+        "alpha_unique": 256,
+        "coverage_128": 0.370686,
+        "coverage_16": 0.43099,
+        "transparent_rgb_present": true,
+        "visible_bbox": [
+          3,
+          4,
+          256,
+          245
+        ],
+        "visible_luminance_mean": 56.5501,
+        "visible_luminance_std": 14.3132
+      },
+      "path": "procedural/generated/texture_pipeline/sprites/broadleaf_mixed_b.png",
+      "rect": [
+        256,
+        0,
+        512,
+        256
+      ],
+      "sha256": "e0de05e703c9da8107f46eabcc96230a7845e3ea952cc99d3e3e2031272ba0ae",
+      "source": "objects_core_058",
+      "trim_within_rect": [
+        0,
+        7,
+        256,
+        256
+      ],
+      "width": 256
+    },
+    {
+      "allow_mirror": true,
+      "anchor": [
+        0.5,
+        0.08
+      ],
+      "axis": [
+        0.0,
+        1.0
+      ],
+      "height": 242,
+      "id": "bush_dense_a",
+      "metrics": {
+        "alpha_max": 255,
+        "alpha_min": 0,
+        "alpha_unique": 256,
+        "coverage_128": 0.280657,
+        "coverage_16": 0.379563,
+        "transparent_rgb_present": true,
+        "visible_bbox": [
+          4,
+          4,
+          243,
+          238
+        ],
+        "visible_luminance_mean": 56.5293,
+        "visible_luminance_std": 12.7466
+      },
+      "path": "procedural/generated/texture_pipeline/sprites/bush_dense_a.png",
+      "rect": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sha256": "890185944aafc46f382c8f22f57f39a9891f0e031e1f8a37ff5753fddbdd29ce",
+      "source": "objects_core_056",
+      "trim_within_rect": [
+        0,
+        11,
+        247,
+        253
+      ],
+      "width": 247
+    },
+    {
+      "allow_mirror": true,
+      "anchor": [
+        0.5,
+        0.08
+      ],
+      "axis": [
+        0.0,
+        1.0
+      ],
+      "height": 236,
+      "id": "bush_dense_b",
+      "metrics": {
+        "alpha_max": 255,
+        "alpha_min": 0,
+        "alpha_unique": 256,
+        "coverage_128": 0.288291,
+        "coverage_16": 0.370091,
+        "transparent_rgb_present": true,
+        "visible_bbox": [
+          4,
+          4,
+          242,
+          232
+        ],
+        "visible_luminance_mean": 56.0251,
+        "visible_luminance_std": 12.8288
+      },
+      "path": "procedural/generated/texture_pipeline/sprites/bush_dense_b.png",
+      "rect": [
+        256,
+        0,
+        512,
+        256
+      ],
+      "sha256": "3e9e413c18aa0f93d708f619f21c3b4cbe4471b16cc374c87f5f03f40cfa93ae",
+      "source": "objects_core_056",
+      "trim_within_rect": [
+        10,
+        1,
+        256,
+        237
+      ],
+      "width": 246
+    },
+    {
+      "allow_mirror": true,
+      "anchor": [
+        0.5,
+        0.06
+      ],
+      "axis": [
+        0.0,
+        1.0
+      ],
+      "height": 246,
+      "id": "bush_fine_a",
+      "metrics": {
+        "alpha_max": 255,
+        "alpha_min": 0,
+        "alpha_unique": 256,
+        "coverage_128": 0.289144,
+        "coverage_16": 0.399219,
+        "transparent_rgb_present": true,
+        "visible_bbox": [
+          4,
+          4,
+          255,
+          242
+        ],
+        "visible_luminance_mean": 69.0793,
+        "visible_luminance_std": 14.2696
+      },
+      "path": "procedural/generated/texture_pipeline/sprites/bush_fine_a.png",
+      "rect": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sha256": "091c83715c179e0bf91d13d06d4bd11593632ca2c5017d061c7259306c4abdbf",
+      "source": "objects_core_061",
+      "trim_within_rect": [
+        1,
+        10,
+        256,
+        256
+      ],
+      "width": 255
+    },
+    {
+      "allow_mirror": true,
+      "anchor": [
+        0.5,
+        0.06
+      ],
+      "axis": [
+        0.0,
+        1.0
+      ],
+      "height": 251,
+      "id": "bush_fine_b",
+      "metrics": {
+        "alpha_max": 255,
+        "alpha_min": 0,
+        "alpha_unique": 256,
+        "coverage_128": 0.228524,
+        "coverage_16": 0.342992,
+        "transparent_rgb_present": true,
+        "visible_bbox": [
+          0,
+          4,
+          238,
+          248
+        ],
+        "visible_luminance_mean": 68.8829,
+        "visible_luminance_std": 14.1727
+      },
+      "path": "procedural/generated/texture_pipeline/sprites/bush_fine_b.png",
+      "rect": [
+        256,
+        0,
+        512,
+        256
+      ],
+      "sha256": "5d0758304d0f32868a21e9c295d09a04bc3653b67b34464ea70f47b868cc006c",
+      "source": "objects_core_061",
+      "trim_within_rect": [
+        0,
+        5,
+        242,
+        256
+      ],
+      "width": 242
+    },
+    {
+      "allow_mirror": false,
+      "anchor": [
+        0.06,
+        0.5
+      ],
+      "axis": [
+        1.0,
+        0.0
+      ],
+      "height": 72,
+      "id": "conifer_green_a",
+      "metrics": {
+        "alpha_max": 255,
+        "alpha_min": 0,
+        "alpha_unique": 241,
+        "coverage_128": 0.357966,
+        "coverage_16": 0.447589,
+        "transparent_rgb_present": true,
+        "visible_bbox": [
+          3,
+          0,
+          102,
+          72
+        ],
+        "visible_luminance_mean": 70.0357,
+        "visible_luminance_std": 21.6267
+      },
+      "path": "procedural/generated/texture_pipeline/sprites/conifer_green_a.png",
+      "rect": [
+        0,
+        0,
+        128,
+        72
+      ],
+      "sha256": "796020d6710b3c9e4ce598b99cb4f359eadb05de94c6258c50dcdd1bf69750f7",
+      "source": "objects_core_060",
+      "trim_within_rect": [
+        0,
+        0,
+        106,
+        72
+      ],
+      "width": 106
+    },
+    {
+      "allow_mirror": false,
+      "anchor": [
+        0.5,
+        0.08
+      ],
+      "axis": [
+        0.0,
+        1.0
+      ],
+      "height": 78,
+      "id": "conifer_green_b",
+      "metrics": {
+        "alpha_max": 255,
+        "alpha_min": 0,
+        "alpha_unique": 256,
+        "coverage_128": 0.229667,
+        "coverage_16": 0.426883,
+        "transparent_rgb_present": true,
+        "visible_bbox": [
+          1,
+          3,
+          127,
+          78
+        ],
+        "visible_luminance_mean": 62.7116,
+        "visible_luminance_std": 12.8652
+      },
+      "path": "procedural/generated/texture_pipeline/sprites/conifer_green_b.png",
+      "rect": [
+        128,
+        0,
+        256,
+        78
+      ],
+      "sha256": "7abc87e2c1983522246ed432c35ce97909e66cf28e416c8c5551011f38a52138",
+      "source": "objects_core_060",
+      "trim_within_rect": [
+        0,
+        0,
+        128,
+        78
+      ],
+      "width": 128
+    },
+    {
+      "allow_mirror": false,
+      "anchor": [
+        0.05,
+        0.5
+      ],
+      "axis": [
+        1.0,
+        0.0
+      ],
+      "height": 82,
+      "id": "conifer_green_c",
+      "metrics": {
+        "alpha_max": 255,
+        "alpha_min": 0,
+        "alpha_unique": 255,
+        "coverage_128": 0.246951,
+        "coverage_16": 0.363377,
+        "transparent_rgb_present": true,
+        "visible_bbox": [
+          2,
+          0,
+          126,
+          82
+        ],
+        "visible_luminance_mean": 75.2595,
+        "visible_luminance_std": 21.7948
+      },
+      "path": "procedural/generated/texture_pipeline/sprites/conifer_green_c.png",
+      "rect": [
+        0,
+        64,
+        128,
+        146
+      ],
+      "sha256": "4cde48c58d47a7e68a2e40aa8c1667623337d40223f32a10010225a3c850984c",
+      "source": "objects_core_060",
+      "trim_within_rect": [
+        0,
+        0,
+        128,
+        82
+      ],
+      "width": 128
+    },
+    {
+      "allow_mirror": false,
+      "anchor": [
+        0.5,
+        0.08
+      ],
+      "axis": [
+        0.0,
+        1.0
+      ],
+      "height": 85,
+      "id": "conifer_green_d",
+      "metrics": {
+        "alpha_max": 255,
+        "alpha_min": 0,
+        "alpha_unique": 255,
+        "coverage_128": 0.315074,
+        "coverage_16": 0.478768,
+        "transparent_rgb_present": true,
+        "visible_bbox": [
+          3,
+          0,
+          127,
+          85
+        ],
+        "visible_luminance_mean": 66.0401,
+        "visible_luminance_std": 19.8883
+      },
+      "path": "procedural/generated/texture_pipeline/sprites/conifer_green_d.png",
+      "rect": [
+        128,
+        60,
+        256,
+        145
+      ],
+      "sha256": "1a889d37fe063ed61aed5d0966d33b3e3da8989588e9e90ac53dad8b533aa313",
+      "source": "objects_core_060",
+      "trim_within_rect": [
+        0,
+        0,
+        128,
+        85
+      ],
+      "width": 128
+    },
+    {
+      "allow_mirror": false,
+      "anchor": [
+        0.16,
+        0.18
+      ],
+      "axis": [
+        0.7,
+        0.7
+      ],
+      "height": 128,
+      "id": "olive_cluster_a",
+      "metrics": {
+        "alpha_max": 255,
+        "alpha_min": 0,
+        "alpha_unique": 256,
+        "coverage_128": 0.301025,
+        "coverage_16": 0.407837,
+        "transparent_rgb_present": true,
+        "visible_bbox": [
+          2,
+          0,
+          126,
+          126
+        ],
+        "visible_luminance_mean": 74.4187,
+        "visible_luminance_std": 23.7183
+      },
+      "path": "procedural/generated/texture_pipeline/sprites/olive_cluster_a.png",
+      "rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "sha256": "e0d1f6fb732c0b8c1a66f1ad27fd4e0313e373279219c9a453435731785c74e7",
+      "source": "objects_core_062",
+      "trim_within_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "width": 128
+    },
+    {
+      "allow_mirror": false,
+      "anchor": [
+        0.5,
+        0.12
+      ],
+      "axis": [
+        0.0,
+        1.0
+      ],
+      "height": 128,
+      "id": "olive_cluster_b",
+      "metrics": {
+        "alpha_max": 255,
+        "alpha_min": 0,
+        "alpha_unique": 256,
+        "coverage_128": 0.288086,
+        "coverage_16": 0.479248,
+        "transparent_rgb_present": true,
+        "visible_bbox": [
+          0,
+          3,
+          127,
+          125
+        ],
+        "visible_luminance_mean": 65.0528,
+        "visible_luminance_std": 16.8542
+      },
+      "path": "procedural/generated/texture_pipeline/sprites/olive_cluster_b.png",
+      "rect": [
+        128,
+        0,
+        256,
+        128
+      ],
+      "sha256": "220a75148c1f3efaab2dff80ebcdc0a411552b3c18d8bb3a32b9521708da0ac9",
+      "source": "objects_core_062",
+      "trim_within_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "width": 128
+    },
+    {
+      "allow_mirror": false,
+      "anchor": [
+        0.12,
+        0.24
+      ],
+      "axis": [
+        0.8,
+        0.5
+      ],
+      "height": 128,
+      "id": "olive_cluster_c",
+      "metrics": {
+        "alpha_max": 255,
+        "alpha_min": 0,
+        "alpha_unique": 256,
+        "coverage_128": 0.397522,
+        "coverage_16": 0.555176,
+        "transparent_rgb_present": true,
+        "visible_bbox": [
+          2,
+          0,
+          128,
+          128
+        ],
+        "visible_luminance_mean": 77.485,
+        "visible_luminance_std": 19.187
+      },
+      "path": "procedural/generated/texture_pipeline/sprites/olive_cluster_c.png",
+      "rect": [
+        0,
+        96,
+        128,
+        224
+      ],
+      "sha256": "1a32b3f83e3354de12f77cd0e4eafccec02232020174e078d158dc6411815911",
+      "source": "objects_core_062",
+      "trim_within_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "width": 128
+    },
+    {
+      "allow_mirror": false,
+      "anchor": [
+        0.5,
+        0.12
+      ],
+      "axis": [
+        0.0,
+        1.0
+      ],
+      "height": 128,
+      "id": "olive_cluster_d",
+      "metrics": {
+        "alpha_max": 255,
+        "alpha_min": 0,
+        "alpha_unique": 256,
+        "coverage_128": 0.207214,
+        "coverage_16": 0.387573,
+        "transparent_rgb_present": true,
+        "visible_bbox": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "visible_luminance_mean": 67.0871,
+        "visible_luminance_std": 19.9204
+      },
+      "path": "procedural/generated/texture_pipeline/sprites/olive_cluster_d.png",
+      "rect": [
+        128,
+        80,
+        256,
+        208
+      ],
+      "sha256": "d2694b2737c10626c5f42e7c37aaac0824751d8cb55433eb34e6a146c0542603",
+      "source": "objects_core_062",
+      "trim_within_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "width": 128
+    },
+    {
+      "allow_mirror": true,
+      "anchor": [
+        0.5,
+        0.05
+      ],
+      "axis": [
+        0.0,
+        1.0
+      ],
+      "height": 256,
+      "id": "sparse_branch_a",
+      "metrics": {
+        "alpha_max": 255,
+        "alpha_min": 0,
+        "alpha_unique": 256,
+        "coverage_128": 0.214478,
+        "coverage_16": 0.330597,
+        "transparent_rgb_present": true,
+        "visible_bbox": [
+          0,
+          1,
+          256,
+          256
+        ],
+        "visible_luminance_mean": 80.1287,
+        "visible_luminance_std": 16.681
+      },
+      "path": "procedural/generated/texture_pipeline/sprites/sparse_branch_a.png",
+      "rect": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sha256": "3bb54068003b2eb720415361392f539bf6d7f8a539220c69c1f5e27c0c6ad699",
+      "source": "objects_core_063",
+      "trim_within_rect": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "width": 256
+    },
+    {
+      "allow_mirror": true,
+      "anchor": [
+        0.5,
+        0.05
+      ],
+      "axis": [
+        0.0,
+        1.0
+      ],
+      "height": 256,
+      "id": "sparse_branch_b",
+      "metrics": {
+        "alpha_max": 255,
+        "alpha_min": 0,
+        "alpha_unique": 256,
+        "coverage_128": 0.173542,
+        "coverage_16": 0.295346,
+        "transparent_rgb_present": true,
+        "visible_bbox": [
+          0,
+          2,
+          249,
+          256
+        ],
+        "visible_luminance_mean": 78.6424,
+        "visible_luminance_std": 16.7927
+      },
+      "path": "procedural/generated/texture_pipeline/sprites/sparse_branch_b.png",
+      "rect": [
+        256,
+        0,
+        512,
+        256
+      ],
+      "sha256": "3c13b6cf10550cf7e2c186e7c825d970285bb46353024a70f594134f66a34510",
+      "source": "objects_core_063",
+      "trim_within_rect": [
+        0,
+        0,
+        253,
+        256
+      ],
+      "width": 253
+    }
+  ]
+}

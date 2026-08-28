@@ -1,0 +1,20 @@
+{
+  "after": {
+    "x_edge_mae": 0.0,
+    "y_edge_mae": 0.0
+  },
+  "audit": "procedural/generated/texture_pipeline/review/shrub_bark_025_seamless_audit.png",
+  "before": {
+    "x_edge_mae": 13.976562,
+    "y_edge_mae": 11.072917
+  },
+  "generator": "deterministic_recovered_texture_atlas_v1",
+  "id": "shrub_bark_025_seamless",
+  "path": "procedural/generated/texture_pipeline/wood/shrub_bark_025_seamless.png",
+  "repeat": true,
+  "schema_version": 1,
+  "sha256": "3f295950e4859f60690bfc4434752dbf55faa90481a2251251bd9dda32a46a25",
+  "source": "objects_core_025",
+  "source_path": "assets-texturas/textures/objects_core/png/025.png",
+  "source_sha256": "fdf3467c9673fec043a8e7cd9b9a3b1b40b4966a914a97f9845e77d0eb3aead5"
+}

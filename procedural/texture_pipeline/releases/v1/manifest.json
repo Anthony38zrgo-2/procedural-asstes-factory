@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "vegetation_texture_library_v1",
+  "status": "approved",
+  "generator": "deterministic_recovered_texture_atlas_v1",
+  "curation": {
+    "path": "procedural/texture_pipeline/config/source_curations.json",
+    "sha256": "0b3475e4b019c50b0a85886b5da2c9277c58e6f173edb2f2a7df3a4cc5519390"
+  },
+  "atlases": [
+    {
+      "id": "broadleaf_autumn_mixed_512",
+      "path": "procedural/generated/texture_pipeline/atlases/broadleaf_autumn_mixed_512.png",
+      "sha256": "4d2b63764584b77d6c8c85dc2ad6b0187e0dec70f9a1991e7f23a592112301a0",
+      "recipe_sha256": "89e7781fda1ab4bc24fa3e94d86c2d5121bbf4e5313d9d349ecfac2ab7025569"
+    },
+    {
+      "id": "broadleaf_green_512",
+      "path": "procedural/generated/texture_pipeline/atlases/broadleaf_green_512.png",
+      "sha256": "99bdbd9d2dd7c7d6a7818b633fe6927d3285fde9c93eb7dc918ed843fcdc8fa6",
+      "recipe_sha256": "0916cd726afd37fdb8e3d67fb8d38ac7319d4cd04861379c7fe97831294e0607"
+    },
+    {
+      "id": "bush_green_512",
+      "path": "procedural/generated/texture_pipeline/atlases/bush_green_512.png",
+      "sha256": "d28022344f315ff71040cbc622587e5ce0a62688ecfe94f202855c439b836fc2",
+      "recipe_sha256": "025b9f7be255303d8e511525f73b72a75cc754f567b6855e4dbd1f5c30581fae"
+    },
+    {
+      "id": "conifer_green_512",
+      "path": "procedural/generated/texture_pipeline/atlases/conifer_green_512.png",
+      "sha256": "f59736151e189aecc2c2e8dc5f1df864f0a592da4b76947eb3cb13313171bd8b",
+      "recipe_sha256": "6f1a3ba7324071be1bd22b79a24feb799d7b802e1155196885b167b3f0c48538"
+    }
+  ],
+  "wood_materials": [
+    {
+      "id": "conifer_bark_035_seamless",
+      "path": "procedural/generated/texture_pipeline/wood/conifer_bark_035_seamless.png",
+      "sha256": "ccfca1b54cc1ad41757b9ae995f6c7abe1214d21e29f3700ab9d339825892ebb",
+      "source_sha256": "8a08d352ccbd4654614387d46214bd047901d16d03f73b7f172d9769553b1bac",
+      "seam_x_mae": 0.0,
+      "seam_y_mae": 0.0
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "generator": "blender_texture_atlas_audit_v1",
+  "records": [
+    {
+      "atlas_manifest": "procedural/generated/texture_pipeline/atlases/broadleaf_autumn_mixed_512.json",
+      "blender_version": "5.2.0 LTS",
+      "family": "broadleaf",
+      "id": "broadleaf_autumn_mixed_512",
+      "material_test_glb": "procedural/generated/texture_pipeline/material_tests/broadleaf_autumn_mixed_512_material_test.glb",
+      "render": "procedural/generated/texture_pipeline/review/broadleaf_autumn_mixed_512_blender_audit.png"
+    },
+    {
+      "atlas_manifest": "procedural/generated/texture_pipeline/atlases/broadleaf_green_512.json",
+      "blender_version": "5.2.0 LTS",
+      "family": "broadleaf",
+      "id": "broadleaf_green_512",
+      "material_test_glb": "procedural/generated/texture_pipeline/material_tests/broadleaf_green_512_material_test.glb",
+      "render": "procedural/generated/texture_pipeline/review/broadleaf_green_512_blender_audit.png"
+    },
+    {
+      "atlas_manifest": "procedural/generated/texture_pipeline/atlases/bush_green_512.json",
+      "blender_version": "5.2.0 LTS",
+      "family": "bush",
+      "id": "bush_green_512",
+      "material_test_glb": "procedural/generated/texture_pipeline/material_tests/bush_green_512_material_test.glb",
+      "render": "procedural/generated/texture_pipeline/review/bush_green_512_blender_audit.png"
+    },
+    {
+      "atlas_manifest": "procedural/generated/texture_pipeline/atlases/conifer_green_512.json",
+      "blender_version": "5.2.0 LTS",
+      "family": "conifer",
+      "id": "conifer_green_512",
+      "material_test_glb": "procedural/generated/texture_pipeline/material_tests/conifer_green_512_material_test.glb",
+      "render": "procedural/generated/texture_pipeline/review/conifer_green_512_blender_audit.png"
+    }
+  ],
+  "schema_version": 1
+}

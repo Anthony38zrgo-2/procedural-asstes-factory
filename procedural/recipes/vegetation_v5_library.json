@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "generator": "broadleaf_and_shrub_v5_blender",
+  "source_recipes": "procedural/recipes/vegetation_library.json",
+  "texture_release": "procedural/texture_pipeline/releases/v2/manifest.json",
+  "tree_catalog": {
+    "approved_sources": ["tree_3d_02", "tree_3d_03"],
+    "derived": [
+      {"id":"tree_3d_01","source":"tree_3d_02","seed_offset":301,"height_scale":0.80,"width_scale":1.35,"depth_scale":1.24,"reach_scale":1.30,"primary_delta":1,"lean_delta":-0.035,"asymmetry_delta":0.06,"derivation":"columnar_wide_low_a"},
+      {"id":"tree_3d_04","source":"tree_3d_02","seed_offset":304,"height_scale":0.66,"width_scale":1.55,"depth_scale":1.38,"reach_scale":1.45,"primary_delta":1,"lean_delta":0.055,"asymmetry_delta":0.14,"derivation":"columnar_wide_low_b"},
+      {"id":"tree_3d_05","source":"tree_3d_03","seed_offset":305,"height_scale":0.84,"width_scale":1.22,"depth_scale":1.18,"reach_scale":1.05,"primary_delta":0,"lean_delta":-0.025,"asymmetry_delta":0.05,"derivation":"umbrella_wide_low_a"}
+    ],
+    "discarded_original_ids": ["tree_3d_01", "tree_3d_04", "tree_3d_05", "tree_3d_06"],
+    "discarded_root": "procedural/generated/vegetation_v5/discarded_assets",
+    "removed_active_ids": ["tree_3d_06"]
+  },
+  "variants": {
+    "green": {"tree_atlas":"broadleaf_green_512","bush_atlas":"bush_green_512","suffix":""},
+    "copper": {"tree_atlas":"broadleaf_copper_512","bush_atlas":"broadleaf_copper_512","suffix":"_copper"},
+    "golden_beige": {"tree_atlas":"broadleaf_golden_beige_512","bush_atlas":"broadleaf_golden_beige_512","suffix":"_golden_beige"},
+    "red": {"tree_atlas":"broadleaf_red_512","bush_atlas":"broadleaf_red_512","suffix":"_red"},
+    "yellow": {"tree_atlas":"broadleaf_yellow_512","bush_atlas":"broadleaf_yellow_512","suffix":"_yellow"}
+  },
+  "wood": {"tree":"broadleaf_bark_036_seamless","bush":"broadleaf_bark_036_seamless"},
+  "lods": {
+    "lod0": {"trunk_sides":10,"branch_sides":6,"cluster_fraction":1.0,"secondary_branches":true,"triangle_budget_tree":14000,"triangle_budget_bush":6500},
+    "lod1": {"trunk_sides":8,"branch_sides":5,"cluster_fraction":0.58,"secondary_branches":false,"triangle_budget_tree":6500,"triangle_budget_bush":3200}
+  },
+  "audit": {"all_green_lods":true,"seasonal_representatives":["tree_3d_05","bush_3d_02"]}
+}

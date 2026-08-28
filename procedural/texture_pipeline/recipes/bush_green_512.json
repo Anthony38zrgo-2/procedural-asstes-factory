@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "id": "bush_green_512",
+  "family": "bush",
+  "size": 512,
+  "padding": 10,
+  "layout_seed": 52001,
+  "color_seed": 52002,
+  "alpha_cutoff": 0.45,
+  "brightness_range": [0.92, 1.04],
+  "saturation_range": [0.92, 1.03],
+  "sprites": ["bush_dense_a", "bush_dense_b", "bush_fine_a", "bush_fine_b", "broadleaf_mature_a", "broadleaf_mature_b"]
+}

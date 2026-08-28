@@ -1,0 +1,222 @@
+{
+  "alpha_cutoff": 0.45,
+  "alpha_mode": "MASK",
+  "atlas": "procedural/generated/texture_pipeline/atlases/broadleaf_yellow_512.png",
+  "atlas_256": "procedural/generated/texture_pipeline/atlases/broadleaf_yellow_512_256.png",
+  "atlas_256_sha256": "0fb7c6ef1aa4ce57e100d4bc0d58f1b129a600a6770682e157eadfb1cec070b8",
+  "atlas_sha256": "9d7b03655f50fc022ca713c7ed4038a2db59d7573eb979f63a06e276c8331c90",
+  "color_seed": 53202,
+  "double_sided": true,
+  "family": "broadleaf",
+  "generator": "deterministic_recovered_texture_atlas_v1",
+  "generator_version": 1,
+  "id": "broadleaf_yellow_512",
+  "layout_seed": 53201,
+  "mips": [
+    {
+      "coverage": 0.156738,
+      "level": 0,
+      "path": "procedural/generated/texture_pipeline/mips/broadleaf_yellow_512/mip_0_512.png",
+      "sha256": "9d7b03655f50fc022ca713c7ed4038a2db59d7573eb979f63a06e276c8331c90",
+      "size": 512
+    },
+    {
+      "coverage": 0.156326,
+      "level": 1,
+      "path": "procedural/generated/texture_pipeline/mips/broadleaf_yellow_512/mip_1_256.png",
+      "sha256": "0fb7c6ef1aa4ce57e100d4bc0d58f1b129a600a6770682e157eadfb1cec070b8",
+      "size": 256
+    },
+    {
+      "coverage": 0.15625,
+      "level": 2,
+      "path": "procedural/generated/texture_pipeline/mips/broadleaf_yellow_512/mip_2_128.png",
+      "sha256": "75430150990cf3cbfb640114f1d92af95bd4de7e4931b45ab3d81309d1c79c49",
+      "size": 128
+    },
+    {
+      "coverage": 0.156738,
+      "level": 3,
+      "path": "procedural/generated/texture_pipeline/mips/broadleaf_yellow_512/mip_3_64.png",
+      "sha256": "b2ffa7ed635bad402f8dff16de82ddcab7cead00bbd949d7a0203da136e104bc",
+      "size": 64
+    }
+  ],
+  "recipe": "procedural/texture_pipeline/recipes/broadleaf_yellow_512.json",
+  "recipe_sha256": "5c568e9c9eefa4c3efd84ea6b63c2021df0fcf058b874fe4dd595f0ad8e26474",
+  "regions": [
+    {
+      "anchor": [
+        0.5,
+        0.06
+      ],
+      "axis": [
+        0.0,
+        1.0
+      ],
+      "pixels_top_left": [
+        51,
+        10,
+        153,
+        150
+      ],
+      "source": "objects_core_050",
+      "sprite": "acer_yellow_a",
+      "uv_bottom_left": [
+        0.09960938,
+        0.6875,
+        0.3984375,
+        0.98046875
+      ],
+      "variation": {
+        "brightness": 1.04182,
+        "saturation": 1.034525
+      }
+    },
+    {
+      "anchor": [
+        0.5,
+        0.06
+      ],
+      "axis": [
+        0.0,
+        1.0
+      ],
+      "pixels_top_left": [
+        306,
+        10,
+        156,
+        150
+      ],
+      "source": "objects_core_050",
+      "sprite": "acer_yellow_b",
+      "uv_bottom_left": [
+        0.59765625,
+        0.6875,
+        0.90234375,
+        0.98046875
+      ],
+      "variation": {
+        "brightness": 1.040121,
+        "saturation": 0.938396
+      }
+    },
+    {
+      "anchor": [
+        0.5,
+        0.06
+      ],
+      "axis": [
+        0.0,
+        1.0
+      ],
+      "pixels_top_left": [
+        51,
+        180,
+        153,
+        150
+      ],
+      "source": "objects_core_050",
+      "sprite": "acer_yellow_a",
+      "uv_bottom_left": [
+        0.09960938,
+        0.35546875,
+        0.3984375,
+        0.6484375
+      ],
+      "variation": {
+        "brightness": 1.04182,
+        "saturation": 1.034525
+      }
+    },
+    {
+      "anchor": [
+        0.5,
+        0.06
+      ],
+      "axis": [
+        0.0,
+        1.0
+      ],
+      "pixels_top_left": [
+        306,
+        180,
+        156,
+        150
+      ],
+      "source": "objects_core_050",
+      "sprite": "acer_yellow_b",
+      "uv_bottom_left": [
+        0.59765625,
+        0.35546875,
+        0.90234375,
+        0.6484375
+      ],
+      "variation": {
+        "brightness": 1.040121,
+        "saturation": 0.938396
+      }
+    },
+    {
+      "anchor": [
+        0.5,
+        0.06
+      ],
+      "axis": [
+        0.0,
+        1.0
+      ],
+      "pixels_top_left": [
+        51,
+        350,
+        153,
+        150
+      ],
+      "source": "objects_core_050",
+      "sprite": "acer_yellow_a",
+      "uv_bottom_left": [
+        0.09960938,
+        0.0234375,
+        0.3984375,
+        0.31640625
+      ],
+      "variation": {
+        "brightness": 1.04182,
+        "saturation": 1.034525
+      }
+    },
+    {
+      "anchor": [
+        0.5,
+        0.06
+      ],
+      "axis": [
+        0.0,
+        1.0
+      ],
+      "pixels_top_left": [
+        306,
+        350,
+        156,
+        150
+      ],
+      "source": "objects_core_050",
+      "sprite": "acer_yellow_b",
+      "uv_bottom_left": [
+        0.59765625,
+        0.0234375,
+        0.90234375,
+        0.31640625
+      ],
+      "variation": {
+        "brightness": 1.040121,
+        "saturation": 0.938396
+      }
+    }
+  ],
+  "schema_version": 1,
+  "source_sprite_hashes": {
+    "acer_yellow_a": "35b94ea3ffd983917b3eec23f45913a242d5cf001e7d04ebdde1919448837a61",
+    "acer_yellow_b": "9616d9b52c89d1fc039dec9144cafb1eca0b84991bc9a2430406295f7202f28f"
+  }
+}

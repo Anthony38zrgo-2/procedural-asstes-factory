@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "generator": "conifer_v5_blender",
+  "runs_compared": 2,
+  "assets_compared": 6,
+  "glb_byte_exact": 6,
+  "audit_pixel_exact": 6,
+  "audit_file_byte_exact": false,
+  "audit_file_note": "Blender PNG container metadata differs by output path; decoded RGBA pixels are identical.",
+  "result": "pass"
+}

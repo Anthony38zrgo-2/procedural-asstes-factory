@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "generator": "conifer_v5_blender",
+  "texture_release": "procedural/texture_pipeline/releases/v1/manifest.json",
+  "foliage_atlas": "conifer_green_512",
+  "wood_material": "conifer_bark_035_seamless",
+  "lods": {
+    "lod0": {
+      "trunk_sides": 10,
+      "branch_sides": 6,
+      "layer_fraction": 1.0,
+      "branch_fraction": 1.0,
+      "cards_per_branch": 3,
+      "secondary_branches": true,
+      "triangle_budget": 18000
+    },
+    "lod1": {
+      "trunk_sides": 8,
+      "branch_sides": 5,
+      "layer_fraction": 1.0,
+      "branch_fraction": 0.65,
+      "cards_per_branch": 2,
+      "secondary_branches": false,
+      "triangle_budget": 8500
+    }
+  },
+  "assets": [
+    {
+      "id": "conifer_v5_young_01",
+      "seed": 52011,
+      "height": 7.4,
+      "trunk_base_radius": 0.25,
+      "crown_start": 0.14,
+      "layers": 10,
+      "branches_per_layer": 6,
+      "max_branch_reach": 1.28,
+      "crown_profile": 1.12,
+      "droop": 0.10,
+      "asymmetry": 0.06,
+      "missing_branch_probability": 0.02,
+      "lean": [0.03, -0.01]
+    },
+    {
+      "id": "conifer_v5_mature_01",
+      "seed": 52021,
+      "height": 10.8,
+      "trunk_base_radius": 0.39,
+      "crown_start": 0.12,
+      "layers": 14,
+      "branches_per_layer": 7,
+      "max_branch_reach": 1.95,
+      "crown_profile": 1.18,
+      "droop": 0.16,
+      "asymmetry": 0.10,
+      "missing_branch_probability": 0.04,
+      "lean": [-0.04, 0.025]
+    },
+    {
+      "id": "conifer_v5_irregular_01",
+      "seed": 52031,
+      "height": 9.2,
+      "trunk_base_radius": 0.34,
+      "crown_start": 0.16,
+      "layers": 12,
+      "branches_per_layer": 7,
+      "max_branch_reach": 1.65,
+      "crown_profile": 1.08,
+      "droop": 0.20,
+      "asymmetry": 0.20,
+      "missing_branch_probability": 0.14,
+      "lean": [0.07, 0.035]
+    }
+  ]
+}

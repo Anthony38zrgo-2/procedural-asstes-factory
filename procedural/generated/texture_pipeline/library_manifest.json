@@ -1,0 +1,1824 @@
+{
+  "approved_source_count": 16,
+  "atlas_count": 8,
+  "atlases": [
+    {
+      "alpha_cutoff": 0.45,
+      "alpha_mode": "MASK",
+      "atlas": "procedural/generated/texture_pipeline/atlases/broadleaf_autumn_mixed_512.png",
+      "atlas_256": "procedural/generated/texture_pipeline/atlases/broadleaf_autumn_mixed_512_256.png",
+      "atlas_256_sha256": "421ac60e77de62a2b070e444f1888b3fbdb15d3c63e6bf760c847ffa02412cc4",
+      "atlas_sha256": "4d2b63764584b77d6c8c85dc2ad6b0187e0dec70f9a1991e7f23a592112301a0",
+      "color_seed": 51102,
+      "double_sided": true,
+      "family": "broadleaf",
+      "generator": "deterministic_recovered_texture_atlas_v1",
+      "generator_version": 1,
+      "id": "broadleaf_autumn_mixed_512",
+      "layout_seed": 51001,
+      "manifest": "procedural/generated/texture_pipeline/atlases/broadleaf_autumn_mixed_512.json",
+      "manifest_sha256": "0c774d75793293cbf33113595006d7204eb972a16a8a402cf024acc4d6df888d",
+      "mips": [
+        {
+          "coverage": 0.156738,
+          "level": 0,
+          "path": "procedural/generated/texture_pipeline/mips/broadleaf_autumn_mixed_512/mip_0_512.png",
+          "sha256": "4d2b63764584b77d6c8c85dc2ad6b0187e0dec70f9a1991e7f23a592112301a0",
+          "size": 512
+        },
+        {
+          "coverage": 0.156326,
+          "level": 1,
+          "path": "procedural/generated/texture_pipeline/mips/broadleaf_autumn_mixed_512/mip_1_256.png",
+          "sha256": "421ac60e77de62a2b070e444f1888b3fbdb15d3c63e6bf760c847ffa02412cc4",
+          "size": 256
+        },
+        {
+          "coverage": 0.15625,
+          "level": 2,
+          "path": "procedural/generated/texture_pipeline/mips/broadleaf_autumn_mixed_512/mip_2_128.png",
+          "sha256": "963dadf19f77dd7f5c1c7a5681691ed86e76e03899dd5519967c443b1af8fba6",
+          "size": 128
+        },
+        {
+          "coverage": 0.156738,
+          "level": 3,
+          "path": "procedural/generated/texture_pipeline/mips/broadleaf_autumn_mixed_512/mip_3_64.png",
+          "sha256": "796cb81818ff417c0eec8f803e542314cc0ca4950b097ff3eaac454259efb5d2",
+          "size": 64
+        }
+      ],
+      "recipe": "procedural/texture_pipeline/recipes/broadleaf_autumn_mixed_512.json",
+      "recipe_sha256": "89e7781fda1ab4bc24fa3e94d86c2d5121bbf4e5313d9d349ecfac2ab7025569",
+      "regions": [
+        {
+          "anchor": [
+            0.5,
+            0.06
+          ],
+          "axis": [
+            0.0,
+            1.0
+          ],
+          "pixels_top_left": [
+            50,
+            10,
+            156,
+            150
+          ],
+          "source": "objects_core_050",
+          "sprite": "acer_yellow_b",
+          "uv_bottom_left": [
+            0.09765625,
+            0.6875,
+            0.40234375,
+            0.98046875
+          ],
+          "variation": {
+            "brightness": 1.018681,
+            "saturation": 0.98121
+          }
+        },
+        {
+          "anchor": [
+            0.5,
+            0.06
+          ],
+          "axis": [
+            0.0,
+            1.0
+          ],
+          "pixels_top_left": [
+            307,
+            10,
+            153,
+            150
+          ],
+          "source": "objects_core_048",
+          "sprite": "acer_orange_a",
+          "uv_bottom_left": [
+            0.59960938,
+            0.6875,
+            0.8984375,
+            0.98046875
+          ],
+          "variation": {
+            "brightness": 1.009853,
+            "saturation": 0.996396
+          }
+        },
+        {
+          "anchor": [
+            0.5,
+            0.06
+          ],
+          "axis": [
+            0.0,
+            1.0
+          ],
+          "pixels_top_left": [
+            50,
+            180,
+            156,
+            150
+          ],
+          "source": "objects_core_048",
+          "sprite": "acer_orange_b",
+          "uv_bottom_left": [
+            0.09765625,
+            0.35546875,
+            0.40234375,
+            0.6484375
+          ],
+          "variation": {
+            "brightness": 1.009525,
+            "saturation": 1.014893
+          }
+        },
+        {
+          "anchor": [
+            0.5,
+            0.06
+          ],
+          "axis": [
+            0.0,
+            1.0
+          ],
+          "pixels_top_left": [
+            307,
+            180,
+            153,
+            150
+          ],
+          "source": "objects_core_049",
+          "sprite": "acer_red_a",
+          "uv_bottom_left": [
+            0.59960938,
+            0.35546875,
+            0.8984375,
+            0.6484375
+          ],
+          "variation": {
+            "brightness": 0.9803,
+            "saturation": 1.007981
+          }
+        },
+        {
+          "anchor": [
+            0.5,
+            0.06
+          ],
+          "axis": [
+            0.0,
+            1.0
+          ],
+          "pixels_top_left": [
+            51,
+            350,
+            153,
+            150
+          ],
+          "source": "objects_core_050",
+          "sprite": "acer_yellow_a",
+          "uv_bottom_left": [
+            0.09960938,
+            0.0234375,
+            0.3984375,
+            0.31640625
+          ],
+          "variation": {
+            "brightness": 0.972368,
+            "saturation": 0.972192
+          }
+        },
+        {
+          "anchor": [
+            0.5,
+            0.06
+          ],
+          "axis": [
+            0.0,
+            1.0
+          ],
+          "pixels_top_left": [
+            306,
+            350,
+            156,
+            150
+          ],
+          "source": "objects_core_049",
+          "sprite": "acer_red_b",
+          "uv_bottom_left": [
+            0.59765625,
+            0.0234375,
+            0.90234375,
+            0.31640625
+          ],
+          "variation": {
+            "brightness": 1.028251,
+            "saturation": 0.976399
+          }
+        }
+      ],
+      "schema_version": 1,
+      "source_sprite_hashes": {
+        "acer_orange_a": "63225d1ffa221638ff79d0b1876a4fe22210cb1d547f2ece97ad582b84cbddb6",
+        "acer_orange_b": "551591326100c0bd7e9606d7e427cec5ba72f018a7e88771fd8cf2f8d36e208d",
+        "acer_red_a": "3b8b64eab7379c5c34fa72148dca6ce425452d5e0ba73efe3630ac0248da3a81",
+        "acer_red_b": "fe8987f58fe8979973b759893a5cc95390af76b4955690251a08e079c9d0a631",
+        "acer_yellow_a": "35b94ea3ffd983917b3eec23f45913a242d5cf001e7d04ebdde1919448837a61",
+        "acer_yellow_b": "9616d9b52c89d1fc039dec9144cafb1eca0b84991bc9a2430406295f7202f28f"
+      }
+    },
+    {
+      "alpha_cutoff": 0.45,
+      "alpha_mode": "MASK",
+      "atlas": "procedural/generated/texture_pipeline/atlases/broadleaf_copper_512.png",
+      "atlas_256": "procedural/generated/texture_pipeline/atlases/broadleaf_copper_512_256.png",
+      "atlas_256_sha256": "65d7dbd747f9504b2da17d9f578fbb44cc9ca002c8b725317573e2c5c96e3270",
+      "atlas_sha256": "bc4ca486e25b9b3f37697c7c56270d488decb13c22d0d2be16667f002abb969b",
+      "color_seed": 53002,
+      "double_sided": true,
+      "family": "broadleaf",
+      "generator": "deterministic_recovered_texture_atlas_v1",
+      "generator_version": 1,
+      "id": "broadleaf_copper_512",
+      "layout_seed": 53001,
+      "manifest": "procedural/generated/texture_pipeline/atlases/broadleaf_copper_512.json",
+      "manifest_sha256": "f8aa482b68f874abfaf133342083bc019f2be389ffb984f3c1e7ee57668c06f3",
+      "mips": [
+        {
+          "coverage": 0.156738,
+          "level": 0,
+          "path": "procedural/generated/texture_pipeline/mips/broadleaf_copper_512/mip_0_512.png",
+          "sha256": "bc4ca486e25b9b3f37697c7c56270d488decb13c22d0d2be16667f002abb969b",
+          "size": 512
+        },
+        {
+          "coverage": 0.156326,
+          "level": 1,
+          "path": "procedural/generated/texture_pipeline/mips/broadleaf_copper_512/mip_1_256.png",
+          "sha256": "65d7dbd747f9504b2da17d9f578fbb44cc9ca002c8b725317573e2c5c96e3270",
+          "size": 256
+        },
+        {
+          "coverage": 0.15625,
+          "level": 2,
+          "path": "procedural/generated/texture_pipeline/mips/broadleaf_copper_512/mip_2_128.png",
+          "sha256": "ec60fff1363419daf5e09c60c23ab6c115d86d9215adb0e48f7ea7ee3b8293a1",
+          "size": 128
+        },
+        {
+          "coverage": 0.156738,
+          "level": 3,
+          "path": "procedural/generated/texture_pipeline/mips/broadleaf_copper_512/mip_3_64.png",
+          "sha256": "19c3c154e7990833e4ee6dd8a2534626e764f8c78a429e88946312203b7ff47a",
+          "size": 64
+        }
+      ],
+      "recipe": "procedural/texture_pipeline/recipes/broadleaf_copper_512.json",
+      "recipe_sha256": "2b3e5f88f899393c7d05381a6576bb8a316af4cd98f77c55b5cf2294c269847e",
+      "regions": [
+        {
+          "anchor": [
+            0.5,
+            0.06
+          ],
+          "axis": [
+            0.0,
+            1.0
+          ],
+          "pixels_top_left": [
+            50,
+            10,
+            156,
+            150
+          ],
+          "source": "objects_core_048",
+          "sprite": "acer_orange_b",
+          "uv_bottom_left": [
+            0.09765625,
+            0.6875,
+            0.40234375,
+            0.98046875
+          ],
+          "variation": {
+            "brightness": 0.950973,
+            "saturation": 0.958881
+          }
+        },
+        {
+          "anchor": [
+            0.5,
+            0.06
+          ],
+          "axis": [
+            0.0,
+            1.0
+          ],
+          "pixels_top_left": [
+            307,
+            10,
+            153,
+            150
+          ],
+          "source": "objects_core_048",
+          "sprite": "acer_orange_a",
+          "uv_bottom_left": [
+            0.59960938,
+            0.6875,
+            0.8984375,
+            0.98046875
+          ],
+          "variation": {
+            "brightness": 1.01791,
+            "saturation": 0.975885
+          }
+        },
+        {
+          "anchor": [
+            0.5,
+            0.06
+          ],
+          "axis": [
+            0.0,
+            1.0
+          ],
+          "pixels_top_left": [
+            50,
+            180,
+            156,
+            150
+          ],
+          "source": "objects_core_048",
+          "sprite": "acer_orange_b",
+          "uv_bottom_left": [
+            0.09765625,
+            0.35546875,
+            0.40234375,
+            0.6484375
+          ],
+          "variation": {
+            "brightness": 0.950973,
+            "saturation": 0.958881
+          }
+        },
+        {
+          "anchor": [
+            0.5,
+            0.06
+          ],
+          "axis": [
+            0.0,
+            1.0
+          ],
+          "pixels_top_left": [
+            307,
+            180,
+            153,
+            150
+          ],
+          "source": "objects_core_048",
+          "sprite": "acer_orange_a",
+          "uv_bottom_left": [
+            0.59960938,
+            0.35546875,
+            0.8984375,
+            0.6484375
+          ],
+          "variation": {
+            "brightness": 1.01791,
+            "saturation": 0.975885
+          }
+        },
+        {
+          "anchor": [
+            0.5,
+            0.06
+          ],
+          "axis": [
+            0.0,
+            1.0
+          ],
+          "pixels_top_left": [
+            50,
+            350,
+            156,
+            150
+          ],
+          "source": "objects_core_048",
+          "sprite": "acer_orange_b",
+          "uv_bottom_left": [
+            0.09765625,
+            0.0234375,
+            0.40234375,
+            0.31640625
+          ],
+          "variation": {
+            "brightness": 0.950973,
+            "saturation": 0.958881
+          }
+        },
+        {
+          "anchor": [
+            0.5,
+            0.06
+          ],
+          "axis": [
+            0.0,
+            1.0
+          ],
+          "pixels_top_left": [
+            307,
+            350,
+            153,
+            150
+          ],
+          "source": "objects_core_048",
+          "sprite": "acer_orange_a",
+          "uv_bottom_left": [
+            0.59960938,
+            0.0234375,
+            0.8984375,
+            0.31640625
+          ],
+          "variation": {
+            "brightness": 1.01791,
+            "saturation": 0.975885
+          }
+        }
+      ],
+      "schema_version": 1,
+      "source_sprite_hashes": {
+        "acer_orange_a": "63225d1ffa221638ff79d0b1876a4fe22210cb1d547f2ece97ad582b84cbddb6",
+        "acer_orange_b": "551591326100c0bd7e9606d7e427cec5ba72f018a7e88771fd8cf2f8d36e208d"
+      }
+    },
+    {
+      "alpha_cutoff": 0.45,
+      "alpha_mode": "MASK",
+      "atlas": "procedural/generated/texture_pipeline/atlases/broadleaf_golden_beige_512.png",
+      "atlas_256": "procedural/generated/texture_pipeline/atlases/broadleaf_golden_beige_512_256.png",
+      "atlas_256_sha256": "6a234cd6b7fa09a9e8e0a5667c68732e139c9b8dbf60b5f20ff20a1d9b1ec4de",
+      "atlas_sha256": "990d4984989126e8c5e20f3b4df26af7bc9f658ea5cdd8b01bc354baaf4e7071",
+      "color_seed": 53302,
+      "double_sided": true,
+      "family": "broadleaf",
+      "generator": "deterministic_recovered_texture_atlas_v1",
+      "generator_version": 1,
+      "id": "broadleaf_golden_beige_512",
+      "layout_seed": 53301,
+      "manifest": "procedural/generated/texture_pipeline/atlases/broadleaf_golden_beige_512.json",
+      "manifest_sha256": "99214e7de85bb0c5d9b54020ec28325898d1d40a4dc14fd72817691de8cc53a6",
+      "mips": [
+        {
+          "coverage": 0.156738,
+          "level": 0,
+          "path": "procedural/generated/texture_pipeline/mips/broadleaf_golden_beige_512/mip_0_512.png",
+          "sha256": "990d4984989126e8c5e20f3b4df26af7bc9f658ea5cdd8b01bc354baaf4e7071",
+          "size": 512
+        },
+        {
+          "coverage": 0.156326,
+          "level": 1,
+          "path": "procedural/generated/texture_pipeline/mips/broadleaf_golden_beige_512/mip_1_256.png",
+          "sha256": "6a234cd6b7fa09a9e8e0a5667c68732e139c9b8dbf60b5f20ff20a1d9b1ec4de",
+          "size": 256
+        },
+        {
+          "coverage": 0.15625,
+          "level": 2,
+          "path": "procedural/generated/texture_pipeline/mips/broadleaf_golden_beige_512/mip_2_128.png",
+          "sha256": "5cbd20eaa995a32ab0d05d55f68a644c46e18ac779734845d33b5d5039c7f9ed",
+          "size": 128
+        },
+        {
+          "coverage": 0.156738,
+          "level": 3,
+          "path": "procedural/generated/texture_pipeline/mips/broadleaf_golden_beige_512/mip_3_64.png",
+          "sha256": "f91b7bd976ab9b2b513929af2aadad2597a1297d00c02ec9e2aa3aa55742af10",
+          "size": 64
+        }
+      ],
+      "recipe": "procedural/texture_pipeline/recipes/broadleaf_golden_beige_512.json",
+      "recipe_sha256": "6a6f28eeea5755ddb4ea8fcb0200ea19697cbe8da0c430495b1a3e17575cc179",
+      "regions": [
+        {
+          "anchor": [
+            0.5,
+            0.06
+          ],
+          "axis": [
+            0.0,
+            1.0
+          ],
+          "pixels_top_left": [
+            50,
+            10,
+            156,
+            150
+          ],
+          "source": "objects_core_050",
+          "sprite": "acer_yellow_b",
+          "uv_bottom_left": [
+            0.09765625,
+            0.6875,
+            0.40234375,
+            0.98046875
+          ],
+          "variation": {
+            "brightness": 0.842849,
+            "saturation": 0.664157
+          }
+        },
+        {
+          "anchor": [
+            0.5,
+            0.06
+          ],
+          "axis": [
+            0.0,
+            1.0
+          ],
+          "pixels_top_left": [
+            307,
+            10,
+            153,
+            150
+          ],
+          "source": "objects_core_050",
+          "sprite": "acer_yellow_a",
+          "uv_bottom_left": [
+            0.59960938,
+            0.6875,
+            0.8984375,
+            0.98046875
+          ],
+          "variation": {
+            "brightness": 0.855692,
+            "saturation": 0.602051
+          }
+        },
+        {
+          "anchor": [
+            0.5,
+            0.06
+          ],
+          "axis": [
+            0.0,
+            1.0
+          ],
+          "pixels_top_left": [
+            51,
+            180,
+            153,
+            150
+          ],
+          "source": "objects_core_050",
+          "sprite": "acer_yellow_a",
+          "uv_bottom_left": [
+            0.09960938,
+            0.35546875,
+            0.3984375,
+            0.6484375
+          ],
+          "variation": {
+            "brightness": 0.855692,
+            "saturation": 0.602051
+          }
+        },
+        {
+          "anchor": [
+            0.5,
+            0.06
+          ],
+          "axis": [
+            0.0,
+            1.0
+          ],
+          "pixels_top_left": [
+            306,
+            180,
+            156,
+            150
+          ],
+          "source": "objects_core_050",
+          "sprite": "acer_yellow_b",
+          "uv_bottom_left": [
+            0.59765625,
+            0.35546875,
+            0.90234375,
+            0.6484375
+          ],
+          "variation": {
+            "brightness": 0.842849,
+            "saturation": 0.664157
+          }
+        },
+        {
+          "anchor": [
+            0.5,
+            0.06
+          ],
+          "axis": [
+            0.0,
+            1.0
+          ],
+          "pixels_top_left": [
+            51,
+            350,
+            153,
+            150
+          ],
+          "source": "objects_core_050",
+          "sprite": "acer_yellow_a",
+          "uv_bottom_left": [
+            0.09960938,
+            0.0234375,
+            0.3984375,
+            0.31640625
+          ],
+          "variation": {
+            "brightness": 0.855692,
+            "saturation": 0.602051
+          }
+        },
+        {
+          "anchor": [
+            0.5,
+            0.06
+          ],
+          "axis": [
+            0.0,
+            1.0
+          ],
+          "pixels_top_left": [
+            306,
+            350,
+            156,
+            150
+          ],
+          "source": "objects_core_050",
+          "sprite": "acer_yellow_b",
+          "uv_bottom_left": [
+            0.59765625,
+            0.0234375,
+            0.90234375,
+            0.31640625
+          ],
+          "variation": {
+            "brightness": 0.842849,
+            "saturation": 0.664157
+          }
+        }
+      ],
+      "schema_version": 1,
+      "source_sprite_hashes": {
+        "acer_yellow_a": "35b94ea3ffd983917b3eec23f45913a242d5cf001e7d04ebdde1919448837a61",
+        "acer_yellow_b": "9616d9b52c89d1fc039dec9144cafb1eca0b84991bc9a2430406295f7202f28f"
+      }
+    },
+    {
+      "alpha_cutoff": 0.45,
+      "alpha_mode": "MASK",
+      "atlas": "procedural/generated/texture_pipeline/atlases/broadleaf_green_512.png",
+      "atlas_256": "procedural/generated/texture_pipeline/atlases/broadleaf_green_512_256.png",
+      "atlas_256_sha256": "0775ef4430b288b07583d8be0999305d12e5e8b2a7560efbdf5ba580842305e9",
+      "atlas_sha256": "99bdbd9d2dd7c7d6a7818b633fe6927d3285fde9c93eb7dc918ed843fcdc8fa6",
+      "color_seed": 51002,
+      "double_sided": true,
+      "family": "broadleaf",
+      "generator": "deterministic_recovered_texture_atlas_v1",
+      "generator_version": 1,
+      "id": "broadleaf_green_512",
+      "layout_seed": 51001,
+      "manifest": "procedural/generated/texture_pipeline/atlases/broadleaf_green_512.json",
+      "manifest_sha256": "d5aa5ba778f40f16bbbad8ab2102d9440e7bedea055609392200ea73ad58a9da",
+      "mips": [
+        {
+          "coverage": 0.176464,
+          "level": 0,
+          "path": "procedural/generated/texture_pipeline/mips/broadleaf_green_512/mip_0_512.png",
+          "sha256": "99bdbd9d2dd7c7d6a7818b633fe6927d3285fde9c93eb7dc918ed843fcdc8fa6",
+          "size": 512
+        },
+        {
+          "coverage": 0.176666,
+          "level": 1,
+          "path": "procedural/generated/texture_pipeline/mips/broadleaf_green_512/mip_1_256.png",
+          "sha256": "0775ef4430b288b07583d8be0999305d12e5e8b2a7560efbdf5ba580842305e9",
+          "size": 256
+        },
+        {
+          "coverage": 0.176208,
+          "level": 2,
+          "path": "procedural/generated/texture_pipeline/mips/broadleaf_green_512/mip_2_128.png",
+          "sha256": "0df210b76ba0af4c64a7f4b58be4490ecef56a187533ec811c97d70c1a0551df",
+          "size": 128
+        },
+        {
+          "coverage": 0.17749,
+          "level": 3,
+          "path": "procedural/generated/texture_pipeline/mips/broadleaf_green_512/mip_3_64.png",
+          "sha256": "f0fd5504dadcb36a1013e3885a5b4fbf87ea39453a8f12e4cfdaa4314d9a7e13",
+          "size": 64
+        }
+      ],
+      "recipe": "procedural/texture_pipeline/recipes/broadleaf_green_512.json",
+      "recipe_sha256": "0916cd726afd37fdb8e3d67fb8d38ac7319d4cd04861379c7fe97831294e0607",
+      "regions": [
+        {
+          "anchor": [
+            0.5,
+            0.08
+          ],
+          "axis": [
+            0.0,
+            1.0
+          ],
+          "pixels_top_left": [
+            50,
+            10,
+            156,
+            150
+          ],
+          "source": "objects_core_056",
+          "sprite": "bush_dense_b",
+          "uv_bottom_left": [
+            0.09765625,
+            0.6875,
+            0.40234375,
+            0.98046875
+          ],
+          "variation": {
+            "brightness": 0.940723,
+            "saturation": 1.017267
+          }
+        },
+        {
+          "anchor": [
+            0.52,
+            0.05
+          ],
+          "axis": [
+            0.0,
+            1.0
+          ],
+          "pixels_top_left": [
+            308,
+            10,
+            151,
+            150
+          ],
+          "source": "objects_core_057",
+          "sprite": "broadleaf_mature_a",
+          "uv_bottom_left": [
+            0.6015625,
+            0.6875,
+            0.89648438,
+            0.98046875
+          ],
+          "variation": {
+            "brightness": 0.975729,
+            "saturation": 0.958492
+          }
+        },
+        {
+          "anchor": [
+            0.48,
+            0.05
+          ],
+          "axis": [
+            0.0,
+            1.0
+          ],
+          "pixels_top_left": [
+            52,
+            180,
+            151,
+            150
+          ],
+          "source": "objects_core_057",
+          "sprite": "broadleaf_mature_b",
+          "uv_bottom_left": [
+            0.1015625,
+            0.35546875,
+            0.39648438,
+            0.6484375
+          ],
+          "variation": {
+            "brightness": 1.041448,
+            "saturation": 1.034649
+          }
+        },
+        {
+          "anchor": [
+            0.52,
+            0.04
+          ],
+          "axis": [
+            0.0,
+            1.0
+          ],
+          "pixels_top_left": [
+            308,
+            180,
+            152,
+            150
+          ],
+          "source": "objects_core_058",
+          "sprite": "broadleaf_mixed_a",
+          "uv_bottom_left": [
+            0.6015625,
+            0.35546875,
+            0.8984375,
+            0.6484375
+          ],
+          "variation": {
+            "brightness": 0.973507,
+            "saturation": 0.979837
+          }
+        },
+        {
+          "anchor": [
+            0.5,
+            0.08
+          ],
+          "axis": [
+            0.0,
+            1.0
+          ],
+          "pixels_top_left": [
+            51,
+            350,
+            153,
+            150
+          ],
+          "source": "objects_core_056",
+          "sprite": "bush_dense_a",
+          "uv_bottom_left": [
+            0.09960938,
+            0.0234375,
+            0.3984375,
+            0.31640625
+          ],
+          "variation": {
+            "brightness": 0.997785,
+            "saturation": 1.024318
+          }
+        },
+        {
+          "anchor": [
+            0.48,
+            0.04
+          ],
+          "axis": [
+            0.0,
+            1.0
+          ],
+          "pixels_top_left": [
+            307,
+            350,
+            154,
+            150
+          ],
+          "source": "objects_core_058",
+          "sprite": "broadleaf_mixed_b",
+          "uv_bottom_left": [
+            0.59960938,
+            0.0234375,
+            0.90039062,
+            0.31640625
+          ],
+          "variation": {
+            "brightness": 1.033359,
+            "saturation": 0.967719
+          }
+        }
+      ],
+      "schema_version": 1,
+      "source_sprite_hashes": {
+        "broadleaf_mature_a": "cf0ab031776364eabde491fe6b258a8efe6a3656fec6b1b35317acbb489ac1f2",
+        "broadleaf_mature_b": "318c531c7059d7fe9562a67317c1ce7505e20beb960a4a3c734147ba2f1d86e3",
+        "broadleaf_mixed_a": "c127794d91afd9fe7e03ff761f894854556319c4b99a84afb5e174f813d8371c",
+        "broadleaf_mixed_b": "e0de05e703c9da8107f46eabcc96230a7845e3ea952cc99d3e3e2031272ba0ae",
+        "bush_dense_a": "890185944aafc46f382c8f22f57f39a9891f0e031e1f8a37ff5753fddbdd29ce",
+        "bush_dense_b": "3e9e413c18aa0f93d708f619f21c3b4cbe4471b16cc374c87f5f03f40cfa93ae"
+      }
+    },
+    {
+      "alpha_cutoff": 0.45,
+      "alpha_mode": "MASK",
+      "atlas": "procedural/generated/texture_pipeline/atlases/broadleaf_red_512.png",
+      "atlas_256": "procedural/generated/texture_pipeline/atlases/broadleaf_red_512_256.png",
+      "atlas_256_sha256": "a098f6f609b1fa6fbc9f881cb211f333cf0b37bdb92048c933dc4219882737f0",
+      "atlas_sha256": "c4b4bbbffe3e8423682adea42540ee81dfee9f5f4c36b73ebf7e5e44e6e9e132",
+      "color_seed": 53102,
+      "double_sided": true,
+      "family": "broadleaf",
+      "generator": "deterministic_recovered_texture_atlas_v1",
+      "generator_version": 1,
+      "id": "broadleaf_red_512",
+      "layout_seed": 53101,
+      "manifest": "procedural/generated/texture_pipeline/atlases/broadleaf_red_512.json",
+      "manifest_sha256": "d692a6419927aed8d93f3383f4ed9f9ce44dd9a0303d07896e743a25d9e4278c",
+      "mips": [
+        {
+          "coverage": 0.156738,
+          "level": 0,
+          "path": "procedural/generated/texture_pipeline/mips/broadleaf_red_512/mip_0_512.png",
+          "sha256": "c4b4bbbffe3e8423682adea42540ee81dfee9f5f4c36b73ebf7e5e44e6e9e132",
+          "size": 512
+        },
+        {
+          "coverage": 0.156326,
+          "level": 1,
+          "path": "procedural/generated/texture_pipeline/mips/broadleaf_red_512/mip_1_256.png",
+          "sha256": "a098f6f609b1fa6fbc9f881cb211f333cf0b37bdb92048c933dc4219882737f0",
+          "size": 256
+        },
+        {
+          "coverage": 0.15625,
+          "level": 2,
+          "path": "procedural/generated/texture_pipeline/mips/broadleaf_red_512/mip_2_128.png",
+          "sha256": "bb7dc6c69d2ccd42f6188cce52404391a6b2c10809400cb0bec5f556e335a533",
+          "size": 128
+        },
+        {
+          "coverage": 0.156738,
+          "level": 3,
+          "path": "procedural/generated/texture_pipeline/mips/broadleaf_red_512/mip_3_64.png",
+          "sha256": "0f20ff5228d4e68acbe323d7420493c502b7ac63d7f9926e69ee6e18ff0789b1",
+          "size": 64
+        }
+      ],
+      "recipe": "procedural/texture_pipeline/recipes/broadleaf_red_512.json",
+      "recipe_sha256": "2f8f2fa6c68d7a226eac428f1c36c8ab6a359c9ef0349994490b1a6addeafd8b",
+      "regions": [
+        {
+          "anchor": [
+            0.5,
+            0.06
+          ],
+          "axis": [
+            0.0,
+            1.0
+          ],
+          "pixels_top_left": [
+            50,
+            10,
+            156,
+            150
+          ],
+          "source": "objects_core_049",
+          "sprite": "acer_red_b",
+          "uv_bottom_left": [
+            0.09765625,
+            0.6875,
+            0.40234375,
+            0.98046875
+          ],
+          "variation": {
+            "brightness": 0.935466,
+            "saturation": 0.979902
+          }
+        },
+        {
+          "anchor": [
+            0.5,
+            0.06
+          ],
+          "axis": [
+            0.0,
+            1.0
+          ],
+          "pixels_top_left": [
+            307,
+            10,
+            153,
+            150
+          ],
+          "source": "objects_core_049",
+          "sprite": "acer_red_a",
+          "uv_bottom_left": [
+            0.59960938,
+            0.6875,
+            0.8984375,
+            0.98046875
+          ],
+          "variation": {
+            "brightness": 0.943614,
+            "saturation": 1.057421
+          }
+        },
+        {
+          "anchor": [
+            0.5,
+            0.06
+          ],
+          "axis": [
+            0.0,
+            1.0
+          ],
+          "pixels_top_left": [
+            51,
+            180,
+            153,
+            150
+          ],
+          "source": "objects_core_049",
+          "sprite": "acer_red_a",
+          "uv_bottom_left": [
+            0.09960938,
+            0.35546875,
+            0.3984375,
+            0.6484375
+          ],
+          "variation": {
+            "brightness": 0.943614,
+            "saturation": 1.057421
+          }
+        },
+        {
+          "anchor": [
+            0.5,
+            0.06
+          ],
+          "axis": [
+            0.0,
+            1.0
+          ],
+          "pixels_top_left": [
+            306,
+            180,
+            156,
+            150
+          ],
+          "source": "objects_core_049",
+          "sprite": "acer_red_b",
+          "uv_bottom_left": [
+            0.59765625,
+            0.35546875,
+            0.90234375,
+            0.6484375
+          ],
+          "variation": {
+            "brightness": 0.935466,
+            "saturation": 0.979902
+          }
+        },
+        {
+          "anchor": [
+            0.5,
+            0.06
+          ],
+          "axis": [
+            0.0,
+            1.0
+          ],
+          "pixels_top_left": [
+            50,
+            350,
+            156,
+            150
+          ],
+          "source": "objects_core_049",
+          "sprite": "acer_red_b",
+          "uv_bottom_left": [
+            0.09765625,
+            0.0234375,
+            0.40234375,
+            0.31640625
+          ],
+          "variation": {
+            "brightness": 0.935466,
+            "saturation": 0.979902
+          }
+        },
+        {
+          "anchor": [
+            0.5,
+            0.06
+          ],
+          "axis": [
+            0.0,
+            1.0
+          ],
+          "pixels_top_left": [
+            307,
+            350,
+            153,
+            150
+          ],
+          "source": "objects_core_049",
+          "sprite": "acer_red_a",
+          "uv_bottom_left": [
+            0.59960938,
+            0.0234375,
+            0.8984375,
+            0.31640625
+          ],
+          "variation": {
+            "brightness": 0.943614,
+            "saturation": 1.057421
+          }
+        }
+      ],
+      "schema_version": 1,
+      "source_sprite_hashes": {
+        "acer_red_a": "3b8b64eab7379c5c34fa72148dca6ce425452d5e0ba73efe3630ac0248da3a81",
+        "acer_red_b": "fe8987f58fe8979973b759893a5cc95390af76b4955690251a08e079c9d0a631"
+      }
+    },
+    {
+      "alpha_cutoff": 0.45,
+      "alpha_mode": "MASK",
+      "atlas": "procedural/generated/texture_pipeline/atlases/broadleaf_yellow_512.png",
+      "atlas_256": "procedural/generated/texture_pipeline/atlases/broadleaf_yellow_512_256.png",
+      "atlas_256_sha256": "0fb7c6ef1aa4ce57e100d4bc0d58f1b129a600a6770682e157eadfb1cec070b8",
+      "atlas_sha256": "9d7b03655f50fc022ca713c7ed4038a2db59d7573eb979f63a06e276c8331c90",
+      "color_seed": 53202,
+      "double_sided": true,
+      "family": "broadleaf",
+      "generator": "deterministic_recovered_texture_atlas_v1",
+      "generator_version": 1,
+      "id": "broadleaf_yellow_512",
+      "layout_seed": 53201,
+      "manifest": "procedural/generated/texture_pipeline/atlases/broadleaf_yellow_512.json",
+      "manifest_sha256": "2d3eaf01676b5000aa08380eb65d713746db3a3c2cb62888eaa81ad6421a8b7a",
+      "mips": [
+        {
+          "coverage": 0.156738,
+          "level": 0,
+          "path": "procedural/generated/texture_pipeline/mips/broadleaf_yellow_512/mip_0_512.png",
+          "sha256": "9d7b03655f50fc022ca713c7ed4038a2db59d7573eb979f63a06e276c8331c90",
+          "size": 512
+        },
+        {
+          "coverage": 0.156326,
+          "level": 1,
+          "path": "procedural/generated/texture_pipeline/mips/broadleaf_yellow_512/mip_1_256.png",
+          "sha256": "0fb7c6ef1aa4ce57e100d4bc0d58f1b129a600a6770682e157eadfb1cec070b8",
+          "size": 256
+        },
+        {
+          "coverage": 0.15625,
+          "level": 2,
+          "path": "procedural/generated/texture_pipeline/mips/broadleaf_yellow_512/mip_2_128.png",
+          "sha256": "75430150990cf3cbfb640114f1d92af95bd4de7e4931b45ab3d81309d1c79c49",
+          "size": 128
+        },
+        {
+          "coverage": 0.156738,
+          "level": 3,
+          "path": "procedural/generated/texture_pipeline/mips/broadleaf_yellow_512/mip_3_64.png",
+          "sha256": "b2ffa7ed635bad402f8dff16de82ddcab7cead00bbd949d7a0203da136e104bc",
+          "size": 64
+        }
+      ],
+      "recipe": "procedural/texture_pipeline/recipes/broadleaf_yellow_512.json",
+      "recipe_sha256": "5c568e9c9eefa4c3efd84ea6b63c2021df0fcf058b874fe4dd595f0ad8e26474",
+      "regions": [
+        {
+          "anchor": [
+            0.5,
+            0.06
+          ],
+          "axis": [
+            0.0,
+            1.0
+          ],
+          "pixels_top_left": [
+            51,
+            10,
+            153,
+            150
+          ],
+          "source": "objects_core_050",
+          "sprite": "acer_yellow_a",
+          "uv_bottom_left": [
+            0.09960938,
+            0.6875,
+            0.3984375,
+            0.98046875
+          ],
+          "variation": {
+            "brightness": 1.04182,
+            "saturation": 1.034525
+          }
+        },
+        {
+          "anchor": [
+            0.5,
+            0.06
+          ],
+          "axis": [
+            0.0,
+            1.0
+          ],
+          "pixels_top_left": [
+            306,
+            10,
+            156,
+            150
+          ],
+          "source": "objects_core_050",
+          "sprite": "acer_yellow_b",
+          "uv_bottom_left": [
+            0.59765625,
+            0.6875,
+            0.90234375,
+            0.98046875
+          ],
+          "variation": {
+            "brightness": 1.040121,
+            "saturation": 0.938396
+          }
+        },
+        {
+          "anchor": [
+            0.5,
+            0.06
+          ],
+          "axis": [
+            0.0,
+            1.0
+          ],
+          "pixels_top_left": [
+            51,
+            180,
+            153,
+            150
+          ],
+          "source": "objects_core_050",
+          "sprite": "acer_yellow_a",
+          "uv_bottom_left": [
+            0.09960938,
+            0.35546875,
+            0.3984375,
+            0.6484375
+          ],
+          "variation": {
+            "brightness": 1.04182,
+            "saturation": 1.034525
+          }
+        },
+        {
+          "anchor": [
+            0.5,
+            0.06
+          ],
+          "axis": [
+            0.0,
+            1.0
+          ],
+          "pixels_top_left": [
+            306,
+            180,
+            156,
+            150
+          ],
+          "source": "objects_core_050",
+          "sprite": "acer_yellow_b",
+          "uv_bottom_left": [
+            0.59765625,
+            0.35546875,
+            0.90234375,
+            0.6484375
+          ],
+          "variation": {
+            "brightness": 1.040121,
+            "saturation": 0.938396
+          }
+        },
+        {
+          "anchor": [
+            0.5,
+            0.06
+          ],
+          "axis": [
+            0.0,
+            1.0
+          ],
+          "pixels_top_left": [
+            51,
+            350,
+            153,
+            150
+          ],
+          "source": "objects_core_050",
+          "sprite": "acer_yellow_a",
+          "uv_bottom_left": [
+            0.09960938,
+            0.0234375,
+            0.3984375,
+            0.31640625
+          ],
+          "variation": {
+            "brightness": 1.04182,
+            "saturation": 1.034525
+          }
+        },
+        {
+          "anchor": [
+            0.5,
+            0.06
+          ],
+          "axis": [
+            0.0,
+            1.0
+          ],
+          "pixels_top_left": [
+            306,
+            350,
+            156,
+            150
+          ],
+          "source": "objects_core_050",
+          "sprite": "acer_yellow_b",
+          "uv_bottom_left": [
+            0.59765625,
+            0.0234375,
+            0.90234375,
+            0.31640625
+          ],
+          "variation": {
+            "brightness": 1.040121,
+            "saturation": 0.938396
+          }
+        }
+      ],
+      "schema_version": 1,
+      "source_sprite_hashes": {
+        "acer_yellow_a": "35b94ea3ffd983917b3eec23f45913a242d5cf001e7d04ebdde1919448837a61",
+        "acer_yellow_b": "9616d9b52c89d1fc039dec9144cafb1eca0b84991bc9a2430406295f7202f28f"
+      }
+    },
+    {
+      "alpha_cutoff": 0.45,
+      "alpha_mode": "MASK",
+      "atlas": "procedural/generated/texture_pipeline/atlases/bush_green_512.png",
+      "atlas_256": "procedural/generated/texture_pipeline/atlases/bush_green_512_256.png",
+      "atlas_256_sha256": "235e6b36f69b566712c588419c9e63e4056f16164c59b54762e1381696e671ec",
+      "atlas_sha256": "d28022344f315ff71040cbc622587e5ce0a62688ecfe94f202855c439b836fc2",
+      "color_seed": 52002,
+      "double_sided": true,
+      "family": "bush",
+      "generator": "deterministic_recovered_texture_atlas_v1",
+      "generator_version": 1,
+      "id": "bush_green_512",
+      "layout_seed": 52001,
+      "manifest": "procedural/generated/texture_pipeline/atlases/bush_green_512.json",
+      "manifest_sha256": "37689d5ff12a92f182f27b6efdd2a866e73f76e23104259c9d6e162e833ccae3",
+      "mips": [
+        {
+          "coverage": 0.156807,
+          "level": 0,
+          "path": "procedural/generated/texture_pipeline/mips/bush_green_512/mip_0_512.png",
+          "sha256": "d28022344f315ff71040cbc622587e5ce0a62688ecfe94f202855c439b836fc2",
+          "size": 512
+        },
+        {
+          "coverage": 0.156845,
+          "level": 1,
+          "path": "procedural/generated/texture_pipeline/mips/bush_green_512/mip_1_256.png",
+          "sha256": "235e6b36f69b566712c588419c9e63e4056f16164c59b54762e1381696e671ec",
+          "size": 256
+        },
+        {
+          "coverage": 0.157104,
+          "level": 2,
+          "path": "procedural/generated/texture_pipeline/mips/bush_green_512/mip_2_128.png",
+          "sha256": "24aaf31f05cdde0c8e0d8ef78a175f0b2fb3f1d95f269642d7e0f9dac12ca32d",
+          "size": 128
+        },
+        {
+          "coverage": 0.15918,
+          "level": 3,
+          "path": "procedural/generated/texture_pipeline/mips/bush_green_512/mip_3_64.png",
+          "sha256": "ea7550c0d39f44ae245772f66fb66bcb6874bcbb2c2e70e2e3745d0f1e971748",
+          "size": 64
+        }
+      ],
+      "recipe": "procedural/texture_pipeline/recipes/bush_green_512.json",
+      "recipe_sha256": "025b9f7be255303d8e511525f73b72a75cc754f567b6855e4dbd1f5c30581fae",
+      "regions": [
+        {
+          "anchor": [
+            0.5,
+            0.08
+          ],
+          "axis": [
+            0.0,
+            1.0
+          ],
+          "pixels_top_left": [
+            51,
+            10,
+            153,
+            150
+          ],
+          "source": "objects_core_056",
+          "sprite": "bush_dense_a",
+          "uv_bottom_left": [
+            0.09960938,
+            0.6875,
+            0.3984375,
+            0.98046875
+          ],
+          "variation": {
+            "brightness": 1.027347,
+            "saturation": 1.015278
+          }
+        },
+        {
+          "anchor": [
+            0.48,
+            0.05
+          ],
+          "axis": [
+            0.0,
+            1.0
+          ],
+          "pixels_top_left": [
+            308,
+            10,
+            151,
+            150
+          ],
+          "source": "objects_core_057",
+          "sprite": "broadleaf_mature_b",
+          "uv_bottom_left": [
+            0.6015625,
+            0.6875,
+            0.89648438,
+            0.98046875
+          ],
+          "variation": {
+            "brightness": 1.016604,
+            "saturation": 0.971897
+          }
+        },
+        {
+          "anchor": [
+            0.52,
+            0.05
+          ],
+          "axis": [
+            0.0,
+            1.0
+          ],
+          "pixels_top_left": [
+            52,
+            180,
+            151,
+            150
+          ],
+          "source": "objects_core_057",
+          "sprite": "broadleaf_mature_a",
+          "uv_bottom_left": [
+            0.1015625,
+            0.35546875,
+            0.39648438,
+            0.6484375
+          ],
+          "variation": {
+            "brightness": 1.017288,
+            "saturation": 1.020392
+          }
+        },
+        {
+          "anchor": [
+            0.5,
+            0.06
+          ],
+          "axis": [
+            0.0,
+            1.0
+          ],
+          "pixels_top_left": [
+            311,
+            180,
+            145,
+            150
+          ],
+          "source": "objects_core_061",
+          "sprite": "bush_fine_b",
+          "uv_bottom_left": [
+            0.60742188,
+            0.35546875,
+            0.890625,
+            0.6484375
+          ],
+          "variation": {
+            "brightness": 1.014293,
+            "saturation": 0.931152
+          }
+        },
+        {
+          "anchor": [
+            0.5,
+            0.08
+          ],
+          "axis": [
+            0.0,
+            1.0
+          ],
+          "pixels_top_left": [
+            50,
+            350,
+            156,
+            150
+          ],
+          "source": "objects_core_056",
+          "sprite": "bush_dense_b",
+          "uv_bottom_left": [
+            0.09765625,
+            0.0234375,
+            0.40234375,
+            0.31640625
+          ],
+          "variation": {
+            "brightness": 0.9707,
+            "saturation": 1.029524
+          }
+        },
+        {
+          "anchor": [
+            0.5,
+            0.06
+          ],
+          "axis": [
+            0.0,
+            1.0
+          ],
+          "pixels_top_left": [
+            306,
+            350,
+            155,
+            150
+          ],
+          "source": "objects_core_061",
+          "sprite": "bush_fine_a",
+          "uv_bottom_left": [
+            0.59765625,
+            0.0234375,
+            0.90039062,
+            0.31640625
+          ],
+          "variation": {
+            "brightness": 1.027644,
+            "saturation": 1.024402
+          }
+        }
+      ],
+      "schema_version": 1,
+      "source_sprite_hashes": {
+        "broadleaf_mature_a": "cf0ab031776364eabde491fe6b258a8efe6a3656fec6b1b35317acbb489ac1f2",
+        "broadleaf_mature_b": "318c531c7059d7fe9562a67317c1ce7505e20beb960a4a3c734147ba2f1d86e3",
+        "bush_dense_a": "890185944aafc46f382c8f22f57f39a9891f0e031e1f8a37ff5753fddbdd29ce",
+        "bush_dense_b": "3e9e413c18aa0f93d708f619f21c3b4cbe4471b16cc374c87f5f03f40cfa93ae",
+        "bush_fine_a": "091c83715c179e0bf91d13d06d4bd11593632ca2c5017d061c7259306c4abdbf",
+        "bush_fine_b": "5d0758304d0f32868a21e9c295d09a04bc3653b67b34464ea70f47b868cc006c"
+      }
+    },
+    {
+      "alpha_cutoff": 0.42,
+      "alpha_mode": "MASK",
+      "atlas": "procedural/generated/texture_pipeline/atlases/conifer_green_512.png",
+      "atlas_256": "procedural/generated/texture_pipeline/atlases/conifer_green_512_256.png",
+      "atlas_256_sha256": "3132fca4bbb8b3e5b174094da6cc175d72f349f0c1748acb2ca15dcdecf5babe",
+      "atlas_sha256": "f59736151e189aecc2c2e8dc5f1df864f0a592da4b76947eb3cb13313171bd8b",
+      "color_seed": 53002,
+      "double_sided": true,
+      "family": "conifer",
+      "generator": "deterministic_recovered_texture_atlas_v1",
+      "generator_version": 1,
+      "id": "conifer_green_512",
+      "layout_seed": 53001,
+      "manifest": "procedural/generated/texture_pipeline/atlases/conifer_green_512.json",
+      "manifest_sha256": "f8b1e603d1dc7e69e7392f636b9381c0ceeccdf68645858b964ef998bfb86930",
+      "mips": [
+        {
+          "coverage": 0.165592,
+          "level": 0,
+          "path": "procedural/generated/texture_pipeline/mips/conifer_green_512/mip_0_512.png",
+          "sha256": "f59736151e189aecc2c2e8dc5f1df864f0a592da4b76947eb3cb13313171bd8b",
+          "size": 512
+        },
+        {
+          "coverage": 0.165405,
+          "level": 1,
+          "path": "procedural/generated/texture_pipeline/mips/conifer_green_512/mip_1_256.png",
+          "sha256": "3132fca4bbb8b3e5b174094da6cc175d72f349f0c1748acb2ca15dcdecf5babe",
+          "size": 256
+        },
+        {
+          "coverage": 0.16626,
+          "level": 2,
+          "path": "procedural/generated/texture_pipeline/mips/conifer_green_512/mip_2_128.png",
+          "sha256": "8fd72c94a7cba4f341f86c90977a87f7767fc3f03bdbb5b5f631c98ed76426b2",
+          "size": 128
+        },
+        {
+          "coverage": 0.167725,
+          "level": 3,
+          "path": "procedural/generated/texture_pipeline/mips/conifer_green_512/mip_3_64.png",
+          "sha256": "e92630aaa824145075b98d89eb8d85eccfe0a7590f3929652f12a36e20fee175",
+          "size": 64
+        }
+      ],
+      "recipe": "procedural/texture_pipeline/recipes/conifer_green_512.json",
+      "recipe_sha256": "6f1a3ba7324071be1bd22b79a24feb799d7b802e1155196885b167b3f0c48538",
+      "regions": [
+        {
+          "anchor": [
+            0.5,
+            0.08
+          ],
+          "axis": [
+            0.0,
+            1.0
+          ],
+          "pixels_top_left": [
+            15,
+            10,
+            226,
+            150
+          ],
+          "source": "objects_core_060",
+          "sprite": "conifer_green_d",
+          "uv_bottom_left": [
+            0.02929688,
+            0.6875,
+            0.47070312,
+            0.98046875
+          ],
+          "variation": {
+            "brightness": 1.032537,
+            "saturation": 1.03358
+          }
+        },
+        {
+          "anchor": [
+            0.05,
+            0.5
+          ],
+          "axis": [
+            1.0,
+            0.0
+          ],
+          "pixels_top_left": [
+            267,
+            10,
+            234,
+            150
+          ],
+          "source": "objects_core_060",
+          "sprite": "conifer_green_c",
+          "uv_bottom_left": [
+            0.52148438,
+            0.6875,
+            0.97851562,
+            0.98046875
+          ],
+          "variation": {
+            "brightness": 0.947566,
+            "saturation": 0.999923
+          }
+        },
+        {
+          "anchor": [
+            0.5,
+            0.08
+          ],
+          "axis": [
+            0.0,
+            1.0
+          ],
+          "pixels_top_left": [
+            10,
+            183,
+            236,
+            144
+          ],
+          "source": "objects_core_060",
+          "sprite": "conifer_green_b",
+          "uv_bottom_left": [
+            0.01953125,
+            0.36132812,
+            0.48046875,
+            0.64257812
+          ],
+          "variation": {
+            "brightness": 0.950453,
+            "saturation": 0.991485
+          }
+        },
+        {
+          "anchor": [
+            0.06,
+            0.5
+          ],
+          "axis": [
+            1.0,
+            0.0
+          ],
+          "pixels_top_left": [
+            273,
+            180,
+            221,
+            150
+          ],
+          "source": "objects_core_060",
+          "sprite": "conifer_green_a",
+          "uv_bottom_left": [
+            0.53320312,
+            0.35546875,
+            0.96484375,
+            0.6484375
+          ],
+          "variation": {
+            "brightness": 1.028241,
+            "saturation": 1.016251
+          }
+        }
+      ],
+      "schema_version": 1,
+      "source_sprite_hashes": {
+        "conifer_green_a": "796020d6710b3c9e4ce598b99cb4f359eadb05de94c6258c50dcdd1bf69750f7",
+        "conifer_green_b": "7abc87e2c1983522246ed432c35ce97909e66cf28e416c8c5551011f38a52138",
+        "conifer_green_c": "4cde48c58d47a7e68a2e40aa8c1667623337d40223f32a10010225a3c850984c",
+        "conifer_green_d": "1a889d37fe063ed61aed5d0966d33b3e3da8989588e9e90ac53dad8b533aa313"
+      }
+    }
+  ],
+  "curation": "procedural/texture_pipeline/config/source_curations.json",
+  "curation_sha256": "0b3475e4b019c50b0a85886b5da2c9277c58e6f173edb2f2a7df3a4cc5519390",
+  "generator": "deterministic_recovered_texture_atlas_v1",
+  "schema_version": 1,
+  "source_count": 140,
+  "sprite_count": 24,
+  "wood_materials": [
+    {
+      "after": {
+        "x_edge_mae": 0.0,
+        "y_edge_mae": 0.0
+      },
+      "audit": "procedural/generated/texture_pipeline/review/conifer_bark_035_seamless_audit.png",
+      "before": {
+        "x_edge_mae": 32.108074,
+        "y_edge_mae": 27.011719
+      },
+      "generator": "deterministic_recovered_texture_atlas_v1",
+      "id": "conifer_bark_035_seamless",
+      "path": "procedural/generated/texture_pipeline/wood/conifer_bark_035_seamless.png",
+      "repeat": true,
+      "schema_version": 1,
+      "sha256": "ccfca1b54cc1ad41757b9ae995f6c7abe1214d21e29f3700ab9d339825892ebb",
+      "source": "objects_core_035",
+      "source_path": "assets-texturas/textures/objects_core/png/035.png",
+      "source_sha256": "8a08d352ccbd4654614387d46214bd047901d16d03f73b7f172d9769553b1bac"
+    },
+    {
+      "after": {
+        "x_edge_mae": 0.0,
+        "y_edge_mae": 0.0
+      },
+      "audit": "procedural/generated/texture_pipeline/review/broadleaf_bark_036_seamless_audit.png",
+      "before": {
+        "x_edge_mae": 25.119791,
+        "y_edge_mae": 18.300781
+      },
+      "generator": "deterministic_recovered_texture_atlas_v1",
+      "id": "broadleaf_bark_036_seamless",
+      "path": "procedural/generated/texture_pipeline/wood/broadleaf_bark_036_seamless.png",
+      "repeat": true,
+      "schema_version": 1,
+      "sha256": "de9eac36c6f5da8d549b3a23423121f4bf03545a3f583b2e7b03886c6af9128d",
+      "source": "objects_core_036",
+      "source_path": "assets-texturas/textures/objects_core/png/036.png",
+      "source_sha256": "539cf2406d9df266afac6c6f17e092c8367fec4d1143d14c0a3cb088ceaa22ff"
+    },
+    {
+      "after": {
+        "x_edge_mae": 0.0,
+        "y_edge_mae": 0.0
+      },
+      "audit": "procedural/generated/texture_pipeline/review/shrub_bark_025_seamless_audit.png",
+      "before": {
+        "x_edge_mae": 13.976562,
+        "y_edge_mae": 11.072917
+      },
+      "generator": "deterministic_recovered_texture_atlas_v1",
+      "id": "shrub_bark_025_seamless",
+      "path": "procedural/generated/texture_pipeline/wood/shrub_bark_025_seamless.png",
+      "repeat": true,
+      "schema_version": 1,
+      "sha256": "3f295950e4859f60690bfc4434752dbf55faa90481a2251251bd9dda32a46a25",
+      "source": "objects_core_025",
+      "source_path": "assets-texturas/textures/objects_core/png/025.png",
+      "source_sha256": "fdf3467c9673fec043a8e7cd9b9a3b1b40b4966a914a97f9845e77d0eb3aead5"
+    }
+  ]
+}

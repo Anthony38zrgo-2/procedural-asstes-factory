@@ -1,0 +1,226 @@
+{
+  "alpha_cutoff": 0.45,
+  "alpha_mode": "MASK",
+  "atlas": "procedural/generated/texture_pipeline/atlases/bush_green_512.png",
+  "atlas_256": "procedural/generated/texture_pipeline/atlases/bush_green_512_256.png",
+  "atlas_256_sha256": "235e6b36f69b566712c588419c9e63e4056f16164c59b54762e1381696e671ec",
+  "atlas_sha256": "d28022344f315ff71040cbc622587e5ce0a62688ecfe94f202855c439b836fc2",
+  "color_seed": 52002,
+  "double_sided": true,
+  "family": "bush",
+  "generator": "deterministic_recovered_texture_atlas_v1",
+  "generator_version": 1,
+  "id": "bush_green_512",
+  "layout_seed": 52001,
+  "mips": [
+    {
+      "coverage": 0.156807,
+      "level": 0,
+      "path": "procedural/generated/texture_pipeline/mips/bush_green_512/mip_0_512.png",
+      "sha256": "d28022344f315ff71040cbc622587e5ce0a62688ecfe94f202855c439b836fc2",
+      "size": 512
+    },
+    {
+      "coverage": 0.156845,
+      "level": 1,
+      "path": "procedural/generated/texture_pipeline/mips/bush_green_512/mip_1_256.png",
+      "sha256": "235e6b36f69b566712c588419c9e63e4056f16164c59b54762e1381696e671ec",
+      "size": 256
+    },
+    {
+      "coverage": 0.157104,
+      "level": 2,
+      "path": "procedural/generated/texture_pipeline/mips/bush_green_512/mip_2_128.png",
+      "sha256": "24aaf31f05cdde0c8e0d8ef78a175f0b2fb3f1d95f269642d7e0f9dac12ca32d",
+      "size": 128
+    },
+    {
+      "coverage": 0.15918,
+      "level": 3,
+      "path": "procedural/generated/texture_pipeline/mips/bush_green_512/mip_3_64.png",
+      "sha256": "ea7550c0d39f44ae245772f66fb66bcb6874bcbb2c2e70e2e3745d0f1e971748",
+      "size": 64
+    }
+  ],
+  "recipe": "procedural/texture_pipeline/recipes/bush_green_512.json",
+  "recipe_sha256": "025b9f7be255303d8e511525f73b72a75cc754f567b6855e4dbd1f5c30581fae",
+  "regions": [
+    {
+      "anchor": [
+        0.5,
+        0.08
+      ],
+      "axis": [
+        0.0,
+        1.0
+      ],
+      "pixels_top_left": [
+        51,
+        10,
+        153,
+        150
+      ],
+      "source": "objects_core_056",
+      "sprite": "bush_dense_a",
+      "uv_bottom_left": [
+        0.09960938,
+        0.6875,
+        0.3984375,
+        0.98046875
+      ],
+      "variation": {
+        "brightness": 1.027347,
+        "saturation": 1.015278
+      }
+    },
+    {
+      "anchor": [
+        0.48,
+        0.05
+      ],
+      "axis": [
+        0.0,
+        1.0
+      ],
+      "pixels_top_left": [
+        308,
+        10,
+        151,
+        150
+      ],
+      "source": "objects_core_057",
+      "sprite": "broadleaf_mature_b",
+      "uv_bottom_left": [
+        0.6015625,
+        0.6875,
+        0.89648438,
+        0.98046875
+      ],
+      "variation": {
+        "brightness": 1.016604,
+        "saturation": 0.971897
+      }
+    },
+    {
+      "anchor": [
+        0.52,
+        0.05
+      ],
+      "axis": [
+        0.0,
+        1.0
+      ],
+      "pixels_top_left": [
+        52,
+        180,
+        151,
+        150
+      ],
+      "source": "objects_core_057",
+      "sprite": "broadleaf_mature_a",
+      "uv_bottom_left": [
+        0.1015625,
+        0.35546875,
+        0.39648438,
+        0.6484375
+      ],
+      "variation": {
+        "brightness": 1.017288,
+        "saturation": 1.020392
+      }
+    },
+    {
+      "anchor": [
+        0.5,
+        0.06
+      ],
+      "axis": [
+        0.0,
+        1.0
+      ],
+      "pixels_top_left": [
+        311,
+        180,
+        145,
+        150
+      ],
+      "source": "objects_core_061",
+      "sprite": "bush_fine_b",
+      "uv_bottom_left": [
+        0.60742188,
+        0.35546875,
+        0.890625,
+        0.6484375
+      ],
+      "variation": {
+        "brightness": 1.014293,
+        "saturation": 0.931152
+      }
+    },
+    {
+      "anchor": [
+        0.5,
+        0.08
+      ],
+      "axis": [
+        0.0,
+        1.0
+      ],
+      "pixels_top_left": [
+        50,
+        350,
+        156,
+        150
+      ],
+      "source": "objects_core_056",
+      "sprite": "bush_dense_b",
+      "uv_bottom_left": [
+        0.09765625,
+        0.0234375,
+        0.40234375,
+        0.31640625
+      ],
+      "variation": {
+        "brightness": 0.9707,
+        "saturation": 1.029524
+      }
+    },
+    {
+      "anchor": [
+        0.5,
+        0.06
+      ],
+      "axis": [
+        0.0,
+        1.0
+      ],
+      "pixels_top_left": [
+        306,
+        350,
+        155,
+        150
+      ],
+      "source": "objects_core_061",
+      "sprite": "bush_fine_a",
+      "uv_bottom_left": [
+        0.59765625,
+        0.0234375,
+        0.90039062,
+        0.31640625
+      ],
+      "variation": {
+        "brightness": 1.027644,
+        "saturation": 1.024402
+      }
+    }
+  ],
+  "schema_version": 1,
+  "source_sprite_hashes": {
+    "broadleaf_mature_a": "cf0ab031776364eabde491fe6b258a8efe6a3656fec6b1b35317acbb489ac1f2",
+    "broadleaf_mature_b": "318c531c7059d7fe9562a67317c1ce7505e20beb960a4a3c734147ba2f1d86e3",
+    "bush_dense_a": "890185944aafc46f382c8f22f57f39a9891f0e031e1f8a37ff5753fddbdd29ce",
+    "bush_dense_b": "3e9e413c18aa0f93d708f619f21c3b4cbe4471b16cc374c87f5f03f40cfa93ae",
+    "bush_fine_a": "091c83715c179e0bf91d13d06d4bd11593632ca2c5017d061c7259306c4abdbf",
+    "bush_fine_b": "5d0758304d0f32868a21e9c295d09a04bc3653b67b34464ea70f47b868cc006c"
+  }
+}

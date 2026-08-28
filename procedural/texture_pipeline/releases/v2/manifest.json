@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "id": "vegetation_texture_library_v2",
+  "status": "approved_for_v5_pilot",
+  "curation": {"path":"procedural/texture_pipeline/config/source_curations.json","sha256":"0b3475e4b019c50b0a85886b5da2c9277c58e6f173edb2f2a7df3a4cc5519390"},
+  "atlases": [
+    {"id":"broadleaf_autumn_mixed_512","path":"procedural/generated/texture_pipeline/atlases/broadleaf_autumn_mixed_512.png","sha256":"4d2b63764584b77d6c8c85dc2ad6b0187e0dec70f9a1991e7f23a592112301a0","recipe_sha256":"89e7781fda1ab4bc24fa3e94d86c2d5121bbf4e5313d9d349ecfac2ab7025569"},
+    {"id":"broadleaf_copper_512","path":"procedural/generated/texture_pipeline/atlases/broadleaf_copper_512.png","sha256":"bc4ca486e25b9b3f37697c7c56270d488decb13c22d0d2be16667f002abb969b","recipe_sha256":"2b3e5f88f899393c7d05381a6576bb8a316af4cd98f77c55b5cf2294c269847e"},
+    {"id":"broadleaf_golden_beige_512","path":"procedural/generated/texture_pipeline/atlases/broadleaf_golden_beige_512.png","sha256":"990d4984989126e8c5e20f3b4df26af7bc9f658ea5cdd8b01bc354baaf4e7071","recipe_sha256":"6a6f28eeea5755ddb4ea8fcb0200ea19697cbe8da0c430495b1a3e17575cc179"},
+    {"id":"broadleaf_green_512","path":"procedural/generated/texture_pipeline/atlases/broadleaf_green_512.png","sha256":"99bdbd9d2dd7c7d6a7818b633fe6927d3285fde9c93eb7dc918ed843fcdc8fa6","recipe_sha256":"0916cd726afd37fdb8e3d67fb8d38ac7319d4cd04861379c7fe97831294e0607"},
+    {"id":"broadleaf_red_512","path":"procedural/generated/texture_pipeline/atlases/broadleaf_red_512.png","sha256":"c4b4bbbffe3e8423682adea42540ee81dfee9f5f4c36b73ebf7e5e44e6e9e132","recipe_sha256":"2f8f2fa6c68d7a226eac428f1c36c8ab6a359c9ef0349994490b1a6addeafd8b"},
+    {"id":"broadleaf_yellow_512","path":"procedural/generated/texture_pipeline/atlases/broadleaf_yellow_512.png","sha256":"9d7b03655f50fc022ca713c7ed4038a2db59d7573eb979f63a06e276c8331c90","recipe_sha256":"5c568e9c9eefa4c3efd84ea6b63c2021df0fcf058b874fe4dd595f0ad8e26474"},
+    {"id":"bush_green_512","path":"procedural/generated/texture_pipeline/atlases/bush_green_512.png","sha256":"d28022344f315ff71040cbc622587e5ce0a62688ecfe94f202855c439b836fc2","recipe_sha256":"025b9f7be255303d8e511525f73b72a75cc754f567b6855e4dbd1f5c30581fae"},
+    {"id":"conifer_green_512","path":"procedural/generated/texture_pipeline/atlases/conifer_green_512.png","sha256":"f59736151e189aecc2c2e8dc5f1df864f0a592da4b76947eb3cb13313171bd8b","recipe_sha256":"6f1a3ba7324071be1bd22b79a24feb799d7b802e1155196885b167b3f0c48538"}
+  ],
+  "wood_materials": [
+    {"id":"conifer_bark_035_seamless","path":"procedural/generated/texture_pipeline/wood/conifer_bark_035_seamless.png","sha256":"ccfca1b54cc1ad41757b9ae995f6c7abe1214d21e29f3700ab9d339825892ebb","source_sha256":"8a08d352ccbd4654614387d46214bd047901d16d03f73b7f172d9769553b1bac","seam_x_mae":0.0,"seam_y_mae":0.0},
+    {"id":"broadleaf_bark_036_seamless","path":"procedural/generated/texture_pipeline/wood/broadleaf_bark_036_seamless.png","sha256":"de9eac36c6f5da8d549b3a23423121f4bf03545a3f583b2e7b03886c6af9128d","source_sha256":"539cf2406d9df266afac6c6f17e092c8367fec4d1143d14c0a3cb088ceaa22ff","seam_x_mae":0.0,"seam_y_mae":0.0},
+    {"id":"shrub_bark_025_seamless","path":"procedural/generated/texture_pipeline/wood/shrub_bark_025_seamless.png","sha256":"3f295950e4859f60690bfc4434752dbf55faa90481a2251251bd9dda32a46a25","source_sha256":"fdf3467c9673fec043a8e7cd9b9a3b1b40b4966a914a97f9845e77d0eb3aead5","seam_x_mae":0.0,"seam_y_mae":0.0}
+  ]
+}

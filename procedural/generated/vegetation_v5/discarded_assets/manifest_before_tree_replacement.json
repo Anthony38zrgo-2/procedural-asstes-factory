@@ -1,0 +1,4095 @@
+{
+  "base_assets": 12,
+  "blender_version": "5.2.0 LTS",
+  "generator": "broadleaf_and_shrub_v5_blender",
+  "recipe": "procedural/recipes/vegetation_v5_library.json",
+  "recipe_sha256": "51367110c48e3238b8a57cecff560e5a0e761af69556e02de6e6a9d7ea25712a",
+  "records": [
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_green_512",
+      "audit": "procedural/generated/vegetation_v5/review/tree_3d_01_lod0.png",
+      "audit_sha256": "309972bc5d0e9ced60b598b840b52e1f5ca95bc4455e47d72e973035595a22cf",
+      "bounds_max": [
+        4.16447,
+        2.98644,
+        9.14371
+      ],
+      "bounds_min": [
+        -2.9413,
+        -3.45321,
+        0.0
+      ],
+      "dimensions": [
+        7.10577,
+        6.43965,
+        9.14371
+      ],
+      "draw_meshes": 2,
+      "family": "compact_round",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_01_lod0.glb",
+      "glb_sha256": "bf31a2cfbd3c10ae41b7f7242102ef60948641f1c98ba29740499ca0d9bd1cad",
+      "id": "tree_3d_01",
+      "kind": "tree",
+      "lod": "lod0",
+      "seed": 1101,
+      "triangle_budget": 14000,
+      "triangles": 1666,
+      "variant": "green",
+      "vertices": 2755,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_copper_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        4.16447,
+        2.98644,
+        9.14371
+      ],
+      "bounds_min": [
+        -2.9413,
+        -3.45321,
+        0.0
+      ],
+      "dimensions": [
+        7.10577,
+        6.43965,
+        9.14371
+      ],
+      "draw_meshes": 2,
+      "family": "compact_round",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_01_copper_lod0.glb",
+      "glb_sha256": "e28f8a24e1449fdb16108725cdbcca359997c79f60cbe4dfcc97f9cc95a46d4e",
+      "id": "tree_3d_01",
+      "kind": "tree",
+      "lod": "lod0",
+      "seed": 1101,
+      "triangle_budget": 14000,
+      "triangles": 1666,
+      "variant": "copper",
+      "vertices": 2755,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_golden_beige_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        4.16447,
+        2.98644,
+        9.14371
+      ],
+      "bounds_min": [
+        -2.9413,
+        -3.45321,
+        0.0
+      ],
+      "dimensions": [
+        7.10577,
+        6.43965,
+        9.14371
+      ],
+      "draw_meshes": 2,
+      "family": "compact_round",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_01_golden_beige_lod0.glb",
+      "glb_sha256": "710627f91ffa8e94c2ca965dce55a65d596d6a1517ddbb2567568efcfacaf86a",
+      "id": "tree_3d_01",
+      "kind": "tree",
+      "lod": "lod0",
+      "seed": 1101,
+      "triangle_budget": 14000,
+      "triangles": 1666,
+      "variant": "golden_beige",
+      "vertices": 2755,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_red_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        4.16447,
+        2.98644,
+        9.14371
+      ],
+      "bounds_min": [
+        -2.9413,
+        -3.45321,
+        0.0
+      ],
+      "dimensions": [
+        7.10577,
+        6.43965,
+        9.14371
+      ],
+      "draw_meshes": 2,
+      "family": "compact_round",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_01_red_lod0.glb",
+      "glb_sha256": "4ab44a472c883e4c1d9e98a2ffcee4b8f902ba86662eb1fa78f5df1f93fb60ac",
+      "id": "tree_3d_01",
+      "kind": "tree",
+      "lod": "lod0",
+      "seed": 1101,
+      "triangle_budget": 14000,
+      "triangles": 1666,
+      "variant": "red",
+      "vertices": 2755,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_yellow_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        4.16447,
+        2.98644,
+        9.14371
+      ],
+      "bounds_min": [
+        -2.9413,
+        -3.45321,
+        0.0
+      ],
+      "dimensions": [
+        7.10577,
+        6.43965,
+        9.14371
+      ],
+      "draw_meshes": 2,
+      "family": "compact_round",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_01_yellow_lod0.glb",
+      "glb_sha256": "ebd4039f4adf20b07ede0728469b508713e8c895efefadff86ac45d8c5752e84",
+      "id": "tree_3d_01",
+      "kind": "tree",
+      "lod": "lod0",
+      "seed": 1101,
+      "triangle_budget": 14000,
+      "triangles": 1666,
+      "variant": "yellow",
+      "vertices": 2755,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_green_512",
+      "audit": "procedural/generated/vegetation_v5/review/tree_3d_01_lod1.png",
+      "audit_sha256": "377c8fa75c59bffa81dcb0beb653fd41173a3109ccd093604da5c41d59032ca4",
+      "bounds_max": [
+        4.16447,
+        2.98644,
+        9.14371
+      ],
+      "bounds_min": [
+        -2.9413,
+        -3.45321,
+        0.0
+      ],
+      "dimensions": [
+        7.10577,
+        6.43965,
+        9.14371
+      ],
+      "draw_meshes": 2,
+      "family": "compact_round",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_01_lod1.glb",
+      "glb_sha256": "74bf608ab98f8fdd7be84556aeab3a7854a1d1341f6d1840f967776d9e46d07e",
+      "id": "tree_3d_01",
+      "kind": "tree",
+      "lod": "lod1",
+      "seed": 1101,
+      "triangle_budget": 6500,
+      "triangles": 950,
+      "variant": "green",
+      "vertices": 1576,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_copper_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        4.16447,
+        2.98644,
+        9.14371
+      ],
+      "bounds_min": [
+        -2.9413,
+        -3.45321,
+        0.0
+      ],
+      "dimensions": [
+        7.10577,
+        6.43965,
+        9.14371
+      ],
+      "draw_meshes": 2,
+      "family": "compact_round",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_01_copper_lod1.glb",
+      "glb_sha256": "43af288729cf79f9c7e351ada25e0a21e69aa2c119bd2b5c5a7d7439e523777e",
+      "id": "tree_3d_01",
+      "kind": "tree",
+      "lod": "lod1",
+      "seed": 1101,
+      "triangle_budget": 6500,
+      "triangles": 950,
+      "variant": "copper",
+      "vertices": 1576,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_golden_beige_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        4.16447,
+        2.98644,
+        9.14371
+      ],
+      "bounds_min": [
+        -2.9413,
+        -3.45321,
+        0.0
+      ],
+      "dimensions": [
+        7.10577,
+        6.43965,
+        9.14371
+      ],
+      "draw_meshes": 2,
+      "family": "compact_round",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_01_golden_beige_lod1.glb",
+      "glb_sha256": "0369ce7a98385521cf3b129b7d3a710d3720d62471b40028e9ec1b980216cc8b",
+      "id": "tree_3d_01",
+      "kind": "tree",
+      "lod": "lod1",
+      "seed": 1101,
+      "triangle_budget": 6500,
+      "triangles": 950,
+      "variant": "golden_beige",
+      "vertices": 1576,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_red_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        4.16447,
+        2.98644,
+        9.14371
+      ],
+      "bounds_min": [
+        -2.9413,
+        -3.45321,
+        0.0
+      ],
+      "dimensions": [
+        7.10577,
+        6.43965,
+        9.14371
+      ],
+      "draw_meshes": 2,
+      "family": "compact_round",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_01_red_lod1.glb",
+      "glb_sha256": "7434aa99c5a462bc80495d97d8a227e1d4dc92a76174c647a4be66c4dee04baf",
+      "id": "tree_3d_01",
+      "kind": "tree",
+      "lod": "lod1",
+      "seed": 1101,
+      "triangle_budget": 6500,
+      "triangles": 950,
+      "variant": "red",
+      "vertices": 1576,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_yellow_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        4.16447,
+        2.98644,
+        9.14371
+      ],
+      "bounds_min": [
+        -2.9413,
+        -3.45321,
+        0.0
+      ],
+      "dimensions": [
+        7.10577,
+        6.43965,
+        9.14371
+      ],
+      "draw_meshes": 2,
+      "family": "compact_round",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_01_yellow_lod1.glb",
+      "glb_sha256": "4eeece7a193e4bbc348e88fde84797724d4402227645c5cd0b18e9bbf331b05f",
+      "id": "tree_3d_01",
+      "kind": "tree",
+      "lod": "lod1",
+      "seed": 1101,
+      "triangle_budget": 6500,
+      "triangles": 950,
+      "variant": "yellow",
+      "vertices": 1576,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_green_512",
+      "audit": "procedural/generated/vegetation_v5/review/tree_3d_02_lod0.png",
+      "audit_sha256": "70f4829539393a42aae3b8ed66d7b1196f48fd9542c17750d9ad72d59467ea65",
+      "bounds_max": [
+        2.07942,
+        2.00218,
+        12.59237
+      ],
+      "bounds_min": [
+        -1.74384,
+        -2.10184,
+        0.0
+      ],
+      "dimensions": [
+        3.82326,
+        4.10402,
+        12.59237
+      ],
+      "draw_meshes": 2,
+      "family": "columnar",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_02_lod0.glb",
+      "glb_sha256": "a409edddb6bcd032decd4d936c23c43b21c26f47fdf1eba3b247da8b84277c08",
+      "id": "tree_3d_02",
+      "kind": "tree",
+      "lod": "lod0",
+      "seed": 1102,
+      "triangle_budget": 14000,
+      "triangles": 1758,
+      "variant": "green",
+      "vertices": 2896,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_copper_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        2.07942,
+        2.00218,
+        12.59237
+      ],
+      "bounds_min": [
+        -1.74384,
+        -2.10184,
+        0.0
+      ],
+      "dimensions": [
+        3.82326,
+        4.10402,
+        12.59237
+      ],
+      "draw_meshes": 2,
+      "family": "columnar",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_02_copper_lod0.glb",
+      "glb_sha256": "1418f39cd062cbefd5c304061dd957d0041c197635901c7b4d1bbb935f99397f",
+      "id": "tree_3d_02",
+      "kind": "tree",
+      "lod": "lod0",
+      "seed": 1102,
+      "triangle_budget": 14000,
+      "triangles": 1758,
+      "variant": "copper",
+      "vertices": 2896,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_golden_beige_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        2.07942,
+        2.00218,
+        12.59237
+      ],
+      "bounds_min": [
+        -1.74384,
+        -2.10184,
+        0.0
+      ],
+      "dimensions": [
+        3.82326,
+        4.10402,
+        12.59237
+      ],
+      "draw_meshes": 2,
+      "family": "columnar",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_02_golden_beige_lod0.glb",
+      "glb_sha256": "f14ada9e6d751efc78d9562202660569396d39904dea492b4e9732e87423c251",
+      "id": "tree_3d_02",
+      "kind": "tree",
+      "lod": "lod0",
+      "seed": 1102,
+      "triangle_budget": 14000,
+      "triangles": 1758,
+      "variant": "golden_beige",
+      "vertices": 2896,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_red_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        2.07942,
+        2.00218,
+        12.59237
+      ],
+      "bounds_min": [
+        -1.74384,
+        -2.10184,
+        0.0
+      ],
+      "dimensions": [
+        3.82326,
+        4.10402,
+        12.59237
+      ],
+      "draw_meshes": 2,
+      "family": "columnar",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_02_red_lod0.glb",
+      "glb_sha256": "10918d4e80e5bb2f8a2713bdcab68878931320d1013fe61313314b8d19ca00e2",
+      "id": "tree_3d_02",
+      "kind": "tree",
+      "lod": "lod0",
+      "seed": 1102,
+      "triangle_budget": 14000,
+      "triangles": 1758,
+      "variant": "red",
+      "vertices": 2896,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_yellow_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        2.07942,
+        2.00218,
+        12.59237
+      ],
+      "bounds_min": [
+        -1.74384,
+        -2.10184,
+        0.0
+      ],
+      "dimensions": [
+        3.82326,
+        4.10402,
+        12.59237
+      ],
+      "draw_meshes": 2,
+      "family": "columnar",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_02_yellow_lod0.glb",
+      "glb_sha256": "c13728654d89a3019925c815af85fdda2e96e008615578c41ed5208d52f07829",
+      "id": "tree_3d_02",
+      "kind": "tree",
+      "lod": "lod0",
+      "seed": 1102,
+      "triangle_budget": 14000,
+      "triangles": 1758,
+      "variant": "yellow",
+      "vertices": 2896,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_green_512",
+      "audit": "procedural/generated/vegetation_v5/review/tree_3d_02_lod1.png",
+      "audit_sha256": "8c4046bcf10ef2bff4cc3dcf522f61eea92537c5bd175b00c061997696acd8c5",
+      "bounds_max": [
+        2.07942,
+        2.00218,
+        12.59237
+      ],
+      "bounds_min": [
+        -1.74384,
+        -2.10184,
+        0.0
+      ],
+      "dimensions": [
+        3.82326,
+        4.10402,
+        12.59237
+      ],
+      "draw_meshes": 2,
+      "family": "columnar",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_02_lod1.glb",
+      "glb_sha256": "1252a33c13f6d115a2ee72ed910bd6efaf7f11f946cef046369f95631df90099",
+      "id": "tree_3d_02",
+      "kind": "tree",
+      "lod": "lod1",
+      "seed": 1102,
+      "triangle_budget": 6500,
+      "triangles": 998,
+      "variant": "green",
+      "vertices": 1650,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_copper_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        2.07942,
+        2.00218,
+        12.59237
+      ],
+      "bounds_min": [
+        -1.74384,
+        -2.10184,
+        0.0
+      ],
+      "dimensions": [
+        3.82326,
+        4.10402,
+        12.59237
+      ],
+      "draw_meshes": 2,
+      "family": "columnar",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_02_copper_lod1.glb",
+      "glb_sha256": "dd4f9acdb7415fe9a9d0864bd16068f0dda810fcb35bee712cf670761d7016d1",
+      "id": "tree_3d_02",
+      "kind": "tree",
+      "lod": "lod1",
+      "seed": 1102,
+      "triangle_budget": 6500,
+      "triangles": 998,
+      "variant": "copper",
+      "vertices": 1650,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_golden_beige_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        2.07942,
+        2.00218,
+        12.59237
+      ],
+      "bounds_min": [
+        -1.74384,
+        -2.10184,
+        0.0
+      ],
+      "dimensions": [
+        3.82326,
+        4.10402,
+        12.59237
+      ],
+      "draw_meshes": 2,
+      "family": "columnar",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_02_golden_beige_lod1.glb",
+      "glb_sha256": "2d264238dca2be15e0ca18b7398906049cae0076b11ee9f8ff641a601bc5aa31",
+      "id": "tree_3d_02",
+      "kind": "tree",
+      "lod": "lod1",
+      "seed": 1102,
+      "triangle_budget": 6500,
+      "triangles": 998,
+      "variant": "golden_beige",
+      "vertices": 1650,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_red_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        2.07942,
+        2.00218,
+        12.59237
+      ],
+      "bounds_min": [
+        -1.74384,
+        -2.10184,
+        0.0
+      ],
+      "dimensions": [
+        3.82326,
+        4.10402,
+        12.59237
+      ],
+      "draw_meshes": 2,
+      "family": "columnar",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_02_red_lod1.glb",
+      "glb_sha256": "54bd2c69a0dc6e25684fbd29d107b85e9f8487c5bf8e6a919bf011645295fad7",
+      "id": "tree_3d_02",
+      "kind": "tree",
+      "lod": "lod1",
+      "seed": 1102,
+      "triangle_budget": 6500,
+      "triangles": 998,
+      "variant": "red",
+      "vertices": 1650,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_yellow_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        2.07942,
+        2.00218,
+        12.59237
+      ],
+      "bounds_min": [
+        -1.74384,
+        -2.10184,
+        0.0
+      ],
+      "dimensions": [
+        3.82326,
+        4.10402,
+        12.59237
+      ],
+      "draw_meshes": 2,
+      "family": "columnar",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_02_yellow_lod1.glb",
+      "glb_sha256": "4b2d0126e8694961f1d4e1859a0c853549cf85aad6cd9fe78bbd19bd8d3d3c7c",
+      "id": "tree_3d_02",
+      "kind": "tree",
+      "lod": "lod1",
+      "seed": 1102,
+      "triangle_budget": 6500,
+      "triangles": 998,
+      "variant": "yellow",
+      "vertices": 1650,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_green_512",
+      "audit": "procedural/generated/vegetation_v5/review/tree_3d_03_lod0.png",
+      "audit_sha256": "226a1899209910b1522e49d69cd06c3c34ca76ac49c474f94a0ca6c13844446f",
+      "bounds_max": [
+        5.00082,
+        3.75082,
+        10.62869
+      ],
+      "bounds_min": [
+        -4.89073,
+        -4.68452,
+        0.0
+      ],
+      "dimensions": [
+        9.89154,
+        8.43534,
+        10.62869
+      ],
+      "draw_meshes": 2,
+      "family": "umbrella",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_03_lod0.glb",
+      "glb_sha256": "8298c7cc8e9022b3f6a8d1ae1736724c9b2530f946ed9acf817f736b92aee121",
+      "id": "tree_3d_03",
+      "kind": "tree",
+      "lod": "lod0",
+      "seed": 1103,
+      "triangle_budget": 14000,
+      "triangles": 1854,
+      "variant": "green",
+      "vertices": 3088,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_copper_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        5.00082,
+        3.75082,
+        10.62869
+      ],
+      "bounds_min": [
+        -4.89073,
+        -4.68452,
+        0.0
+      ],
+      "dimensions": [
+        9.89154,
+        8.43534,
+        10.62869
+      ],
+      "draw_meshes": 2,
+      "family": "umbrella",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_03_copper_lod0.glb",
+      "glb_sha256": "fac27281534bf831bd75150d515289827eb11ddbc72870663cca5472919f66ed",
+      "id": "tree_3d_03",
+      "kind": "tree",
+      "lod": "lod0",
+      "seed": 1103,
+      "triangle_budget": 14000,
+      "triangles": 1854,
+      "variant": "copper",
+      "vertices": 3088,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_golden_beige_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        5.00082,
+        3.75082,
+        10.62869
+      ],
+      "bounds_min": [
+        -4.89073,
+        -4.68452,
+        0.0
+      ],
+      "dimensions": [
+        9.89154,
+        8.43534,
+        10.62869
+      ],
+      "draw_meshes": 2,
+      "family": "umbrella",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_03_golden_beige_lod0.glb",
+      "glb_sha256": "89c2d2fff858dd662e8a246b74358a57f4c7924bb83c2cc17ad68b79cca18bbf",
+      "id": "tree_3d_03",
+      "kind": "tree",
+      "lod": "lod0",
+      "seed": 1103,
+      "triangle_budget": 14000,
+      "triangles": 1854,
+      "variant": "golden_beige",
+      "vertices": 3088,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_red_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        5.00082,
+        3.75082,
+        10.62869
+      ],
+      "bounds_min": [
+        -4.89073,
+        -4.68452,
+        0.0
+      ],
+      "dimensions": [
+        9.89154,
+        8.43534,
+        10.62869
+      ],
+      "draw_meshes": 2,
+      "family": "umbrella",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_03_red_lod0.glb",
+      "glb_sha256": "8bbfcfd573f79993d6eb69fa4de9117052f1263e68247df7a9eedcfec0e405d9",
+      "id": "tree_3d_03",
+      "kind": "tree",
+      "lod": "lod0",
+      "seed": 1103,
+      "triangle_budget": 14000,
+      "triangles": 1854,
+      "variant": "red",
+      "vertices": 3088,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_yellow_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        5.00082,
+        3.75082,
+        10.62869
+      ],
+      "bounds_min": [
+        -4.89073,
+        -4.68452,
+        0.0
+      ],
+      "dimensions": [
+        9.89154,
+        8.43534,
+        10.62869
+      ],
+      "draw_meshes": 2,
+      "family": "umbrella",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_03_yellow_lod0.glb",
+      "glb_sha256": "165fedb7223b7d4ad60f185c55c1d46df62f8843362127a9b7343cdff87ad5cb",
+      "id": "tree_3d_03",
+      "kind": "tree",
+      "lod": "lod0",
+      "seed": 1103,
+      "triangle_budget": 14000,
+      "triangles": 1854,
+      "variant": "yellow",
+      "vertices": 3088,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_green_512",
+      "audit": "procedural/generated/vegetation_v5/review/tree_3d_03_lod1.png",
+      "audit_sha256": "e7e6072da2498a6d377b8a0127186d7bc2ab885b00dd914930c9e36b1005e109",
+      "bounds_max": [
+        5.00082,
+        3.69165,
+        10.62869
+      ],
+      "bounds_min": [
+        -4.89073,
+        -4.68452,
+        0.0
+      ],
+      "dimensions": [
+        9.89154,
+        8.37617,
+        10.62869
+      ],
+      "draw_meshes": 2,
+      "family": "umbrella",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_03_lod1.glb",
+      "glb_sha256": "2e0d237b1b039892f1fbabd56387e486b59fe7d90c68535346371abff98bdcad",
+      "id": "tree_3d_03",
+      "kind": "tree",
+      "lod": "lod1",
+      "seed": 1103,
+      "triangle_budget": 6500,
+      "triangles": 1054,
+      "variant": "green",
+      "vertices": 1762,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_copper_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        5.00082,
+        3.69165,
+        10.62869
+      ],
+      "bounds_min": [
+        -4.89073,
+        -4.68452,
+        0.0
+      ],
+      "dimensions": [
+        9.89154,
+        8.37617,
+        10.62869
+      ],
+      "draw_meshes": 2,
+      "family": "umbrella",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_03_copper_lod1.glb",
+      "glb_sha256": "90c469e95f9c1b60dfeb0e2d336bdead3e9984925e37025faceb6aa70f1329db",
+      "id": "tree_3d_03",
+      "kind": "tree",
+      "lod": "lod1",
+      "seed": 1103,
+      "triangle_budget": 6500,
+      "triangles": 1054,
+      "variant": "copper",
+      "vertices": 1762,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_golden_beige_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        5.00082,
+        3.69165,
+        10.62869
+      ],
+      "bounds_min": [
+        -4.89073,
+        -4.68452,
+        0.0
+      ],
+      "dimensions": [
+        9.89154,
+        8.37617,
+        10.62869
+      ],
+      "draw_meshes": 2,
+      "family": "umbrella",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_03_golden_beige_lod1.glb",
+      "glb_sha256": "893f9832d8753af3588f51b2b891047f02ca7311331e756c0af537d2d5521827",
+      "id": "tree_3d_03",
+      "kind": "tree",
+      "lod": "lod1",
+      "seed": 1103,
+      "triangle_budget": 6500,
+      "triangles": 1054,
+      "variant": "golden_beige",
+      "vertices": 1762,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_red_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        5.00082,
+        3.69165,
+        10.62869
+      ],
+      "bounds_min": [
+        -4.89073,
+        -4.68452,
+        0.0
+      ],
+      "dimensions": [
+        9.89154,
+        8.37617,
+        10.62869
+      ],
+      "draw_meshes": 2,
+      "family": "umbrella",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_03_red_lod1.glb",
+      "glb_sha256": "48f26bebb2f9cf67b88e1fc7e67354c32b852516126eb3faf804ca49237ddef1",
+      "id": "tree_3d_03",
+      "kind": "tree",
+      "lod": "lod1",
+      "seed": 1103,
+      "triangle_budget": 6500,
+      "triangles": 1054,
+      "variant": "red",
+      "vertices": 1762,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_yellow_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        5.00082,
+        3.69165,
+        10.62869
+      ],
+      "bounds_min": [
+        -4.89073,
+        -4.68452,
+        0.0
+      ],
+      "dimensions": [
+        9.89154,
+        8.37617,
+        10.62869
+      ],
+      "draw_meshes": 2,
+      "family": "umbrella",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_03_yellow_lod1.glb",
+      "glb_sha256": "9dbd26557ff6f1d2ba6d8628b0a5250bc5db1bc229286cfc425eab2775881236",
+      "id": "tree_3d_03",
+      "kind": "tree",
+      "lod": "lod1",
+      "seed": 1103,
+      "triangle_budget": 6500,
+      "triangles": 1054,
+      "variant": "yellow",
+      "vertices": 1762,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_green_512",
+      "audit": "procedural/generated/vegetation_v5/review/tree_3d_04_lod0.png",
+      "audit_sha256": "5e86a03b3c89804a0f89f256a4ec938dfd97b224a047afd4d3981571286be4c1",
+      "bounds_max": [
+        6.90762,
+        3.5619,
+        11.58622
+      ],
+      "bounds_min": [
+        -2.46002,
+        -3.58053,
+        0.0
+      ],
+      "dimensions": [
+        9.36764,
+        7.14242,
+        11.58622
+      ],
+      "draw_meshes": 2,
+      "family": "windswept",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_04_lod0.glb",
+      "glb_sha256": "1fe7ec4ef6e4a43d48e575a5a4a1fa6d51e8567bea1dff614c093be8f3de68b1",
+      "id": "tree_3d_04",
+      "kind": "tree",
+      "lod": "lod0",
+      "seed": 1104,
+      "triangle_budget": 14000,
+      "triangles": 1762,
+      "variant": "green",
+      "vertices": 2947,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_copper_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        6.90762,
+        3.5619,
+        11.58622
+      ],
+      "bounds_min": [
+        -2.46002,
+        -3.58053,
+        0.0
+      ],
+      "dimensions": [
+        9.36764,
+        7.14242,
+        11.58622
+      ],
+      "draw_meshes": 2,
+      "family": "windswept",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_04_copper_lod0.glb",
+      "glb_sha256": "484cf5e88895e6a47fe7fd4983e663fb85cddd88f0624be0646374b76c54a3b2",
+      "id": "tree_3d_04",
+      "kind": "tree",
+      "lod": "lod0",
+      "seed": 1104,
+      "triangle_budget": 14000,
+      "triangles": 1762,
+      "variant": "copper",
+      "vertices": 2947,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_golden_beige_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        6.90762,
+        3.5619,
+        11.58622
+      ],
+      "bounds_min": [
+        -2.46002,
+        -3.58053,
+        0.0
+      ],
+      "dimensions": [
+        9.36764,
+        7.14242,
+        11.58622
+      ],
+      "draw_meshes": 2,
+      "family": "windswept",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_04_golden_beige_lod0.glb",
+      "glb_sha256": "be30b254880c6c32f90aad7bf3d018cc0a4a518cc28fff627c8fbde4e1ca4546",
+      "id": "tree_3d_04",
+      "kind": "tree",
+      "lod": "lod0",
+      "seed": 1104,
+      "triangle_budget": 14000,
+      "triangles": 1762,
+      "variant": "golden_beige",
+      "vertices": 2947,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_red_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        6.90762,
+        3.5619,
+        11.58622
+      ],
+      "bounds_min": [
+        -2.46002,
+        -3.58053,
+        0.0
+      ],
+      "dimensions": [
+        9.36764,
+        7.14242,
+        11.58622
+      ],
+      "draw_meshes": 2,
+      "family": "windswept",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_04_red_lod0.glb",
+      "glb_sha256": "234c0b01c9ea5bccfa8d9b7d93d749597fd26d78a4c7d0302fd284ea09ba2474",
+      "id": "tree_3d_04",
+      "kind": "tree",
+      "lod": "lod0",
+      "seed": 1104,
+      "triangle_budget": 14000,
+      "triangles": 1762,
+      "variant": "red",
+      "vertices": 2947,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_yellow_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        6.90762,
+        3.5619,
+        11.58622
+      ],
+      "bounds_min": [
+        -2.46002,
+        -3.58053,
+        0.0
+      ],
+      "dimensions": [
+        9.36764,
+        7.14242,
+        11.58622
+      ],
+      "draw_meshes": 2,
+      "family": "windswept",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_04_yellow_lod0.glb",
+      "glb_sha256": "3d969d0f56bdf9fa511d58fe5096c8567e2f18107105d947c5563026cdf5fbd0",
+      "id": "tree_3d_04",
+      "kind": "tree",
+      "lod": "lod0",
+      "seed": 1104,
+      "triangle_budget": 14000,
+      "triangles": 1762,
+      "variant": "yellow",
+      "vertices": 2947,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_green_512",
+      "audit": "procedural/generated/vegetation_v5/review/tree_3d_04_lod1.png",
+      "audit_sha256": "db4378f687782acc2daccc61bf03b3a30f9c4d8de27a5e3a8a7ede1da64994a2",
+      "bounds_max": [
+        6.90762,
+        3.5619,
+        11.58371
+      ],
+      "bounds_min": [
+        -2.46002,
+        -3.58053,
+        0.0
+      ],
+      "dimensions": [
+        9.36764,
+        7.14242,
+        11.58371
+      ],
+      "draw_meshes": 2,
+      "family": "windswept",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_04_lod1.glb",
+      "glb_sha256": "046f6e24f8193a99c62646124f0490b854a866f877fdc805034fc108f39c055b",
+      "id": "tree_3d_04",
+      "kind": "tree",
+      "lod": "lod1",
+      "seed": 1104,
+      "triangle_budget": 6500,
+      "triangles": 1006,
+      "variant": "green",
+      "vertices": 1688,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_copper_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        6.90762,
+        3.5619,
+        11.58371
+      ],
+      "bounds_min": [
+        -2.46002,
+        -3.58053,
+        0.0
+      ],
+      "dimensions": [
+        9.36764,
+        7.14242,
+        11.58371
+      ],
+      "draw_meshes": 2,
+      "family": "windswept",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_04_copper_lod1.glb",
+      "glb_sha256": "c47806837d8eeac5b939427a144dae104c7fc3b03289d94c2c8aa0b6f604bca7",
+      "id": "tree_3d_04",
+      "kind": "tree",
+      "lod": "lod1",
+      "seed": 1104,
+      "triangle_budget": 6500,
+      "triangles": 1006,
+      "variant": "copper",
+      "vertices": 1688,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_golden_beige_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        6.90762,
+        3.5619,
+        11.58371
+      ],
+      "bounds_min": [
+        -2.46002,
+        -3.58053,
+        0.0
+      ],
+      "dimensions": [
+        9.36764,
+        7.14242,
+        11.58371
+      ],
+      "draw_meshes": 2,
+      "family": "windswept",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_04_golden_beige_lod1.glb",
+      "glb_sha256": "f16d18c07c1f413496c7218595c49e3288e88f8681bd218e4f7b53f0a04337c5",
+      "id": "tree_3d_04",
+      "kind": "tree",
+      "lod": "lod1",
+      "seed": 1104,
+      "triangle_budget": 6500,
+      "triangles": 1006,
+      "variant": "golden_beige",
+      "vertices": 1688,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_red_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        6.90762,
+        3.5619,
+        11.58371
+      ],
+      "bounds_min": [
+        -2.46002,
+        -3.58053,
+        0.0
+      ],
+      "dimensions": [
+        9.36764,
+        7.14242,
+        11.58371
+      ],
+      "draw_meshes": 2,
+      "family": "windswept",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_04_red_lod1.glb",
+      "glb_sha256": "2af8a3ad40e67ab7a629ff11c9be1d05f7350d424a98aa2b3090cda9101a6e68",
+      "id": "tree_3d_04",
+      "kind": "tree",
+      "lod": "lod1",
+      "seed": 1104,
+      "triangle_budget": 6500,
+      "triangles": 1006,
+      "variant": "red",
+      "vertices": 1688,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_yellow_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        6.90762,
+        3.5619,
+        11.58371
+      ],
+      "bounds_min": [
+        -2.46002,
+        -3.58053,
+        0.0
+      ],
+      "dimensions": [
+        9.36764,
+        7.14242,
+        11.58371
+      ],
+      "draw_meshes": 2,
+      "family": "windswept",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_04_yellow_lod1.glb",
+      "glb_sha256": "1aa2048cfc22f878a29caa69fa077457c59ce2479992ae4bf581008cae0c0209",
+      "id": "tree_3d_04",
+      "kind": "tree",
+      "lod": "lod1",
+      "seed": 1104,
+      "triangle_budget": 6500,
+      "triangles": 1006,
+      "variant": "yellow",
+      "vertices": 1688,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_green_512",
+      "audit": "procedural/generated/vegetation_v5/review/tree_3d_05_lod0.png",
+      "audit_sha256": "f1ea0fb136518750d9b52e6288627b4283deea247d3c0e66826278a8b23729a5",
+      "bounds_max": [
+        6.39996,
+        4.96756,
+        14.65648
+      ],
+      "bounds_min": [
+        -4.83424,
+        -5.12012,
+        0.0
+      ],
+      "dimensions": [
+        11.2342,
+        10.08768,
+        14.65648
+      ],
+      "draw_meshes": 2,
+      "family": "mature_spreading",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_05_lod0.glb",
+      "glb_sha256": "d3828c73e3d1ad9a29f31863f1c7ab552fd95b565b55af361598125a9957008d",
+      "id": "tree_3d_05",
+      "kind": "tree",
+      "lod": "lod0",
+      "seed": 1105,
+      "triangle_budget": 14000,
+      "triangles": 2186,
+      "variant": "green",
+      "vertices": 3709,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_copper_512",
+      "audit": "procedural/generated/vegetation_v5/review/tree_3d_05_copper_lod0.png",
+      "audit_sha256": "f432d9cb062271024a96e7fcd528ec9ed229f23e385ada7773fe38fd7394e8cb",
+      "bounds_max": [
+        6.39996,
+        4.96756,
+        14.65648
+      ],
+      "bounds_min": [
+        -4.83424,
+        -5.12012,
+        0.0
+      ],
+      "dimensions": [
+        11.2342,
+        10.08768,
+        14.65648
+      ],
+      "draw_meshes": 2,
+      "family": "mature_spreading",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_05_copper_lod0.glb",
+      "glb_sha256": "1779bae5a2dd2264e471b10f5f5d6e95e6b99d7f80476e413253d5439129d293",
+      "id": "tree_3d_05",
+      "kind": "tree",
+      "lod": "lod0",
+      "seed": 1105,
+      "triangle_budget": 14000,
+      "triangles": 2186,
+      "variant": "copper",
+      "vertices": 3709,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_golden_beige_512",
+      "audit": "procedural/generated/vegetation_v5/review/tree_3d_05_golden_beige_lod0.png",
+      "audit_sha256": "6219b6cb23dec72b7884478c7ba63304fa01f41a64ade44def83e16bf92a5e33",
+      "bounds_max": [
+        6.39996,
+        4.96756,
+        14.65648
+      ],
+      "bounds_min": [
+        -4.83424,
+        -5.12012,
+        0.0
+      ],
+      "dimensions": [
+        11.2342,
+        10.08768,
+        14.65648
+      ],
+      "draw_meshes": 2,
+      "family": "mature_spreading",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_05_golden_beige_lod0.glb",
+      "glb_sha256": "b7befc2f6a582e61f8355f343f0b604649b9e955213ec001be5fa2115f3c374c",
+      "id": "tree_3d_05",
+      "kind": "tree",
+      "lod": "lod0",
+      "seed": 1105,
+      "triangle_budget": 14000,
+      "triangles": 2186,
+      "variant": "golden_beige",
+      "vertices": 3709,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_red_512",
+      "audit": "procedural/generated/vegetation_v5/review/tree_3d_05_red_lod0.png",
+      "audit_sha256": "bf01c7bd4451a0193f452f2391bde85e5e51cb054aadd24482cd4584daf25039",
+      "bounds_max": [
+        6.39996,
+        4.96756,
+        14.65648
+      ],
+      "bounds_min": [
+        -4.83424,
+        -5.12012,
+        0.0
+      ],
+      "dimensions": [
+        11.2342,
+        10.08768,
+        14.65648
+      ],
+      "draw_meshes": 2,
+      "family": "mature_spreading",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_05_red_lod0.glb",
+      "glb_sha256": "3e600eeb5ff42b2b219a791e603caf4913030d8e405a625a4fef9e3a6859c7e6",
+      "id": "tree_3d_05",
+      "kind": "tree",
+      "lod": "lod0",
+      "seed": 1105,
+      "triangle_budget": 14000,
+      "triangles": 2186,
+      "variant": "red",
+      "vertices": 3709,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_yellow_512",
+      "audit": "procedural/generated/vegetation_v5/review/tree_3d_05_yellow_lod0.png",
+      "audit_sha256": "255ec172044348f93357e4712a08568858c7875208ae1fe1316a5c42e4ae0a74",
+      "bounds_max": [
+        6.39996,
+        4.96756,
+        14.65648
+      ],
+      "bounds_min": [
+        -4.83424,
+        -5.12012,
+        0.0
+      ],
+      "dimensions": [
+        11.2342,
+        10.08768,
+        14.65648
+      ],
+      "draw_meshes": 2,
+      "family": "mature_spreading",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_05_yellow_lod0.glb",
+      "glb_sha256": "7325ed1d43de36c78b33f0051c9014875592cb94f03a571f3a38c4c3ba0ec311",
+      "id": "tree_3d_05",
+      "kind": "tree",
+      "lod": "lod0",
+      "seed": 1105,
+      "triangle_budget": 14000,
+      "triangles": 2186,
+      "variant": "yellow",
+      "vertices": 3709,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_green_512",
+      "audit": "procedural/generated/vegetation_v5/review/tree_3d_05_lod1.png",
+      "audit_sha256": "e8dd4bdad1cc63963697819d2f4239609efb3fddbecba9575763522d853db333",
+      "bounds_max": [
+        6.39996,
+        4.96756,
+        14.65046
+      ],
+      "bounds_min": [
+        -4.77718,
+        -5.12012,
+        0.0
+      ],
+      "dimensions": [
+        11.17714,
+        10.08768,
+        14.65046
+      ],
+      "draw_meshes": 2,
+      "family": "mature_spreading",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_05_lod1.glb",
+      "glb_sha256": "5c9a2d5fdbc149bd10470462d6bd284f79198e4b545dd29f0f21e7aed3f14c3b",
+      "id": "tree_3d_05",
+      "kind": "tree",
+      "lod": "lod1",
+      "seed": 1105,
+      "triangle_budget": 6500,
+      "triangles": 1242,
+      "variant": "green",
+      "vertices": 2116,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_copper_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        6.39996,
+        4.96756,
+        14.65046
+      ],
+      "bounds_min": [
+        -4.77718,
+        -5.12012,
+        0.0
+      ],
+      "dimensions": [
+        11.17714,
+        10.08768,
+        14.65046
+      ],
+      "draw_meshes": 2,
+      "family": "mature_spreading",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_05_copper_lod1.glb",
+      "glb_sha256": "10c01eecb7ea46071e88d2829f75a1154850701afcf69bf7af6ddb8b5390ccee",
+      "id": "tree_3d_05",
+      "kind": "tree",
+      "lod": "lod1",
+      "seed": 1105,
+      "triangle_budget": 6500,
+      "triangles": 1242,
+      "variant": "copper",
+      "vertices": 2116,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_golden_beige_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        6.39996,
+        4.96756,
+        14.65046
+      ],
+      "bounds_min": [
+        -4.77718,
+        -5.12012,
+        0.0
+      ],
+      "dimensions": [
+        11.17714,
+        10.08768,
+        14.65046
+      ],
+      "draw_meshes": 2,
+      "family": "mature_spreading",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_05_golden_beige_lod1.glb",
+      "glb_sha256": "050517b93af4501fab4b7de195ac73f075b3624f3937e27cfcf9a6106ff8592c",
+      "id": "tree_3d_05",
+      "kind": "tree",
+      "lod": "lod1",
+      "seed": 1105,
+      "triangle_budget": 6500,
+      "triangles": 1242,
+      "variant": "golden_beige",
+      "vertices": 2116,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_red_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        6.39996,
+        4.96756,
+        14.65046
+      ],
+      "bounds_min": [
+        -4.77718,
+        -5.12012,
+        0.0
+      ],
+      "dimensions": [
+        11.17714,
+        10.08768,
+        14.65046
+      ],
+      "draw_meshes": 2,
+      "family": "mature_spreading",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_05_red_lod1.glb",
+      "glb_sha256": "5ab20b9329ec23bb3cf85b242a8d54f9430d45cd445cf9903901795336f71163",
+      "id": "tree_3d_05",
+      "kind": "tree",
+      "lod": "lod1",
+      "seed": 1105,
+      "triangle_budget": 6500,
+      "triangles": 1242,
+      "variant": "red",
+      "vertices": 2116,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_yellow_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        6.39996,
+        4.96756,
+        14.65046
+      ],
+      "bounds_min": [
+        -4.77718,
+        -5.12012,
+        0.0
+      ],
+      "dimensions": [
+        11.17714,
+        10.08768,
+        14.65046
+      ],
+      "draw_meshes": 2,
+      "family": "mature_spreading",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_05_yellow_lod1.glb",
+      "glb_sha256": "eebb87a67feb0f4b2f57f1f4d7429b61969577a039910b243c10ccea49d326d0",
+      "id": "tree_3d_05",
+      "kind": "tree",
+      "lod": "lod1",
+      "seed": 1105,
+      "triangle_budget": 6500,
+      "triangles": 1242,
+      "variant": "yellow",
+      "vertices": 2116,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_green_512",
+      "audit": "procedural/generated/vegetation_v5/review/tree_3d_06_lod0.png",
+      "audit_sha256": "698759ce04801f8230c060c91f358a823ae8c56676f83de0cf9f4da126e5fc04",
+      "bounds_max": [
+        2.86506,
+        2.06238,
+        8.10158
+      ],
+      "bounds_min": [
+        -2.34634,
+        -2.17636,
+        0.0
+      ],
+      "dimensions": [
+        5.2114,
+        4.23874,
+        8.10158
+      ],
+      "draw_meshes": 2,
+      "family": "young_irregular",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_06_lod0.glb",
+      "glb_sha256": "bee106f5fb63fea237103c71c6da537df0adf41ff62725fcee0a5c46f254b17b",
+      "id": "tree_3d_06",
+      "kind": "tree",
+      "lod": "lod0",
+      "seed": 1106,
+      "triangle_budget": 14000,
+      "triangles": 1478,
+      "variant": "green",
+      "vertices": 2422,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_copper_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        2.86506,
+        2.06238,
+        8.10158
+      ],
+      "bounds_min": [
+        -2.34634,
+        -2.17636,
+        0.0
+      ],
+      "dimensions": [
+        5.2114,
+        4.23874,
+        8.10158
+      ],
+      "draw_meshes": 2,
+      "family": "young_irregular",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_06_copper_lod0.glb",
+      "glb_sha256": "d9f0426d476ec6b68fd7c0841b46f12835d3bac9d1b4c45cfe26adbdfff022e1",
+      "id": "tree_3d_06",
+      "kind": "tree",
+      "lod": "lod0",
+      "seed": 1106,
+      "triangle_budget": 14000,
+      "triangles": 1478,
+      "variant": "copper",
+      "vertices": 2422,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_golden_beige_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        2.86506,
+        2.06238,
+        8.10158
+      ],
+      "bounds_min": [
+        -2.34634,
+        -2.17636,
+        0.0
+      ],
+      "dimensions": [
+        5.2114,
+        4.23874,
+        8.10158
+      ],
+      "draw_meshes": 2,
+      "family": "young_irregular",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_06_golden_beige_lod0.glb",
+      "glb_sha256": "4c0515cec18b2adfb6742c5effbe8ef6e61444ce76a3d628dad9adccb24bdaff",
+      "id": "tree_3d_06",
+      "kind": "tree",
+      "lod": "lod0",
+      "seed": 1106,
+      "triangle_budget": 14000,
+      "triangles": 1478,
+      "variant": "golden_beige",
+      "vertices": 2422,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_red_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        2.86506,
+        2.06238,
+        8.10158
+      ],
+      "bounds_min": [
+        -2.34634,
+        -2.17636,
+        0.0
+      ],
+      "dimensions": [
+        5.2114,
+        4.23874,
+        8.10158
+      ],
+      "draw_meshes": 2,
+      "family": "young_irregular",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_06_red_lod0.glb",
+      "glb_sha256": "26e975303cbc985ab44061da4b1987ea807194fd0bc30df2707ecf8c5112281b",
+      "id": "tree_3d_06",
+      "kind": "tree",
+      "lod": "lod0",
+      "seed": 1106,
+      "triangle_budget": 14000,
+      "triangles": 1478,
+      "variant": "red",
+      "vertices": 2422,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_yellow_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        2.86506,
+        2.06238,
+        8.10158
+      ],
+      "bounds_min": [
+        -2.34634,
+        -2.17636,
+        0.0
+      ],
+      "dimensions": [
+        5.2114,
+        4.23874,
+        8.10158
+      ],
+      "draw_meshes": 2,
+      "family": "young_irregular",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_06_yellow_lod0.glb",
+      "glb_sha256": "4a7f74bd3fde73aa047ebe2fe1a7dbf594e8316429d70864be3d4013cbfa55fa",
+      "id": "tree_3d_06",
+      "kind": "tree",
+      "lod": "lod0",
+      "seed": 1106,
+      "triangle_budget": 14000,
+      "triangles": 1478,
+      "variant": "yellow",
+      "vertices": 2422,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_green_512",
+      "audit": "procedural/generated/vegetation_v5/review/tree_3d_06_lod1.png",
+      "audit_sha256": "f1572952da25e07909ff8f89446619b10397b6e009eebb1952d8a21be974f303",
+      "bounds_max": [
+        2.76195,
+        2.06238,
+        8.05421
+      ],
+      "bounds_min": [
+        -2.34634,
+        -2.17636,
+        0.0
+      ],
+      "dimensions": [
+        5.10829,
+        4.23874,
+        8.05421
+      ],
+      "draw_meshes": 2,
+      "family": "young_irregular",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_06_lod1.glb",
+      "glb_sha256": "c4309abf61fc67fe7d81d595290f3e5b446c2a602356bb84c2c797bc5cae98ea",
+      "id": "tree_3d_06",
+      "kind": "tree",
+      "lod": "lod1",
+      "seed": 1106,
+      "triangle_budget": 6500,
+      "triangles": 846,
+      "variant": "green",
+      "vertices": 1390,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_copper_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        2.76195,
+        2.06238,
+        8.05421
+      ],
+      "bounds_min": [
+        -2.34634,
+        -2.17636,
+        0.0
+      ],
+      "dimensions": [
+        5.10829,
+        4.23874,
+        8.05421
+      ],
+      "draw_meshes": 2,
+      "family": "young_irregular",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_06_copper_lod1.glb",
+      "glb_sha256": "e6b9d876b11265d73391650aed70144bf0482d3c5462992aff845719f9ea5e8b",
+      "id": "tree_3d_06",
+      "kind": "tree",
+      "lod": "lod1",
+      "seed": 1106,
+      "triangle_budget": 6500,
+      "triangles": 846,
+      "variant": "copper",
+      "vertices": 1390,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_golden_beige_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        2.76195,
+        2.06238,
+        8.05421
+      ],
+      "bounds_min": [
+        -2.34634,
+        -2.17636,
+        0.0
+      ],
+      "dimensions": [
+        5.10829,
+        4.23874,
+        8.05421
+      ],
+      "draw_meshes": 2,
+      "family": "young_irregular",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_06_golden_beige_lod1.glb",
+      "glb_sha256": "aef58b860b8e171c2a2c74109f160c27f1cd0a60b475d8ae9036866ab2c338c1",
+      "id": "tree_3d_06",
+      "kind": "tree",
+      "lod": "lod1",
+      "seed": 1106,
+      "triangle_budget": 6500,
+      "triangles": 846,
+      "variant": "golden_beige",
+      "vertices": 1390,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_red_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        2.76195,
+        2.06238,
+        8.05421
+      ],
+      "bounds_min": [
+        -2.34634,
+        -2.17636,
+        0.0
+      ],
+      "dimensions": [
+        5.10829,
+        4.23874,
+        8.05421
+      ],
+      "draw_meshes": 2,
+      "family": "young_irregular",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_06_red_lod1.glb",
+      "glb_sha256": "94078c38f764a0c021b264dafd4527682e50de9d6d33b78834f2c739999527e0",
+      "id": "tree_3d_06",
+      "kind": "tree",
+      "lod": "lod1",
+      "seed": 1106,
+      "triangle_budget": 6500,
+      "triangles": 846,
+      "variant": "red",
+      "vertices": 1390,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_yellow_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        2.76195,
+        2.06238,
+        8.05421
+      ],
+      "bounds_min": [
+        -2.34634,
+        -2.17636,
+        0.0
+      ],
+      "dimensions": [
+        5.10829,
+        4.23874,
+        8.05421
+      ],
+      "draw_meshes": 2,
+      "family": "young_irregular",
+      "glb": "procedural/generated/vegetation_v5/assets/trees/tree_3d_06_yellow_lod1.glb",
+      "glb_sha256": "a21f303eec7802eeb9f515fcd788d158093976c31cc5e9da01aead8024cc01c0",
+      "id": "tree_3d_06",
+      "kind": "tree",
+      "lod": "lod1",
+      "seed": 1106,
+      "triangle_budget": 6500,
+      "triangles": 846,
+      "variant": "yellow",
+      "vertices": 1390,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "bush_green_512",
+      "audit": "procedural/generated/vegetation_v5/review/bush_3d_01_lod0.png",
+      "audit_sha256": "6df1b5f88aeefe30ce12dc3e2032e8599c4e3f5b60a1e6d33c7a677580a3288f",
+      "bounds_max": [
+        1.15279,
+        1.16739,
+        1.28524
+      ],
+      "bounds_min": [
+        -0.86672,
+        -0.94881,
+        0.0
+      ],
+      "dimensions": [
+        2.01951,
+        2.1162,
+        1.28524
+      ],
+      "draw_meshes": 2,
+      "family": "round",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_01_lod0.glb",
+      "glb_sha256": "c5304b81180501e029ef17b5349cf0e67636fb896705357c822330ef7f3e92dd",
+      "id": "bush_3d_01",
+      "kind": "bush",
+      "lod": "lod0",
+      "seed": 2101,
+      "triangle_budget": 6500,
+      "triangles": 554,
+      "variant": "green",
+      "vertices": 933,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_copper_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        1.15279,
+        1.16739,
+        1.28524
+      ],
+      "bounds_min": [
+        -0.86672,
+        -0.94881,
+        0.0
+      ],
+      "dimensions": [
+        2.01951,
+        2.1162,
+        1.28524
+      ],
+      "draw_meshes": 2,
+      "family": "round",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_01_copper_lod0.glb",
+      "glb_sha256": "fb3756761672287ede650284a44d31fc943c68e6c52928a07d8fac36c8b600d1",
+      "id": "bush_3d_01",
+      "kind": "bush",
+      "lod": "lod0",
+      "seed": 2101,
+      "triangle_budget": 6500,
+      "triangles": 554,
+      "variant": "copper",
+      "vertices": 933,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_golden_beige_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        1.15279,
+        1.16739,
+        1.28524
+      ],
+      "bounds_min": [
+        -0.86672,
+        -0.94881,
+        0.0
+      ],
+      "dimensions": [
+        2.01951,
+        2.1162,
+        1.28524
+      ],
+      "draw_meshes": 2,
+      "family": "round",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_01_golden_beige_lod0.glb",
+      "glb_sha256": "a45cf8b2ffdf6d1e10c84edb787e4520de52803727cd071a9f93d520f82d42a1",
+      "id": "bush_3d_01",
+      "kind": "bush",
+      "lod": "lod0",
+      "seed": 2101,
+      "triangle_budget": 6500,
+      "triangles": 554,
+      "variant": "golden_beige",
+      "vertices": 933,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_red_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        1.15279,
+        1.16739,
+        1.28524
+      ],
+      "bounds_min": [
+        -0.86672,
+        -0.94881,
+        0.0
+      ],
+      "dimensions": [
+        2.01951,
+        2.1162,
+        1.28524
+      ],
+      "draw_meshes": 2,
+      "family": "round",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_01_red_lod0.glb",
+      "glb_sha256": "ce3d46b4d6a34a54d30195b26102b25eec4e52481ee50d04da36bcc6c35f5b8a",
+      "id": "bush_3d_01",
+      "kind": "bush",
+      "lod": "lod0",
+      "seed": 2101,
+      "triangle_budget": 6500,
+      "triangles": 554,
+      "variant": "red",
+      "vertices": 933,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_yellow_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        1.15279,
+        1.16739,
+        1.28524
+      ],
+      "bounds_min": [
+        -0.86672,
+        -0.94881,
+        0.0
+      ],
+      "dimensions": [
+        2.01951,
+        2.1162,
+        1.28524
+      ],
+      "draw_meshes": 2,
+      "family": "round",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_01_yellow_lod0.glb",
+      "glb_sha256": "b7f264172026d7ce5a31b707070f1d717e0b8218260143fae1639c69ee6bb7f4",
+      "id": "bush_3d_01",
+      "kind": "bush",
+      "lod": "lod0",
+      "seed": 2101,
+      "triangle_budget": 6500,
+      "triangles": 554,
+      "variant": "yellow",
+      "vertices": 933,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "bush_green_512",
+      "audit": "procedural/generated/vegetation_v5/review/bush_3d_01_lod1.png",
+      "audit_sha256": "039e9e59d480c92f52c0902c69902a7fc63a9ef5ddd80881d98ab24508dc1e80",
+      "bounds_max": [
+        1.15279,
+        1.16739,
+        1.28524
+      ],
+      "bounds_min": [
+        -0.84866,
+        -0.94881,
+        0.0
+      ],
+      "dimensions": [
+        2.00146,
+        2.1162,
+        1.28524
+      ],
+      "draw_meshes": 2,
+      "family": "round",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_01_lod1.glb",
+      "glb_sha256": "03b4af51b2291c9c99dcdcc39c841317494829cc346b202f390cddf739533575",
+      "id": "bush_3d_01",
+      "kind": "bush",
+      "lod": "lod1",
+      "seed": 2101,
+      "triangle_budget": 3200,
+      "triangles": 324,
+      "variant": "green",
+      "vertices": 538,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_copper_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        1.15279,
+        1.16739,
+        1.28524
+      ],
+      "bounds_min": [
+        -0.84866,
+        -0.94881,
+        0.0
+      ],
+      "dimensions": [
+        2.00146,
+        2.1162,
+        1.28524
+      ],
+      "draw_meshes": 2,
+      "family": "round",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_01_copper_lod1.glb",
+      "glb_sha256": "948471386d19dc34c1de608b2d72784942af6b235a897e212a5db10e8b5a9fd7",
+      "id": "bush_3d_01",
+      "kind": "bush",
+      "lod": "lod1",
+      "seed": 2101,
+      "triangle_budget": 3200,
+      "triangles": 324,
+      "variant": "copper",
+      "vertices": 538,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_golden_beige_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        1.15279,
+        1.16739,
+        1.28524
+      ],
+      "bounds_min": [
+        -0.84866,
+        -0.94881,
+        0.0
+      ],
+      "dimensions": [
+        2.00146,
+        2.1162,
+        1.28524
+      ],
+      "draw_meshes": 2,
+      "family": "round",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_01_golden_beige_lod1.glb",
+      "glb_sha256": "cd57b5ba4a4b17d587d01d8fe7bdc5c2680df6bbf5f543e33ac44a42b04c760b",
+      "id": "bush_3d_01",
+      "kind": "bush",
+      "lod": "lod1",
+      "seed": 2101,
+      "triangle_budget": 3200,
+      "triangles": 324,
+      "variant": "golden_beige",
+      "vertices": 538,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_red_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        1.15279,
+        1.16739,
+        1.28524
+      ],
+      "bounds_min": [
+        -0.84866,
+        -0.94881,
+        0.0
+      ],
+      "dimensions": [
+        2.00146,
+        2.1162,
+        1.28524
+      ],
+      "draw_meshes": 2,
+      "family": "round",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_01_red_lod1.glb",
+      "glb_sha256": "af8bb67fe0c26a94b6ce8ae35ce221f351074a2438d486732237ffe6e153afa4",
+      "id": "bush_3d_01",
+      "kind": "bush",
+      "lod": "lod1",
+      "seed": 2101,
+      "triangle_budget": 3200,
+      "triangles": 324,
+      "variant": "red",
+      "vertices": 538,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_yellow_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        1.15279,
+        1.16739,
+        1.28524
+      ],
+      "bounds_min": [
+        -0.84866,
+        -0.94881,
+        0.0
+      ],
+      "dimensions": [
+        2.00146,
+        2.1162,
+        1.28524
+      ],
+      "draw_meshes": 2,
+      "family": "round",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_01_yellow_lod1.glb",
+      "glb_sha256": "efb2540c00f02a1be6f0d1e3de77d8c05752be1f1ca8b1c8f97b96679861f0fc",
+      "id": "bush_3d_01",
+      "kind": "bush",
+      "lod": "lod1",
+      "seed": 2101,
+      "triangle_budget": 3200,
+      "triangles": 324,
+      "variant": "yellow",
+      "vertices": 538,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "bush_green_512",
+      "audit": "procedural/generated/vegetation_v5/review/bush_3d_02_lod0.png",
+      "audit_sha256": "3af4fd1fe061323883520dc560f8eb5ac44e228ecacac3d2772369f9cb1dca52",
+      "bounds_max": [
+        1.59593,
+        1.00776,
+        1.49466
+      ],
+      "bounds_min": [
+        -1.49916,
+        -1.49846,
+        0.0
+      ],
+      "dimensions": [
+        3.09509,
+        2.50622,
+        1.49466
+      ],
+      "draw_meshes": 2,
+      "family": "spreading",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_02_lod0.glb",
+      "glb_sha256": "f42ff293aa905c9298d166864f0c011bbe13a59efe43a7d7805677e2b5cc6778",
+      "id": "bush_3d_02",
+      "kind": "bush",
+      "lod": "lod0",
+      "seed": 2102,
+      "triangle_budget": 6500,
+      "triangles": 664,
+      "variant": "green",
+      "vertices": 1118,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_copper_512",
+      "audit": "procedural/generated/vegetation_v5/review/bush_3d_02_copper_lod0.png",
+      "audit_sha256": "dcd9421ba820227fa007c776442dfaa501ea11380cbf38a9502eb8f185cecf3b",
+      "bounds_max": [
+        1.59593,
+        1.00776,
+        1.49466
+      ],
+      "bounds_min": [
+        -1.49916,
+        -1.49846,
+        0.0
+      ],
+      "dimensions": [
+        3.09509,
+        2.50622,
+        1.49466
+      ],
+      "draw_meshes": 2,
+      "family": "spreading",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_02_copper_lod0.glb",
+      "glb_sha256": "126193a0b7926bb455ebd61f8604db9b459cff2d0c7639616d0624fc33ac086c",
+      "id": "bush_3d_02",
+      "kind": "bush",
+      "lod": "lod0",
+      "seed": 2102,
+      "triangle_budget": 6500,
+      "triangles": 664,
+      "variant": "copper",
+      "vertices": 1118,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_golden_beige_512",
+      "audit": "procedural/generated/vegetation_v5/review/bush_3d_02_golden_beige_lod0.png",
+      "audit_sha256": "6464ee3a0511a0c36fb51efeacd2b11172da2da8fe5abfb462a2cbb4981affd6",
+      "bounds_max": [
+        1.59593,
+        1.00776,
+        1.49466
+      ],
+      "bounds_min": [
+        -1.49916,
+        -1.49846,
+        0.0
+      ],
+      "dimensions": [
+        3.09509,
+        2.50622,
+        1.49466
+      ],
+      "draw_meshes": 2,
+      "family": "spreading",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_02_golden_beige_lod0.glb",
+      "glb_sha256": "7adf923b08bf16c66430fd75fdfd540a8f767e65d6d254421ee96360216083ef",
+      "id": "bush_3d_02",
+      "kind": "bush",
+      "lod": "lod0",
+      "seed": 2102,
+      "triangle_budget": 6500,
+      "triangles": 664,
+      "variant": "golden_beige",
+      "vertices": 1118,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_red_512",
+      "audit": "procedural/generated/vegetation_v5/review/bush_3d_02_red_lod0.png",
+      "audit_sha256": "dbcd8439e32705d5c02176b32dca6ff67175bf49a52970f3912791f1455128c7",
+      "bounds_max": [
+        1.59593,
+        1.00776,
+        1.49466
+      ],
+      "bounds_min": [
+        -1.49916,
+        -1.49846,
+        0.0
+      ],
+      "dimensions": [
+        3.09509,
+        2.50622,
+        1.49466
+      ],
+      "draw_meshes": 2,
+      "family": "spreading",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_02_red_lod0.glb",
+      "glb_sha256": "cdcf7fedfc9fe11c1f027927114e5a077a2817e0ca87934c64045f7db678a596",
+      "id": "bush_3d_02",
+      "kind": "bush",
+      "lod": "lod0",
+      "seed": 2102,
+      "triangle_budget": 6500,
+      "triangles": 664,
+      "variant": "red",
+      "vertices": 1118,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_yellow_512",
+      "audit": "procedural/generated/vegetation_v5/review/bush_3d_02_yellow_lod0.png",
+      "audit_sha256": "ff399c71b2bdbd3b26a0762d0c8ad6c1e0d22ac9e031a09c20562878e41c0a42",
+      "bounds_max": [
+        1.59593,
+        1.00776,
+        1.49466
+      ],
+      "bounds_min": [
+        -1.49916,
+        -1.49846,
+        0.0
+      ],
+      "dimensions": [
+        3.09509,
+        2.50622,
+        1.49466
+      ],
+      "draw_meshes": 2,
+      "family": "spreading",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_02_yellow_lod0.glb",
+      "glb_sha256": "21217c7d82507350db2c5b179e400d366382bbb8c13883081611f6de152c8c5f",
+      "id": "bush_3d_02",
+      "kind": "bush",
+      "lod": "lod0",
+      "seed": 2102,
+      "triangle_budget": 6500,
+      "triangles": 664,
+      "variant": "yellow",
+      "vertices": 1118,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "bush_green_512",
+      "audit": "procedural/generated/vegetation_v5/review/bush_3d_02_lod1.png",
+      "audit_sha256": "d4a070161b9f95e2b497d26aad82b95f0f0dc328948a00f152df9a4940740fd2",
+      "bounds_max": [
+        1.59593,
+        0.95843,
+        1.47038
+      ],
+      "bounds_min": [
+        -1.46196,
+        -1.49846,
+        0.0
+      ],
+      "dimensions": [
+        3.05789,
+        2.45689,
+        1.47038
+      ],
+      "draw_meshes": 2,
+      "family": "spreading",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_02_lod1.glb",
+      "glb_sha256": "c8e913533d1555feca2257514a4c4e1cc829f16ffb09a3b9f3134a7596609265",
+      "id": "bush_3d_02",
+      "kind": "bush",
+      "lod": "lod1",
+      "seed": 2102,
+      "triangle_budget": 3200,
+      "triangles": 388,
+      "variant": "green",
+      "vertices": 644,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_copper_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        1.59593,
+        0.95843,
+        1.47038
+      ],
+      "bounds_min": [
+        -1.46196,
+        -1.49846,
+        0.0
+      ],
+      "dimensions": [
+        3.05789,
+        2.45689,
+        1.47038
+      ],
+      "draw_meshes": 2,
+      "family": "spreading",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_02_copper_lod1.glb",
+      "glb_sha256": "492d20a596aa289f5bab1185218031e1a964c0d54fa9f70322007c172b52e22f",
+      "id": "bush_3d_02",
+      "kind": "bush",
+      "lod": "lod1",
+      "seed": 2102,
+      "triangle_budget": 3200,
+      "triangles": 388,
+      "variant": "copper",
+      "vertices": 644,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_golden_beige_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        1.59593,
+        0.95843,
+        1.47038
+      ],
+      "bounds_min": [
+        -1.46196,
+        -1.49846,
+        0.0
+      ],
+      "dimensions": [
+        3.05789,
+        2.45689,
+        1.47038
+      ],
+      "draw_meshes": 2,
+      "family": "spreading",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_02_golden_beige_lod1.glb",
+      "glb_sha256": "4025eb6ee197f37d0dec4bc79762993e83fde05df6ef2a45a578707c5e052e80",
+      "id": "bush_3d_02",
+      "kind": "bush",
+      "lod": "lod1",
+      "seed": 2102,
+      "triangle_budget": 3200,
+      "triangles": 388,
+      "variant": "golden_beige",
+      "vertices": 644,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_red_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        1.59593,
+        0.95843,
+        1.47038
+      ],
+      "bounds_min": [
+        -1.46196,
+        -1.49846,
+        0.0
+      ],
+      "dimensions": [
+        3.05789,
+        2.45689,
+        1.47038
+      ],
+      "draw_meshes": 2,
+      "family": "spreading",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_02_red_lod1.glb",
+      "glb_sha256": "5facec01f35d952e7ba144da11e34604dcd18e2775b62fd0a80d115a15fb441a",
+      "id": "bush_3d_02",
+      "kind": "bush",
+      "lod": "lod1",
+      "seed": 2102,
+      "triangle_budget": 3200,
+      "triangles": 388,
+      "variant": "red",
+      "vertices": 644,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_yellow_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        1.59593,
+        0.95843,
+        1.47038
+      ],
+      "bounds_min": [
+        -1.46196,
+        -1.49846,
+        0.0
+      ],
+      "dimensions": [
+        3.05789,
+        2.45689,
+        1.47038
+      ],
+      "draw_meshes": 2,
+      "family": "spreading",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_02_yellow_lod1.glb",
+      "glb_sha256": "b007103d22452016a051574e2e9208778260df657d5e089bbb0b70989cd84e5e",
+      "id": "bush_3d_02",
+      "kind": "bush",
+      "lod": "lod1",
+      "seed": 2102,
+      "triangle_budget": 3200,
+      "triangles": 388,
+      "variant": "yellow",
+      "vertices": 644,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "bush_green_512",
+      "audit": "procedural/generated/vegetation_v5/review/bush_3d_03_lod0.png",
+      "audit_sha256": "c2b900bc43bbb7d9ee8cd3491b7003a1f337c32d3742e9b2f89af57d181289d2",
+      "bounds_max": [
+        1.1022,
+        1.14877,
+        2.08985
+      ],
+      "bounds_min": [
+        -1.287,
+        -1.11661,
+        0.0
+      ],
+      "dimensions": [
+        2.3892,
+        2.26538,
+        2.08985
+      ],
+      "draw_meshes": 2,
+      "family": "triangular",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_03_lod0.glb",
+      "glb_sha256": "f634b28e142498155e39e997be3ccdde691c6d8b37c702c34b697ddf4aa7263c",
+      "id": "bush_3d_03",
+      "kind": "bush",
+      "lod": "lod0",
+      "seed": 2103,
+      "triangle_budget": 6500,
+      "triangles": 658,
+      "variant": "green",
+      "vertices": 1141,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_copper_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        1.1022,
+        1.14877,
+        2.08985
+      ],
+      "bounds_min": [
+        -1.287,
+        -1.11661,
+        0.0
+      ],
+      "dimensions": [
+        2.3892,
+        2.26538,
+        2.08985
+      ],
+      "draw_meshes": 2,
+      "family": "triangular",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_03_copper_lod0.glb",
+      "glb_sha256": "d4d26391d3fefea8d091d15e83864e34e190d4abf87d50092b1768d02317db48",
+      "id": "bush_3d_03",
+      "kind": "bush",
+      "lod": "lod0",
+      "seed": 2103,
+      "triangle_budget": 6500,
+      "triangles": 658,
+      "variant": "copper",
+      "vertices": 1141,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_golden_beige_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        1.1022,
+        1.14877,
+        2.08985
+      ],
+      "bounds_min": [
+        -1.287,
+        -1.11661,
+        0.0
+      ],
+      "dimensions": [
+        2.3892,
+        2.26538,
+        2.08985
+      ],
+      "draw_meshes": 2,
+      "family": "triangular",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_03_golden_beige_lod0.glb",
+      "glb_sha256": "62b7e083e5a3e8806f1f31238035a56f7b6d1d6945e1b468a39a286aeeae7362",
+      "id": "bush_3d_03",
+      "kind": "bush",
+      "lod": "lod0",
+      "seed": 2103,
+      "triangle_budget": 6500,
+      "triangles": 658,
+      "variant": "golden_beige",
+      "vertices": 1141,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_red_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        1.1022,
+        1.14877,
+        2.08985
+      ],
+      "bounds_min": [
+        -1.287,
+        -1.11661,
+        0.0
+      ],
+      "dimensions": [
+        2.3892,
+        2.26538,
+        2.08985
+      ],
+      "draw_meshes": 2,
+      "family": "triangular",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_03_red_lod0.glb",
+      "glb_sha256": "255a3ce8c2a772a7ce9833c81e7fae32625528b4daeb051a38b38a63716fc411",
+      "id": "bush_3d_03",
+      "kind": "bush",
+      "lod": "lod0",
+      "seed": 2103,
+      "triangle_budget": 6500,
+      "triangles": 658,
+      "variant": "red",
+      "vertices": 1141,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_yellow_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        1.1022,
+        1.14877,
+        2.08985
+      ],
+      "bounds_min": [
+        -1.287,
+        -1.11661,
+        0.0
+      ],
+      "dimensions": [
+        2.3892,
+        2.26538,
+        2.08985
+      ],
+      "draw_meshes": 2,
+      "family": "triangular",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_03_yellow_lod0.glb",
+      "glb_sha256": "380233063fa6e5badaab57e30fc9e4ce32c4cff37574b21084770cf37f261145",
+      "id": "bush_3d_03",
+      "kind": "bush",
+      "lod": "lod0",
+      "seed": 2103,
+      "triangle_budget": 6500,
+      "triangles": 658,
+      "variant": "yellow",
+      "vertices": 1141,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "bush_green_512",
+      "audit": "procedural/generated/vegetation_v5/review/bush_3d_03_lod1.png",
+      "audit_sha256": "111b83cbf8bc3588cc96168b141e7c42325e63fedf8a33436bf47b7cbc54a6a5",
+      "bounds_max": [
+        1.1022,
+        1.14877,
+        2.08465
+      ],
+      "bounds_min": [
+        -1.287,
+        -1.09837,
+        0.0
+      ],
+      "dimensions": [
+        2.3892,
+        2.24713,
+        2.08465
+      ],
+      "draw_meshes": 2,
+      "family": "triangular",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_03_lod1.glb",
+      "glb_sha256": "96439be316e6c81905a74299df3901499db150152d4506725aeec8488a1426b8",
+      "id": "bush_3d_03",
+      "kind": "bush",
+      "lod": "lod1",
+      "seed": 2103,
+      "triangle_budget": 3200,
+      "triangles": 384,
+      "variant": "green",
+      "vertices": 658,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_copper_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        1.1022,
+        1.14877,
+        2.08465
+      ],
+      "bounds_min": [
+        -1.287,
+        -1.09837,
+        0.0
+      ],
+      "dimensions": [
+        2.3892,
+        2.24713,
+        2.08465
+      ],
+      "draw_meshes": 2,
+      "family": "triangular",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_03_copper_lod1.glb",
+      "glb_sha256": "773e9ef6e3a13cfb71e70ee26b6291e2e23fc6a554bd0210c5b4281befa0a202",
+      "id": "bush_3d_03",
+      "kind": "bush",
+      "lod": "lod1",
+      "seed": 2103,
+      "triangle_budget": 3200,
+      "triangles": 384,
+      "variant": "copper",
+      "vertices": 658,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_golden_beige_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        1.1022,
+        1.14877,
+        2.08465
+      ],
+      "bounds_min": [
+        -1.287,
+        -1.09837,
+        0.0
+      ],
+      "dimensions": [
+        2.3892,
+        2.24713,
+        2.08465
+      ],
+      "draw_meshes": 2,
+      "family": "triangular",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_03_golden_beige_lod1.glb",
+      "glb_sha256": "c58fbcaa48c5aaf5289bec3bfb0342e652eeb879db28246ed3d1786339b58452",
+      "id": "bush_3d_03",
+      "kind": "bush",
+      "lod": "lod1",
+      "seed": 2103,
+      "triangle_budget": 3200,
+      "triangles": 384,
+      "variant": "golden_beige",
+      "vertices": 658,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_red_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        1.1022,
+        1.14877,
+        2.08465
+      ],
+      "bounds_min": [
+        -1.287,
+        -1.09837,
+        0.0
+      ],
+      "dimensions": [
+        2.3892,
+        2.24713,
+        2.08465
+      ],
+      "draw_meshes": 2,
+      "family": "triangular",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_03_red_lod1.glb",
+      "glb_sha256": "96073f2275fef672d87026c55887547a0cd1764b4b60bdf149a3130219ff90f7",
+      "id": "bush_3d_03",
+      "kind": "bush",
+      "lod": "lod1",
+      "seed": 2103,
+      "triangle_budget": 3200,
+      "triangles": 384,
+      "variant": "red",
+      "vertices": 658,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_yellow_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        1.1022,
+        1.14877,
+        2.08465
+      ],
+      "bounds_min": [
+        -1.287,
+        -1.09837,
+        0.0
+      ],
+      "dimensions": [
+        2.3892,
+        2.24713,
+        2.08465
+      ],
+      "draw_meshes": 2,
+      "family": "triangular",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_03_yellow_lod1.glb",
+      "glb_sha256": "c4f1ca4fa8d7d53756d406e75b792f5ccc2a4966a1fe4ba772aef2c1d4a791be",
+      "id": "bush_3d_03",
+      "kind": "bush",
+      "lod": "lod1",
+      "seed": 2103,
+      "triangle_budget": 3200,
+      "triangles": 384,
+      "variant": "yellow",
+      "vertices": 658,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "bush_green_512",
+      "audit": "procedural/generated/vegetation_v5/review/bush_3d_04_lod0.png",
+      "audit_sha256": "27bebb7dba7d76bb25a166c7fe9f757c13c0b9ebc1a0a56187fe1c02bf6134ce",
+      "bounds_max": [
+        1.49132,
+        2.01848,
+        0.81597
+      ],
+      "bounds_min": [
+        -1.29926,
+        -1.68446,
+        0.0
+      ],
+      "dimensions": [
+        2.79058,
+        3.70294,
+        0.81597
+      ],
+      "draw_meshes": 2,
+      "family": "creeping",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_04_lod0.glb",
+      "glb_sha256": "fb7d3d1fc7324dde66e7c383f279abfce03d1d0cbc3d2800a4b2abad1b81aec7",
+      "id": "bush_3d_04",
+      "kind": "bush",
+      "lod": "lod0",
+      "seed": 2104,
+      "triangle_budget": 6500,
+      "triangles": 674,
+      "variant": "green",
+      "vertices": 1103,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_copper_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        1.49132,
+        2.01848,
+        0.81597
+      ],
+      "bounds_min": [
+        -1.29926,
+        -1.68446,
+        0.0
+      ],
+      "dimensions": [
+        2.79058,
+        3.70294,
+        0.81597
+      ],
+      "draw_meshes": 2,
+      "family": "creeping",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_04_copper_lod0.glb",
+      "glb_sha256": "ed0e9069d4b3815590157504f0dfce07ac4361e4cd2ab214c516f7d688ef7fe4",
+      "id": "bush_3d_04",
+      "kind": "bush",
+      "lod": "lod0",
+      "seed": 2104,
+      "triangle_budget": 6500,
+      "triangles": 674,
+      "variant": "copper",
+      "vertices": 1103,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_golden_beige_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        1.49132,
+        2.01848,
+        0.81597
+      ],
+      "bounds_min": [
+        -1.29926,
+        -1.68446,
+        0.0
+      ],
+      "dimensions": [
+        2.79058,
+        3.70294,
+        0.81597
+      ],
+      "draw_meshes": 2,
+      "family": "creeping",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_04_golden_beige_lod0.glb",
+      "glb_sha256": "10094b9303290240379347fdd1e1dfb9975fd34a1b2474bbdd5475068ad9e28f",
+      "id": "bush_3d_04",
+      "kind": "bush",
+      "lod": "lod0",
+      "seed": 2104,
+      "triangle_budget": 6500,
+      "triangles": 674,
+      "variant": "golden_beige",
+      "vertices": 1103,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_red_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        1.49132,
+        2.01848,
+        0.81597
+      ],
+      "bounds_min": [
+        -1.29926,
+        -1.68446,
+        0.0
+      ],
+      "dimensions": [
+        2.79058,
+        3.70294,
+        0.81597
+      ],
+      "draw_meshes": 2,
+      "family": "creeping",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_04_red_lod0.glb",
+      "glb_sha256": "56cf0f834ecd5ca9685d64a56508e8ec22c9b136ffb77ed1963079155d8e61f5",
+      "id": "bush_3d_04",
+      "kind": "bush",
+      "lod": "lod0",
+      "seed": 2104,
+      "triangle_budget": 6500,
+      "triangles": 674,
+      "variant": "red",
+      "vertices": 1103,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_yellow_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        1.49132,
+        2.01848,
+        0.81597
+      ],
+      "bounds_min": [
+        -1.29926,
+        -1.68446,
+        0.0
+      ],
+      "dimensions": [
+        2.79058,
+        3.70294,
+        0.81597
+      ],
+      "draw_meshes": 2,
+      "family": "creeping",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_04_yellow_lod0.glb",
+      "glb_sha256": "646f538a0e2632caf1ecc4e02359df8c037196554694ac706f552f027a9d7251",
+      "id": "bush_3d_04",
+      "kind": "bush",
+      "lod": "lod0",
+      "seed": 2104,
+      "triangle_budget": 6500,
+      "triangles": 674,
+      "variant": "yellow",
+      "vertices": 1103,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "bush_green_512",
+      "audit": "procedural/generated/vegetation_v5/review/bush_3d_04_lod1.png",
+      "audit_sha256": "a251b4c14bc0f30071e50df05b4036400e48d2c571b50754765fa3c369d5c2da",
+      "bounds_max": [
+        1.44389,
+        2.01848,
+        0.81597
+      ],
+      "bounds_min": [
+        -1.29926,
+        -1.68446,
+        0.0
+      ],
+      "dimensions": [
+        2.74316,
+        3.70294,
+        0.81597
+      ],
+      "draw_meshes": 2,
+      "family": "creeping",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_04_lod1.glb",
+      "glb_sha256": "713aa4b0eb7cfd05d71ab582a33b2383d298ee684b747ca1f77c6167c1b1452e",
+      "id": "bush_3d_04",
+      "kind": "bush",
+      "lod": "lod1",
+      "seed": 2104,
+      "triangle_budget": 3200,
+      "triangles": 392,
+      "variant": "green",
+      "vertices": 630,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_copper_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        1.44389,
+        2.01848,
+        0.81597
+      ],
+      "bounds_min": [
+        -1.29926,
+        -1.68446,
+        0.0
+      ],
+      "dimensions": [
+        2.74316,
+        3.70294,
+        0.81597
+      ],
+      "draw_meshes": 2,
+      "family": "creeping",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_04_copper_lod1.glb",
+      "glb_sha256": "e05e9052f3373e4cbf0c535a0e9ec2e035dc910a12a11ecbd83bc39d5a41bb29",
+      "id": "bush_3d_04",
+      "kind": "bush",
+      "lod": "lod1",
+      "seed": 2104,
+      "triangle_budget": 3200,
+      "triangles": 392,
+      "variant": "copper",
+      "vertices": 630,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_golden_beige_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        1.44389,
+        2.01848,
+        0.81597
+      ],
+      "bounds_min": [
+        -1.29926,
+        -1.68446,
+        0.0
+      ],
+      "dimensions": [
+        2.74316,
+        3.70294,
+        0.81597
+      ],
+      "draw_meshes": 2,
+      "family": "creeping",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_04_golden_beige_lod1.glb",
+      "glb_sha256": "c7252e330fce01ddce84941dd1a63a50fb86f1f79d990fb47901d5ce3d1abbfa",
+      "id": "bush_3d_04",
+      "kind": "bush",
+      "lod": "lod1",
+      "seed": 2104,
+      "triangle_budget": 3200,
+      "triangles": 392,
+      "variant": "golden_beige",
+      "vertices": 630,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_red_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        1.44389,
+        2.01848,
+        0.81597
+      ],
+      "bounds_min": [
+        -1.29926,
+        -1.68446,
+        0.0
+      ],
+      "dimensions": [
+        2.74316,
+        3.70294,
+        0.81597
+      ],
+      "draw_meshes": 2,
+      "family": "creeping",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_04_red_lod1.glb",
+      "glb_sha256": "a6e02ad81fcf5e4a4bed2c4c8f7772187b7c069b64b6673c39b96e6c5ff5dfcc",
+      "id": "bush_3d_04",
+      "kind": "bush",
+      "lod": "lod1",
+      "seed": 2104,
+      "triangle_budget": 3200,
+      "triangles": 392,
+      "variant": "red",
+      "vertices": 630,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_yellow_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        1.44389,
+        2.01848,
+        0.81597
+      ],
+      "bounds_min": [
+        -1.29926,
+        -1.68446,
+        0.0
+      ],
+      "dimensions": [
+        2.74316,
+        3.70294,
+        0.81597
+      ],
+      "draw_meshes": 2,
+      "family": "creeping",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_04_yellow_lod1.glb",
+      "glb_sha256": "f53d19de3bd98d2ad02e5719a07bd1591d808b9a1a15240064cef28b31f32ba5",
+      "id": "bush_3d_04",
+      "kind": "bush",
+      "lod": "lod1",
+      "seed": 2104,
+      "triangle_budget": 3200,
+      "triangles": 392,
+      "variant": "yellow",
+      "vertices": 630,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "bush_green_512",
+      "audit": "procedural/generated/vegetation_v5/review/bush_3d_05_lod0.png",
+      "audit_sha256": "4e95590326522d58b908481620ba17f0b784077668e42c07340a62182381c126",
+      "bounds_max": [
+        1.92072,
+        1.14527,
+        1.71978
+      ],
+      "bounds_min": [
+        -0.91565,
+        -1.34999,
+        0.0
+      ],
+      "dimensions": [
+        2.83637,
+        2.49526,
+        1.71978
+      ],
+      "draw_meshes": 2,
+      "family": "asymmetric",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_05_lod0.glb",
+      "glb_sha256": "48f8b3f93e2426ac5b94407fed97d7a3471264472ceaddca557d9397bee2269c",
+      "id": "bush_3d_05",
+      "kind": "bush",
+      "lod": "lod0",
+      "seed": 2105,
+      "triangle_budget": 6500,
+      "triangles": 716,
+      "variant": "green",
+      "vertices": 1222,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_copper_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        1.92072,
+        1.14527,
+        1.71978
+      ],
+      "bounds_min": [
+        -0.91565,
+        -1.34999,
+        0.0
+      ],
+      "dimensions": [
+        2.83637,
+        2.49526,
+        1.71978
+      ],
+      "draw_meshes": 2,
+      "family": "asymmetric",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_05_copper_lod0.glb",
+      "glb_sha256": "96c384baeba8a97ca2eb01b73394b474dadd666ba9484fb9767975cc77fcf8b7",
+      "id": "bush_3d_05",
+      "kind": "bush",
+      "lod": "lod0",
+      "seed": 2105,
+      "triangle_budget": 6500,
+      "triangles": 716,
+      "variant": "copper",
+      "vertices": 1222,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_golden_beige_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        1.92072,
+        1.14527,
+        1.71978
+      ],
+      "bounds_min": [
+        -0.91565,
+        -1.34999,
+        0.0
+      ],
+      "dimensions": [
+        2.83637,
+        2.49526,
+        1.71978
+      ],
+      "draw_meshes": 2,
+      "family": "asymmetric",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_05_golden_beige_lod0.glb",
+      "glb_sha256": "29b8456e1b9bf9ec160ba6d1c66a0b6797999551379c421778266fd29f4ca301",
+      "id": "bush_3d_05",
+      "kind": "bush",
+      "lod": "lod0",
+      "seed": 2105,
+      "triangle_budget": 6500,
+      "triangles": 716,
+      "variant": "golden_beige",
+      "vertices": 1222,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_red_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        1.92072,
+        1.14527,
+        1.71978
+      ],
+      "bounds_min": [
+        -0.91565,
+        -1.34999,
+        0.0
+      ],
+      "dimensions": [
+        2.83637,
+        2.49526,
+        1.71978
+      ],
+      "draw_meshes": 2,
+      "family": "asymmetric",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_05_red_lod0.glb",
+      "glb_sha256": "e45d8f75ba9af8aa997a10587e0feb21810b8f00cca8f93615f30fe9cfafaebc",
+      "id": "bush_3d_05",
+      "kind": "bush",
+      "lod": "lod0",
+      "seed": 2105,
+      "triangle_budget": 6500,
+      "triangles": 716,
+      "variant": "red",
+      "vertices": 1222,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_yellow_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        1.92072,
+        1.14527,
+        1.71978
+      ],
+      "bounds_min": [
+        -0.91565,
+        -1.34999,
+        0.0
+      ],
+      "dimensions": [
+        2.83637,
+        2.49526,
+        1.71978
+      ],
+      "draw_meshes": 2,
+      "family": "asymmetric",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_05_yellow_lod0.glb",
+      "glb_sha256": "92cb6e494d072b69a6f5c78231a035f3bb23753114c4e5f188bc4d49c064d7f8",
+      "id": "bush_3d_05",
+      "kind": "bush",
+      "lod": "lod0",
+      "seed": 2105,
+      "triangle_budget": 6500,
+      "triangles": 716,
+      "variant": "yellow",
+      "vertices": 1222,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "bush_green_512",
+      "audit": "procedural/generated/vegetation_v5/review/bush_3d_05_lod1.png",
+      "audit_sha256": "25cd5a0c7361cae4749c19d0495301d8b0e0cd9b3a50459c400c03e6cc9b72ac",
+      "bounds_max": [
+        1.92072,
+        1.14527,
+        1.71296
+      ],
+      "bounds_min": [
+        -0.86647,
+        -1.34999,
+        0.0
+      ],
+      "dimensions": [
+        2.78719,
+        2.49526,
+        1.71296
+      ],
+      "draw_meshes": 2,
+      "family": "asymmetric",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_05_lod1.glb",
+      "glb_sha256": "e7627448577d3e0ed0fd44eac82ffdb795027a3ce1adc36074bd6445ece88a03",
+      "id": "bush_3d_05",
+      "kind": "bush",
+      "lod": "lod1",
+      "seed": 2105,
+      "triangle_budget": 3200,
+      "triangles": 416,
+      "variant": "green",
+      "vertices": 700,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_copper_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        1.92072,
+        1.14527,
+        1.71296
+      ],
+      "bounds_min": [
+        -0.86647,
+        -1.34999,
+        0.0
+      ],
+      "dimensions": [
+        2.78719,
+        2.49526,
+        1.71296
+      ],
+      "draw_meshes": 2,
+      "family": "asymmetric",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_05_copper_lod1.glb",
+      "glb_sha256": "da60b48277deff487038a53f8b4481e9e1a8df1d6d6b5a6ff1ff1fef30496698",
+      "id": "bush_3d_05",
+      "kind": "bush",
+      "lod": "lod1",
+      "seed": 2105,
+      "triangle_budget": 3200,
+      "triangles": 416,
+      "variant": "copper",
+      "vertices": 700,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_golden_beige_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        1.92072,
+        1.14527,
+        1.71296
+      ],
+      "bounds_min": [
+        -0.86647,
+        -1.34999,
+        0.0
+      ],
+      "dimensions": [
+        2.78719,
+        2.49526,
+        1.71296
+      ],
+      "draw_meshes": 2,
+      "family": "asymmetric",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_05_golden_beige_lod1.glb",
+      "glb_sha256": "3ba3a1e5911ef08de083a1061c116220f7563e20de4e76c300936283d0d0c485",
+      "id": "bush_3d_05",
+      "kind": "bush",
+      "lod": "lod1",
+      "seed": 2105,
+      "triangle_budget": 3200,
+      "triangles": 416,
+      "variant": "golden_beige",
+      "vertices": 700,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_red_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        1.92072,
+        1.14527,
+        1.71296
+      ],
+      "bounds_min": [
+        -0.86647,
+        -1.34999,
+        0.0
+      ],
+      "dimensions": [
+        2.78719,
+        2.49526,
+        1.71296
+      ],
+      "draw_meshes": 2,
+      "family": "asymmetric",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_05_red_lod1.glb",
+      "glb_sha256": "f5c5e1c2a3e5543fe9af9bbcc6e5be0ce6df74fb67b6b96a474f37f68fd5375b",
+      "id": "bush_3d_05",
+      "kind": "bush",
+      "lod": "lod1",
+      "seed": 2105,
+      "triangle_budget": 3200,
+      "triangles": 416,
+      "variant": "red",
+      "vertices": 700,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_yellow_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        1.92072,
+        1.14527,
+        1.71296
+      ],
+      "bounds_min": [
+        -0.86647,
+        -1.34999,
+        0.0
+      ],
+      "dimensions": [
+        2.78719,
+        2.49526,
+        1.71296
+      ],
+      "draw_meshes": 2,
+      "family": "asymmetric",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_05_yellow_lod1.glb",
+      "glb_sha256": "9ede73b15e39a1c598352cf38f4c3c03d7b3666cd7f376a83bd753b68f7d0fac",
+      "id": "bush_3d_05",
+      "kind": "bush",
+      "lod": "lod1",
+      "seed": 2105,
+      "triangle_budget": 3200,
+      "triangles": 416,
+      "variant": "yellow",
+      "vertices": 700,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "bush_green_512",
+      "audit": "procedural/generated/vegetation_v5/review/bush_3d_06_lod0.png",
+      "audit_sha256": "86d6f98d5ae64f7e314bfc0acccf8f80cd804ed73d5a17001f5b21d34ebd2e2b",
+      "bounds_max": [
+        1.87573,
+        1.41552,
+        1.95374
+      ],
+      "bounds_min": [
+        -1.27261,
+        -1.52736,
+        0.0
+      ],
+      "dimensions": [
+        3.14834,
+        2.94288,
+        1.95374
+      ],
+      "draw_meshes": 2,
+      "family": "dry_open",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_06_lod0.glb",
+      "glb_sha256": "529e91ac86b16a56b1dfa095eef126bb327cb779f2201eabdbc86d56b9e74eac",
+      "id": "bush_3d_06",
+      "kind": "bush",
+      "lod": "lod0",
+      "seed": 2106,
+      "triangle_budget": 6500,
+      "triangles": 598,
+      "variant": "green",
+      "vertices": 951,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_copper_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        1.87573,
+        1.41552,
+        1.95374
+      ],
+      "bounds_min": [
+        -1.27261,
+        -1.52736,
+        0.0
+      ],
+      "dimensions": [
+        3.14834,
+        2.94288,
+        1.95374
+      ],
+      "draw_meshes": 2,
+      "family": "dry_open",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_06_copper_lod0.glb",
+      "glb_sha256": "d51ba1890e84af2af0ab72717debb0c050e2769bf0da23737ec1705c4a2fcc8b",
+      "id": "bush_3d_06",
+      "kind": "bush",
+      "lod": "lod0",
+      "seed": 2106,
+      "triangle_budget": 6500,
+      "triangles": 598,
+      "variant": "copper",
+      "vertices": 951,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_golden_beige_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        1.87573,
+        1.41552,
+        1.95374
+      ],
+      "bounds_min": [
+        -1.27261,
+        -1.52736,
+        0.0
+      ],
+      "dimensions": [
+        3.14834,
+        2.94288,
+        1.95374
+      ],
+      "draw_meshes": 2,
+      "family": "dry_open",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_06_golden_beige_lod0.glb",
+      "glb_sha256": "97ed7b4af83cd1f73b25ee9894ffa350e1e689cc621881c4719002b3e4180d8b",
+      "id": "bush_3d_06",
+      "kind": "bush",
+      "lod": "lod0",
+      "seed": 2106,
+      "triangle_budget": 6500,
+      "triangles": 598,
+      "variant": "golden_beige",
+      "vertices": 951,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_red_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        1.87573,
+        1.41552,
+        1.95374
+      ],
+      "bounds_min": [
+        -1.27261,
+        -1.52736,
+        0.0
+      ],
+      "dimensions": [
+        3.14834,
+        2.94288,
+        1.95374
+      ],
+      "draw_meshes": 2,
+      "family": "dry_open",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_06_red_lod0.glb",
+      "glb_sha256": "dda1197187c2bdf3d7c3e9f868eb8822079972683438be96fb733b90d02ae415",
+      "id": "bush_3d_06",
+      "kind": "bush",
+      "lod": "lod0",
+      "seed": 2106,
+      "triangle_budget": 6500,
+      "triangles": 598,
+      "variant": "red",
+      "vertices": 951,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_yellow_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        1.87573,
+        1.41552,
+        1.95374
+      ],
+      "bounds_min": [
+        -1.27261,
+        -1.52736,
+        0.0
+      ],
+      "dimensions": [
+        3.14834,
+        2.94288,
+        1.95374
+      ],
+      "draw_meshes": 2,
+      "family": "dry_open",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_06_yellow_lod0.glb",
+      "glb_sha256": "38c323ef78400523ec7f7ab21761a157878b0087930374be322b0d6403d35372",
+      "id": "bush_3d_06",
+      "kind": "bush",
+      "lod": "lod0",
+      "seed": 2106,
+      "triangle_budget": 6500,
+      "triangles": 598,
+      "variant": "yellow",
+      "vertices": 951,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "bush_green_512",
+      "audit": "procedural/generated/vegetation_v5/review/bush_3d_06_lod1.png",
+      "audit_sha256": "ecb79b0045eb36b018f8a5fdd967776e409c1a96228fc91c90be0b314790280a",
+      "bounds_max": [
+        1.65559,
+        1.41552,
+        1.93928
+      ],
+      "bounds_min": [
+        -1.27261,
+        -1.22236,
+        0.0
+      ],
+      "dimensions": [
+        2.92819,
+        2.63788,
+        1.93928
+      ],
+      "draw_meshes": 2,
+      "family": "dry_open",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_06_lod1.glb",
+      "glb_sha256": "419fede1466dfbb66916250fed978516c9dd4828a17d3338ac6e393d8986b1fc",
+      "id": "bush_3d_06",
+      "kind": "bush",
+      "lod": "lod1",
+      "seed": 2106,
+      "triangle_budget": 3200,
+      "triangles": 348,
+      "variant": "green",
+      "vertices": 542,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_copper_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        1.65559,
+        1.41552,
+        1.93928
+      ],
+      "bounds_min": [
+        -1.27261,
+        -1.22236,
+        0.0
+      ],
+      "dimensions": [
+        2.92819,
+        2.63788,
+        1.93928
+      ],
+      "draw_meshes": 2,
+      "family": "dry_open",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_06_copper_lod1.glb",
+      "glb_sha256": "51af447d80c44924835b381624fd0051483b6bb5d6157e64d6123ccd7a66ab0d",
+      "id": "bush_3d_06",
+      "kind": "bush",
+      "lod": "lod1",
+      "seed": 2106,
+      "triangle_budget": 3200,
+      "triangles": 348,
+      "variant": "copper",
+      "vertices": 542,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_golden_beige_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        1.65559,
+        1.41552,
+        1.93928
+      ],
+      "bounds_min": [
+        -1.27261,
+        -1.22236,
+        0.0
+      ],
+      "dimensions": [
+        2.92819,
+        2.63788,
+        1.93928
+      ],
+      "draw_meshes": 2,
+      "family": "dry_open",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_06_golden_beige_lod1.glb",
+      "glb_sha256": "c06264ee931b09cd232ad9c5950cb67449a84bd78d27aa55e66b07039fc00756",
+      "id": "bush_3d_06",
+      "kind": "bush",
+      "lod": "lod1",
+      "seed": 2106,
+      "triangle_budget": 3200,
+      "triangles": 348,
+      "variant": "golden_beige",
+      "vertices": 542,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_red_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        1.65559,
+        1.41552,
+        1.93928
+      ],
+      "bounds_min": [
+        -1.27261,
+        -1.22236,
+        0.0
+      ],
+      "dimensions": [
+        2.92819,
+        2.63788,
+        1.93928
+      ],
+      "draw_meshes": 2,
+      "family": "dry_open",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_06_red_lod1.glb",
+      "glb_sha256": "079a31397efbabb5c23d2cbe0ac6a6452de57fece81a43a8ec7c701dba44bdb1",
+      "id": "bush_3d_06",
+      "kind": "bush",
+      "lod": "lod1",
+      "seed": 2106,
+      "triangle_budget": 3200,
+      "triangles": 348,
+      "variant": "red",
+      "vertices": 542,
+      "wood": "broadleaf_bark_036_seamless"
+    },
+    {
+      "alpha_mode": "MASK",
+      "atlas": "broadleaf_yellow_512",
+      "audit": null,
+      "audit_sha256": null,
+      "bounds_max": [
+        1.65559,
+        1.41552,
+        1.93928
+      ],
+      "bounds_min": [
+        -1.27261,
+        -1.22236,
+        0.0
+      ],
+      "dimensions": [
+        2.92819,
+        2.63788,
+        1.93928
+      ],
+      "draw_meshes": 2,
+      "family": "dry_open",
+      "glb": "procedural/generated/vegetation_v5/assets/bushes/bush_3d_06_yellow_lod1.glb",
+      "glb_sha256": "473d34748f5430f6fe32dd8d1f6f6f77e6a03b54aaee6e42d27da52b6ae82d7d",
+      "id": "bush_3d_06",
+      "kind": "bush",
+      "lod": "lod1",
+      "seed": 2106,
+      "triangle_budget": 3200,
+      "triangles": 348,
+      "variant": "yellow",
+      "vertices": 542,
+      "wood": "broadleaf_bark_036_seamless"
+    }
+  ],
+  "schema_version": 1,
+  "source_recipes": "procedural/recipes/vegetation_library.json",
+  "source_recipes_sha256": "0092207aa8b0d60e58fcbe205398e62e210db1a608a4dbf628189c485e60a7dc",
+  "texture_release": "procedural/texture_pipeline/releases/v2/manifest.json",
+  "texture_release_sha256": "41f69262cbb0a01b3df5331551509afd33964c2610760eda03a49e5b55f24b29",
+  "variant_assets": 120
+}

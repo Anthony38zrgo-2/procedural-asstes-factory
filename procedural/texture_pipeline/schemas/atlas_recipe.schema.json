@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Deterministic foliage atlas recipe",
+  "type": "object",
+  "required": ["schema_version", "id", "family", "size", "padding", "layout_seed", "color_seed", "sprites"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "id": {"pattern": "^[a-z0-9_]+$"},
+    "family": {"enum": ["broadleaf", "bush", "conifer"]},
+    "size": {"enum": [256, 512]},
+    "padding": {"minimum": 4, "maximum": 32},
+    "sprites": {"type": "array", "minItems": 4, "items": {"type": "string"}}
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "id": "conifer_green_512",
+  "family": "conifer",
+  "size": 512,
+  "padding": 10,
+  "layout_seed": 53001,
+  "color_seed": 53002,
+  "alpha_cutoff": 0.42,
+  "brightness_range": [0.94, 1.04],
+  "saturation_range": [0.94, 1.04],
+  "sprites": ["conifer_green_a", "conifer_green_b", "conifer_green_c", "conifer_green_d"]
+}

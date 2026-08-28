@@ -1,0 +1,618 @@
+{
+  "generator": "deterministic_recovered_texture_atlas_v1",
+  "schema_version": 1,
+  "sources": [
+    {
+      "approved": true,
+      "average_hash": "cf6683d0858acbcf",
+      "candidate_name_is_heuristic": true,
+      "candidate_source_name": "trunk_white_4.png",
+      "classification": "bark",
+      "confidence": "verified_visual",
+      "decode": "ok",
+      "format": "DDS",
+      "height": 128,
+      "id": "objects_core_025",
+      "index": 25,
+      "metrics": {
+        "alpha_max": 255,
+        "alpha_min": 255,
+        "alpha_unique": 1,
+        "coverage_128": 1.0,
+        "coverage_16": 1.0,
+        "transparent_rgb_present": false,
+        "visible_bbox": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "visible_luminance_mean": 54.8638,
+        "visible_luminance_std": 21.9266
+      },
+      "path": "assets-texturas/textures/objects_core/png/025.png",
+      "semantic_name": "bark_dark_ridged",
+      "sha256": "fdf3467c9673fec043a8e7cd9b9a3b1b40b4966a914a97f9845e77d0eb3aead5",
+      "tags": [
+        "bark",
+        "broadleaf",
+        "tile_candidate"
+      ],
+      "width": 128
+    },
+    {
+      "approved": true,
+      "average_hash": "0d3f0f0f0e0f8f83",
+      "candidate_name_is_heuristic": true,
+      "candidate_source_name": "leaves_fir_japan.png",
+      "classification": "bark",
+      "confidence": "verified_visual",
+      "decode": "ok",
+      "format": "DDS",
+      "height": 256,
+      "id": "objects_core_035",
+      "index": 35,
+      "metrics": {
+        "alpha_max": 255,
+        "alpha_min": 255,
+        "alpha_unique": 1,
+        "coverage_128": 1.0,
+        "coverage_16": 1.0,
+        "transparent_rgb_present": false,
+        "visible_bbox": [
+          0,
+          0,
+          256,
+          256
+        ],
+        "visible_luminance_mean": 52.7454,
+        "visible_luminance_std": 31.9548
+      },
+      "path": "assets-texturas/textures/objects_core/png/035.png",
+      "semantic_name": "conifer_bark_dark_mature",
+      "sha256": "8a08d352ccbd4654614387d46214bd047901d16d03f73b7f172d9769553b1bac",
+      "tags": [
+        "bark",
+        "conifer",
+        "tile_candidate"
+      ],
+      "width": 256
+    },
+    {
+      "approved": true,
+      "average_hash": "0c3c3f2f0e1e0e06",
+      "candidate_name_is_heuristic": true,
+      "candidate_source_name": "leaves_germany_1.png",
+      "classification": "bark",
+      "confidence": "verified_visual",
+      "decode": "ok",
+      "format": "DDS",
+      "height": 256,
+      "id": "objects_core_036",
+      "index": 36,
+      "metrics": {
+        "alpha_max": 255,
+        "alpha_min": 255,
+        "alpha_unique": 1,
+        "coverage_128": 1.0,
+        "coverage_16": 1.0,
+        "transparent_rgb_present": false,
+        "visible_bbox": [
+          0,
+          0,
+          256,
+          256
+        ],
+        "visible_luminance_mean": 65.5288,
+        "visible_luminance_std": 28.2027
+      },
+      "path": "assets-texturas/textures/objects_core/png/036.png",
+      "semantic_name": "bark_red_brown_mature",
+      "sha256": "539cf2406d9df266afac6c6f17e092c8367fec4d1143d14c0a3cb088ceaa22ff",
+      "tags": [
+        "bark",
+        "broadleaf",
+        "tile_candidate"
+      ],
+      "width": 256
+    },
+    {
+      "approved": true,
+      "average_hash": "8fdfffffffefff66",
+      "candidate_name_is_heuristic": true,
+      "candidate_source_name": "BridgeWoodenSides_Snow.tga",
+      "classification": "foliage_cluster",
+      "confidence": "verified_visual",
+      "decode": "ok",
+      "format": "DDS",
+      "height": 256,
+      "id": "objects_core_046",
+      "index": 46,
+      "metrics": {
+        "alpha_max": 255,
+        "alpha_min": 0,
+        "alpha_unique": 256,
+        "coverage_128": 0.321877,
+        "coverage_16": 0.419975,
+        "transparent_rgb_present": true,
+        "visible_bbox": [
+          5,
+          4,
+          508,
+          251
+        ],
+        "visible_luminance_mean": 175.4091,
+        "visible_luminance_std": 36.1584
+      },
+      "path": "assets-texturas/textures/objects_core/png/046.png",
+      "semantic_name": "blossom_pink_pair",
+      "sha256": "d62a9f8d3a0a535c7db29d1e960e1ec4a35827ab553d1d6c92902d154a552ba5",
+      "tags": [
+        "blossom",
+        "broadleaf",
+        "pink"
+      ],
+      "width": 512
+    },
+    {
+      "approved": true,
+      "average_hash": "f0f6f0fffef77ee6",
+      "candidate_name_is_heuristic": true,
+      "candidate_source_name": "BridgeTraditionalBase.psd",
+      "classification": "foliage_cluster",
+      "confidence": "verified_visual",
+      "decode": "ok",
+      "format": "DDS",
+      "height": 256,
+      "id": "objects_core_047",
+      "index": 47,
+      "metrics": {
+        "alpha_max": 255,
+        "alpha_min": 0,
+        "alpha_unique": 256,
+        "coverage_128": 0.296516,
+        "coverage_16": 0.389595,
+        "transparent_rgb_present": true,
+        "visible_bbox": [
+          5,
+          4,
+          505,
+          249
+        ],
+        "visible_luminance_mean": 153.0665,
+        "visible_luminance_std": 29.3889
+      },
+      "path": "assets-texturas/textures/objects_core/png/047.png",
+      "semantic_name": "blossom_white_pair",
+      "sha256": "9ec38a0f060b081d9d3d067261a135f392cb21da640774ae6bd8d378d5a2caae",
+      "tags": [
+        "blossom",
+        "broadleaf",
+        "white"
+      ],
+      "width": 512
+    },
+    {
+      "approved": true,
+      "average_hash": "26fefeffffefef64",
+      "candidate_name_is_heuristic": true,
+      "candidate_source_name": "BridgeTraditionalSides.psd",
+      "classification": "foliage_cluster",
+      "confidence": "verified_visual",
+      "decode": "ok",
+      "format": "DDS",
+      "height": 256,
+      "id": "objects_core_048",
+      "index": 48,
+      "metrics": {
+        "alpha_max": 255,
+        "alpha_min": 0,
+        "alpha_unique": 256,
+        "coverage_128": 0.255684,
+        "coverage_16": 0.337021,
+        "transparent_rgb_present": true,
+        "visible_bbox": [
+          4,
+          5,
+          508,
+          249
+        ],
+        "visible_luminance_mean": 151.1999,
+        "visible_luminance_std": 40.1065
+      },
+      "path": "assets-texturas/textures/objects_core/png/048.png",
+      "semantic_name": "acer_orange_pair",
+      "sha256": "16ea5e685a79992ac527941c1459bbd711fa4431263a21a89a384e54b4ea57c6",
+      "tags": [
+        "autumn",
+        "broadleaf",
+        "orange"
+      ],
+      "width": 512
+    },
+    {
+      "approved": true,
+      "average_hash": "2efeffffefefef64",
+      "candidate_name_is_heuristic": true,
+      "candidate_source_name": "cattlegrid_bright.psd",
+      "classification": "foliage_cluster",
+      "confidence": "verified_visual",
+      "decode": "ok",
+      "format": "DDS",
+      "height": 256,
+      "id": "objects_core_049",
+      "index": 49,
+      "metrics": {
+        "alpha_max": 255,
+        "alpha_min": 0,
+        "alpha_unique": 256,
+        "coverage_128": 0.255684,
+        "coverage_16": 0.337021,
+        "transparent_rgb_present": true,
+        "visible_bbox": [
+          4,
+          5,
+          508,
+          249
+        ],
+        "visible_luminance_mean": 107.6468,
+        "visible_luminance_std": 22.1161
+      },
+      "path": "assets-texturas/textures/objects_core/png/049.png",
+      "semantic_name": "acer_red_pair",
+      "sha256": "8c847a791b97771953d97318c09c65278594b059c3155681741da84ba9d5fe56",
+      "tags": [
+        "autumn",
+        "broadleaf",
+        "red"
+      ],
+      "width": 512
+    },
+    {
+      "approved": true,
+      "average_hash": "0e6effdf0fef6f2c",
+      "candidate_name_is_heuristic": true,
+      "candidate_source_name": "Assets/RushRally3/Styles/Objects/telegraphpole/wires.png",
+      "classification": "foliage_cluster",
+      "confidence": "verified_visual",
+      "decode": "ok",
+      "format": "DDS",
+      "height": 256,
+      "id": "objects_core_050",
+      "index": 50,
+      "metrics": {
+        "alpha_max": 255,
+        "alpha_min": 0,
+        "alpha_unique": 256,
+        "coverage_128": 0.255684,
+        "coverage_16": 0.337021,
+        "transparent_rgb_present": true,
+        "visible_bbox": [
+          4,
+          5,
+          508,
+          249
+        ],
+        "visible_luminance_mean": 132.1133,
+        "visible_luminance_std": 45.6981
+      },
+      "path": "assets-texturas/textures/objects_core/png/050.png",
+      "semantic_name": "acer_yellow_pair",
+      "sha256": "8b2d242fc8cd5aa3e3dfe88f6bd10f0c335e365556ec0e3fdfbaaec1ac0d901b",
+      "tags": [
+        "autumn",
+        "broadleaf",
+        "yellow"
+      ],
+      "width": 512
+    },
+    {
+      "approved": true,
+      "average_hash": "2efe91916c81cd6c",
+      "candidate_name_is_heuristic": true,
+      "candidate_source_name": "rocks_shadow.png",
+      "classification": "foliage_cluster",
+      "confidence": "verified_visual",
+      "decode": "ok",
+      "format": "DDS",
+      "height": 256,
+      "id": "objects_core_056",
+      "index": 56,
+      "metrics": {
+        "alpha_max": 255,
+        "alpha_min": 0,
+        "alpha_unique": 256,
+        "coverage_128": 0.255684,
+        "coverage_16": 0.337021,
+        "transparent_rgb_present": true,
+        "visible_bbox": [
+          4,
+          5,
+          508,
+          249
+        ],
+        "visible_luminance_mean": 56.2841,
+        "visible_luminance_std": 12.7891
+      },
+      "path": "assets-texturas/textures/objects_core/png/056.png",
+      "semantic_name": "bush_dense_pair",
+      "sha256": "647f5faa419cbaed47fcde83ca339317508c5e2d720a8b451894e082515c4860",
+      "tags": [
+        "broadleaf",
+        "bush",
+        "green"
+      ],
+      "width": 512
+    },
+    {
+      "approved": true,
+      "average_hash": "cefc315bf1297ce6",
+      "candidate_name_is_heuristic": true,
+      "candidate_source_name": "rocks_shadow_light.png",
+      "classification": "branchlet",
+      "confidence": "verified_visual",
+      "decode": "ok",
+      "format": "DDS",
+      "height": 256,
+      "id": "objects_core_057",
+      "index": 57,
+      "metrics": {
+        "alpha_max": 255,
+        "alpha_min": 0,
+        "alpha_unique": 256,
+        "coverage_128": 0.321877,
+        "coverage_16": 0.419975,
+        "transparent_rgb_present": true,
+        "visible_bbox": [
+          5,
+          4,
+          508,
+          251
+        ],
+        "visible_luminance_mean": 50.3636,
+        "visible_luminance_std": 16.4722
+      },
+      "path": "assets-texturas/textures/objects_core/png/057.png",
+      "semantic_name": "broadleaf_mature_pair",
+      "sha256": "ccdf4a5f87078b83e4f20412ad801dadd60c0fee892760c227fc50368cd6a967",
+      "tags": [
+        "branchlet",
+        "broadleaf",
+        "green"
+      ],
+      "width": 512
+    },
+    {
+      "approved": true,
+      "average_hash": "e6d1901188098b77",
+      "candidate_name_is_heuristic": true,
+      "candidate_source_name": "bollard_black.tga",
+      "classification": "branchlet",
+      "confidence": "verified_visual",
+      "decode": "ok",
+      "format": "DDS",
+      "height": 256,
+      "id": "objects_core_058",
+      "index": 58,
+      "metrics": {
+        "alpha_max": 255,
+        "alpha_min": 0,
+        "alpha_unique": 256,
+        "coverage_128": 0.360382,
+        "coverage_16": 0.418732,
+        "transparent_rgb_present": true,
+        "visible_bbox": [
+          0,
+          3,
+          512,
+          252
+        ],
+        "visible_luminance_mean": 56.5396,
+        "visible_luminance_std": 14.2954
+      },
+      "path": "assets-texturas/textures/objects_core/png/058.png",
+      "semantic_name": "broadleaf_mixed_pair",
+      "sha256": "10b7fa92a6cc893e6c8c0ed7f71e0e3140220c75da67a5a16f4f655d051eb9ac",
+      "tags": [
+        "branchlet",
+        "broadleaf",
+        "green"
+      ],
+      "width": 512
+    },
+    {
+      "approved": true,
+      "average_hash": "f030000000000008",
+      "candidate_name_is_heuristic": true,
+      "candidate_source_name": "bollard_red_pole.tga",
+      "classification": "mixed_atlas",
+      "confidence": "verified_visual",
+      "decode": "ok",
+      "format": "DDS",
+      "height": 256,
+      "id": "objects_core_059",
+      "index": 59,
+      "metrics": {
+        "alpha_max": 255,
+        "alpha_min": 0,
+        "alpha_unique": 256,
+        "coverage_128": 0.273346,
+        "coverage_16": 0.422134,
+        "transparent_rgb_present": true,
+        "visible_bbox": [
+          2,
+          0,
+          256,
+          256
+        ],
+        "visible_luminance_mean": 58.2776,
+        "visible_luminance_std": 30.03
+      },
+      "path": "assets-texturas/textures/objects_core/png/059.png",
+      "semantic_name": "branchlet_atlas_dry",
+      "sha256": "022188becc07c2d159a8e3121dee120e5f4ee328210e34bfe240497515d14073",
+      "tags": [
+        "branchlet",
+        "broadleaf",
+        "conifer",
+        "dry"
+      ],
+      "width": 256
+    },
+    {
+      "approved": true,
+      "average_hash": "f0308000030c000c",
+      "candidate_name_is_heuristic": true,
+      "candidate_source_name": "StoneWallGrey.psd",
+      "classification": "mixed_atlas",
+      "confidence": "verified_visual",
+      "decode": "ok",
+      "format": "DDS",
+      "height": 256,
+      "id": "objects_core_060",
+      "index": 60,
+      "metrics": {
+        "alpha_max": 255,
+        "alpha_min": 0,
+        "alpha_unique": 256,
+        "coverage_128": 0.273346,
+        "coverage_16": 0.422134,
+        "transparent_rgb_present": true,
+        "visible_bbox": [
+          2,
+          0,
+          256,
+          256
+        ],
+        "visible_luminance_mean": 74.2522,
+        "visible_luminance_std": 31.2193
+      },
+      "path": "assets-texturas/textures/objects_core/png/060.png",
+      "semantic_name": "branchlet_atlas_green",
+      "sha256": "119b67a42acb013a5da25f58c72d515afd221e66db3dbcd7c5fde135f2e651d1",
+      "tags": [
+        "branchlet",
+        "broadleaf",
+        "conifer",
+        "green"
+      ],
+      "width": 256
+    },
+    {
+      "approved": true,
+      "average_hash": "b2db80909100bdc1",
+      "candidate_name_is_heuristic": true,
+      "candidate_source_name": "StoneWallGreyMoss.png",
+      "classification": "foliage_cluster",
+      "confidence": "verified_visual",
+      "decode": "ok",
+      "format": "DDS",
+      "height": 256,
+      "id": "objects_core_061",
+      "index": 61,
+      "metrics": {
+        "alpha_max": 255,
+        "alpha_min": 0,
+        "alpha_unique": 256,
+        "coverage_128": 0.244286,
+        "coverage_16": 0.350014,
+        "transparent_rgb_present": true,
+        "visible_bbox": [
+          5,
+          9,
+          494,
+          253
+        ],
+        "visible_luminance_mean": 68.9901,
+        "visible_luminance_std": 14.226
+      },
+      "path": "assets-texturas/textures/objects_core/png/061.png",
+      "semantic_name": "bush_fine_pair",
+      "sha256": "74bd102a34ec915c22e1861e0cafcb31d0c57dfb2be379a8db89e80d5ca176d9",
+      "tags": [
+        "bush",
+        "fine",
+        "green"
+      ],
+      "width": 512
+    },
+    {
+      "approved": true,
+      "average_hash": "f0300000030c040c",
+      "candidate_name_is_heuristic": true,
+      "candidate_source_name": "StoneWallYellow.psd",
+      "classification": "mixed_atlas",
+      "confidence": "verified_visual",
+      "decode": "ok",
+      "format": "DDS",
+      "height": 256,
+      "id": "objects_core_062",
+      "index": 62,
+      "metrics": {
+        "alpha_max": 255,
+        "alpha_min": 0,
+        "alpha_unique": 256,
+        "coverage_128": 0.272263,
+        "coverage_16": 0.421814,
+        "transparent_rgb_present": true,
+        "visible_bbox": [
+          2,
+          0,
+          256,
+          256
+        ],
+        "visible_luminance_mean": 74.7188,
+        "visible_luminance_std": 31.4709
+      },
+      "path": "assets-texturas/textures/objects_core/png/062.png",
+      "semantic_name": "branchlet_atlas_olive",
+      "sha256": "c9ccf9a7adf96617354c9355a53db0494c0c126e4bca5ecb0e94398d1776c57b",
+      "tags": [
+        "branchlet",
+        "broadleaf",
+        "conifer",
+        "olive"
+      ],
+      "width": 256
+    },
+    {
+      "approved": true,
+      "average_hash": "77fffffffffff74c",
+      "candidate_name_is_heuristic": true,
+      "candidate_source_name": "Assets/RushRally3/Styles/Objects/woodenpole/tape_yellow.png",
+      "classification": "branchlet",
+      "confidence": "verified_visual",
+      "decode": "ok",
+      "format": "DDS",
+      "height": 256,
+      "id": "objects_core_063",
+      "index": 63,
+      "metrics": {
+        "alpha_max": 255,
+        "alpha_min": 0,
+        "alpha_unique": 256,
+        "coverage_128": 0.192993,
+        "coverage_16": 0.311241,
+        "transparent_rgb_present": true,
+        "visible_bbox": [
+          0,
+          1,
+          505,
+          256
+        ],
+        "visible_luminance_mean": 79.4317,
+        "visible_luminance_std": 16.7499
+      },
+      "path": "assets-texturas/textures/objects_core/png/063.png",
+      "semantic_name": "sparse_branch_pair",
+      "sha256": "b64cd84ea60b9b0b47ffa7131ca3aca3ae4431c882a2c87308abba3c221a0d9d",
+      "tags": [
+        "branchlet",
+        "bush",
+        "dry",
+        "sparse"
+      ],
+      "width": 512
+    }
+  ]
+}

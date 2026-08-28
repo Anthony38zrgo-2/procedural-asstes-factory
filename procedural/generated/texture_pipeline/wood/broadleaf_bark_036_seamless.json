@@ -1,0 +1,20 @@
+{
+  "after": {
+    "x_edge_mae": 0.0,
+    "y_edge_mae": 0.0
+  },
+  "audit": "procedural/generated/texture_pipeline/review/broadleaf_bark_036_seamless_audit.png",
+  "before": {
+    "x_edge_mae": 25.119791,
+    "y_edge_mae": 18.300781
+  },
+  "generator": "deterministic_recovered_texture_atlas_v1",
+  "id": "broadleaf_bark_036_seamless",
+  "path": "procedural/generated/texture_pipeline/wood/broadleaf_bark_036_seamless.png",
+  "repeat": true,
+  "schema_version": 1,
+  "sha256": "de9eac36c6f5da8d549b3a23423121f4bf03545a3f583b2e7b03886c6af9128d",
+  "source": "objects_core_036",
+  "source_path": "assets-texturas/textures/objects_core/png/036.png",
+  "source_sha256": "539cf2406d9df266afac6c6f17e092c8367fec4d1143d14c0a3cb088ceaa22ff"
+}
