@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "track_id": "la_chutana",
+  "module_length_m": 4.0,
+  "post_spacing_m": 2.0,
+  "terminal_length_m": 10.0,
+  "terminal_flare_m": 2.5,
+  "vegetation_clearance_m": {"trees": 3.0, "bushes": 1.5},
+  "segments": [
+    {"name":"T1Outer","side":"left","start_fraction":0.045,"end_fraction":0.180,"center_distance_m":14.0,"rail_count":3},
+    {"name":"T2Outer","side":"right","start_fraction":0.170,"end_fraction":0.260,"center_distance_m":13.0,"rail_count":2},
+    {"name":"T3Outer","side":"left","start_fraction":0.245,"end_fraction":0.350,"center_distance_m":13.0,"rail_count":2},
+    {"name":"T4Outer","side":"left","start_fraction":0.340,"end_fraction":0.520,"center_distance_m":16.0,"rail_count":3},
+    {"name":"ChicaneLeft","side":"left","start_fraction":0.520,"end_fraction":0.630,"center_distance_m":14.0,"rail_count":2},
+    {"name":"ChicaneRight","side":"right","start_fraction":0.520,"end_fraction":0.630,"center_distance_m":14.0,"rail_count":2},
+    {"name":"T6Outer","side":"right","start_fraction":0.720,"end_fraction":0.920,"center_distance_m":15.0,"rail_count":3}
+  ]
+}

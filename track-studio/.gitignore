@@ -1,0 +1,4 @@
+**/__pycache__/
+blender/generated/
+output/**/*.blend
+output/**/backups/

@@ -1,0 +1,194 @@
+HANDOFF — INTEGRACIÓN DE MONTAÑAS PROCEDURALES EN LA CHUTANA
+=============================================================
+
+Objetivo
+--------
+Integrar en el circuito La Chutana los anillos 3D deterministas existentes en
+`procedural/mountains`, sustituyendo cualquier experimento de montañas basado
+en cards. Al finalizar se debe regenerar el GLB completo del circuito, ejecutar
+las validaciones y producir capturas de auditoría desde varios sectores.
+
+Estado actual confirmado
+------------------------
+1. La biblioteca determinista está completa en:
+   `D:\procedural-asstes-factory\procedural\mountains`
+
+2. Herramientas principales:
+   - `procedural/mountains/tools/generate_topo_terrain.py`
+   - `procedural/mountains/tools/generate_mountain_texture.py`
+   - `procedural/mountains/tools/build_semantic_topo_svg_v3.py`
+   - `procedural/mountains/build_la_chutana.ps1`
+   - `procedural/mountains/requirements.txt`
+
+3. Fuente topográfica:
+   `procedural/mountains/inputs/la_chutana/la_chutana_topo.svg`
+
+4. Assets ya generados:
+   - `procedural/mountains/assets/la_chutana/near_mountains_ring.glb`
+   - `procedural/mountains/assets/la_chutana/far_mountains_ring.glb`
+   - `procedural/mountains/assets/la_chutana/sky_dome.glb`
+   - `procedural/mountains/assets/la_chutana/mountain_texture.png`
+   - `procedural/mountains/assets/la_chutana/manifest.json`
+   - `procedural/mountains/assets/la_chutana/build_report.json`
+
+5. Los hashes SHA-256 declarados en el manifiesto coinciden actualmente con
+   los cuatro archivos generados.
+
+6. Geometría declarada:
+   - Near: 5.760 vértices, 10.240 caras, radio principal 1.150 m,
+     apron interior hasta 660 m y altura máxima aproximada de 100 m.
+   - Far: 4.480 vértices, 7.680 caras, radio principal 1.600 m y altura
+     máxima aproximada de 220 m.
+   - Ambos usan 640 segmentos angulares y cobertura completa de 360 grados.
+
+7. Convención de coordenadas de los GLB de montañas:
+   - forward: -Z
+   - up: +Y
+   - right: +X
+   - unidad: metro
+
+8. El pipeline de Blender de La Chutana trabaja con +Z como eje vertical.
+   La importación debe aplicar y verificar la conversión Y-up -> Z-up. No se
+   debe asumir que la orientación importada es correcta sin una captura.
+
+9. Actualmente las montañas NO están implementadas en el circuito publicado:
+   - `track-studio/blender/track_pipeline/configs/la_chutana_factory.json`
+     no referencia el manifiesto de `procedural/mountains`.
+   - `mountain_ribbons_enabled` está en `false` y corresponde únicamente al
+     experimento anterior de fondos 2D.
+   - El GLB publicado no contiene nodos de Near/Far mountains ni sky dome.
+   - Solo están activas 16 cards de transición: bosque y urbanización.
+
+10. Mantener activas las cards de bosque y urbanización. No volver a insertar
+    las cards o cintas 2D de montañas creadas durante el experimento anterior.
+
+Archivos principales del pipeline
+---------------------------------
+- Configuración:
+  `track-studio/blender/track_pipeline/configs/la_chutana_factory.json`
+- Ensamblaje de entorno:
+  `track-studio/blender/track_pipeline/build_environment_blender.py`
+- Preflight:
+  `track-studio/scripts/preflight_la_chutana.py`
+- Construcción completa:
+  `track-studio/scripts/build_la_chutana_quick_test.ps1`
+- Validador del entorno:
+  `track-studio/blender/track_pipeline/validate_environment.py`
+- Capturas:
+  `track-studio/blender/track_pipeline/render_circuit_audit_blender.py`
+- GLB final:
+  `track-studio/output/la_chutana/la_chutana.glb`
+
+Implementación requerida
+------------------------
+1. Añadir una sección explícita de autoridad de montañas al JSON, por ejemplo
+   bajo `procedural_environment`, con:
+   - `enabled: true`
+   - ruta a `../procedural/mountains/assets/la_chutana/manifest.json`
+   - activación independiente de Near, Far y sky dome
+   - colisión desactivada
+   - sombras configurables; por defecto desactivadas para el fondo lejano
+   - transformaciones documentadas, incluyendo conversión de ejes
+
+2. No codificar directamente los nombres de los GLB si el manifiesto ya los
+   declara. Resolver rutas a partir del manifiesto.
+
+3. Validar antes de importar:
+   - schema_version soportado
+   - asset esperado `la_chutana_mountains_3d`
+   - existencia de los GLB y textura
+   - coincidencia de todos los hashes SHA-256 declarados
+   - ausencia de colisión
+
+4. Extender `preflight_la_chutana.py` para que falle claramente si la autoridad
+   está activada y falta cualquier asset, manifiesto o hash válido.
+
+5. Importar los anillos Near y Far una sola vez cada uno. No crear cientos de
+   copias ni convertirlos en cards. Mantener sus materiales embebidos.
+
+6. Centrar los anillos respecto al centro real usado por el circuito. Verificar
+   visualmente que el apron Near no invade ni cubre la pista, barreras, edificios
+   o vegetación. Si el origen del asset ya coincide con el origen de La Chutana,
+   no introducir offsets arbitrarios.
+
+7. Aplicar la rotación de conversión Y-up -> Z-up de manera explícita y guardar
+   la transformación aplicada como custom properties o en el reporte.
+
+8. El sky dome es opcional si entra en conflicto con el World de Blender o el
+   cielo del runtime. Probarlo de forma independiente. Si no se integra, dejar
+   `sky_dome_enabled: false` y documentar la razón; Near y Far sí son el objetivo
+   principal.
+
+9. Mantener sin cambios:
+   - cards de bosque y urbanización
+   - barreras y sus colisiones
+   - vegetación procedente de `procedural/generated`
+   - casas Perú retexturizadas
+   - asfalto 102, terreno 059 y kerbs 103
+   - personas y carteles
+
+10. Añadir un reporte de integración, idealmente en:
+    `track-studio/blender/generated/la_chutana/review/mountain_report.json`
+    Debe incluir rutas, hashes, cantidad de nodos/mallas, bounding boxes,
+    transformaciones, colisión=false y estado Near/Far/Sky.
+
+Regeneración y validación
+------------------------
+1. Si los assets de referencia deben regenerarse, usar:
+   `procedural/mountains/build_la_chutana.ps1`
+
+2. Comprobar que dos ejecuciones con la misma entrada producen los mismos
+   hashes. No modificar semillas ni introducir aleatoriedad no controlada.
+
+3. Reconstruir La Chutana:
+   `track-studio/scripts/build_la_chutana_quick_test.ps1 -Mode Base`
+   `track-studio/scripts/build_la_chutana_quick_test.ps1 -Mode Environment`
+
+4. Ejecutar:
+   `python track-studio/blender/track_pipeline/validate_environment.py --config track-studio/blender/track_pipeline/configs/la_chutana_factory.json`
+
+5. Verificar además en el GLB publicado:
+   - presencia de Near y Far
+   - ausencia de las antiguas mountains cards/ribbons 2D
+   - solo 16 cards de transición de bosque/urbanización
+   - colisión desactivada en las montañas
+   - ninguna invasión de pista o barreras
+
+Capturas de auditoría obligatorias
+---------------------------------
+Al finalizar, generar nuevamente las capturas mediante:
+
+`"C:\Program Files\Blender Foundation\Blender 5.2\blender.exe" --background track-studio/blender/generated/la_chutana/track_environment.blend --python track-studio/blender/track_pipeline/render_circuit_audit_blender.py -- --repo D:\procedural-asstes-factory`
+
+Como mínimo revisar y entregar:
+- vista aérea general
+- recta de salida/meta
+- curva rápida
+- chicana y barreras
+- sección técnica
+- vegetación/trackside
+
+Las capturas deben demostrar:
+- continuidad de 360 grados de ambos anillos
+- orientación vertical correcta
+- escala y altura razonables
+- Near delante de Far
+- ausencia de huecos, cortes, cards verticales o montañas invertidas
+- ausencia de invasión de pista
+- integración coherente con poblados, bosques, casas y vegetación
+
+Si las ocho cámaras actuales no permiten auditar bien las montañas, extender
+`render_circuit_audit_blender.py` con vistas específicas del horizonte desde
+varios cuadrantes. Guardar todos los PNG en:
+`track-studio/output/la_chutana/audit`
+
+Criterio de finalización
+------------------------
+La tarea no está terminada hasta que:
+- Near y Far procedurales estén presentes en el GLB final.
+- Los hashes y el manifiesto hayan sido validados.
+- La orientación Y-up -> Z-up sea correcta.
+- El circuito pase las validaciones existentes.
+- No se hayan reactivado las mountains cards 2D.
+- Se hayan generado, inspeccionado y mostrado las capturas de auditoría finales.
+

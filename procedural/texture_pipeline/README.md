@@ -69,3 +69,13 @@ This adds 25 production GLBs under `procedural/generated/vegetation_v5/assets/gr
 five grounded grass profiles in green, copper, golden beige, red and yellow.
 The combined `catalog_manifest.json` exposes 135 vegetation GLBs while retaining
 the original tree and bush manifest unchanged.
+
+Generate the engine-facing global index with:
+
+```powershell
+python procedural/tools/build_vegetation_godot_index.py --repo .
+```
+
+`procedural/generated/vegetation_catalog_godot.json` indexes every tree, bush,
+grass and conifer GLB with Godot paths, dimensions, converted AABBs, grounded
+placement transforms, explicit LOD levels, hashes and visibility guidance.

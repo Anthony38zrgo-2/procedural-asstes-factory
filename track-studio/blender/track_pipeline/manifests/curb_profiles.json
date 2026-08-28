@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "catalog_id": "formula90s_curb_profiles",
+  "description": "Reusable closed curb profiles with texture-free alternating transverse paint stripes.",
+  "palette": {
+    "white": {
+      "color": [0.91, 0.91, 0.87],
+      "roughness": 0.84
+    },
+    "navy": {
+      "color": [0.025, 0.07, 0.16],
+      "roughness": 0.82
+    },
+    "concrete": {
+      "color": [0.19, 0.20, 0.19],
+      "roughness": 0.94
+    }
+  },
+  "patterns": {
+    "white_navy_alternating": {
+      "axis": "longitudinal",
+      "stripe_length_m": 2.0,
+      "sequence": ["white", "navy"]
+    }
+  },
+  "profiles": {
+    "flat": {
+      "usage": "medium_speed",
+      "width_m": 1.508,
+      "base_depth_m": 0.055,
+      "pattern": "white_navy_alternating",
+      "points": [[0.0, 0.0], [0.20, 0.012], [0.48, 0.045], [0.72, 0.036], [1.05, 0.022], [1.30, 0.008], [1.508, 0.0]],
+      "limits": {"max_height_m": 0.050, "max_abs_slope": 0.13}
+    },
+    "raised": {
+      "usage": "high_speed",
+      "width_m": 1.508,
+      "base_depth_m": 0.090,
+      "pattern": "white_navy_alternating",
+      "points": [[0.0, 0.0], [0.18, 0.018], [0.42, 0.064], [0.64, 0.085], [0.98, 0.052], [1.25, 0.018], [1.508, 0.0]],
+      "limits": {"max_height_m": 0.090, "max_abs_slope": 0.20}
+    },
+    "sausage": {
+      "usage": "chicane",
+      "width_m": 1.508,
+      "base_depth_m": 0.190,
+      "pattern": "white_navy_alternating",
+      "points": [[0.0, 0.0], [0.16, 0.024], [0.34, 0.090], [0.52, 0.155], [0.64, 0.170], [0.95, 0.120], [1.25, 0.045], [1.508, 0.0]],
+      "limits": {"max_height_m": 0.175, "max_abs_slope": 0.45}
+    }
+  }
+}

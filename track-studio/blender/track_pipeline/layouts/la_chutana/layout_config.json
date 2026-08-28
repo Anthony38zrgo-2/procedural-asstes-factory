@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "track_id": "la_chutana",
+  "seed": 1995,
+  "outer_side": 1,
+  "resolution": [2440, 4096],
+  "world_bounds_xz": [-150.0, -570.0, 580.0, 650.0],
+  "centerline": "blender/generated/la_chutana/centerline.json",
+  "source_placements": "blender/generated/la_chutana/placements.json",
+  "semantic_image": "blender/track_pipeline/layouts/la_chutana/semantic_layout.png",
+  "marker_image": "blender/track_pipeline/layouts/la_chutana/object_markers.png",
+  "preview_image": "blender/track_pipeline/layouts/la_chutana/layout_preview.png",
+  "object_catalog": "blender/track_pipeline/layouts/la_chutana/object_catalog.json",
+  "asset_dimensions_manifest": "../procedural/generated/vegetation_v5/manifest.json",
+  "additional_asset_dimensions_manifests": [
+    "../game/resources/environment/assets/buildings/building_manifest.json",
+    "../game/resources/environment/assets/barriers/barrier_manifest_v3.json"
+  ],
+  "compiled_output": "blender/generated/la_chutana/semantic_layout/compiled_layout.json",
+  "barrier_visual_half_thickness_m": 0.5,
+  "tree_visual_scale": 1.0,
+  "tree_overlap_factor": 0.75,
+  "semantic_palette": {
+    "background": [21, 21, 21],
+    "grass": [111, 175, 69],
+    "bushes": [122, 79, 43],
+    "trees": [33, 79, 43],
+    "runoff": [215, 177, 90],
+    "asphalt": [110, 112, 117],
+    "barrier": [32, 56, 100],
+    "barrier_concrete": [210, 210, 210],
+    "barrier_tire_red_white": [180, 30, 30],
+    "barrier_guardrail": [140, 145, 150],
+    "barrier_tire_black": [32, 56, 100],
+    "barrier_plastic": [230, 130, 30]
+  },
+  "legacy_barrier_sectors": [
+    {"name": "PitStraight", "start_fraction": 0.90, "end_fraction": 0.08, "barrier_type": "concrete_jersey", "color": [210, 210, 210]},
+    {"name": "T1HardBraking", "start_fraction": 0.08, "end_fraction": 0.18, "barrier_type": "tire_red_white", "color": [180, 30, 30]},
+    {"name": "T2T3Esses", "start_fraction": 0.18, "end_fraction": 0.35, "barrier_type": "guardrail_armco", "color": [140, 145, 150]},
+    {"name": "T4Hairpin", "start_fraction": 0.35, "end_fraction": 0.50, "barrier_type": "tire_red_white", "color": [180, 30, 30]},
+    {"name": "BackStraight", "start_fraction": 0.50, "end_fraction": 0.72, "barrier_type": "guardrail_armco", "color": [140, 145, 150]},
+    {"name": "T6FinalSweeper", "start_fraction": 0.72, "end_fraction": 0.90, "barrier_type": "tire_black", "color": [32, 56, 100]}
+  ],
+  "bootstrap": {
+    "road_width_m": 12.0,
+    "runoff_width_m": 20.0,
+    "grass_band_width_m": 47.0,
+    "barrier_distance_from_center_m": 26.0,
+    "tree_zone_radius_m": 10.0,
+    "bush_zone_radius_m": 6.0,
+    "marker_size_px": 3
+  }
+}

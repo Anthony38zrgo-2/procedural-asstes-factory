@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "dominant_color": "original",
+  "catalog_manifest": "../procedural/generated/vegetation_v5/manifest.json",
+  "catalog_lod": "lod0",
+  "global_weights": {
+    "trees": {"original": 0.45, "golden_beige": 0.25, "copper": 0.15, "yellow": 0.10, "red": 0.05},
+    "bushes": {"original": 0.35, "golden_beige": 0.30, "copper": 0.20, "yellow": 0.10, "red": 0.05}
+  },
+  "sectors": [
+    {"id":"main_straight","from":0.00,"to":0.18,"weights":{"original":0.55,"golden_beige":0.20,"copper":0.12,"yellow":0.08,"red":0.05}},
+    {"id":"fast_section","from":0.18,"to":0.52,"weights":{"original":0.48,"golden_beige":0.22,"copper":0.15,"yellow":0.10,"red":0.05}},
+    {"id":"chicane","from":0.52,"to":0.64,"weights":{"original":0.30,"golden_beige":0.32,"copper":0.18,"yellow":0.15,"red":0.05}},
+    {"id":"technical_section","from":0.64,"to":0.90,"weights":{"original":0.35,"golden_beige":0.27,"copper":0.20,"yellow":0.12,"red":0.06}},
+    {"id":"return_straight","from":0.90,"to":1.00,"weights":{"original":0.55,"golden_beige":0.20,"copper":0.12,"yellow":0.08,"red":0.05}}
+  ],
+  "scale": {"trees":[0.90,1.10],"bushes":[0.90,1.12]},
+  "review_density": {"trees":"low","bushes":"low"}
+}

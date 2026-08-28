@@ -38,7 +38,17 @@ kept intact.
 - Grass assets use one alpha-tested, double-sided draw mesh and 60–96 triangles.
 - Combined vegetation inventory: 110 tree/bush GLBs plus 25 grass GLBs = 135.
 - Grass color/layout audit: `review/grass_v5_color_comparison.png`.
-- The complete repository suite passes 24 automated tests.
+- The complete repository suite passes 27 automated tests.
+
+## Godot vegetation catalog index
+
+- Indexed all 141 production vegetation GLBs: 50 trees, 60 bushes, 25 grass
+  assets and 6 conifer LOD assets.
+- Added normalized Godot `res://` paths, SHA-256 hashes, meter dimensions,
+  converted Y-up AABBs, base-center placement transforms and LOD visibility
+  recommendations.
+- Coordinate conversion is explicit: Blender `(x, y, z)` maps to Godot
+  `(x, z, -y)` with import scale `1.0`.
 
 ## Conifer audit iteration 2
 

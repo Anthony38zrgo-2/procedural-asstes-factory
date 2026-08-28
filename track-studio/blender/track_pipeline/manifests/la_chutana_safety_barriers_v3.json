@@ -1,0 +1,1629 @@
+{
+  "schema_version": 2,
+  "track_id": "la_chutana",
+  "seed": 1995,
+  "authority": "full_circuit_asset_library",
+  "construction_manifest": "game/resources/environment/manifests/barrier_construction_manifest_v2.json",
+  "asset_library_manifest": "game/resources/environment/assets/barriers/barrier_manifest_v3.json",
+  "palette": {
+    "white": [
+      0.88,
+      0.87,
+      0.81,
+      1.0
+    ],
+    "navy": [
+      0.035,
+      0.1,
+      0.22,
+      1.0
+    ],
+    "black": [
+      0.025,
+      0.025,
+      0.03,
+      1.0
+    ],
+    "concrete": [
+      0.64,
+      0.61,
+      0.55,
+      1.0
+    ],
+    "steel": [
+      0.34,
+      0.37,
+      0.39,
+      1.0
+    ],
+    "steel_dark": [
+      0.2,
+      0.22,
+      0.24,
+      1.0
+    ]
+  },
+  "defaults": {
+    "terminal_length_m": 10.0,
+    "terminal_flare_m": 2.5,
+    "vegetation_clearance_m": {
+      "trees": 3.0,
+      "bushes": 1.5
+    },
+    "collision_merge_tolerance_m": 0.1
+  },
+  "collision_profiles": {
+    "wall_low": {
+      "height_m": 0.9,
+      "thickness_m": 0.3
+    },
+    "wall_medium": {
+      "height_m": 1.2,
+      "thickness_m": 0.65
+    },
+    "wall_high": {
+      "height_m": 1.45,
+      "thickness_m": 1.2
+    }
+  },
+  "prototypes": {
+    "armco": {
+      "geometry": "guardrail_armco",
+      "asset_id": "barrier_armco_01",
+      "module_length_m": 2.0,
+      "collision_profile": "wall_low",
+      "material_style": "steel_navy_continuous"
+    },
+    "tire_black_single": {
+      "geometry": "painted_tire_prism",
+      "asset_id": "barrier_tire_black_01",
+      "module_length_m": 2.0,
+      "collision_profile": "wall_medium",
+      "material_style": "black_tire_pattern"
+    },
+    "tire_black_double": {
+      "geometry": "painted_tire_prism",
+      "asset_id": "barrier_tire_black_02_double",
+      "module_length_m": 2.0,
+      "collision_profile": "wall_high",
+      "material_style": "black_tire_pattern"
+    },
+    "tire_black_triple": {
+      "geometry": "painted_tire_prism",
+      "asset_id": "barrier_tire_black_03_triple",
+      "module_length_m": 2.0,
+      "collision_profile": "wall_high",
+      "material_style": "black_tire_pattern"
+    },
+    "tire_navy_single": {
+      "geometry": "painted_tire_prism",
+      "asset_id": "barrier_tire_navy_white_01",
+      "module_length_m": 2.0,
+      "collision_profile": "wall_medium",
+      "material_style": "navy_white_pattern"
+    },
+    "tire_navy_double": {
+      "geometry": "painted_tire_prism",
+      "asset_id": "barrier_tire_navy_white_02_double",
+      "module_length_m": 2.0,
+      "collision_profile": "wall_high",
+      "material_style": "navy_white_pattern"
+    },
+    "plastic": {
+      "geometry": "beveled_block",
+      "asset_id": "barrier_plastic_navy_white_01",
+      "module_length_m": 2.0,
+      "collision_profile": "wall_high",
+      "material_style": "navy_white_pattern"
+    },
+    "jersey": {
+      "geometry": "jersey_profile",
+      "asset_id": "barrier_concrete_jersey_01",
+      "module_length_m": 2.0,
+      "collision_profile": "wall_medium",
+      "material_style": "concrete_sparse_panels"
+    },
+    "run_jersey_100m": {
+      "geometry": "jersey_profile",
+      "asset_id": "run_jersey_100m",
+      "module_length_m": 100.0,
+      "collision_profile": "wall_medium",
+      "material_style": "concrete_sparse_panels"
+    },
+    "run_jersey_50m": {
+      "geometry": "jersey_profile",
+      "asset_id": "run_jersey_50m",
+      "module_length_m": 50.0,
+      "collision_profile": "wall_medium",
+      "material_style": "concrete_sparse_panels"
+    },
+    "run_jersey_10m": {
+      "geometry": "jersey_profile",
+      "asset_id": "run_jersey_10m",
+      "module_length_m": 10.0,
+      "collision_profile": "wall_medium",
+      "material_style": "concrete_sparse_panels"
+    },
+    "run_tire_navy_2l_10m": {
+      "geometry": "painted_tire_prism",
+      "asset_id": "run_tire_navy_2l_10m",
+      "module_length_m": 10.0,
+      "collision_profile": "wall_high",
+      "material_style": "navy_white_pattern"
+    },
+    "run_armco_10m": {
+      "geometry": "guardrail_armco",
+      "asset_id": "run_armco_10m",
+      "module_length_m": 10.0,
+      "collision_profile": "wall_low",
+      "material_style": "steel_navy_continuous"
+    },
+    "run_tire_black_2l_10m": {
+      "geometry": "painted_tire_prism",
+      "asset_id": "run_tire_black_2l_10m",
+      "module_length_m": 10.0,
+      "collision_profile": "wall_high",
+      "material_style": "black_tire_pattern"
+    },
+    "run_tire_black_3l_10m": {
+      "geometry": "painted_tire_prism",
+      "asset_id": "run_tire_black_3l_10m",
+      "module_length_m": 10.0,
+      "collision_profile": "wall_high",
+      "material_style": "black_tire_pattern"
+    },
+    "run_armco_25m": {
+      "geometry": "guardrail_armco",
+      "asset_id": "run_armco_25m",
+      "module_length_m": 25.0,
+      "collision_profile": "wall_low",
+      "material_style": "steel_navy_continuous"
+    },
+    "run_tire_black_10m": {
+      "geometry": "painted_tire_prism",
+      "asset_id": "run_tire_black_10m",
+      "module_length_m": 10.0,
+      "collision_profile": "wall_medium",
+      "material_style": "black_tire_pattern"
+    }
+  },
+  "patterns": {
+    "navy_white_pattern": {
+      "mode": "block",
+      "colors": [
+        "white",
+        "navy"
+      ],
+      "span_modules": [
+        4,
+        4
+      ]
+    },
+    "black_tire_pattern": {
+      "mode": "block",
+      "colors": [
+        "black"
+      ],
+      "span_modules": [
+        1
+      ]
+    },
+    "steel_navy_continuous": {
+      "mode": "longitudinal_band",
+      "base": "steel",
+      "band": "navy"
+    },
+    "concrete_sparse_panels": {
+      "mode": "sparse_panels",
+      "base": "concrete",
+      "colors": [
+        "white",
+        "navy"
+      ],
+      "period_modules": 12
+    }
+  },
+  "segments": [
+    {
+      "id": "PitJerseyA_Left",
+      "side": "left",
+      "start_fraction": 0.9,
+      "end_fraction": 0.97,
+      "center_distance_m": 11.0,
+      "system": {
+        "mode": "sequence",
+        "repeat": false,
+        "items": [
+          {
+            "type": "run_jersey_100m",
+            "length_m": 100.0
+          },
+          {
+            "type": "run_jersey_50m",
+            "length_m": 50.0
+          },
+          {
+            "type": "run_jersey_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "jersey",
+            "length_m": 9.4
+          }
+        ]
+      },
+      "terminal_start": "buried_or_hidden",
+      "terminal_end": "buried_or_hidden",
+      "enabled": true,
+      "replaced_by_runs": true,
+      "original_span_m": 169.4
+    },
+    {
+      "id": "PitJerseyA_Right",
+      "side": "right",
+      "start_fraction": 0.9,
+      "end_fraction": 0.97,
+      "center_distance_m": 11.0,
+      "system": {
+        "mode": "sequence",
+        "repeat": false,
+        "items": [
+          {
+            "type": "run_jersey_100m",
+            "length_m": 100.0
+          },
+          {
+            "type": "run_jersey_50m",
+            "length_m": 50.0
+          },
+          {
+            "type": "run_jersey_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "jersey",
+            "length_m": 9.4
+          }
+        ]
+      },
+      "terminal_start": "buried_or_hidden",
+      "terminal_end": "buried_or_hidden",
+      "enabled": true,
+      "replaced_by_runs": true,
+      "original_span_m": 169.4
+    },
+    {
+      "id": "PitAccess_Left",
+      "side": "left",
+      "start_fraction": 0.97,
+      "end_fraction": 0.03,
+      "center_distance_m": 11.0,
+      "system": {
+        "mode": "single",
+        "type": "plastic"
+      },
+      "terminal_start": "buried_or_hidden",
+      "terminal_end": "buried_or_hidden",
+      "enabled": true
+    },
+    {
+      "id": "PitAccess_Right",
+      "side": "right",
+      "start_fraction": 0.97,
+      "end_fraction": 0.03,
+      "center_distance_m": 11.0,
+      "system": {
+        "mode": "single",
+        "type": "plastic"
+      },
+      "terminal_start": "buried_or_hidden",
+      "terminal_end": "buried_or_hidden",
+      "enabled": true
+    },
+    {
+      "id": "PitJerseyB_Left",
+      "side": "left",
+      "start_fraction": 0.03,
+      "end_fraction": 0.08,
+      "center_distance_m": 11.0,
+      "system": {
+        "mode": "sequence",
+        "repeat": false,
+        "items": [
+          {
+            "type": "run_jersey_100m",
+            "length_m": 100.0
+          },
+          {
+            "type": "run_jersey_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_jersey_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "jersey",
+            "length_m": 1.0
+          }
+        ]
+      },
+      "terminal_start": "buried_or_hidden",
+      "terminal_end": "buried_or_hidden",
+      "enabled": true,
+      "replaced_by_runs": true,
+      "original_span_m": 121.0
+    },
+    {
+      "id": "PitJerseyB_Right",
+      "side": "right",
+      "start_fraction": 0.03,
+      "end_fraction": 0.08,
+      "center_distance_m": 11.0,
+      "system": {
+        "mode": "sequence",
+        "repeat": false,
+        "items": [
+          {
+            "type": "run_jersey_100m",
+            "length_m": 100.0
+          },
+          {
+            "type": "run_jersey_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_jersey_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "jersey",
+            "length_m": 1.0
+          }
+        ]
+      },
+      "terminal_start": "buried_or_hidden",
+      "terminal_end": "buried_or_hidden",
+      "enabled": true,
+      "replaced_by_runs": true,
+      "original_span_m": 121.0
+    },
+    {
+      "id": "T1Braking_Left",
+      "side": "left",
+      "start_fraction": 0.08,
+      "end_fraction": 0.18,
+      "center_distance_m": 12.0,
+      "system": {
+        "mode": "sequence",
+        "repeat": false,
+        "items": [
+          {
+            "type": "run_tire_navy_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_navy_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_navy_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_navy_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_navy_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_navy_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_navy_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_navy_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_navy_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_navy_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_navy_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_navy_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_navy_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_navy_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_navy_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_navy_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_navy_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_navy_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_navy_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_navy_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_navy_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_navy_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_navy_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "tire_navy_double",
+            "length_m": 12.0
+          }
+        ]
+      },
+      "terminal_start": "buried_or_hidden",
+      "terminal_end": "buried_or_hidden",
+      "enabled": true,
+      "replaced_by_runs": true,
+      "original_span_m": 242.0
+    },
+    {
+      "id": "T1Braking_Right",
+      "side": "right",
+      "start_fraction": 0.08,
+      "end_fraction": 0.18,
+      "center_distance_m": 12.0,
+      "system": {
+        "mode": "sequence",
+        "repeat": false,
+        "items": [
+          {
+            "type": "run_tire_navy_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_navy_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_navy_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_navy_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_navy_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_navy_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_navy_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_navy_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_navy_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_navy_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_navy_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_navy_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_navy_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_navy_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_navy_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_navy_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_navy_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_navy_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_navy_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_navy_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_navy_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_navy_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_navy_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "tire_navy_double",
+            "length_m": 12.0
+          }
+        ]
+      },
+      "terminal_start": "buried_or_hidden",
+      "terminal_end": "buried_or_hidden",
+      "enabled": true,
+      "replaced_by_runs": true,
+      "original_span_m": 242.0
+    },
+    {
+      "id": "T2T3Esses_Left",
+      "side": "left",
+      "start_fraction": 0.18,
+      "end_fraction": 0.35,
+      "center_distance_m": 11.0,
+      "system": {
+        "mode": "sequence",
+        "repeat": false,
+        "items": [
+          {
+            "type": "armco",
+            "length_m": 411.4
+          }
+        ]
+      },
+      "terminal_start": "buried_or_hidden",
+      "terminal_end": "buried_or_hidden",
+      "enabled": true,
+      "replaced_by_runs": true,
+      "original_span_m": 411.4
+    },
+    {
+      "id": "T2T3Esses_Right",
+      "side": "right",
+      "start_fraction": 0.18,
+      "end_fraction": 0.35,
+      "center_distance_m": 11.0,
+      "system": {
+        "mode": "sequence",
+        "repeat": false,
+        "items": [
+          {
+            "type": "armco",
+            "length_m": 411.4
+          }
+        ]
+      },
+      "terminal_start": "buried_or_hidden",
+      "terminal_end": "buried_or_hidden",
+      "enabled": true,
+      "replaced_by_runs": true,
+      "original_span_m": 411.4
+    },
+    {
+      "id": "T4Hairpin_Left",
+      "side": "left",
+      "start_fraction": 0.35,
+      "end_fraction": 0.5,
+      "center_distance_m": 13.0,
+      "system": {
+        "mode": "sequence",
+        "repeat": false,
+        "items": [
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "tire_black_double",
+            "length_m": 13.0
+          }
+        ]
+      },
+      "terminal_start": "buried_or_hidden",
+      "terminal_end": "buried_or_hidden",
+      "enabled": true,
+      "replaced_by_runs": true,
+      "original_span_m": 363.0
+    },
+    {
+      "id": "T4Hairpin_Right",
+      "side": "right",
+      "start_fraction": 0.35,
+      "end_fraction": 0.5,
+      "center_distance_m": 13.0,
+      "system": {
+        "mode": "sequence",
+        "repeat": false,
+        "items": [
+          {
+            "type": "run_tire_black_3l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_3l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_3l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_3l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_3l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_3l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_3l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_3l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_3l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_3l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_3l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_3l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_3l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_3l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_3l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_3l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_3l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_3l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_3l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_3l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_3l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_3l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_3l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_3l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_3l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_3l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_3l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_3l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_3l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_3l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_3l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_3l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_3l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_3l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_3l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "tire_black_triple",
+            "length_m": 13.0
+          }
+        ]
+      },
+      "terminal_start": "buried_or_hidden",
+      "terminal_end": "buried_or_hidden",
+      "enabled": true,
+      "replaced_by_runs": true,
+      "original_span_m": 363.0
+    },
+    {
+      "id": "BackEntry_Left",
+      "side": "left",
+      "start_fraction": 0.5,
+      "end_fraction": 0.52,
+      "center_distance_m": 11.0,
+      "system": {
+        "mode": "sequence",
+        "repeat": false,
+        "items": [
+          {
+            "type": "run_armco_25m",
+            "length_m": 25.0
+          },
+          {
+            "type": "run_armco_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_armco_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "armco",
+            "length_m": 3.4
+          }
+        ]
+      },
+      "terminal_start": "buried_or_hidden",
+      "terminal_end": "buried_or_hidden",
+      "enabled": true,
+      "replaced_by_runs": true,
+      "original_span_m": 48.4
+    },
+    {
+      "id": "BackEntry_Right",
+      "side": "right",
+      "start_fraction": 0.5,
+      "end_fraction": 0.52,
+      "center_distance_m": 11.0,
+      "system": {
+        "mode": "sequence",
+        "repeat": false,
+        "items": [
+          {
+            "type": "run_armco_25m",
+            "length_m": 25.0
+          },
+          {
+            "type": "run_armco_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_armco_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "armco",
+            "length_m": 3.4
+          }
+        ]
+      },
+      "terminal_start": "buried_or_hidden",
+      "terminal_end": "buried_or_hidden",
+      "enabled": true,
+      "replaced_by_runs": true,
+      "original_span_m": 48.4
+    },
+    {
+      "id": "Chicane_Left",
+      "side": "left",
+      "start_fraction": 0.52,
+      "end_fraction": 0.63,
+      "center_distance_m": 14.0,
+      "system": {
+        "mode": "sequence",
+        "repeat": false,
+        "items": [
+          {
+            "type": "plastic",
+            "length_m": 54.0
+          },
+          {
+            "type": "tire_navy_single",
+            "length_m": 150.0
+          },
+          {
+            "type": "tire_navy_single",
+            "length_m": 8.0
+          },
+          {
+            "type": "plastic",
+            "length_m": 54.2
+          }
+        ]
+      },
+      "terminal_start": "buried_or_hidden",
+      "terminal_end": "buried_or_hidden",
+      "enabled": true,
+      "replaced_by_runs": true,
+      "original_span_m": 266.2
+    },
+    {
+      "id": "Chicane_Right",
+      "side": "right",
+      "start_fraction": 0.52,
+      "end_fraction": 0.63,
+      "center_distance_m": 14.0,
+      "system": {
+        "mode": "sequence",
+        "repeat": false,
+        "items": [
+          {
+            "type": "tire_navy_single",
+            "length_m": 80.0
+          },
+          {
+            "type": "plastic",
+            "length_m": 90.0
+          },
+          {
+            "type": "tire_navy_single",
+            "length_m": 96.2
+          }
+        ]
+      },
+      "terminal_start": "buried_or_hidden",
+      "terminal_end": "buried_or_hidden",
+      "enabled": true,
+      "replaced_by_runs": true,
+      "original_span_m": 266.2
+    },
+    {
+      "id": "BackExit_Left",
+      "side": "left",
+      "start_fraction": 0.63,
+      "end_fraction": 0.72,
+      "center_distance_m": 11.0,
+      "system": {
+        "mode": "sequence",
+        "repeat": false,
+        "items": [
+          {
+            "type": "run_armco_25m",
+            "length_m": 25.0
+          },
+          {
+            "type": "run_armco_25m",
+            "length_m": 25.0
+          },
+          {
+            "type": "run_armco_25m",
+            "length_m": 25.0
+          },
+          {
+            "type": "run_armco_25m",
+            "length_m": 25.0
+          },
+          {
+            "type": "run_armco_25m",
+            "length_m": 25.0
+          },
+          {
+            "type": "run_armco_25m",
+            "length_m": 25.0
+          },
+          {
+            "type": "run_armco_25m",
+            "length_m": 25.0
+          },
+          {
+            "type": "run_armco_25m",
+            "length_m": 25.0
+          },
+          {
+            "type": "run_armco_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "armco",
+            "length_m": 7.8
+          }
+        ]
+      },
+      "terminal_start": "buried_or_hidden",
+      "terminal_end": "buried_or_hidden",
+      "enabled": true,
+      "replaced_by_runs": true,
+      "original_span_m": 217.8
+    },
+    {
+      "id": "BackExit_Right",
+      "side": "right",
+      "start_fraction": 0.63,
+      "end_fraction": 0.72,
+      "center_distance_m": 11.0,
+      "system": {
+        "mode": "sequence",
+        "repeat": false,
+        "items": [
+          {
+            "type": "run_armco_25m",
+            "length_m": 25.0
+          },
+          {
+            "type": "run_armco_25m",
+            "length_m": 25.0
+          },
+          {
+            "type": "run_armco_25m",
+            "length_m": 25.0
+          },
+          {
+            "type": "run_armco_25m",
+            "length_m": 25.0
+          },
+          {
+            "type": "run_armco_25m",
+            "length_m": 25.0
+          },
+          {
+            "type": "run_armco_25m",
+            "length_m": 25.0
+          },
+          {
+            "type": "run_armco_25m",
+            "length_m": 25.0
+          },
+          {
+            "type": "run_armco_25m",
+            "length_m": 25.0
+          },
+          {
+            "type": "run_armco_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "armco",
+            "length_m": 7.8
+          }
+        ]
+      },
+      "terminal_start": "buried_or_hidden",
+      "terminal_end": "buried_or_hidden",
+      "enabled": true,
+      "replaced_by_runs": true,
+      "original_span_m": 217.8
+    },
+    {
+      "id": "T6Sweeper_Left",
+      "side": "left",
+      "start_fraction": 0.72,
+      "end_fraction": 0.9,
+      "center_distance_m": 12.0,
+      "system": {
+        "mode": "sequence",
+        "repeat": false,
+        "items": [
+          {
+            "type": "run_tire_black_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "tire_black_single",
+            "length_m": 5.6
+          }
+        ]
+      },
+      "terminal_start": "buried_or_hidden",
+      "terminal_end": "buried_or_hidden",
+      "enabled": true,
+      "replaced_by_runs": true,
+      "original_span_m": 435.6
+    },
+    {
+      "id": "T6Sweeper_Right",
+      "side": "right",
+      "start_fraction": 0.72,
+      "end_fraction": 0.9,
+      "center_distance_m": 12.0,
+      "system": {
+        "mode": "sequence",
+        "repeat": false,
+        "items": [
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "run_tire_black_2l_10m",
+            "length_m": 10.0
+          },
+          {
+            "type": "tire_black_double",
+            "length_m": 5.6
+          }
+        ]
+      },
+      "terminal_start": "buried_or_hidden",
+      "terminal_end": "buried_or_hidden",
+      "enabled": true,
+      "replaced_by_runs": true,
+      "original_span_m": 435.6
+    }
+  ],
+  "library_upgrade": {
+    "asset_library_manifest": "game/resources/environment/assets/barriers/barrier_manifest_v3.json",
+    "construction_manifest": "game/resources/environment/manifests/barrier_construction_manifest_v2.json",
+    "notes": "Every module and reusable run resolves to the factory-owned textured barrier library."
+  }
+}

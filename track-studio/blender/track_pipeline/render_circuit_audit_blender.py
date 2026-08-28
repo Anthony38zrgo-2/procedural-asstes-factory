@@ -112,9 +112,27 @@ def main():
         x, z = item["position_xz"]
         target = Vector((x, -z, 2.6))
         yaw = -float(item.get("yaw_rad", 0.0))
-        view_direction = Vector((math.cos(yaw), math.sin(yaw), 0.0))
-        location = target + view_direction * 16.0 + Vector((0, 0, 6.0))
+        # Houses expose their detailed facade on the local side axis.
+        view_direction = Vector((-math.sin(yaw), math.cos(yaw), 0.0))
+        location = target - view_direction * 16.0 + Vector((0, 0, 6.0))
         captures.append((f"{index:02d}_{asset_id}", location, target, 58, None))
+
+    # --- Mountain horizon audit views (Req. Capturas) ---
+    # Center-based cardinal horizon looks to verify 360 continuity, scale, near delante far,
+    # vertical orientation and absence of gaps/cards invertidas.
+    # Four low horizon views + one diagonal low overview
+    horizon_height = 8.0
+    horizon_target_dist = 1150.0  # near radius
+    horizon_up = 45.0  # target height for mountain peaks
+    mountain_views = [
+        ("09_mountain_north", Vector((center.x, center.y, horizon_height)), Vector((center.x, center.y + horizon_target_dist, horizon_up))),
+        ("10_mountain_east", Vector((center.x, center.y, horizon_height)), Vector((center.x + horizon_target_dist, center.y, horizon_up))),
+        ("11_mountain_south", Vector((center.x, center.y, horizon_height)), Vector((center.x, center.y - horizon_target_dist, horizon_up))),
+        ("12_mountain_west", Vector((center.x, center.y, horizon_height)), Vector((center.x - horizon_target_dist, center.y, horizon_up))),
+        ("13_mountain_low_overview", Vector((center.x - 320, center.y - 320, 42)), Vector((center.x, center.y, 22))),
+    ]
+    for name, loc, tgt in mountain_views:
+        captures.append((name, loc, tgt, 38 if "low_overview" in name else 44, None))
 
     for old in [obj for obj in bpy.data.objects if obj.type == "CAMERA"]:
         bpy.data.objects.remove(old, do_unlink=True)

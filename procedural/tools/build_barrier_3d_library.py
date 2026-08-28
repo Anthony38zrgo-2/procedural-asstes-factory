@@ -18,16 +18,14 @@ from pathlib import Path
 import numpy as np
 import trimesh
 from PIL import Image, ImageDraw
+from trimesh.visual.material import PBRMaterial
 
 
-SCHEMA_VERSION = 2
-GENERATOR_ID = "procedural_barrier_v2"
+SCHEMA_VERSION = 3
+GENERATOR_ID = "gen_barriers_v2"
 ASSET_DIR = Path("game/resources/environment/assets/barriers")
 REVIEW_DIR = ASSET_DIR / "review"
-KNOWN_FAMILIES = {
-    "tire_black", "tire_navy_white", "concrete_jersey",
-    "guardrail_armco", "plastic_blocks",
-}
+KNOWN_FAMILIES = {"tire_wall", "concrete", "guardrail"}
 
 
 def _sha256_bytes(value: bytes) -> str:
@@ -238,6 +236,35 @@ _GENERATORS = {
 }
 
 
+def _textured_card_mesh(recipe: dict, repo_root: Path) -> trimesh.Trimesh:
+    """Build one zero-thickness, double-sided textured barrier face."""
+    width = float(recipe["width_m"])
+    height = float(recipe["height_m"])
+    repeat_m = float(recipe.get("texture_repeat_m", 2.0))
+    texture_path = repo_root / recipe["texture"]
+    if not texture_path.is_file():
+        raise ValueError(f"{recipe['id']}: missing texture {texture_path}")
+    vertices = np.asarray([
+        [-width * 0.5, 0.0, 0.0], [width * 0.5, 0.0, 0.0],
+        [width * 0.5, height, 0.0], [-width * 0.5, height, 0.0],
+    ], dtype=np.float64)
+    faces = np.asarray([[0, 1, 2], [0, 2, 3]], dtype=np.int64)
+    uv = np.asarray([[0.0, 0.0], [width / repeat_m, 0.0],
+                     [width / repeat_m, 1.0], [0.0, 1.0]], dtype=np.float64)
+    material = PBRMaterial(
+        name=f"{recipe['id']}_material",
+        baseColorTexture=Image.open(texture_path).convert("RGBA"),
+        metallicFactor=float(recipe.get("metallic", 0.0)),
+        roughnessFactor=float(recipe.get("roughness", 1.0)),
+        doubleSided=True,
+        alphaMode=recipe.get("alpha_mode", "OPAQUE"),
+        alphaCutoff=float(recipe.get("alpha_cutoff", 0.5)),
+    )
+    mesh = trimesh.Trimesh(vertices=vertices, faces=faces, process=False)
+    mesh.visual = trimesh.visual.TextureVisuals(uv=uv, material=material)
+    return mesh
+
+
 def _collision_mesh(recipe: dict) -> trimesh.Trimesh:
     layers = int(recipe.get("depth_layers", 1))
     base_depth = float(recipe["depth_m"])
@@ -249,8 +276,8 @@ def _collision_mesh(recipe: dict) -> trimesh.Trimesh:
 
 
 def validate_recipe_document(spec: dict, palette: dict, contract: dict | None = None) -> None:
-    if spec.get("schema_version") != 2:
-        raise ValueError("barrier recipe schema_version must be 2")
+    if spec.get("schema_version") != 3:
+        raise ValueError("barrier recipe schema_version must be 3")
     if palette.get("schema_version") != 1:
         raise ValueError("barrier palette schema_version must be 1")
     if contract is not None:
@@ -259,15 +286,15 @@ def validate_recipe_document(spec: dict, palette: dict, contract: dict | None = 
         coordinates = contract.get("coordinate_system", {})
         expected_coordinates = {
             "units": "metres", "up_axis": "+Y", "module_axis": "+X",
-            "track_facing_axis": "+Z", "pivot": "ground_center", "module_width_m": 2.0,
+            "track_facing_axis": "+Z", "pivot": "ground_center", "base_module_length_m": 2.0,
         }
         if coordinates != expected_coordinates:
             raise ValueError("barrier construction coordinate contract is unsupported")
-        tyre_contract = contract.get("tyre_barriers", {})
-        if (tyre_contract.get("orientation") != "flat_with_axle_on_y" or
-                tyre_contract.get("depth_layers_change_height") is not False):
-            raise ValueError("barrier construction tyre orientation contract is unsupported")
-        if contract.get("shading", {}).get("mode") != "procedural_vertex_color_v1":
+        if contract.get("visual", {}).get("geometry") != "single_textured_plane":
+            raise ValueError("barrier construction visual geometry is unsupported")
+        if contract.get("visual", {}).get("double_sided") is not True:
+            raise ValueError("barrier construction requires double-sided materials")
+        if contract.get("shading", {}).get("mode") != "textured_pbr_v1":
             raise ValueError("barrier construction shading contract is unsupported")
     assets = spec.get("assets")
     if not isinstance(assets, list) or not assets:
@@ -275,7 +302,7 @@ def validate_recipe_document(spec: dict, palette: dict, contract: dict | None = 
     ids: set[str] = set()
     for recipe in assets:
         asset_id = recipe.get("id")
-        if not isinstance(asset_id, str) or not asset_id.startswith("barrier_"):
+        if not isinstance(asset_id, str) or not asset_id.startswith(("barrier_", "run_")):
             raise ValueError(f"Invalid barrier id: {asset_id!r}")
         if asset_id in ids:
             raise ValueError(f"Duplicate barrier id: {asset_id}")
@@ -286,30 +313,14 @@ def validate_recipe_document(spec: dict, palette: dict, contract: dict | None = 
         for key in ("width_m", "height_m", "depth_m", "triangle_budget"):
             if float(recipe.get(key, 0)) <= 0:
                 raise ValueError(f"{asset_id}: {key} must be positive")
-        module_width = float(contract["coordinate_system"]["module_width_m"]) if contract else 2.0
-        if abs(float(recipe["width_m"]) - module_width) > 1e-6:
-            raise ValueError(f"{asset_id}: modules must be exactly 2 m along local X")
+        allowed_lengths = contract.get("reusable_lengths_m", [2.0]) if contract else [2.0]
+        if float(recipe["width_m"]) not in [float(value) for value in allowed_lengths]:
+            raise ValueError(f"{asset_id}: unsupported reusable length {recipe['width_m']}")
         if not 0.45 <= float(recipe["height_m"]) <= 1.50:
             raise ValueError(f"{asset_id}: implausible barrier height")
-        if family in {"tire_black", "tire_navy_white"}:
-            for key in ("columns_per_module", "tires_per_column", "depth_layers"):
-                if int(recipe.get(key, 0)) <= 0:
-                    raise ValueError(f"{asset_id}: {key} must be positive")
-            diameter = float(recipe.get("tire_outer_diameter_m", 0))
-            tire_width = float(recipe.get("tire_width_m", 0))
-            if not 0.45 <= diameter <= 0.75:
-                raise ValueError(f"{asset_id}: implausible tyre diameter")
-            if not 0.14 <= tire_width <= 0.32:
-                raise ValueError(f"{asset_id}: implausible tyre width")
-            minimum_major = int(contract["tyre_barriers"]["minimum_major_sections"]) if contract else 12
-            minimum_minor = int(contract["tyre_barriers"]["minimum_minor_sections"]) if contract else 8
-            if int(recipe.get("tire_major_sections", 0)) < minimum_major:
-                raise ValueError(f"{asset_id}: tire_major_sections must be at least 12")
-            if int(recipe.get("tire_minor_sections", 0)) < minimum_minor:
-                raise ValueError(f"{asset_id}: tire_minor_sections must be at least 8")
-            expected_height = int(recipe["tires_per_column"]) * tire_width
-            if abs(expected_height - float(recipe["height_m"])) > 1e-6:
-                raise ValueError(f"{asset_id}: height_m must equal tires_per_column * tire_width_m")
+        for key in ("texture", "texture_repeat_m"):
+            if not recipe.get(key):
+                raise ValueError(f"{asset_id}: {key} is required")
 
 
 def validate_mesh(mesh: trimesh.Trimesh, recipe: dict, *, collision: bool) -> dict:
@@ -318,8 +329,10 @@ def validate_mesh(mesh: trimesh.Trimesh, recipe: dict, *, collision: bool) -> di
         raise ValueError(f"{asset_id}: empty mesh")
     if not np.isfinite(mesh.vertices).all():
         raise ValueError(f"{asset_id}: non-finite vertices")
-    if not mesh.is_watertight or not mesh.is_winding_consistent:
-        raise ValueError(f"{asset_id}: mesh must be watertight with consistent winding")
+    if collision and (not mesh.is_watertight or not mesh.is_winding_consistent):
+        raise ValueError(f"{asset_id}: collision mesh must be watertight with consistent winding")
+    if not collision and not mesh.is_winding_consistent:
+        raise ValueError(f"{asset_id}: visual mesh winding is inconsistent")
     if np.any(mesh.area_faces <= 1e-9):
         raise ValueError(f"{asset_id}: degenerate triangles")
     bounds = mesh.bounds
@@ -359,6 +372,19 @@ def _project(vertices: np.ndarray, yaw: float, pitch: float):
 
 
 def render_audit(mesh: trimesh.Trimesh, path: Path) -> None:
+    if isinstance(mesh.visual, trimesh.visual.TextureVisuals):
+        texture = mesh.visual.material.baseColorTexture.convert("RGBA")
+        repeats = max(1, round(float(np.max(mesh.visual.uv[:, 0]))))
+        band = Image.new("RGBA", (texture.width * repeats, texture.height), (0, 0, 0, 0))
+        for index in range(repeats):
+            band.alpha_composite(texture, (index * texture.width, 0))
+        band.thumbnail((860, 390), Image.Resampling.LANCZOS)
+        image = Image.new("RGBA", (900, 450), (30, 32, 33, 255))
+        image.alpha_composite(band, ((900 - band.width) // 2, (450 - band.height) // 2))
+        ImageDraw.Draw(image).text((16, 14), "front / repeated UV", fill=(238, 238, 238, 255))
+        path.parent.mkdir(parents=True, exist_ok=True)
+        image.save(path)
+        return
     image = Image.new("RGBA", (900, 900), (30, 32, 33, 255))
     views = ((0.0, 0.0, "front"), (math.pi / 4, 0.0, "45 deg"),
              (math.pi / 2, 0.0, "side"), (math.pi / 4, -0.28, "iso"))
@@ -435,7 +461,7 @@ def _export_glb(mesh: trimesh.Trimesh, path: Path, node_name: str) -> bytes:
 def build_asset(recipe: dict, palette: dict, output_root: Path,
                 review_root: Path, repo_root: Path) -> dict:
     rng = random.Random(int(recipe["seed"]))
-    visual = _GENERATORS[recipe["family"]](recipe, palette, rng)
+    visual = _textured_card_mesh(recipe, repo_root)
     collision = _collision_mesh(recipe)
     visual_info = validate_mesh(visual, recipe, collision=False)
     collision_info = validate_mesh(collision, recipe, collision=True)
@@ -470,7 +496,9 @@ def build_asset(recipe: dict, palette: dict, output_root: Path,
         "recipe_sha256": _canonical_hash(recipe),
         "coordinate_contract": {"units": "metres", "up_axis": "+Y", "module_axis": "+X",
                                 "track_facing_axis": "+Z", "pivot": "ground_center"},
-        "shading": {"mode": "procedural_vertex_color_v1", "cast_shadows_baked": False},
+        "shading": {"mode": "textured_pbr_v1", "double_sided": True,
+                    "alpha_mode": recipe.get("alpha_mode", "OPAQUE"),
+                    "texture": recipe["texture"], "cast_shadows_baked": False},
         "depth_layers": int(recipe.get("depth_layers", 1)),
         "visual": visual_info, "collision": collision_info, "lod": False,
     }
@@ -519,7 +547,7 @@ def main() -> int:
         catalog_path = render_library_catalog(assets, staged / "review")
         manifest = {
             "schema_version": SCHEMA_VERSION, "generator": GENERATOR_ID,
-            "shading_contract": "procedural_vertex_color_v1",
+            "shading_contract": "textured_pbr_v1_double_sided",
             "recipe_document_sha256": _sha256_file(recipe_path),
             "palette_sha256": _sha256_file(palette_path),
             "construction_manifest": spec["construction_manifest"],
@@ -528,10 +556,10 @@ def main() -> int:
             "human_gate_catalog_sha256": _sha256_file(catalog_path),
             "assets": assets,
         }
-        (staged / "barrier_manifest.json").write_text(json.dumps(manifest, indent=2) + "\n",
-                                                        encoding="utf-8")
+        (staged / "barrier_manifest_v3.json").write_text(json.dumps(manifest, indent=2) + "\n",
+                                                           encoding="utf-8")
         _publish_directory(staged, destination)
-    print(json.dumps({"assets": len(assets), "manifest": str(destination / 'barrier_manifest.json')}, indent=2))
+    print(json.dumps({"assets": len(assets), "manifest": str(destination / 'barrier_manifest_v3.json')}, indent=2))
     return 0
 
 
