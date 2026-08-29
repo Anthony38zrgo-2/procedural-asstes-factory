@@ -546,7 +546,8 @@ def generate_terrain_ring(heightmap, colormap, radius, segments, depth, rows=4):
 def generate_terrain_ring_from_contours(contours_by_elev: dict, radius: float, segments: int,
                                         depth: float, svg_size: float, height_scale: float,
                                         distance: float, is_near: bool = False,
-                                        u_repeats: float = 36.0):
+                                        u_repeats: float = 36.0,
+                                        texture_image: Image.Image | None = None):
     """Generate terrain ring with continuous organic profile, apron skirt, UVs and baked lighting.
 
     Profile multipliers per row:
@@ -681,7 +682,17 @@ def generate_terrain_ring_from_contours(contours_by_elev: dict, radius: float, s
         vertex_colors=np.array(vertex_colors, dtype=np.uint8),
         process=False,
     )
-    mesh.visual = trimesh.visual.TextureVisuals(uv=np.array(uvs, dtype=np.float64))
+    material = trimesh.visual.material.PBRMaterial(
+        name="LaChutanaMountainMaterial",
+        baseColorFactor=np.array([255, 255, 255, 255], dtype=np.uint8),
+        baseColorTexture=texture_image,
+        metallicFactor=0.0,
+        roughnessFactor=1.0,
+    )
+    mesh.visual = trimesh.visual.TextureVisuals(
+        uv=np.array(uvs, dtype=np.float64),
+        material=material,
+    )
     return mesh
 
 
@@ -976,9 +987,20 @@ def main():
     depth_far = 320.0 * metadata["depth_scale"]
     depth_near = 220.0 * metadata["depth_scale"]
 
+    # Generate the deterministic texture before exporting the rings so each
+    # GLB carries the authored material instead of trimesh's 2x2 gray fallback.
+    print("Generating procedural mountain texture...")
+    from generate_mountain_texture import build_mountain_texture
+    tex_path = str(output_dir / "mountain_texture.png")
+    tex_data = build_mountain_texture(1024, 512, seed=42)
+    tex_img = Image.fromarray(tex_data, mode="RGB")
+    tex_img.save(tex_path, format="PNG")
+    print(f"  -> {tex_path}")
+
     print("Generating far mountains terrain ring (radius=%.0f, depth=%.0f, height_scale=%.1f)..." % (radius_far, depth_far, height_scale_far))
     far_ring = generate_terrain_ring_from_contours(
-        contours_by_elev, radius_far, SEGMENTS_ANGULAR, depth_far, svg_size, height_scale_far, distance, is_near=False, u_repeats=48.0
+        contours_by_elev, radius_far, SEGMENTS_ANGULAR, depth_far, svg_size, height_scale_far, distance,
+        is_near=False, u_repeats=48.0, texture_image=tex_img
     )
     far_path = str(output_dir / "far_mountains_ring.glb")
     scene = trimesh.Scene()
@@ -990,7 +1012,8 @@ def main():
 
     print("Generating near mountains terrain ring with Apron (radius=%.0f, depth=%.0f, height_scale=%.1f)..." % (radius_near, depth_near, height_scale_near))
     near_ring = generate_terrain_ring_from_contours(
-        contours_by_elev, radius_near, SEGMENTS_ANGULAR, depth_near, svg_size, height_scale_near, distance, is_near=True, u_repeats=36.0
+        contours_by_elev, radius_near, SEGMENTS_ANGULAR, depth_near, svg_size, height_scale_near, distance,
+        is_near=True, u_repeats=36.0, texture_image=tex_img
     )
     near_path = str(output_dir / "near_mountains_ring.glb")
     scene = trimesh.Scene()
@@ -1028,16 +1051,7 @@ def main():
     scene.export(sky_path)
     print(f"  -> {sky_path} ({sky_dome.vertices.shape[0]} verts, {sky_dome.faces.shape[0]} faces)")
 
-    # 7. Generate procedural mountain texture
-    print("Generating procedural mountain texture...")
-    from generate_mountain_texture import build_mountain_texture
-    tex_path = str(output_dir / "mountain_texture.png")
-    tex_data = build_mountain_texture(1024, 512, seed=42)
-    tex_img = Image.fromarray(tex_data, mode="RGB")
-    tex_img.save(tex_path, format="PNG")
-    print(f"  -> {tex_path}")
-
-    # 8. Copy source SVG
+    # 7. Copy source SVG
     svg_copy = str(output_dir / "la_chutana_topo.svg")
     shutil.copy2(svg_path, svg_copy)
     print(f"  SVG copy: {svg_copy}")

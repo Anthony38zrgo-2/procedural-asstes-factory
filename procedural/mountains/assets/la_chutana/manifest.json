@@ -99,8 +99,8 @@
   ],
   "validation": {
     "source_sha256": {
-      "far_mountains_ring.glb": "ccd5ad646139aaa45e0dd2e5836799b30357ac0739a9b7d5ab2052d21d9a57d3",
-      "near_mountains_ring.glb": "ebf784dc01270ee3ac453a4d6bcec2641a162a8143ae5e937a98023b851926c4",
+      "far_mountains_ring.glb": "7bf51a92dd89eb34a54eaee6ff7ac643b829c353fb9514c663e567c63950d596",
+      "near_mountains_ring.glb": "9b9481825421acfb99cad365763bc988fc7084da75262fb35ed16ddcd03d38ed",
       "sky_dome.glb": "894c6a6ef859e8c79998df4d27f70e4505949f85b67fee1c1c9ae4d7f2815fa4",
       "mountain_texture.png": "0970165ee0bf9a03c9ddbc5700fb1496f9d2767925ae50dbd51e6005a10212c2"
     }
