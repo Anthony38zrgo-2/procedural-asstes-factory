@@ -1,0 +1,88 @@
+{
+  "asset": "F1_94",
+  "version": 4,
+  "standard": "Formula-90 GEVP decoupled visual asset",
+  "canonical_variant": "f1-94-textured-canonical-2026-08-25",
+  "coordinate_convention": {
+    "+X": "vehicle right",
+    "-X": "vehicle left",
+    "+Y": "up",
+    "-Z": "front",
+    "+Z": "rear",
+    "unit": "meter"
+  },
+  "provenance": {
+    "source_bundle": "../new_cannonical_car",
+    "promotion_head": "bd9bb05dbf2d6ec988bc75d58f8b3f8aa6111a85",
+    "promoted_on": "2026-08-25",
+    "gltf_generator": "Khronos glTF Blender I/O v5.2.39",
+    "source_sha256": {
+      "chassis.glb": "E8B64030F2DF91DE6DEFB09BB576CCC34A89B516A1246F76F4236BB46EC18C19",
+      "wheel_front.glb": "2CABC137A58748D1743F29F977142FA1B7C92C2CE5889FD3D18A66B246B65455",
+      "wheel_rear.glb": "F371B9B622B0197C13455D219EAA69A2926C3AD883F2CF1269D7395398D4E23A"
+    },
+    "validation": "PASS: GLB integrity, finite geometry, normals, UV0, Blender topology and Godot 4.7.1 import"
+  },
+  "material_strategy": {
+    "type": "embedded_gltf_pbr_textured",
+    "texture_resolution": 2048,
+    "embedded_images": 25,
+    "chassis_materials": 19,
+    "wheel_materials_per_axle": 2,
+    "godot_embedded_image_handling": "Basis Universal",
+    "external_albedo_binder": false
+  },
+  "geometry_assets": {
+    "chassis_gevp": {
+      "path": "geometry/F1_94_chassis_geometry.glb",
+      "sha256": "E8B64030F2DF91DE6DEFB09BB576CCC34A89B516A1246F76F4236BB46EC18C19",
+      "mesh_count": 19,
+      "triangles": 7556
+    },
+    "wheel_front_canonical": {
+      "path": "geometry/F1_94_wheel_front_geometry.glb",
+      "sha256": "2CABC137A58748D1743F29F977142FA1B7C92C2CE5889FD3D18A66B246B65455",
+      "mesh_count": 2,
+      "triangles": 4152
+    },
+    "wheel_rear_canonical": {
+      "path": "geometry/F1_94_wheel_rear_geometry.glb",
+      "sha256": "F371B9B622B0197C13455D219EAA69A2926C3AD883F2CF1269D7395398D4E23A",
+      "mesh_count": 2,
+      "triangles": 4152
+    }
+  },
+  "runtime_assets": {
+    "chassis": "geometry/F1_94_chassis_geometry.glb",
+    "wheel_front": "geometry/F1_94_wheel_front_geometry.glb",
+    "wheel_rear": "geometry/F1_94_wheel_rear_geometry.glb",
+    "wheel_instances": ["FL", "FR", "RL", "RR"],
+    "shared_by_axle": true
+  },
+  "dimensions_m": {
+    "wheelbase": 3.066684,
+    "front_track": 1.640276,
+    "rear_track": 1.494121,
+    "front_tire_radius": 0.348652,
+    "rear_tire_radius": 0.312559,
+    "front_tire_width": 0.345344,
+    "rear_tire_width": 0.331492,
+    "ground_y": -0.322983
+  },
+  "wheel_anchors_m": {
+    "FL": [-0.820138, 0.025669, -1.533342],
+    "FR": [0.820138, 0.025669, -1.533342],
+    "RL": [-0.747060, -0.010424, 1.533342],
+    "RR": [0.747060, -0.010424, 1.533342]
+  },
+  "topology_quality": {
+    "assembled_triangles": 24164,
+    "target_class": "textured runtime asset without LOD",
+    "open_boundary_edges_chassis": 1050,
+    "open_boundary_edges_wheels": 0,
+    "degenerate_faces_after": 0,
+    "wheel_surfaces": "closed manifold hub and continuous tire",
+    "normal_gate": "all normals finite and within 0.01 of unit length",
+    "uv_policy": "UV0 present on every primitive; 2K PBR textures embedded"
+  }
+}

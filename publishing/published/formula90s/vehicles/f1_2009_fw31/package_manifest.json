@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "package_type": "formula90s-runtime-vehicle",
+  "vehicle_id": "f1_2009_fw31",
+  "files": [
+    {
+      "file": "F1_2009_fw31_chassis.glb",
+      "sha256": "07b0cf10edf149a65dd09d42e944b33369ca398d921830948b8a4ad251eed952"
+    },
+    {
+      "file": "F1_2009_fw31_wheel_front.glb",
+      "sha256": "df051685e15bfc84b271cf151654b8f2a5ec98b3ae5e3e101c576eb4375deb27"
+    },
+    {
+      "file": "F1_2009_fw31_wheel_rear.glb",
+      "sha256": "eee98c7efb2c321b5bd4e565281eab63b3a3a537e8add48de2386446d1283a12"
+    },
+    {
+      "file": "manifest.json",
+      "sha256": "e2c2a18cf9ef1418ebf57a40ee735cd4cafe66b1269053900e161e6aa56b99f0"
+    },
+    {
+      "file": "physics.json",
+      "sha256": "7b569dfda570d9a2882da1406eb99aff61a2f818a18c4baddea7ac661a60b5a5"
+    }
+  ]
+}

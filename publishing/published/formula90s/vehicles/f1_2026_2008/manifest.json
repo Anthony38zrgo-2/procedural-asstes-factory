@@ -1,0 +1,38 @@
+{
+  "schema_version": 5,
+  "schema": "formula90s/vehicle-import/v1",
+  "vehicle_id": "f1_2026_2008",
+  "standard": "Formula-90 GEVP decoupled visual asset",
+  "asset": "F1_2026_2008",
+  "physics_profile": "res://data/vehicles/f1_2026_2008/f1_2026_2008_physics.json",
+  "physics_sha256": "B732117B1E1D6EBA88C0B761B328CCC40778EBB50A32F96D8B22251783C721D1",
+  "coordinate_contract": {
+    "right": "+X",
+    "left": "-X",
+    "up": "+Y",
+    "front": "-Z",
+    "rear": "+Z",
+    "units": "meters",
+    "origin": "centered longitudinally between axle centers at mean wheel-center height",
+    "transformations_applied": true,
+    "conversion_owner": "canonical_source_bundle"
+  },
+  "geometry_assets": {
+    "chassis_gevp": {
+      "path": "f1_2026_2008_chassis.glb",
+      "sha256": "6087D15E95810C1C84CBD3BB5E2982D1C3ACD0B76A95DB90A9EB91FF35439B00"
+    },
+    "wheel_front_canonical": {
+      "path": "f1_2026_2008_wheel_front.glb",
+      "sha256": "F4AA6BB00CC4AD2A56C9D853C4C6C47BCD6A44EB36DD07438A5079B43487B786"
+    },
+    "wheel_rear_canonical": {
+      "path": "f1_2026_2008_wheel_rear.glb",
+      "sha256": "91C29B8CEBA7E6192D3A4E6ECD577897A4AA14A974BF4E844E051416596F262B"
+    }
+  },
+  "validation": {
+    "status": "PASS",
+    "note": "Second scan waived; validation_report.json already reports passed=true for chassis and both wheels."
+  }
+}

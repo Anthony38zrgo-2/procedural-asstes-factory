@@ -1,0 +1,62 @@
+{
+  "schema_version": 2,
+  "variant_id": "f1_2009_fw31",
+  "base_vehicle_id": "f1_94",
+  "classification": "canonical_vehicle",
+  "canonical": true,
+  "previous_canonical": "f1_94",
+  "mechanical_baseline": "f1_94",
+  "build_ir_sha256": "BBAB3FD22D24545D56FB2B4492FCA80C888D2BDAB320DDBF1D38F0F395181EFF",
+  "geometry": {
+    "wheelbase_m": 3.1,
+    "front_track_m": 1.45,
+    "rear_track_m": 1.425,
+    "front_tire_radius_m": 0.33,
+    "front_tire_width_m": 0.35,
+    "front_overall_width_m": 1.8,
+    "rear_tire_radius_m": 0.33,
+    "rear_tire_width_m": 0.375,
+    "rear_overall_width_m": 1.8,
+    "maximum_overall_width_m": 1.8
+  },
+  "materials": {
+    "strategy": "embedded_gltf_albedo",
+    "source": "blender/williams94_wheels_retextured/textures/albedo",
+    "uv_set": "TEXCOORD_0",
+    "chassis_materials": 19,
+    "front_wheel_materials": 4,
+    "rear_wheel_materials": 4,
+    "all_primitives_textured": true,
+    "godot_import": "embedded_basis_universal"
+  },
+  "authoring": {
+    "blend": {
+      "path": "blender/williams94_wheels_retextured/variants/f1_2009_fw31/F1_2009_fw31.blend",
+      "path_scope": "repository",
+      "sha256": "98FE7F16B8876CE0C902646B7398C2A0236098DA5366B66612CD071A00AC2D82"
+    }
+  },
+  "runtime": {
+    "vehicle_scene": "res://scenes/vehicles/f1_94/f1_2009_fw31_rust.tscn",
+    "physics_profile": "res://data/vehicles/f1_94/variants/f1_2009_fw31_physics.json",
+    "chassis": {
+      "path": "geometry/F1_2009_fw31_chassis.glb",
+      "sha256": "07B0CF10EDF149A65DD09D42E944B33369CA398D921830948B8A4AD251EED952"
+    },
+    "wheel_front": {
+      "path": "geometry/F1_2009_fw31_wheel_front.glb",
+      "sha256": "DF051685E15BFC84B271CF151654B8F2A5EC98B3AE5E3E101C576EB4375DEB27"
+    },
+    "wheel_rear": {
+      "path": "geometry/F1_2009_fw31_wheel_rear.glb",
+      "sha256": "EEE98C7EFB2C321B5BD4E565281EAB63B3A3A537E8ADD48DE2386446D1283A12"
+    },
+    "physics_sha256": "7B569DFDA570D9A2882DA1406EB99AFF61A2F818A18C4BADDEA7AC661A60B5A5"
+  },
+  "constraints": {
+    "topology_changed": false,
+    "uv_preserved": true,
+    "ground_contact_required": true,
+    "source_f1_94_preserved": true
+  }
+}

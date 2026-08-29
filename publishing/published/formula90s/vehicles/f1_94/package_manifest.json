@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "package_type": "formula90s-runtime-vehicle",
+  "vehicle_id": "f1_94",
+  "files": [
+    {
+      "file": "F1_94_chassis_geometry.glb",
+      "sha256": "e8b64030f2df91de6defb09bb576ccc34a89b516a1246f76f4236bb46ec18c19"
+    },
+    {
+      "file": "F1_94_wheel_front_geometry.glb",
+      "sha256": "2cabc137a58748d1743f29f977142fa1b7c92c2ce5889fd3d18a66b246b65455"
+    },
+    {
+      "file": "F1_94_wheel_rear_geometry.glb",
+      "sha256": "f371b9b622b0197c13455d219eaa69a2926c3ad883f2cf1269d7395398d4e23a"
+    },
+    {
+      "file": "manifest.json",
+      "sha256": "ad91e37a15a44d3849f367451f730f7755dcc6fe8954a315a6410258e1703a33"
+    },
+    {
+      "file": "physics.json",
+      "sha256": "5e2a2e5bec157d201cd9bb77969d43e3298aaa64a733c5e912efcc9d109ed80f"
+    }
+  ]
+}

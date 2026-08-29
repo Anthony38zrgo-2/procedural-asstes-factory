@@ -1,0 +1,564 @@
+{
+  "schema_version": 2,
+  "vehicle_id": "f1_94",
+  "profile_name": "F1-94 Authentic Simcade Balanced",
+  "units": "SI",
+
+  "coordinate_contract": {
+    "forward": "-Z",
+    "right": "+X",
+    "up": "+Y",
+    "length": "m",
+    "mass": "kg",
+    "angle": "rad",
+    "rpm": "rpm",
+    "torque": "N·m"
+  },
+
+  "chassis": {
+    "vehicle_name": "F1 1994 (3.5L V10 NA)",
+    "vehicle_mass": 575.0,
+    "front_weight_distribution": 0.42,
+    "center_of_gravity_height_offset": -0.12,
+
+    "inertia_multipliers": {
+      "x": 1.05,
+      "y": 1.26,
+      "z": 1.05
+    }
+  },
+
+  "geometry": {
+    "wheelbase": 3.066684,
+    "front_track": 1.640276,
+    "rear_track": 1.494121,
+
+    "wheel_hubs": {
+      "FL": {
+        "x": -0.820138,
+        "y": 0.025669,
+        "z": -1.533342
+      },
+      "FR": {
+        "x": 0.820138,
+        "y": 0.025669,
+        "z": -1.533342
+      },
+      "RL": {
+        "x": -0.747060,
+        "y": -0.010424,
+        "z": 1.533342
+      },
+      "RR": {
+        "x": 0.747060,
+        "y": -0.010424,
+        "z": 1.533342
+      }
+    }
+  },
+
+  "steering": {
+    "max_steering_angle": 0.4363,
+    "front_steering_ratio": 1.0,
+    "rear_steering_ratio": 0.0,
+
+    "steering_speed": 4.75,
+    "countersteer_speed": 6.85,
+    "steering_speed_decay": 0.18,
+
+    "steering_slip_assist": 0.50,
+    "countersteer_assist": 0.75,
+
+    "steering_exponent": 1.1,
+    "ackermann": 0.20
+  },
+
+  "powertrain": {
+    "max_torque": 455.0,
+    "max_rpm": 15000.0,
+    "idle_rpm": 4500.0,
+    "motor_moment": 0.12,
+
+    "torque_curve": [
+      [0.00, 0.10],
+      [0.30, 0.35],
+      [0.45, 0.72],
+      [0.60, 1.00],
+      [0.72, 0.97],
+      [0.82, 0.93],
+      [0.90, 0.89],
+      [0.953, 0.86],
+      [1.00, 0.75]
+    ],
+
+    "gear_ratios": [3.15, 2.35, 1.85, 1.51, 1.28, 1.10],
+    "final_drive": 5.15,
+    "reverse_ratio": 3.00,
+
+    "shift_time": 0.10,
+    "automatic_transmission": false,
+
+    "front_torque_split": 0.0,
+
+    "gear_inertia": 0.02,
+    "max_clutch_torque_ratio": 1.10,
+    "clutch_out_rpm_offset": 900.0,
+    "idle_disengagement_hysteresis_rpm": 100.0,
+
+    "variable_drag_ratio": 0.12,
+    "constant_brake_ratio": 0.02,
+
+    "handbrake_torque_fraction": 0.0,
+
+    "automatic_shift": {
+      "upshift_normalized_rpm_low_throttle": 0.72,
+      "upshift_normalized_rpm_full_throttle": 0.965,
+
+      "downshift_normalized_rpm_low_throttle": 0.42,
+      "downshift_normalized_rpm_full_throttle": 0.58,
+
+      "downshift_throttle_aggression_factor": 0.35,
+
+      "upshift_coast_normalized_rpm": 0.42,
+      "downshift_coast_normalized_rpm": 0.30,
+
+      "reverse_max_speed_ms": 6.0,
+      "parked_resume_speed_ms": 1.0,
+
+      "kickdown_delay_factor": 0.75,
+
+      "wheel_road_spin_blend_threshold_rads": 10.0,
+      "wheel_spin_weight": 0.60,
+      "road_spin_weight": 0.40,
+
+      "upshift_target_rpm_margin_high": 0.94,
+      "downshift_target_rpm_margin_high": 0.82
+    },
+
+    "differential": {
+      "preload_nm": 40.0,
+      "power_ramp_angle_deg": 68.0,
+      "coast_ramp_angle_deg": 78.0,
+      "clutches": 6.0,
+      "clutch_friction_coefficient": 0.08,
+      "slip_transition_threshold_rad_s": 0.90
+    }
+  },
+
+  "suspension": {
+    "front": {
+      "spring_length": 0.285,
+      "resting_ratio": 0.175,
+
+      "damping_ratio": 0.74,
+      "bump_damp_multiplier": 0.92,
+      "rebound_damp_multiplier": 1.18,
+
+      "arb_ratio": 0.15,
+
+      "toe": -0.0037453,
+      "camber": -0.0483972,
+
+      "bump_stop_multiplier": 2.6
+    },
+
+    "rear": {
+      "spring_length": 0.235,
+      "resting_ratio": 0.225,
+
+      "damping_ratio": 0.76,
+      "bump_damp_multiplier": 0.96,
+      "rebound_damp_multiplier": 1.22,
+
+      "arb_ratio": 0.05,
+
+      "toe": 0.0020944,
+      "camber": -0.0214159,
+
+      "bump_stop_multiplier": 3.0
+    },
+
+    "tri_ray_spacing_ratio": 0.40
+  },
+
+  "tires": {
+    "front": {
+      "radius": 0.348652,
+      "width": 0.345344,
+      "wheel_mass": 12.0,
+      "contact_patch": 0.34,
+      "braking_grip_multiplier": 1.02,
+      "airborne_spin_decay_torque": 1.0
+    },
+
+    "rear": {
+      "radius": 0.312559,
+      "width": 0.331492,
+      "wheel_mass": 16.0,
+      "contact_patch": 0.36,
+      "braking_grip_multiplier": 1.04,
+      "airborne_spin_decay_torque": 1.0
+    },
+
+    "contact_patch": 0.35,
+    "braking_grip_multiplier": 1.03,
+    "airborne_spin_decay_torque": 1.0,
+
+    "surfaces": {
+      "Road": {
+        "friction": 2.60,
+        "stiffness": 7.20,
+        "rolling_resistance": 1.0,
+        "lateral_grip_assist": 0.04,
+        "longitudinal_grip_ratio": 0.64
+      },
+
+      "Curb": {
+        "friction": 2.05,
+        "stiffness": 5.90,
+        "rolling_resistance": 1.5,
+        "lateral_grip_assist": 0.015,
+        "longitudinal_grip_ratio": 0.56
+      },
+
+      "Dirt": {
+        "friction": 1.20,
+        "stiffness": 0.45,
+        "rolling_resistance": 2.4,
+        "lateral_grip_assist": 0.0,
+        "longitudinal_grip_ratio": 0.42
+      },
+
+      "Grass": {
+        "friction": 0.75,
+        "stiffness": 0.35,
+        "rolling_resistance": 4.2,
+        "lateral_grip_assist": 0.0,
+        "longitudinal_grip_ratio": 0.35
+      },
+
+      "Gravel": {
+        "friction": 1.00,
+        "stiffness": 0.45,
+        "rolling_resistance": 3.0,
+        "lateral_grip_assist": 0.0,
+        "longitudinal_grip_ratio": 0.40
+      }
+    },
+
+    "pressure": {
+      "units": "kPa_gauge",
+      "cold_kpa_gauge": {
+        "FL": 80.0,
+        "FR": 80.0,
+        "RL": 130.0,
+        "RR": 130.0
+      },
+      "reference_hot_kpa_gauge": {
+        "FL": 145.0,
+        "FR": 145.0,
+        "RL": 140.0,
+        "RR": 140.0
+      },
+      "reference_temperature_c": 25.0,
+      "atmospheric_pressure_kpa": 101.325
+    },
+
+    "thermal": {
+      "front": {
+        "initial_temperature_c": 25.0,
+        "ambient_fallback_c": 25.0,
+        "track_fallback_c": 35.0,
+        "optimal_tread_temperature_c": 95.0,
+        "optimal_tread_window_c": 12.0,
+        "overheat_tread_temperature_c": 120.0,
+        "optimal_carcass_temperature_c": 80.0,
+
+        "tread_zone_heat_capacity_j_k": 2100.0,
+        "carcass_heat_capacity_j_k": 5300.0,
+        "gas_heat_capacity_j_k": 750.0,
+
+        "tread_to_carcass_w_k": 75.0,
+        "carcass_to_gas_w_k": 50.0,
+
+        "tread_to_air_w_k": 4.5,
+        "carcass_to_air_w_k": 3.5,
+        "road_conductance_w_k": 60.0,
+        "lateral_tread_conductance_w_k": 24.0,
+
+        "slip_heat_efficiency": 1.0,
+        "carcass_hysteresis_efficiency": 1.0,
+
+        "pressure_stiffness_exponent": 0.72,
+        "pressure_damping_exponent": -0.22,
+        "pressure_max_deflection_exponent": -0.55,
+        "pressure_patch_exponent": -0.32,
+        "pressure_relaxation_exponent": -0.18,
+        "pressure_rr_exponent": -0.35,
+        "pressure_force_stiffness_exponent": 0.12,
+        "pressure_trail_exponent": -0.16,
+        "volume_deflection_gain": 0.04,
+        "minimum_pressure_kpa_gauge": 55.0,
+        "maximum_pressure_kpa_gauge": 260.0
+      },
+      "rear": {
+        "initial_temperature_c": 25.0,
+        "ambient_fallback_c": 25.0,
+        "track_fallback_c": 35.0,
+        "optimal_tread_temperature_c": 95.0,
+        "optimal_tread_window_c": 12.0,
+        "overheat_tread_temperature_c": 120.0,
+        "optimal_carcass_temperature_c": 80.0,
+        "tread_zone_heat_capacity_j_k": 5200.0,
+        "carcass_heat_capacity_j_k": 12500.0,
+        "gas_heat_capacity_j_k": 1800.0,
+        "tread_to_carcass_w_k": 58.0,
+        "carcass_to_gas_w_k": 22.0,
+        "tread_to_air_w_k": 24.0,
+        "carcass_to_air_w_k": 12.0,
+        "road_conductance_w_k": 62.0,
+        "lateral_tread_conductance_w_k": 22.0,
+        "slip_heat_efficiency": 0.72,
+        "carcass_hysteresis_efficiency": 0.72,
+        "pressure_stiffness_exponent": 0.72,
+        "pressure_damping_exponent": -0.22,
+        "pressure_max_deflection_exponent": -0.55,
+        "pressure_patch_exponent": -0.32,
+        "pressure_relaxation_exponent": -0.18,
+        "pressure_rr_exponent": -0.35,
+        "pressure_force_stiffness_exponent": 0.12,
+        "pressure_trail_exponent": -0.16,
+        "volume_deflection_gain": 0.04,
+        "minimum_pressure_kpa_gauge": 55.0,
+        "maximum_pressure_kpa_gauge": 260.0
+      }
+    }
+  },
+
+  "brakes": {
+    "front_brake_bias": 0.56,
+    "max_brake_torque": 3000.0,
+
+    "enable_abs": false,
+
+    "abs_pulse_time": 0.03,
+    "abs_spin_diff_threshold": 12.0,
+
+    "thermal": {
+      "initial_temperature_c": 25.0,
+      "optimal_min_temperature_c": 400.0,
+      "optimal_max_temperature_c": 800.0,
+      "fade_start_temperature_c": 900.0,
+      "critical_temperature_c": 1100.0,
+      "cold_efficiency": 0.78,
+      "minimum_fade_efficiency": 0.58,
+      "braking_heat_fraction": 0.97,
+      "direct_caliper_heat_fraction": 0.04,
+      "front": {
+        "model": "scaled_two_node_v1",
+        "rotor_material": "carbon_carbon",
+        "rotor_mass_kg": 1.35,
+        "rotor_outer_diameter_m": 0.278,
+        "rotor_inner_diameter_m": 0.105,
+        "rotor_ventilation": "vented",
+        "cooling_profile": "open_wheel_ducted",
+        "installation_airflow_scale": 0.70,
+        "surface_bulk_response_scale": 1.0,
+        "thermal_mass_scale": 1.0,
+        "disc_heat_capacity_j_k": 1500.0,
+        "disc_surface_heat_capacity_j_k": 240.0,
+        "disc_bulk_heat_capacity_j_k": 1260.0,
+        "disc_surface_to_bulk_w_k": 75.0,
+        "disc_surface_base_air_w_k": 2.5,
+        "caliper_heat_capacity_j_k": 2000.0,
+        "hub_heat_capacity_j_k": 2100.0,
+        "rim_heat_capacity_j_k": 4200.0,
+        "hub_to_rim_w_k": 170.0,
+        "rim_to_tire_carcass_w_k": 55.0,
+        "rim_to_tire_gas_w_k": 38.0,
+        "disc_base_air_w_k": 12.0,
+        "caliper_base_air_w_k": 6.0,
+        "hub_base_air_w_k": 4.0,
+        "rim_base_air_w_k": 7.0
+      },
+      "rear": {
+        "model": "scaled_two_node_v1",
+        "rotor_material": "carbon_carbon",
+        "rotor_mass_kg": 1.80,
+        "rotor_outer_diameter_m": 0.250,
+        "rotor_inner_diameter_m": 0.100,
+        "rotor_ventilation": "vented",
+        "cooling_profile": "open_wheel_ducted",
+        "installation_airflow_scale": 0.85,
+        "surface_bulk_response_scale": 1.0,
+        "thermal_mass_scale": 1.0,
+        "disc_heat_capacity_j_k": 2000.0,
+        "disc_surface_heat_capacity_j_k": 400.0,
+        "disc_bulk_heat_capacity_j_k": 1600.0,
+        "disc_surface_to_bulk_w_k": 110.0,
+        "disc_surface_base_air_w_k": 4.0,
+        "caliper_heat_capacity_j_k": 2600.0,
+        "hub_heat_capacity_j_k": 2800.0,
+        "rim_heat_capacity_j_k": 6000.0,
+        "hub_to_rim_w_k": 70.0,
+        "rim_to_tire_carcass_w_k": 18.0,
+        "rim_to_tire_gas_w_k": 12.0
+      },
+      "front_duct": {
+        "opening": 0.02,
+        "cooling_reference_speed_ms": 50.0,
+        "air_specific_heat_j_kg_k": 1005.0,
+        "heat_exchanger_ua_w_k": 400.0,
+        "disc_cooling_weight": 0.556,
+        "caliper_cooling_weight": 0.222,
+        "hub_cooling_weight": 0.095,
+        "rim_cooling_weight": 0.127
+      },
+      "rear_duct": {
+        "opening": 0.30,
+        "cooling_reference_speed_ms": 50.0,
+        "air_specific_heat_j_kg_k": 1005.0,
+        "heat_exchanger_ua_w_k": 400.0,
+        "disc_cooling_weight": 0.556,
+        "caliper_cooling_weight": 0.222,
+        "hub_cooling_weight": 0.095,
+        "rim_cooling_weight": 0.127
+      }
+    }
+  },
+
+  "aero": {
+    "model": {
+      "front_wing": {
+        "area_m2": 0.72,
+        "incidence_deg": 7.0,
+        "min_angle_deg": 4.0,
+        "max_angle_deg": 20.0,
+        "yaw_decay_exponent": 1.15,
+        "flex_coefficient": 0.0008,
+        "polar": [
+          { "angle_deg": 4.0, "cl": 0.45, "cd": 0.075 },
+          { "angle_deg": 8.0, "cl": 0.82, "cd": 0.105 },
+          { "angle_deg": 12.0, "cl": 1.12, "cd": 0.155 },
+          { "angle_deg": 16.0, "cl": 1.30, "cd": 0.230 },
+          { "angle_deg": 20.0, "cl": 1.20, "cd": 0.340 }
+        ]
+      },
+      "rear_wing": {
+        "area_m2": 0.84,
+        "incidence_deg": 11.0,
+        "min_angle_deg": 6.0,
+        "max_angle_deg": 26.0,
+        "yaw_decay_exponent": 1.05,
+        "flex_coefficient": 0.0010,
+        "polar": [
+          { "angle_deg": 6.0, "cl": 0.55, "cd": 0.090 },
+          { "angle_deg": 10.0, "cl": 0.90, "cd": 0.130 },
+          { "angle_deg": 16.0, "cl": 1.35, "cd": 0.220 },
+          { "angle_deg": 21.0, "cl": 1.52, "cd": 0.320 },
+          { "angle_deg": 26.0, "cl": 1.38, "cd": 0.470 }
+        ]
+      },
+      "underfloor": {
+        "lift_area_m2": 0.90,
+        "optimal_height_m": 0.045,
+        "choke_height_m": 0.012,
+        "high_height_m": 0.160,
+        "optimal_rake_deg": 0.5,
+        "rake_window_deg": 2.5,
+        "optimal_expansion_deg": 3.0,
+        "expansion_window_deg": 5.0,
+        "yaw_decay_exponent": 1.8,
+        "stall_attack_tau_s": 0.030,
+        "stall_recovery_tau_s": 0.160,
+        "induced_drag_ratio": 0.16
+      },
+      "limits": {
+        "profile": "f1_1994_post_safety",
+        "soft_max_load_ratio": 1.65,
+        "hard_max_load_ratio": 1.85,
+        "hard_max_downforce_n": 10800.0
+      }
+    },
+    "drag_coefficient": 0.78,
+    "frontal_area": 1.25,
+
+    "downforce_coefficient": 1.90,
+
+    "split": {
+      "front": 0.28,
+      "diffuser": 0.36,
+      "rear": 0.36
+    },
+
+    "air_density": 1.225,
+
+    "lag_tau_s": 0.030,
+
+    "blend_min_speed_mps": 5.556,
+    "blend_full_speed_mps": 41.667,
+
+    "yaw_decay_exponent": 0.80,
+    "flex_coefficient": 0.0008
+  },
+
+  "aids": {
+    "traction_control_available": true,
+    "traction_control_default_enabled": true,
+    "traction_control_player_selectable": true,
+
+    "traction_control_slip_threshold": 0.08,
+    "traction_control_cut_gain": 1.2,
+    "traction_control_actuator": "engine_torque",
+    "traction_control_gear_authority": [1.00, 0.90, 0.65, 0.45, 0.20, 0.10],
+    "traction_control_gear_slip_target": [0.055, 0.065, 0.085, 0.105, 0.140, 0.180],
+    "traction_control_gear_max_cut": [0.78, 0.65, 0.45, 0.30, 0.14, 0.07],
+    "traction_control_attack_rate": 34.0,
+    "traction_control_release_rate": 18.0,
+
+    "abs_available": true,
+    "abs_default_enabled": false,
+    "abs_player_selectable": true,
+
+    "stability_available": true,
+    "stability_default_enabled": true,
+    "stability_player_selectable": true,
+
+    "stability_yaw_engage_angle_rad": 0.10,
+    "stability_yaw_strength": 9.0,
+    "stability_grounded_multiplier": 2.0,
+    "stability_upright_spring": 0.0,
+    "stability_upright_damping": 0.0,
+
+    "steering_slip_assist_default_enabled": true,
+    "countersteer_default_enabled": true,
+    "steering_assist_player_selectable": true,
+
+    "auto_clutch_default_enabled": true,
+    "auto_clutch_player_selectable": false,
+
+    "launch_control_available": false,
+    "launch_control_default_enabled": false,
+    "launch_control_player_selectable": false,
+
+    "launch_control_target_rpm": 0.0,
+    "launch_control_throttle_limit": 1.0,
+    "launch_control_clutch_release_rate_per_s": 2.0,
+
+    "brake_assist_available": false,
+    "brake_assist_default_enabled": false,
+    "brake_assist_player_selectable": false,
+
+    "brake_assist_force_multiplier": 1.0,
+
+    "handbrake_rear_only": false,
+    "handbrake_abs_interlock": false,
+    "handbrake_clutch_coupling": false,
+
+    "input_smoothing_enabled": true,
+
+    "input_smoothing_steering_rate": 7.00,
+    "input_smoothing_throttle_rate": 7.50,
+    "input_smoothing_brake_rate": 14.0
+  }
+}

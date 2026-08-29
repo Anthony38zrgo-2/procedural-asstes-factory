@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "package_type": "formula90s-runtime-vehicle",
+  "vehicle_id": "f1_2026_2008",
+  "files": [
+    {
+      "file": "f1_2026_2008_chassis.glb",
+      "sha256": "6087d15e95810c1c84cbd3bb5e2982d1c3acd0b76a95db90a9eb91ff35439b00"
+    },
+    {
+      "file": "f1_2026_2008_wheel_front.glb",
+      "sha256": "f4aa6bb00cc4ad2a56c9d853c4c6c47bcd6a44eb36dd07438a5079b43487b786"
+    },
+    {
+      "file": "f1_2026_2008_wheel_rear.glb",
+      "sha256": "91c29b8ceba7e6192d3a4e6ecd577897a4aa14a974bf4e844e051416596f262b"
+    },
+    {
+      "file": "manifest.json",
+      "sha256": "04a751268e18370511e71dbf7bb9cc64f210cd0c0e049077ae25d476c9f86a6f"
+    },
+    {
+      "file": "physics.json",
+      "sha256": "b732117b1e1d6eba88c0b761b328ccc40778ebb50a32f96d8b22251783c721d1"
+    }
+  ]
+}
